@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/react": "^2.1.13",
     "@tanstack/react-query-devtools": "^4.35.3",
     "axios": "^1.5.1",
     "framer-motion": "^10.16.4",
