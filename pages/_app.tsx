@@ -1,8 +1,10 @@
-import '@/styles/globals.css';
+import { EmptyLayout } from '@/components/layout';
+import { AppPropsWithLayout } from '@/types';
 import { NextUIProvider } from '@nextui-org/react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import type { AppProps } from 'next/app';
-import { QueryClient, QueryClientProvider } from 'react-query';
+
+import '@/styles/globals.css';
 
 const client = new QueryClient({
   defaultOptions: {
@@ -12,12 +14,16 @@ const client = new QueryClient({
   }
 });
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppPropsWithLayout) {
+  const Layout = Component.Layout ?? EmptyLayout;
+
   return (
     <QueryClientProvider client={client}>
       <ReactQueryDevtools initialIsOpen={false} />
       <NextUIProvider>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </NextUIProvider>
     </QueryClientProvider>
   );
