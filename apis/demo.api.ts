@@ -1,5 +1,5 @@
 import httpRequest from '@/api-client/httpRequest';
-import { Demo } from '@/interfaces';
+import { Demo } from '@/types';
 
 export const getDemo = () => {
   return httpRequest.get('api/v1/get-demo');
