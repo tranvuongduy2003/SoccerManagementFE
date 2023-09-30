@@ -1,2 +1,3 @@
-export * from './IAuth';
-export * from './IDemo';
+export * from './auth';
+export * from './common';
+export * from './demo';
