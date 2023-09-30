@@ -1,4 +1,5 @@
-import { TokenPayload, User } from '@/types';
+import { User } from '@/models';
+import { TokenPayload } from '@/types';
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 
