@@ -1,4 +1,5 @@
 import httpRequest from '@/api-client/httpRequest';
+import { API_ROUTE } from '@/constants';
 import { User } from '@/models';
 import { LoginPayload, LoginResponse, SignUpPayload } from '@/types';
 
@@ -7,17 +8,23 @@ export const getUserProfile = () => {
 };
 
 export const signIn = (data: LoginPayload) => {
-  return httpRequest.post<LoginResponse, LoginPayload>('/login', data);
+  return httpRequest.post<LoginResponse, LoginPayload>(
+    API_ROUTE.auth + '/login',
+    data
+  );
 };
 
 export const signUp = (data: SignUpPayload) => {
-  return httpRequest.post<any, SignUpPayload>('/auth/sign-up', data);
+  return httpRequest.post<any, SignUpPayload>(
+    API_ROUTE.auth + '/sign-up',
+    data
+  );
 };
 
 export const signOut = () => {
-  return httpRequest.post('/logout', null);
+  return httpRequest.post(API_ROUTE.auth + '/logout', null);
 };
 
 export const refreshToken = () => {
-  return httpRequest.post('/refresh-token', null);
+  return httpRequest.post(API_ROUTE.auth + '/refresh-token', null);
 };

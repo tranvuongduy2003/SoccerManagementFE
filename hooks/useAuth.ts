@@ -1,4 +1,5 @@
 import { refreshToken, signIn, signOut } from '@/apis';
+import { QUERY_KEY } from '@/constants';
 import { LoginPayload } from '@/types';
 import { useQueryClient } from '@tanstack/react-query';
 
@@ -7,11 +8,11 @@ export function useAuth() {
 
   async function logIn(payload: LoginPayload) {
     const { user } = await signIn(payload);
-    queryClient.setQueryData(['profile'], user);
+    queryClient.setQueryData([QUERY_KEY.profile], user);
   }
 
   function logOut() {
-    queryClient.setQueryData(['profile'], null);
+    queryClient.setQueryData([QUERY_KEY.profile], null);
     signOut();
   }
 
