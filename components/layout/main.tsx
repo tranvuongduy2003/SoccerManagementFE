@@ -1,5 +1,11 @@
 import { LayoutProps } from '@/types';
+import { Navbar } from '../common';
 
 export function MainLayout({ children }: LayoutProps) {
-  return <div>{children}</div>;
+  return (
+    <>
+      <Navbar />
+      {children}
+    </>
+  );
 }

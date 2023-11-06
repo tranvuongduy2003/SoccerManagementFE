@@ -1,10 +1,10 @@
+import { Instagram, Logo, Twitter, Youtube } from '@/public/images/landing';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Instagram, Twitter, Youtube, Logo } from '@/public/images/landing';
 
-const Footer = () => {
+export const Footer = () => {
   return (
-    <section className="bg-white" id='contact'>
+    <section className="bg-white" id="contact">
       <div className="container mx-auto">
         <div className="py-16">
           <div className="flex justify-center py-10">
@@ -29,5 +29,3 @@ const Footer = () => {
     </section>
   );
 };
-
-export default Footer;
