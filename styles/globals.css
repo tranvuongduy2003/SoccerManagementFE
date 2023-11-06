@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.background {
+  background-image: url('../public/images/landing/background2.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
