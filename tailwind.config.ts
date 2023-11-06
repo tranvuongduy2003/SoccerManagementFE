@@ -9,9 +9,19 @@ const config: Config = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        clifford: '#da373d',
+        'body-color': '#071952',
+        'btn-color': '#75C2F6'
+      },
+
+      fontFamily: {
+        fontLanding: ['Poppins', 'sans-serif']
+      }
+    }
   },
   darkMode: 'class',
-  plugins: [nextui()]
+  plugins: [nextui(), require('daisyui'), require('tailwind-scrollbar')]
 };
 export default config;
