@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import {
   player1,
   player2,
@@ -10,9 +9,10 @@ import {
   player8,
   player9
 } from '@/public/images/landing';
+import Image from 'next/image';
 // import Link from 'next/link';
 
-const GoodPlayer = () => {
+export const GoodPlayer = () => {
   return (
     <section className="mx-5" id="player">
       <div className="container mx-auto mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -160,5 +160,3 @@ const GoodPlayer = () => {
     </section>
   );
 };
-
-export default GoodPlayer;

@@ -1,10 +1,9 @@
+import { Banner, Login } from '@/public/images/landing';
 import Image from 'next/image';
-import { Login, Banner } from '@/public/images/landing';
 
-
-const Intro = () => {
+export const Intro = () => {
   return (
-    <section className="mx-5" id='home'>
+    <section className="mx-5" id="home">
       <div className="container mx-auto">
         <div className="flex justify-between flex-col lg:flex-row">
           <div className="lg:py-44 py-30">
@@ -38,5 +37,3 @@ const Intro = () => {
     </section>
   );
 };
-
-export default Intro;

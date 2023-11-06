@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import {
   player1,
   player2,
@@ -7,11 +6,11 @@ import {
   player5,
   player6,
   player7,
-  player8,
-  player9
+  player8
 } from '@/public/images/landing';
+import Image from 'next/image';
 
-const PlayerOfTeam = () => {
+export const PlayerOfTeam = () => {
   return (
     <section className="mx-5">
       <div className="container mx-auto mb-28">
@@ -20,9 +19,11 @@ const PlayerOfTeam = () => {
             2022 Winner team Argentina
           </h2>
           <p className="text-center">
-          Argentina won the match (4–3) penaties to clinch their first World Cup title, giving captain Lionel Messi
-          <br/>
-          his first senior international trophy seventeen years into his career and ending a 28-year trophy drought..
+            Argentina won the match (4–3) penaties to clinch their first World
+            Cup title, giving captain Lionel Messi
+            <br />
+            his first senior international trophy seventeen years into his
+            career and ending a 28-year trophy drought..
           </p>
         </div>
 
@@ -88,5 +89,3 @@ const PlayerOfTeam = () => {
     </section>
   );
 };
-
-export default PlayerOfTeam;

@@ -1,4 +1,4 @@
-const HighLightMatch = () => {
+export const HighLightMatch = () => {
   return (
     <section className="mx-5" id="match">
       <div className=" container mx-auto mb-28">
@@ -7,7 +7,7 @@ const HighLightMatch = () => {
             Top Matches Highlights
           </h2>
           <p className="text-center">
-            They are very soft and do not leave any painful feeling. 
+            They are very soft and do not leave any painful feeling.
             <br />
             He likes to take care of his family. Practice will get results.
           </p>
@@ -28,8 +28,8 @@ const HighLightMatch = () => {
             <div className="p-5 mb-6">
               <h2 className="text-3xl font-bold mb-5">Portugal Vs Morocco </h2>
               <p>
-              Morocco 1-0 Portugal - World Cup 2022 - Ronaldo 
-              Last Match At The World Cup - [EC] - FHD
+                Morocco 1-0 Portugal - World Cup 2022 - Ronaldo Last Match At
+                The World Cup - [EC] - FHD
               </p>
             </div>
           </div>
@@ -46,9 +46,12 @@ const HighLightMatch = () => {
               ></iframe>
             </div>
             <div className="p-5 mb-6">
-              <h2 className="text-3xl font-bold mb-5">Argentina Vs Saudi Arabia</h2>
+              <h2 className="text-3xl font-bold mb-5">
+                Argentina Vs Saudi Arabia
+              </h2>
               <p>
-              Argentina vs Saudi Arabia 1-2 ● World Cup 2022 | Extended Highlights & Goals
+                Argentina vs Saudi Arabia 1-2 ● World Cup 2022 | Extended
+                Highlights & Goals
               </p>
             </div>
           </div>
@@ -67,7 +70,8 @@ const HighLightMatch = () => {
             <div className="p-5 mb-6">
               <h2 className="text-3xl font-bold mb-5">Argentina Vs French</h2>
               <p>
-                ARGENTINA 3-3 (4-2) FRANCE 🏆 All Goals & EXTENDED Highlights🎙️Final World Cup 2022
+                ARGENTINA 3-3 (4-2) FRANCE 🏆 All Goals & EXTENDED
+                Highlights🎙️Final World Cup 2022
               </p>
             </div>
           </div>
@@ -86,7 +90,8 @@ const HighLightMatch = () => {
             <div className="p-5 mb-6">
               <h2 className="text-3xl font-bold mb-5">Portugal Vs Uruguay</h2>
               <p>
-                Cristiano Ronaldo vs Uruguay | 28/11/22 | Portugal vs Uruguay | World Cup Qatar 2022
+                Cristiano Ronaldo vs Uruguay | 28/11/22 | Portugal vs Uruguay |
+                World Cup Qatar 2022
               </p>
             </div>
           </div>
@@ -105,7 +110,8 @@ const HighLightMatch = () => {
             <div className="p-5 mb-6">
               <h2 className="text-3xl font-bold mb-5">Brazil Vs Croatia</h2>
               <p>
-              Croatia vs Brazil | 1-1 | [4-2] Highlights & All Goals 🏆 Quarter Final World Cup 2022 HD
+                Croatia vs Brazil | 1-1 | [4-2] Highlights & All Goals 🏆
+                Quarter Final World Cup 2022 HD
               </p>
             </div>
           </div>
@@ -124,7 +130,8 @@ const HighLightMatch = () => {
             <div className="p-5 mb-6">
               <h2 className="text-3xl font-bold mb-5">England vs French</h2>
               <p>
-              England 1-2 France - World Cup 2022 - Girouds Header Wins It - Extended Highlights - [EC] - FHD
+                England 1-2 France - World Cup 2022 - Girouds Header Wins It -
+                Extended Highlights - [EC] - FHD
               </p>
             </div>
           </div>
@@ -133,5 +140,3 @@ const HighLightMatch = () => {
     </section>
   );
 };
-
-export default HighLightMatch;

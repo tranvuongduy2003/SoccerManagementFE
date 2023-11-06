@@ -1,39 +1,38 @@
 import { NextPageWithLayout } from '@/types';
 
-import Footer from '@/components/landing-page/Footer';
-import GoodPlayer from '@/components/landing-page/GoodPlayer';
-import HighLightMatch from '@/components/landing-page/HighLightMatch';
-import Highlights from '@/components/landing-page/Highlights';
-import Intro from '@/components/landing-page/Intro';
-import Navbar from '@/components/landing-page/Navbar';
-import PlayerOfTeam from '@/components/landing-page/PlayerOfTeam';
+import {
+  Footer,
+  GoodPlayer,
+  HighLightMatch,
+  Highlights,
+  Intro,
+  PlayerOfTeam
+} from '@/components/landing-page';
 import { MainLayout } from '@/components/layout';
 
 const Home: NextPageWithLayout = () => {
   return (
-    <div className='font-fontLanding bg-body-color'>
+    <div className="font-fontLanding bg-body-color">
+      {/* header */}
+      <Intro />
 
-        {/* header */}
-        <Navbar/>
-        <Intro/>
+      {/* main */}
+      <main className="bg-body-color">
+        {/* Good Player section */}
+        <GoodPlayer />
 
-        {/* main */}
-        <main className='bg-body-color'>
-          {/* Good Player section */}
-          <GoodPlayer/> 
+        {/* All Highlights section */}
+        <Highlights />
 
-          {/* All Highlights section */}
-          <Highlights/>
+        {/* winner team section */}
+        <PlayerOfTeam />
 
-          {/* winner team section */}
-          <PlayerOfTeam/> 
+        {/* highlight matches */}
+        <HighLightMatch />
+      </main>
 
-          {/* highlight matches */}
-          <HighLightMatch/>
-        </main>
-
-        {/* footer */}
-        <Footer/>
+      {/* footer */}
+      <Footer />
     </div>
   );
 };

@@ -1,9 +1,12 @@
-import Image from 'next/image';
 import { Login, Logo } from '@/public/images/landing';
+import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 
-const Navbar = () => {
+export const Navbar = () => {
+  const router = useRouter();
+
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
@@ -20,20 +23,23 @@ const Navbar = () => {
   return (
     <nav className="z-[1] w-full px-5 fixed mt-10">
       <div className="navbar bg-white container mx-auto rounded-3xl shadow-2xl flex justify-between">
-        <div> 
-          <div className="" >
-            <label className="btn btn-ghost lg:hidden" onClick={()=>setShowDropdown(!showDropdown)}>
+        <div>
+          <div className="">
+            <label
+              className="btn btn-ghost lg:hidden"
+              onClick={() => setShowDropdown(!showDropdown)}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5" 
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
@@ -101,7 +107,7 @@ const Navbar = () => {
 
         <div className="lg:mx-5 hidden lg:block">
           <Link
-            href={'/'}
+            href={'/auth/login'}
             className="btn flex justify-center bg-body-color border-0 w-28 p-4"
           >
             <Image src={Login} alt="" className="w-5" />
@@ -112,5 +118,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;
