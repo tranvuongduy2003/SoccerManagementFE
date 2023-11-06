@@ -24,6 +24,11 @@ const poppins = Poppins({
 const theme = extendTheme({
   fonts: {
     body: poppins.style.fontFamily
+  },
+  colors: {
+    clifford: '#da373d',
+    'body-color': '#071952',
+    'btn-color': '#75C2F6'
   }
 });
 
