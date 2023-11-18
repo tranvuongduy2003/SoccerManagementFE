@@ -11,11 +11,17 @@ const config: Config = {
       colors: {
         clifford: '#da373d',
         'body-color': '#071952',
-        'btn-color': '#75C2F6'
+        'btn-color': '#75C2F6',
+        'light':'#FFFFFF',
+        "primary":"#0079FF",
+        'gray':'#D9D9D9'
       }
     }
   },
   darkMode: 'class',
-  plugins: [require('daisyui'), require('tailwind-scrollbar')]
+  plugins: [require('daisyui'), require('tailwind-scrollbar')],
+  corePlugins: {
+    preflight: false,
+  },
 };
 export default config;

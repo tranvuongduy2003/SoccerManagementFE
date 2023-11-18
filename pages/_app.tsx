@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
   return (
     <QueryClientProvider client={client}>
       <ReactQueryDevtools initialIsOpen={false} />
-      <ChakraProvider theme={theme}>
+        <ChakraProvider theme={theme}>
         <Layout>
           <Component {...pageProps} />
         </Layout>

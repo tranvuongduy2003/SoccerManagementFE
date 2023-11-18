@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Australia",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/35px-Flag_of_Australia_%28converted%29.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976e8"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Iran",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/35px-Flag_of_Iran.svg.png",
+    "coach": {
+      "$oid": "65532c596e7c7f52121976e9"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Japan",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…9/9e/Flag_of_Japan.svg/35px-Flag_of_Japan.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976ea"
+    }, 
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Qatar",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…6/65/Flag_of_Qatar.svg/35px-Flag_of_Qatar.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976eb"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "SaudiArabia",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…audi_Arabia.svg/35px-Flag_of_Saudi_Arabia.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976ec"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Korea",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…_South_Korea.svg/35px-Flag_of_South_Korea.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976ed"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Cameroon",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…lag_of_Cameroon.svg/35px-Flag_of_Cameroon.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976ee"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Ghana",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…1/19/Flag_of_Ghana.svg/35px-Flag_of_Ghana.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976ef"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Marocco",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Morocco.svg/35px-Flag_of_Morocco.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f0"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Senegal",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Senegal.svg/35px-Flag_of_Senegal.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f1"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Tunisia",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Tunisia.svg/35px-Flag_of_Tunisia.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f2"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Canada",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…%29.svg/35px-Flag_of_Canada_%28Pantone%29.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f3"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "CostaRica",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…of_Costa_Rica.svg/35px-Flag_of_Costa_Rica.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f4"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Mexico",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…fc/Flag_of_Mexico.svg/35px-Flag_of_Mexico.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f5"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "America",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…g_of_Argentina.svg/35px-Flag_of_Argentina.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f6"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Argentina",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…g_of_Argentina.svg/35px-Flag_of_Argentina.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f7"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Brazil",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f8"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Ecuador",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Ecuador.svg/35px-Flag_of_Ecuador.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976f9"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Uruguay",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Uruguay.svg/35px-Flag_of_Uruguay.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976fa"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Belgium",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Belgium.svg/27px-Flag_of_Belgium.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976fb"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Croatia",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Croatia.svg/35px-Flag_of_Croatia.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976fc"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Denmark",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Denmark.svg/31px-Flag_of_Denmark.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976fd"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "England",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_England.svg/35px-Flag_of_England.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976fe"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "French",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…1794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f52121976ff"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Germany",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…/Flag_of_Germany.svg/35px-Flag_of_Germany.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197700"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Netherlands",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…herlands.svg/35px-Flag_of_the_Netherlands.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197701"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Poland",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…12/Flag_of_Poland.svg/35px-Flag_of_Poland.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197702"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Portugal",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…lag_of_Portugal.svg/35px-Flag_of_Portugal.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197703"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Serbia",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…ff/Flag_of_Serbia.svg/35px-Flag_of_Serbia.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197704"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Spain",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…9/9a/Flag_of_Spain.svg/35px-Flag_of_Spain.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197705"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Switzerland",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thu…_Switzerland.svg/23px-Flag_of_Switzerland.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197706"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  },
+  {
+    "name": "Wales",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/35px-Flag_of_Australia_%28converted%29.svg.png",
+    "coach":{
+      "$oid": "65532c596e7c7f5212197707"
+    },
+    "players":[],
+    "matches":[],
+    "voteChampion":[],
+    "voteFairPlay":[]
+  }
+]

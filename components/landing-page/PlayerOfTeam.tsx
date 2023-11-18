@@ -1,3 +1,4 @@
+//images
 import {
   player1,
   player2,

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "FiFa Club WorldCup 2022",
+    "award": {
+        "$oid": "6555c0d2048a7dea909ce76e"
+    },
+    "leaderBoard": {
+        "$oid": "6555c440048a7dea909ce795"
+    },
+    "status": "isLive",
+    "sponsor": "Mr AnhQuoc - Gentlement",
+    "round": [
+      { "$oid": "6555c288048a7dea909ce77c" },
+      { "$oid": "6555c288048a7dea909ce77d" },
+      { "$oid": "6555c288048a7dea909ce77e" },
+      { "$oid": "6555c288048a7dea909ce77f" },
+      { "$oid": "6555c288048a7dea909ce780" }
+    ],
+    "year": "2022-2023"
+  }
+]

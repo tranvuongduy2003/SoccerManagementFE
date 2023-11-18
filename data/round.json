@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Stage",
+    "match": [],
+    "numberOfTeam": 32,
+    "status": "isLive"
+  },
+  {
+    "type": "Team16",
+    "match": [],
+    "numberOfTeam": 16,
+    "status": "isLive"
+  },
+  {
+    "type": "Quarterfinals",
+    "match": [],
+    "numberOfTeam": 8,
+    "status": "isLive"
+  },
+  {
+    "type": "Semifinals",
+    "match": [],
+    "numberOfTeam": 4,
+    "status": "isLive"
+  },
+  {
+    "type": "Finals",
+    "match": [],
+    "numberOfTeam": 2,
+    "status": "isLive"
+  }
+]
