@@ -1,3 +1,4 @@
+//images
 import { Login, match } from '@/public/images/landing';
 import Image from 'next/image';
 

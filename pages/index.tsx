@@ -1,6 +1,5 @@
-import { NextPageWithLayout } from '@/types';
-
 import {
+  Navbar,
   Footer,
   GoodPlayer,
   HighLightMatch,
@@ -8,12 +7,12 @@ import {
   Intro,
   PlayerOfTeam
 } from '@/components/landing-page';
-import { MainLayout } from '@/components/layout';
 
-const Home: NextPageWithLayout = () => {
+const Home = () => {
   return (
     <div className="font-fontLanding bg-body-color">
       {/* header */}
+      <Navbar />
       <Intro />
 
       {/* main */}
@@ -36,7 +35,5 @@ const Home: NextPageWithLayout = () => {
     </div>
   );
 };
-
-Home.Layout = MainLayout;
 
 export default Home;

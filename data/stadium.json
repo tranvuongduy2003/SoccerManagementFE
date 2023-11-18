@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Lusail Iconic",
+    "avatar":"https://upload.wikimedia.org/wikipedia/vi/a/a3/Lusail_Stadium.jpg",
+    "location": "Lusail, Qatar",
+    "capacity": "88.966",
+    "coordinate": "25°25′15,1″B 51°29′25,4″Đ"
+  },
+  {
+    "name": "Al Bayt",
+    "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Al_Bayt_Stadium.jpg/413px-Al_Bayt_Stadium.jpg",
+    "location": "Al Khor, Qatar",
+    "capacity": "68,895",
+    "coordinate": "25°39′8″B 51°29′15″Đ"
+  },
+  {
+    "name": " Al Thumama",
+    "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2022_FIFA_World_Cup_at_Al_Thumama_Stadium.jpg/300px-2022_FIFA_World_Cup_at_Al_Thumama_Stadium.jpg",
+    "location": "Lusail, Qatar",
+    "capacity": "44.400",
+    "coordinate": "25°14′07″B 51°31′56″Đ"
+  },
+  {
+    "name": "Khalifa",
+    "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Khalifa_Stadium%2C_Doha%2C_Brazil_vs_Argentina_%282010%29.jpg/300px-Khalifa_Stadium%2C_Doha%2C_Brazil_vs_Argentina_%282010%29.jpg",
+    "location": "Al-Waab, Doha, Qatar",
+    "capacity": "45.857",
+    "coordinate": "25°15′49″B 51°26′53″Đ"
+  },
+  {
+    "name": "Al Rayyan",
+    "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2022_FIFA_World_Cup_Korea_Uruguay_01.jpg/330px-2022_FIFA_World_Cup_Korea_Uruguay_01.jpg",
+    "location": "Al Rayyan, Qatar",
+    "capacity": "44.667",
+    "coordinate": "25°18′39″B 51°25′28″Đ"
+  },
+  {
+    "name": "Al-Janoub",
+    "avatar":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/28_10_2019_Visita_ao_est%C3%A1dio_de_futebol_Al_Janoub_%2848977932316%29.jpg/300px-28_10_2019_Visita_ao_est%C3%A1dio_de_futebol_Al_Janoub_%2848977932316%29.jpg",
+    "location": "Al Wakrah, Qatar",
+    "capacity": "40.000",
+    "coordinate": "25°09′35,2″B 51°34′26,7″Đ"
+  }
+]

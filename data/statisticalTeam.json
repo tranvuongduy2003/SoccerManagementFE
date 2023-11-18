@@ -1,0 +1,450 @@
+[
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5bb"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5bc"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5bd"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5be"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5bf"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c0"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c1"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c2"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c3"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c4"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c5"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c6"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c7"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c8"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5c9"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5ca"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5cb"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  },
+  {
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5cc"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5cd"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5ce"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5cf"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d0"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d1"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d2"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d3"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d4"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d5"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d6"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d7"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d8"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5d9"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+  ,{
+    "team": {
+      "$oid": "6555aed5048a7dea909ce5da"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 0,
+    "point": 0,
+    "numberOfGoal": 0,
+    "numberOfLost": 0,
+    "numberOfOwnGoal": 0,
+    "yellowCard": 0,
+    "redCard": 0
+  }
+]

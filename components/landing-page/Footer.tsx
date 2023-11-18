@@ -1,5 +1,8 @@
+//image
 import { Instagram, Logo, Twitter, Youtube } from '@/public/images/landing';
 import Image from 'next/image';
+
+//route
 import Link from 'next/link';
 
 export const Footer = () => {

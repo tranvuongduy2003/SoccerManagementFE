@@ -9,19 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/next-js": "^2.1.5",
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@hookform/resolvers": "^3.3.2",
+    "@mui/material": "^5.14.17",
     "@tanstack/react-query": "^4.35.3",
     "@tanstack/react-query-devtools": "^4.35.3",
     "axios": "^1.5.1",
     "framer-motion": "^10.16.4",
     "next": "^13.5.6",
     "react": "latest",
+    "react-custom-scrollbars-2": "^4.5.0",
     "react-dom": "latest",
     "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
     "tailwind-scrollbar": "^3.0.5",
     "zod": "^3.22.4",
     "zustand": "^4.4.1"

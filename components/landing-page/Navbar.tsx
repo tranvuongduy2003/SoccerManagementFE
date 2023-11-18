@@ -1,12 +1,14 @@
-import { Login, Logo } from '@/public/images/landing';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+
 import { useState } from 'react';
 
-export const Navbar = () => {
-  const router = useRouter();
+//image
+import { Login, Logo } from '@/public/images/landing';
+import Image from 'next/image';
 
+//route
+import Link from 'next/link';
+
+export const Navbar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     const href = e.currentTarget.href;
@@ -107,11 +109,11 @@ export const Navbar = () => {
 
         <div className="lg:mx-5 hidden lg:block">
           <Link
-            href={'/auth/login'}
-            className="btn flex justify-center bg-body-color border-0 w-28 p-4"
+            href={'/main/overall'}
+            className="btn flex justify-center bg-body-color border-0 w-38 p-4"
           >
             <Image src={Login} alt="" className="w-5" />
-            <p className="text-white font-bold bg-">Login</p>
+            <p className="text-white font-bold bg-">Get Started</p>
           </Link>
         </div>
       </div>

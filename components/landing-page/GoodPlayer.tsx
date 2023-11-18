@@ -1,3 +1,5 @@
+
+//images
 import {
   player1,
   player2,
@@ -10,7 +12,6 @@ import {
   player9
 } from '@/public/images/landing';
 import Image from 'next/image';
-// import Link from 'next/link';
 
 export const GoodPlayer = () => {
   return (

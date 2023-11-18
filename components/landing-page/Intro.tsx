@@ -1,3 +1,4 @@
+//images
 import { Banner, Login } from '@/public/images/landing';
 import Image from 'next/image';
 

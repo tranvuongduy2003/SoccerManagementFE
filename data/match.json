@@ -1,0 +1,1686 @@
+[
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5be"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5cc"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-20T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c4"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d9"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4425"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4424"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-21T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5be"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c4"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4426"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4424"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-25T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d9"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5cc"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4442"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4428"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-25T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5cc"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c4"
+    },
+    "stadium":{
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4428"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-29T25:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d9"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5be"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4440"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554f0330e08fd96364b4440"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442b"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-29T25:00:00.000+07:00"
+    }
+  },
+
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d1"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5bc"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4442"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442b"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4424"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-21T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5da"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c9"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442b"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-22T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5da"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5bc"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442c"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-25T18:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d1"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c9"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4440"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442d"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-25T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5da"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d1"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442e"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-29T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5bc"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c9"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442e"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-29T29:00:00.000+07:00"
+    }
+  },
+
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5ca"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5bf"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b443f"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442e"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-22T20:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c8"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d5"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442a"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-22T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d5"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5bf"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442b"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-26T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c9"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c8"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b443f"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442e"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-26T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5bf"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c8"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b443f"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-30T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d5"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5ca"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-30T29:00:00.000+07:00"
+    }
+  },
+
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d0"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c5"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4442"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-22T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d2"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5bb"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4444"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-22T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c5"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5bb"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4444"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-26T20:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d2"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d0"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4426"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442b"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-26T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5bb"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d0"  
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4444"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4429"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-30T25:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c5"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d2"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4429"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-30T25:00:00.000+07:00"
+    }
+  },
+
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d3"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5bd"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4442"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-23T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d8"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c7"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4425"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b442d"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-23T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d8"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c7"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4442"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442c"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-27T20:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d8"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d3"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4440"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442d"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-27T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5bd"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d8"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4442"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-01T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c7"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d3"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4440"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4425"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b442c"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-01T29:00:00.000+07:00"
+    }
+  },
+
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c3"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5cf"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4440"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442a"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-23T20:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5ce"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c6"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4428"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-23T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5ce"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c3"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4426"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442d"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-27T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5cf"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c6"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4442"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442b"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-27T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5cf"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5ce"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442e"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-01T25:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c6"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c3"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442d"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b442e"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-01T25:00:00.000+07:00"
+    }
+  },
+
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d9"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c1"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4444"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4426"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442b"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-24T20:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5cb"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d7"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b443f"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442e"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b442a"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-24T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c1"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d7"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4444"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442d"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-28T20:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5cb"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d9"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4425"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4428"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-28T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d7"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d9"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442d"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4424"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-02T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c1"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5cb"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b443f"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442b"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-02T29:00:00.000+07:00"
+    }
+  },
+
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5cd"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c0"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b442c"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4429"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-24T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d6"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c2"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4441"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4427"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442a"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-24T26:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c0"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5c2"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4428"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-28T23:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5d6"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5cd"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b443f"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4429"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b442a"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-11-28T29:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c2"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5cd"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4444"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4426"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4424"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-02T25:00:00.000+07:00"
+    }
+  },
+  {
+    "teamOne": {
+      "$oid": "6555aed5048a7dea909ce5c0"
+    },
+    "teamTwo": {
+      "$oid": "6555aed5048a7dea909ce5d6"
+    },
+    "stadium":{
+        "$oid":"6554f0330e08fd96364b4443"
+    },
+    "pointOfTeamOne": 0,
+    "pointOfTeamTwo": 0,
+    "card": [],
+    "goal": [],
+    "mainReferee": {
+        "$oid":"6554e9d50e08fd96364b4424"
+    },
+    "subReferee": [
+        {
+            "$oid":"6554e9d50e08fd96364b4425"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4426"
+        },
+        {
+            "$oid":"6554e9d50e08fd96364b4427"
+        }
+    ],
+    "round": "stage",
+    "score": "0-0",
+    "isLive": false,
+    "time": {
+      "$date": "2022-12-02T25:00:00.000+07:00"
+    }
+  }
+]
