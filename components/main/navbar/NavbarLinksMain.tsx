@@ -318,7 +318,7 @@ export default function HeaderLinks(props: {
           style={{ position: 'relative' }}
           _hover={{ cursor: 'pointer', bg: '#0079FF' }}
           onClick={() => {
-            router.push('/auth/login');
+            router.push('/auth/signin');
           }}
         >
           <Center top={0} left={0} position={'absolute'} w={'100%'} h={'100%'}>
