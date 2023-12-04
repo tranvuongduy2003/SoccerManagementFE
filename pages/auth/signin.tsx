@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+
 // Chakra imports
 import {
-  Box,
   Flex,
   Button,
   FormControl,
@@ -13,11 +13,11 @@ import {
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
+
+//routes
 import Link from 'next/link';
 
 function SignIn() {
-  // Chakra color mode
-  // const titleColor = useColorModeValue('teal.300', 'teal.200');
   const textColor = useColorModeValue('gray.400', 'white');
   return (
     <Flex position="relative">

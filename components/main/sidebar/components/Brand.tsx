@@ -5,13 +5,17 @@ import { Flex } from '@chakra-ui/react';
 import Image from 'next/image';
 import { Logo } from '@/public/images/landing';
 
-export function SidebarBrand() {
+//routes
+import Link from 'next/link';
 
-	return (
-		<Flex alignItems='center' flexDirection='column'>
-			<Image src={Logo} alt="" className='w-[200px] object-cover'/>
-		</Flex>
-	);
+export function SidebarBrand() {
+  return (
+    <Flex alignItems="center" flexDirection="column">
+      <Link href="/">
+        <Image src={Logo} alt="" className="w-[200px] object-cover" />
+      </Link>
+    </Flex>
+  );
 }
 
 export default SidebarBrand;

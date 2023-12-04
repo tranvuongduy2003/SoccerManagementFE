@@ -1,6 +1,6 @@
 export const HighLightMatch = () => {
   return (
-    <section className="mx-5" id="match">
+    <section className="mx-5">
       <div className=" container mx-auto mb-28">
         <div className="text-white flex-1 flex flex-col my-16">
           <h2 className="text-5xl font-bold my-8 text-center">

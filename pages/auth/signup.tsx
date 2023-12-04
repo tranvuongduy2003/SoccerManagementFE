@@ -1,6 +1,7 @@
+import React from 'react';
+
 // Chakra imports
 import {
-  Box,
   Button,
   Flex,
   FormControl,
@@ -12,13 +13,14 @@ import {
   Text,
   useColorModeValue
 } from '@chakra-ui/react';
-// Assets
+
+//routes
 import Link from 'next/link';
-import React from 'react';
+
+//icons
 import { FaApple, FaFacebook, FaGoogle } from 'react-icons/fa';
 
 function SignUp() {
-  const titleColor = useColorModeValue('teal.300', 'teal.200');
   const textColor = useColorModeValue('gray.700', 'white');
   const bgColor = useColorModeValue('white', 'gray.700');
   const bgIcons = useColorModeValue('teal.200', 'rgba(255, 255, 255, 0.5)');

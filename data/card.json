@@ -1,0 +1,88 @@
+[
+  {
+    "type": "YELLOW",
+    "player": {
+      "$oid": "65682265ba532f5e1bfe9dac"
+    },
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30f0"
+    },
+    "time": 26
+  },
+  {
+    "type": "YELLOW",
+    "player": {
+      "$oid": "65682265ba532f5e1bfe9db1"
+    },
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30f0"
+    },
+    "time": 15
+  },
+  {
+    "type": "YELLOW",
+    "player": {
+      "$oid": "65682265ba532f5e1bfe9db2"
+    },
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30f0"
+    },
+    "time": 21
+  },
+  {
+    "type": "RED",
+    "player": {
+      "$oid": "65682265ba532f5e1bfe9dbb"
+    },
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    },
+    "time": 27
+  },
+
+  {
+    "type": "YELLOW",
+    "player": "Phùng Tiến Đức",
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    },
+    "time": 26,
+    "number": 10
+  },
+  {
+    "type": "YELLOW",
+    "player": "Nguyễn Văn Tài",
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    },
+    "time": 32,
+    "number": 14
+  },
+  {
+    "type": "YELLOW",
+    "player": "Nguyễn Quang Anh",
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    },
+    "time": 12,
+    "number": 13
+  },
+  {
+    "type": "YELLOW",
+    "player": "Lê Thanh Hải",
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    },
+    "time": 27,
+    "number": 8
+  },
+  {
+    "type": "YELLOW",
+    "player": "Giang Nam Tran",
+    "match": {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    },
+    "time": 14,
+    "number": 17
+  }
+]

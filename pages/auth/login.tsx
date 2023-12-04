@@ -1,7 +1,7 @@
 'use client';
 
 import { AuthLayout } from '@/components/layout';
-import { LoginPayload, NextPageWithLayout } from '@/types';
+import { LoginPayload, NextPageWithLayout } from '@/interfaces';
 import {
   Box,
   Button,

@@ -1,6 +1,6 @@
 import { AuthLayout } from '@/components/layout';
 import { PASSWORD_REGEX, PHONE_REGEX } from '@/constants';
-import { NextPageWithLayout } from '@/types';
+import { NextPageWithLayout } from '@/interfaces';
 import {
   Box,
   Button,

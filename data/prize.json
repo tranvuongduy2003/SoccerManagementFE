@@ -1,44 +1,26 @@
 [
   {
     "category": "Champion",
-    "Bonus": "$42/Team",
-    "status": false,
-    "completion": 0
-  },
-  {
-    "category": "Runner",
     "Bonus": "$30/Team",
     "status": false,
     "completion": 0
   },
   {
+    "category": "Runner",
+    "Bonus": "$20/Team",
+    "status": false,
+    "completion": 0
+  },
+  {
     "category": "Grade 3",
-    "Bonus": "$27/Team",
+    "Bonus": "$10/Team",
     "status": false,
     "completion": 0
   },
   {
     "category": "Grade 4",
-    "Bonus": "$25/Team",
+    "Bonus": "$5/Team",
     "status": false,
     "completion": 0
-  },
-  {
-    "category": "Quarterfinals",
-    "Bonus": "$17/Team",
-    "status": false,
-    "completion": 0
-  },
-  {
-    "category": "Knockout round",
-    "Bonus": "$13/Team",
-    "status": false,
-    "completion": 100
-  },
-  {
-    "category": "Group stage",
-    "Bonus": "$19/Team",
-    "status": false,
-    "completion": 100
   }
 ]

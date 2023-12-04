@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const Highlights = () => {
   return (
-    <section className="background" id="world">
+    <section className="background">
       <div className="mx-5">
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row my-32 lg:mt-44 py-24">

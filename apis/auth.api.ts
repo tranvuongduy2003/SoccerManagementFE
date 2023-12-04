@@ -1,7 +1,7 @@
 import httpRequest from '@/api-client/httpRequest';
 import { API_ROUTE } from '@/constants';
 import { User } from '@/models';
-import { LoginPayload, LoginResponse, SignUpPayload } from '@/types';
+import { LoginPayload, LoginResponse, SignUpPayload } from '@/interfaces';
 
 export const getUserProfile = () => {
   return httpRequest.get<User>('/profile');
