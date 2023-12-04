@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+
 // Chakra imports
 import {
   Box,
@@ -13,7 +14,11 @@ import {
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
+
+//routes
 import Link from 'next/link';
+
+
 
 function SignIn() {
   // Chakra color mode

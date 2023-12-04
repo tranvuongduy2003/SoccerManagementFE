@@ -4,7 +4,7 @@ import { Box, Flex, Stack } from '@chakra-ui/react';
 import Brand from './Brand';
 import Links from './Links';
 import SidebarCard from './SidebarCard';
-import { IRoute, Title } from '@/types/navigation';
+import { IRoute, Title } from '@/interfaces/navigation';
 
 // FUNCTIONS
 

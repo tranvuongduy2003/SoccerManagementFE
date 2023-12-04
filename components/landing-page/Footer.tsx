@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
   return (
-    <section className="bg-white" id="contact">
+    <section className="bg-white">
       <div className="container mx-auto">
         <div className="py-16">
           <div className="flex justify-center py-10">

@@ -1,24 +1,33 @@
 /* eslint-disable */
 
 // chakra imports
-import { Box, Flex, HStack, Text, useColorModeValue } from '@chakra-ui/react';
+import {
+  Box,
+  Button,
+  Flex,
+  HStack,
+  Text,
+  useColorModeValue
+} from '@chakra-ui/react';
 import Link from 'next/link';
-import { IRoute, Title } from '@/types/navigation';
+import { IRoute, Title } from '@/interfaces/navigation';
 import { usePathname } from 'next/navigation';
 import { useCallback } from 'react';
+import { useRouter } from 'next/router';
 
 interface SidebarLinksProps {
   routes: (IRoute | Title)[] | any;
 }
 
 export function SidebarLinks(props: SidebarLinksProps) {
+  const router = useRouter();
   const { routes } = props;
 
   //   Chakra color mode
   const pathname = usePathname();
 
   // let activeColor = useColorModeValue('gray.700', '#0079FF');
-  let activeColor = '#39A7FF';  
+  let activeColor = '#39A7FF';
   let inactiveColor = useColorModeValue(
     'secondaryGray.600',
     'secondaryGray.600'
@@ -30,7 +39,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
   // verifies if routeName is the one active (in browser input)
   const activeRoute = useCallback(
     (routeName: string) => {
-      return pathname?.includes(routeName);
+      return pathname?.includes(routeName.slice(0,6));
     },
     [pathname]
   );
@@ -39,10 +48,16 @@ export function SidebarLinks(props: SidebarLinksProps) {
   const createLinks = (routes: IRoute[]) => {
     return routes.map((route, index: number) =>
       route.icon ? (
-        <Link key={index} href={route.layout + route.path}>
-          <Box>
+        <Button
+          position="relative"
+          textAlign="left"
+          w="full"
+          bgColor="transparent"
+          key={index}
+          onClick={() => router.push(route.layout + route.path)}
+        >
+          <Box position="absolute" left="0">
             <HStack
-               _hover={{bg:"gray.100"}}
               spacing={activeRoute(route?.path.toLowerCase()) ? '22px' : '26px'}
               py="5px"
               ps="10px"
@@ -51,12 +66,11 @@ export function SidebarLinks(props: SidebarLinksProps) {
               <Flex w="100%" alignItems="center" justifyContent="center">
                 <Box
                   color={
-                    activeRoute(route.path.toLowerCase())
-                      ? "#0079FF"
+                    activeRoute(route.path.toLowerCase()) 
+                      ? '#0079FF'
                       : textColor
                   }
                   me="20px"
-                  
                 >
                   {route.icon}
                 </Box>
@@ -86,7 +100,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
               />
             </HStack>
           </Box>
-        </Link>
+        </Button>
       ) : (
         <Box>
           <HStack py="5px" ps="5px">

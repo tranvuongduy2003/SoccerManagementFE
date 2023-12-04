@@ -1,5 +1,9 @@
+//layout
+import { HomeLayout } from '@/components/layout';
+import { NextPageWithLayout } from '@/interfaces';
+
+//component
 import {
-  Navbar,
   Footer,
   GoodPlayer,
   HighLightMatch,
@@ -8,32 +12,21 @@ import {
   PlayerOfTeam
 } from '@/components/landing-page';
 
-const Home = () => {
+const Home: NextPageWithLayout = () => {
   return (
-    <div className="font-fontLanding bg-body-color">
-      {/* header */}
-      <Navbar />
+    <>
       <Intro />
-
-      {/* main */}
       <main className="bg-body-color">
-        {/* Good Player section */}
         <GoodPlayer />
-
-        {/* All Highlights section */}
         <Highlights />
-
-        {/* winner team section */}
         <PlayerOfTeam />
-
-        {/* highlight matches */}
         <HighLightMatch />
       </main>
-
-      {/* footer */}
       <Footer />
-    </div>
+    </>
   );
 };
+
+Home.Layout = HomeLayout;
 
 export default Home;

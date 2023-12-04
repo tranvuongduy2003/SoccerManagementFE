@@ -8,12 +8,10 @@ export const Intro = () => {
       <div className="container mx-auto">
         <div className="flex justify-between flex-col lg:flex-row">
           <div className="lg:py-44 py-30">
-            <h1 className="text-5xl lg:text-7xl font-bold text-center lg:text-start text-white">
-              Welcome to
+            <h1 className="text-3xl lg:text-6xl font-bold text-center lg:text-start text-white">
+              Tournament bracket generator
               <br />
-              Fifa Club World Cup
-              <br />
-              2026
+              Manage sports teams simply!
             </h1>
             <p className="py-6 text-white text-center lg:text-start">
               They give pleasure by desire.and by

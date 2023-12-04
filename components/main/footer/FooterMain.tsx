@@ -1,5 +1,6 @@
 /*eslint-disable*/
 
+//chakra-ui
 import {
   Flex,
   Link,
@@ -9,7 +10,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 
-export default function Footer() {
+const Footer=() =>{
   const textColor = useColorModeValue('gray.400', 'white');
   return (
     <Flex
@@ -105,3 +106,5 @@ export default function Footer() {
     </Flex>
   );
 }
+
+export default Footer;

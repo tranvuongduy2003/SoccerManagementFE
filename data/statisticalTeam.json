@@ -1,450 +1,82 @@
 [
   {
     "team": {
-      "$oid": "6555aed5048a7dea909ce5bb"
+      "$oid": "656d97c2a671feb421a4829c"
     },
-    "wins": 0,
+    "wins": 2,
     "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
+    "losses": 1,
+    "matches": 3,
+    "point": 6,
+    "goals": 9,
+    "losts": 7,
+    "owns": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "rank": 1,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["LOSSES","WIN","WIN"],
+    "tags":"u11-hanoi-junior-league"
   },
   {
     "team": {
-      "$oid": "6555aed5048a7dea909ce5bc"
+      "$oid": "656d97c2a671feb421a4829d"
     },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
+    "wins": 1,
+    "draws": 1,
+    "losses": 1,
+    "matches": 3,
+    "point": 4,
+    "goals": 8,
+    "losts": 10,
+    "owns": 0,
+    "yellowCards": 2,
+    "redCards": 0,
+    "rank": 2,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["DRAW","WIN","LOSSES"],
+    "tags":"u11-hanoi-junior-league"
   },
   {
     "team": {
-      "$oid": "6555aed5048a7dea909ce5bd"
+      "$oid": "656d97c2a671feb421a4829e"
     },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
+    "wins": 1,
+    "draws": 1,
+    "losses": 1,
+    "matches": 3,
+    "point": 4,
+    "goals": 10,
+    "losts": 9,
+    "owns": 1,
+    "yellowCards": 1,
+    "redCards": 0,
+    "rank": 3,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["DRAW","LOSSES","WIN"],
+    "tags":"u11-hanoi-junior-league"
   },
   {
     "team": {
-      "$oid": "6555aed5048a7dea909ce5be"
+      "$oid": "656d97c2a671feb421a4829f"
     },
-    "wins": 0,
+    "wins": 1,
     "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5bf"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c0"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c1"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c2"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c3"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c4"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c5"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c6"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c7"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c8"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5c9"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5ca"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5cb"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  },
-  {
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5cc"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5cd"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5ce"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5cf"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d0"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d1"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d2"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d3"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d4"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d5"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d6"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d7"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d8"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5d9"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
-  }
-  ,{
-    "team": {
-      "$oid": "6555aed5048a7dea909ce5da"
-    },
-    "wins": 0,
-    "draws": 0,
-    "losses": 0,
-    "point": 0,
-    "numberOfGoal": 0,
-    "numberOfLost": 0,
-    "numberOfOwnGoal": 0,
-    "yellowCard": 0,
-    "redCard": 0
+    "losses": 2,
+    "matches": 3,
+    "point": 3,
+    "goals": 9,
+    "losts": 11,
+    "owns": 0,
+    "yellowCards": 1,
+    "redCards": 0,
+    "rank": 4,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["WIN","LOSSES","LOSSES"],
+    "tags":"u11-hanoi-junior-league"
   }
 ]

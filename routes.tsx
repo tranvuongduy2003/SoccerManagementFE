@@ -9,7 +9,7 @@ import {
   MdOutlineStackedLineChart,
   MdHowToVote
 } from 'react-icons/md';
-import { IRoute, Title } from '@/types/navigation';
+import { IRoute, Title } from '@/interfaces/navigation';
 
 const routes: (IRoute | Title)[] = [
   {

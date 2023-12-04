@@ -1,3 +1,4 @@
+
 // Chakra imports
 import {
   Box,
@@ -12,6 +13,7 @@ import {
   Text,
   useColorModeValue
 } from '@chakra-ui/react';
+
 // Assets
 import Link from 'next/link';
 import React from 'react';

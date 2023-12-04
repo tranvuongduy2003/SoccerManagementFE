@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 //image
@@ -9,17 +8,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const Navbar = () => {
-  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    e.preventDefault();
-    const href = e.currentTarget.href;
-
-    const targetId = href.replace(/.*\#/, '');
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-      behavior: 'smooth'
-    });
-  };
-
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
 
   return (
@@ -48,21 +36,48 @@ export const Navbar = () => {
             </label>
             {showDropdown && (
               <ul className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 lg:hidden">
-                <Link href={'#home'} onClick={handleScroll}>
+                <Link href={'#home'}>
                   <li>Home</li>
                 </Link>
-                <Link href={'#player'} onClick={handleScroll}>
-                  <li>Player</li>
-                </Link>
-                <Link href={'#world'} onClick={handleScroll}>
-                  <li>World Cup</li>
-                </Link>
-                <Link href={'#match'} onClick={handleScroll}>
-                  <li>Upcoming Matches</li>
-                </Link>
-                <Link href={'#contact'} onClick={handleScroll}>
-                  <li>Contact</li>
-                </Link>
+                <li>
+                  <details className="dropdown">
+                    <summary className="btn bg-transparent border-none">
+                      Leagues
+                    </summary>
+                    <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                      <li>
+                        <Link href="/auth/signin">Create league</Link>
+                      </li>
+                      <li>
+                        <Link href="/league">Find leagues</Link>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details className="dropdown">
+                    <summary className="btn bg-transparent border-none">
+                      Teams
+                    </summary>
+                    <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                      <li>
+                        <a>Create team</a>
+                      </li>
+                      <li>
+                        <a>Find teams</a>
+                      </li>
+                      <li>
+                        <a>Create lineup</a>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <Link href="/">Blogs</Link>
+                </li>
+                <li>
+                  <Link href="/">Shop</Link>
+                </li>
                 <li>
                   <div className="btn flex bg-body-color border-0 w-28">
                     <Image src={Login} alt="" className="w-5" />
@@ -77,44 +92,72 @@ export const Navbar = () => {
           </Link>
         </div>
 
-        <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 font-bold">
-            <li>
-              <Link href={'#home'} onClick={handleScroll}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href={'#player'} onClick={handleScroll}>
-                Player
-              </Link>
-            </li>
-            <li>
-              <Link href={'#world'} onClick={handleScroll}>
-                World Cup
-              </Link>
-            </li>
-            <li>
-              <Link href={'#match'} onClick={handleScroll}>
-                Upcoming Matches
-              </Link>
-            </li>
-            <li>
-              <Link href={'#contact'} onClick={handleScroll}>
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
+        <div className="flex">
+          <div className="hidden lg:flex">
+            <ul className="menu menu-horizontal px-1 font-bold flex justify-center items-center">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <details className="dropdown h-[30px]">
+                  <summary className="btn bg-transparent border-none font-bold">
+                    Leagues
+                  </summary>
+                  <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                    <li>
+                      <Link href="/auth/signin">Create league</Link>
+                    </li>
+                    <li>
+                      <Link href="/league">Find leagues</Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details className="dropdown h-[30px]">
+                  <summary className="btn bg-transparent border-none font-bold">
+                    Teams
+                  </summary>
+                  <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                    <li>
+                      <Link href="/auth/signin">Create team</Link>
+                    </li>
+                    <li>
+                      <Link href="/competitor">Find teams</Link>
+                    </li>
+                    <li>
+                      <Link href="/auth/signin">Create lineup</Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <Link href="/">Blogs</Link>
+              </li>
+              <li>
+                <Link href="/">Shop</Link>
+              </li>
+            </ul>
+          </div>
 
-        <div className="lg:mx-5 hidden lg:block">
-          <Link
-            href={'/main/overall'}
-            className="btn flex justify-center bg-body-color border-0 w-38 p-4"
-          >
-            <Image src={Login} alt="" className="w-5" />
-            <p className="text-white font-bold bg-">Get Started</p>
-          </Link>
+          <div className="lg:mx-5 hidden lg:block">
+            <Link
+              href="/auth/signin"
+              className="btn flex justify-center bg-body-color border-0 w-38 p-4"
+            >
+              <Image src={Login} alt="" className="w-5" />
+              <p className="text-white font-bold bg-">Login</p>
+            </Link>
+          </div>
+          <div className="lg:mx-5 hidden lg:block">
+            <Link
+              href="/auth/signup"
+              className="btn flex justify-center bg-body-color border-0 w-38 p-4"
+            >
+              <Image src={Login} alt="" className="w-5" />
+              <p className="text-white font-bold bg-">Register</p>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>

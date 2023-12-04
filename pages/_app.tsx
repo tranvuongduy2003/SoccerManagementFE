@@ -1,5 +1,5 @@
 import { EmptyLayout } from '@/components/layout';
-import { AppPropsWithLayout } from '@/types';
+import { AppPropsWithLayout } from '@/interfaces';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { Poppins } from 'next/font/google';

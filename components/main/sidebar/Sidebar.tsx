@@ -19,7 +19,7 @@ import { Scrollbars } from 'react-custom-scrollbars-2';
 
 // Assets
 import { IoMenuOutline } from 'react-icons/io5';
-import { IRoute, Title } from '@/types/navigation';
+import { IRoute, Title } from '@/interfaces/navigation';
 import { isWindowAvailable } from '@/utils/navigation';
 
 interface SidebarResponsiveProps {

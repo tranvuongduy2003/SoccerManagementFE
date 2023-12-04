@@ -1,6 +1,6 @@
 import { refreshToken, signIn, signOut } from '@/apis';
 import { QUERY_KEY } from '@/constants';
-import { LoginPayload } from '@/types';
+import { LoginPayload } from '@/interfaces';
 import { useQueryClient } from '@tanstack/react-query';
 
 export function useAuth() {

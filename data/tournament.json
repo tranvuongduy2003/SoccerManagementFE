@@ -1,21 +1,59 @@
 [
   {
-    "name": "FiFa Club WorldCup 2022",
-    "award": {
-        "$oid": "6555c0d2048a7dea909ce76e"
-    },
-    "leaderBoard": {
-        "$oid": "6555c440048a7dea909ce795"
-    },
-    "status": "isLive",
+    "formula":"ROUND FIGHT",
+    "name": "Đầm Hồng League",
+    "image":"https://myleague.vn/uploadfiles/leagues/cover/61efb7b8b099687410e3478b317cfa51kkp0p.png?id=200",
+    "logo":"https://myleague.vn/uploadfiles/leagues/Kpe7yYs0NdySRd7jzwHaiYehQnhqz2ks26XFPwus.jpeg",
+    "awardPlayers": [],
+    "awardTeams": [],
+    "prizes":[],
+    "vision":"INTERNATIONAL",
     "sponsor": "Mr AnhQuoc - Gentlement",
-    "round": [
-      { "$oid": "6555c288048a7dea909ce77c" },
-      { "$oid": "6555c288048a7dea909ce77d" },
-      { "$oid": "6555c288048a7dea909ce77e" },
-      { "$oid": "6555c288048a7dea909ce77f" },
-      { "$oid": "6555c288048a7dea909ce780" }
-    ],
-    "year": "2022-2023"
+    "team":[],
+    "referees":[],
+    "stadiums":[],
+    "rounds":[],
+    "year": "2022-2023",
+    "status":"ON",
+    "description":"Đấu Vòng Tròn ║ Bóng Đá Sân 7 ║ Admin MyLeague ║ Sân Bóng Đầm Hồng 2",
+    "tags":"dam-hong-league"
+  },
+  {
+    "formula":"KNOCKOUT",
+    "name": "BÓNG ĐÁ NỮ - ĐHTT SVVN TẠI NGA 2022",
+    "image":"https://myleague.vn/uploadfiles/leagues/cover/de6bbe6b48acc2d2ea92ed18a490f0c4.png?id=200",
+    "logo":"https://myleague.vn/uploadfiles/leagues/avatar/44f75abca4545d1b5a409ddd58c6b730.png",
+    "awardPlayers": [],
+    "awardTeams": [],
+    "prizes":[],
+    "vision":"NATIONAL",
+    "sponsor": "Mr AnhQuoc - Gentlement",
+    "team":[],
+    "referees":[],
+    "stadiums":[],
+    "rounds":[],
+    "year": "2021-2022",
+    "status":"ON",
+    "description":"Loại Trực Tiếp ║ Bóng Đá Sân 7 ║ VZ ║ Генерала Ермолова Улица, Владение 1, Mát-Xcơ-Va, Nga",
+    "tags":"bong-da-nu-dhtt-ssvn-tai-nga-2022"
+  },
+  {
+    "formula":"TABLE",
+    "name": "Giải Bóng Đá Chào Mừng Kỷ Niệm 70 Năm Thành Lập Xã Thanh Đồng",
+    "image":"https://myleague.vn/uploadfiles/leagues/cover/d03027384509f513a96d1fe0f2f01e7br6xh7.png?id=200",
+    "logo":"https://myleague.vn/uploadfiles/leagues/avatar/ab8394ba71f852f9a8fd35d5fdbeaa2bi2ify.png",
+    "awardPlayers": [],
+    "awardTeams": [],
+    "prizes":[],
+    "vision":"INTERNATIONAL",
+    "sponsor": "Mr AnhQuoc - Gentlement",
+    "team":[],
+    "referees":[],
+    "stadiums":[],
+    "rounds":[],
+    "year": "2022-2023",
+    "status":"ON",
+    "description":"Chia Bảng Đấu ║ Bóng Đá Sân 7 ║ Thành Công ║ Thanh Đồng, Thanh Chương, Nghệ An, Việt Nam",
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   }
 ]

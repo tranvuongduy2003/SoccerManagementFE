@@ -1,4 +1,4 @@
-import { NextPageWithLayout } from '@/types';
+import { NextPageWithLayout } from '@/interfaces';
 import { OwnerLayout } from '@/components/layout/owner';
 
 const Owner: NextPageWithLayout = () => {

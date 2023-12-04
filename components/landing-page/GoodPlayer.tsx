@@ -15,7 +15,7 @@ import Image from 'next/image';
 
 export const GoodPlayer = () => {
   return (
-    <section className="mx-5" id="player">
+    <section className="mx-5">
       <div className="container mx-auto mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {/* <!-- card-1 --> */}
         <div className="card bg-base-100 shadow-xl">

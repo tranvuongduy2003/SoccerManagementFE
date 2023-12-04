@@ -8,7 +8,7 @@ import axios, {
 } from 'axios';
 
 const requestConfig: AxiosRequestConfig = {
-  baseURL: '/api',
+  baseURL: 'http://localhost:8080/api',
   timeout: 20000,
   headers: {
     'Content-Type': 'application/json'
