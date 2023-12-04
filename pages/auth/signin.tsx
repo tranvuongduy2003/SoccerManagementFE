@@ -3,6 +3,7 @@ import React from 'react';
 
 // Chakra imports
 import {
+  Box,
   Flex,
   Button,
   FormControl,
@@ -17,7 +18,11 @@ import {
 //routes
 import Link from 'next/link';
 
+
+
 function SignIn() {
+  // Chakra color mode
+  // const titleColor = useColorModeValue('teal.300', 'teal.200');
   const textColor = useColorModeValue('gray.400', 'white');
   return (
     <Flex position="relative">
