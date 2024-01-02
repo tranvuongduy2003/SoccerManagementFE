@@ -9,7 +9,7 @@ import { useRoundStore } from '@/stores';
 
 //moment
 import NotData from '@/components/common/notData';
-import { Round } from './Knockout/KnockOut';
+import { Round } from '../Knockout/KnockOut';
 
 const CustomSeed = ({ seed, breakpoint }: any) => {
   return (
@@ -76,7 +76,7 @@ const CustomSeed = ({ seed, breakpoint }: any) => {
   );
 };
 
-const BracketComponent = () => {
+const ChartView = () => {
   const rounds = useRoundStore(state => state.rounds);
 
   const roundCharView = rounds.filter(a => a.type === 'Knock');
@@ -110,16 +110,29 @@ const BracketComponent = () => {
   });
 
   return rounds.length ? (
-    <Bracket
-      rounds={bracket}
-      roundTitleComponent={(title: React.ReactNode) => {
-        return (
-          <div style={{ textAlign: 'center', color: 'white' }}>{title}</div>
-        );
-      }}
-      bracketClassName="bg-[#75C2F6] rounded-md py-4"
-      renderSeedComponent={CustomSeed}
-    />
+    <>
+      <Bracket
+        rounds={bracket}
+        roundTitleComponent={(title: React.ReactNode) => {
+          return (
+            <div style={{ textAlign: 'center', color: 'white' }}>{title}</div>
+          );
+        }}
+        bracketClassName="bg-[#75C2F6] rounded-md py-4"
+        renderSeedComponent={CustomSeed}
+      />
+      <Box mt="20px">
+        {roundCharView.length ? (
+          roundCharView.map((round, index) => (
+            <Round key={index} round={round} />
+          ))
+        ) : (
+          <Center mt="500px">
+            <NotData text="data round" />
+          </Center>
+        )}
+      </Box>
+    </>
   ) : (
     <Center mt="500px">
       <NotData text="data round" />
@@ -127,4 +140,4 @@ const BracketComponent = () => {
   );
 };
 
-export default BracketComponent;
+export default ChartView;

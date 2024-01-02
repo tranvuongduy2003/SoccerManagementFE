@@ -1,46 +1,97 @@
 [
   {
-    "name": "U11 Cityzens Z FC",
-    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/f4559d59e4495592e3a7495ad53d45a5xr4ds_jybeag.png",
+    "name": "Dùng FC",
+    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115140/d727e580ef52a0e94f2d5999c61838e72aemu_fcofim.png",
     "coach": {
-      "$oid": "656d8531a671feb421a4827d"
+      "$oid": "6592c25dff79dfdf7a2d1f6b"
     },
     "players": [],
     "matches": [],
     "statistical":"",
-    "tags":"u11-hanoi-junior-league"
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   },
+
   {
-    "name": "U11 FC Blue Moon",
-    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/c44fbd6a36e3be4bf911d4e1e93258cfm69j0_higbcc.png",
+    "name": "FC Đại Đồng",
+    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115140/bea29f51daa3cdbf6e9c27b95880b4b5rm9it_s6upke.png",
     "coach": {
-      "$oid": "656d8531a671feb421a4827e"
+      "$oid": "6592c25dff79dfdf7a2d1f6c"
     },
     "players": [],
     "matches": [],
     "statistical":"",
-    "tags":"u11-hanoi-junior-league"
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   },
+
   {
-    "name": "U11 MCFC Cityzens",
-    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/8231f67ee711a1ec6bcd809a90875b22lsc8u_ymqcyh.png",
+    "name": "FC Đồng Văn",
+    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115139/829fbe6ed7021fe32bbf05bfcce03322djhzy_kqtdeu.png",
     "coach": {
-      "$oid": "656d8531a671feb421a4827c"
+      "$oid": "6592c25dff79dfdf7a2d1f6d"
     },
     "players": [],
     "matches": [],
     "statistical":"",
-    "tags":"u11-hanoi-junior-league"
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   },
+
   {
-    "name": "U11 MCFC Liên Quân",
-    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/68a335b119a2ddc35160e01747569da5nrhyh_xq7999.png",
+    "name": "FC Thanh Hương",
+    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115139/f1b7758b2e1e7d75cee8f249affd18e5cvw7y_1_iyogee.png",
     "coach": {
-      "$oid": "656d8531a671feb421a4827b"
+      "$oid": "6592c25dff79dfdf7a2d1f6e"
     },
     "players": [],
     "matches": [],
     "statistical":"",
-    "tags":"u11-hanoi-junior-league"
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+
+  {
+    "name": "FC Thanh Ngọc",
+    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115258/ab7718fc566e57c4e2700902d7868eae7onl6_u071fi.png",
+    "coach": {
+      "$oid": "6592c25dff79dfdf7a2d1f6f"
+    },
+    "players": [],
+    "matches": [],
+    "statistical":"",
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+
+  {
+    "name": "FC Thanh Đồng",
+    "flag": "",
+    "coach": {
+      "$oid": "6592c25dff79dfdf7a2d1f70"
+    },
+    "players": [],
+    "matches": [],
+    "statistical":"",
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+
+  {
+    "name": "Thanh Phong FC",
+    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115139/112959737b2654340cfc8ce3170d9e941n0j2_bisinh.png",
+    "coach": {
+      "$oid": "6592c25dff79dfdf7a2d1f71"
+    },
+    "players": [],
+    "matches": [],
+    "statistical":"",
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+
+  {
+    "name": "Thanh Tiên",
+    "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115140/49c9c7f72ba52c85500c6cdaafeb1895ns20v_qxyoga.png",
+    "coach": {
+      "$oid": "6592c25dff79dfdf7a2d1f72"
+    },
+    "players": [],
+    "matches": [],
+    "statistical":"",
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   }
 ]

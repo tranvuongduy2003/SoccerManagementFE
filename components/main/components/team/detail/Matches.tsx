@@ -53,8 +53,6 @@ const Match = (props: MatchProps) => {
     (a, b) => a.time! - b.time!
   );
 
-  console.log(eventsTeamOne, eventsTeamTwo);
-
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>

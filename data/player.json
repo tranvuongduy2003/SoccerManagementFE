@@ -1,338 +1,44 @@
 [
   {
-    "name": "Trương Đình Diện",
+    "name": "Thế Quỳnh",
     "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 2,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Goalkeeper",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    },
-    "captain": true
-  },
-  {
-    "name": "Nguyễn Văn Khiêm",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 6,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Defender",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Phạm Thanh Tùng",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 10,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Defender",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Nguyễn Cao Minh Quang",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 17,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Midfielder",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Nguyễn Quang Anh",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
+    "age": 20,
+    "height": "1m72",
     "weight": "50kg",
     "national": "VietNam",
     "number": 13,
     "dob": {
       "$date": "2012-01-01T00:00:00.000+00:00"
     },
-    "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Nguyễn Văn Cường",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 25,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-
-  {
-    "name": "Tạ Huy Hoàng",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 3,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
     "position": "Goalkeeper",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
+      "$oid": "656d97c2a671feb421a4829f"
     },
     "captain": true
   },
   {
-    "name": "Lưu Văn Tùng",
+    "name": "Nguyễn Văn Quảng",
     "avatar": "",
-    "age": 11,
+    "age": 20,
     "height": "1m62",
     "weight": "50kg",
     "national": "VietNam",
-    "number": 7,
+    "number": 5,
     "dob": {
       "$date": "2012-01-01T00:00:00.000+00:00"
     },
     "position": "Defender",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
+      "$oid": "656d97c2a671feb421a4829f"
+    },
+    "captain": false
   },
   {
-    "name": "Lê Thanh Hải",
+    "name": "Dương Lê Thành",
     "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 1,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Defender",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Nguyễn Quang Tuấn",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 1,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Midfielder",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Nguyễn Văn Tài",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 1,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Nguyễn Đức Lương",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 1,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-
-  {
-    "name": "Anh Tuấn",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 1,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Goalkeeper",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    },
-    "captain": true
-  },
-  {
-    "name": "Thường Vụ",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 8,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Midfielder",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Văn Tú",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 1,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Quang Sang",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 13,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Giang Nam Trần",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 17,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Midfielder",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-  {
-    "name": "Thin Nguyễn",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 21,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Goalkeeper",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
-  },
-
-  {
-    "name": "Vi Hoàng Hải",
-    "avatar": "",
-    "age": 11,
-    "height": "1m62",
-    "weight": "50kg",
-    "national": "VietNam",
-    "number": 2,
-    "dob": {
-      "$date": "2012-01-01T00:00:00.000+00:00"
-    },
-    "position": "Goalkeeper",
-    "tags": "u11-hanoi-junior-league",
-    "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    },
-    "captain": true
-  },
-  {
-    "name": "Bùi Công Danh",
-    "avatar": "",
-    "age": 11,
+    "age": 20,
     "height": "1m62",
     "weight": "50kg",
     "national": "VietNam",
@@ -341,77 +47,82 @@
       "$date": "2012-01-01T00:00:00.000+00:00"
     },
     "position": "Defender",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
+      "$oid": "656d97c2a671feb421a4829f"
+    },
+    "captain": false
   },
   {
-    "name": "Nguyễn Tiến Luật",
+    "name": "Nguyễn Văn Mạnh",
     "avatar": "",
-    "age": 11,
-    "height": "1m62",
+    "age": 23,
+    "height": "1m72",
     "weight": "50kg",
     "national": "VietNam",
-    "number": 11,
+    "number": 90,
     "dob": {
       "$date": "2012-01-01T00:00:00.000+00:00"
     },
     "position": "Midfielder",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
+      "$oid": "656d97c2a671feb421a4829f"
+    },
+    "captain": false
   },
   {
-    "name": "Nguyễn Thế Anh",
+    "name": "Nguyễn Hữu Hưng",
     "avatar": "",
-    "age": 11,
+    "age": 0,
     "height": "1m62",
     "weight": "50kg",
     "national": "VietNam",
-    "number": 15,
+    "number": 1,
     "dob": {
       "$date": "2012-01-01T00:00:00.000+00:00"
     },
     "position": "Midfielder",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
+      "$oid": "656d97c2a671feb421a4829f"
+    },
+    "captain": false
   },
   {
-    "name": "Nguyễn Văn Dương",
+    "name": "Dương Lê Cường",
     "avatar": "",
-    "age": 11,
+    "age": 23,
     "height": "1m62",
     "weight": "50kg",
     "national": "VietNam",
-    "number": 4,
+    "number": 24,
     "dob": {
       "$date": "2012-01-01T00:00:00.000+00:00"
     },
     "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
+      "$oid": "656d97c2a671feb421a4829f"
+    },
+    "captain": false
   },
   {
-    "name": "Phùng Tiến Đức",
+    "name": "Nguyễn Bá Phượng",
     "avatar": "",
-    "age": 11,
+    "age": 0,
     "height": "1m62",
     "weight": "50kg",
     "national": "VietNam",
-    "number": 10,
+    "number": 89,
     "dob": {
       "$date": "2012-01-01T00:00:00.000+00:00"
     },
-    "position": "Striker",
-    "tags": "u11-hanoi-junior-league",
+    "position": "Midfielder",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "statistical": {
-      "$oid": "65682265ba532f5e1bfe9d8e"
-    }
+      "$oid": "656d97c2a671feb421a4829f"
+    },
+    "captain": false
   }
 ]

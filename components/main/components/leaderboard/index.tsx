@@ -10,7 +10,8 @@ import {
   Td,
   Flex,
   Box,
-  Text
+  Text,
+  Center
 } from '@chakra-ui/react';
 
 //image
@@ -18,16 +19,18 @@ import Image from 'next/image';
 
 //interface
 import { ETypeHistory, IStatisticalTeam } from '@/interfaces';
+import NotData from '@/components/common/notData';
 
 interface StatisticalTeamProps {
+  number: number;
   statisticalTeam: IStatisticalTeam;
 }
 const StatisticalTeam = (props: StatisticalTeamProps) => {
-  const { statisticalTeam } = props;
+  const { number, statisticalTeam } = props;
 
   return (
     <Tr>
-      <Td textAlign="center">{statisticalTeam.rank}</Td>
+      <Td textAlign="center">{number}</Td>
       <Td textAlign="center">
         <Flex alignItems="center" justifyContent="flex-start" gap="4">
           <Image
@@ -67,9 +70,7 @@ const StatisticalTeam = (props: StatisticalTeamProps) => {
       <Td textAlign="center">
         {statisticalTeam.yellowCards} / {statisticalTeam.redCards}
       </Td>
-      <Td textAlign="center">
-        {statisticalTeam.point}
-      </Td>
+      <Td textAlign="center">{statisticalTeam.point}</Td>
       <Td textAlign="center">
         <Flex alignItems="center" justifyContent="center" gap="1">
           {statisticalTeam.history?.map((value: ETypeHistory, index) => (
@@ -86,7 +87,8 @@ const StatisticalTeam = (props: StatisticalTeamProps) => {
               px={
                 (value === 'WIN' && '1') ||
                 (value === 'LOSSES' && '2') ||
-                (value === 'DRAW' && '2')||undefined
+                (value === 'DRAW' && '2') ||
+                undefined
               }
             >
               {(value === 'WIN' && 'W') ||
@@ -110,7 +112,6 @@ const LeaderBoardComponent = (props: LeaderBoardComponentProps) => {
   return (
     <TableContainer mt="100px">
       <Table variant="simple">
-        <TableCaption>Imperial to metric conversion factors</TableCaption>
         <Thead bgColor="#75C2F6">
           <Tr>
             <Th textAlign="center" color="white">
@@ -151,18 +152,29 @@ const LeaderBoardComponent = (props: LeaderBoardComponentProps) => {
               </Flex>
             </Th>
             <Th textAlign="center" color="white">
-            Points	
+              Points
             </Th>
             <Th textAlign="center" color="white">
               History
             </Th>
           </Tr>
         </Thead>
-        <Tbody>
-          {statisticalTeams.map((statisticalTeam, index) => (
-            <StatisticalTeam key={index} statisticalTeam={statisticalTeam} />
-          ))}
-        </Tbody>
+        {statisticalTeams.length ? (
+          <Tbody>
+            {statisticalTeams.map((statisticalTeam, index) => (
+              <StatisticalTeam
+                key={index}
+                number={index + 1}
+                statisticalTeam={statisticalTeam}
+              />
+            ))}
+          </Tbody>
+        ) : (
+          <Center display="block">
+            <NotData text="data leaderboard" />
+          </Center>
+        )}
+        <TableCaption>Imperial to metric conversion factors</TableCaption>
       </Table>
     </TableContainer>
   );

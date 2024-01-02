@@ -4,37 +4,30 @@
 import MainLayout from '@/components/layout/main';
 import { NextPageWithLayout, IStatisticalTeam } from '@/interfaces';
 
-//chakra-ui
-import { Text } from '@chakra-ui/react';
-
 //component
 import LeaderBoardComponent from '@/components/main/components/leaderboard';
 
 //api
 import { useQuery } from '@tanstack/react-query';
 import { getStatisticalTeamsByTags } from '@/apis';
-import { useEffect, useState } from 'react';
 
 //route
 import { useRouter } from 'next/router';
+import SkeletonComponent from '@/components/common/skeleton';
 
 const LeaderBoard: NextPageWithLayout = () => {
   const route = useRouter();
 
-  const { data: statisticalTeams } = useQuery<IStatisticalTeam[]>({
+  const { data: statisticalTeams, isLoading } = useQuery<IStatisticalTeam[]>({
     queryKey: ['statisticalTeams', route.query.tags],
     queryFn: () => getStatisticalTeamsByTags(route.query.tags),
-    select: data => data.sort((a, b) => a.rank! - b.rank!)  
+    select: data => data.sort((a, b) => b.point! - a.point!)
   });
 
-  return (
-    <>
-      {statisticalTeams ? (
-        <LeaderBoardComponent statisticalTeams={statisticalTeams} />
-      ) : (
-        <Text>Updating...</Text>
-      )}
-    </>
+  return isLoading ? (
+    <SkeletonComponent />
+  ) : (
+    <LeaderBoardComponent statisticalTeams={statisticalTeams!} />
   );
 };
 

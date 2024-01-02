@@ -92,7 +92,6 @@ const Statistic = (props: StatisticalProps) => {
                   The number of player join the league
                 </Text>
                 <Text fontSize="x-large" fontWeight="bold">
-                  {/* {statistical.totalPlayer} */}
                   {statisticalTournament?.totalPlayer}
                 </Text>
               </Flex>
@@ -239,7 +238,8 @@ const Statistic = (props: StatisticalProps) => {
               >
                 Match with the most goals scored
               </Text>
-              {statisticalTournament?.matchMostGoal[0] ? (
+              {statisticalTournament?.matchMostCard &&
+              statisticalTournament?.matchMostGoal[0] ? (
                 <>
                   <Flex
                     flexDirection="column"
@@ -309,7 +309,8 @@ const Statistic = (props: StatisticalProps) => {
               >
                 Match with the most penalty card
               </Text>
-              {statisticalTournament?.matchMostCard[0] ? (
+              {statisticalTournament?.matchMostCard &&
+              statisticalTournament?.matchMostCard[0] ? (
                 <>
                   <Flex
                     flexDirection="column"
@@ -545,11 +546,18 @@ const Statistic = (props: StatisticalProps) => {
               pt="10px"
               _hover={{ cursor: 'pointer' }}
             >
-              {statisticalTournament?.teamMostGoal[0] ? (
+              {statisticalTournament?.teamMostGoal &&
+              statisticalTournament?.teamMostGoal[0] ? (
                 <>
-                  <Avatar src={statisticalTournament?.teamMostGoal[0].flag} />
+                  <Avatar
+                    src={
+                      statisticalTournament?.teamMostGoal &&
+                      statisticalTournament?.teamMostGoal[0].flag
+                    }
+                  />
                   <Text color="white">
-                    {statisticalTournament?.teamMostGoal[0].name}
+                    {statisticalTournament?.teamMostGoal &&
+                      statisticalTournament?.teamMostGoal[0].name}
                   </Text>
                   <Flex
                     w="full"
@@ -564,7 +572,9 @@ const Statistic = (props: StatisticalProps) => {
                       Team with the most goals scored
                     </Text>
                     <Text fontSize="x-large" fontWeight="bold">
-                      {statisticalTournament?.teamMostGoal[0].statistical.goals}
+                      {statisticalTournament?.teamMostGoal &&
+                        statisticalTournament?.teamMostGoal[0].statistical
+                          .goals}
                     </Text>
                   </Flex>
                 </>
@@ -587,11 +597,18 @@ const Statistic = (props: StatisticalProps) => {
               pt="10px"
               _hover={{ cursor: 'pointer' }}
             >
-              {statisticalTournament?.teamMostCard[0] ? (
+              {statisticalTournament?.teamMostCard &&
+              statisticalTournament?.teamMostCard[0] ? (
                 <>
-                  <Avatar src={statisticalTournament?.teamMostCard[0].flag} />
+                  <Avatar
+                    src={
+                      statisticalTournament?.teamMostCard &&
+                      statisticalTournament?.teamMostCard[0].flag
+                    }
+                  />
                   <Text color="white">
-                    {statisticalTournament?.teamMostCard[0].name}
+                    {statisticalTournament?.teamMostCard &&
+                      statisticalTournament?.teamMostCard[0].name}
                   </Text>
                   <Flex
                     w="full"
@@ -606,10 +623,9 @@ const Statistic = (props: StatisticalProps) => {
                       Team with the most penalty card
                     </Text>
                     <Text fontSize="x-large" fontWeight="bold">
-                      {
+                      {statisticalTournament?.teamMostCard &&
                         statisticalTournament?.teamMostCard[0].statistical
-                          .yellowCards
-                      }
+                          .yellowCards}
                     </Text>
                   </Flex>
                 </>
@@ -632,14 +648,20 @@ const Statistic = (props: StatisticalProps) => {
               pt="10px"
               _hover={{ cursor: 'pointer' }}
             >
-              {statisticalTournament?.playerMostCard[0] ? (
+              {statisticalTournament?.playerMostCard &&
+              statisticalTournament?.playerMostCard[0] ? (
                 <>
                   <Avatar
-                    src={statisticalTournament?.playerMostCard[0].avatar}
+                    src={
+                      statisticalTournament?.playerMostCard &&
+                      statisticalTournament?.playerMostCard[0].avatar
+                    }
                   />
-                  {statisticalTournament?.playerMostCard[0] ? (
+                  {statisticalTournament?.playerMostCard &&
+                  statisticalTournament?.playerMostCard[0] ? (
                     <Text color="white">
-                      {statisticalTournament?.playerMostCard[0].name}
+                      {statisticalTournament?.playerMostCard[0] &&
+                        statisticalTournament?.playerMostCard[0].name}
                     </Text>
                   ) : (
                     <Text>No data ...</Text>
@@ -657,10 +679,11 @@ const Statistic = (props: StatisticalProps) => {
                       Player with the most penalty card
                     </Text>
                     <Text fontSize="x-large" fontWeight="bold">
-                      {
+                      {statisticalTournament?.playerMostCard &&
                         statisticalTournament?.playerMostCard[0].statistical
-                          .redCards
-                      }
+                          .redCards +
+                          statisticalTournament?.playerMostCard[0].statistical
+                            .yellowCards}
                     </Text>
                   </Flex>
                 </>

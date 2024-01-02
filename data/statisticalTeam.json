@@ -1,82 +1,162 @@
 [
   {
     "team": {
-      "$oid": "656d97c2a671feb421a4829c"
+      "$oid": "6592c353ff79dfdf7a2d1f74"
     },
-    "wins": 2,
+    "wins": 4,
     "draws": 0,
     "losses": 1,
-    "matches": 3,
-    "point": 6,
-    "goals": 9,
-    "losts": 7,
+    "matches": 5,
+    "point": 12,
+    "goals": 16,
+    "losts": 11,
     "owns": 0,
-    "yellowCards": 1,
+    "yellowCards": 3,
     "redCards": 0,
     "rank": 1,
     "voteChampions": [],
     "voteFairPlays": [],
-    "history":["LOSSES","WIN","WIN"],
-    "tags":"u11-hanoi-junior-league"
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   },
   {
     "team": {
-      "$oid": "656d97c2a671feb421a4829d"
+      "$oid": "6592c353ff79dfdf7a2d1f75"
     },
-    "wins": 1,
-    "draws": 1,
-    "losses": 1,
-    "matches": 3,
-    "point": 4,
-    "goals": 8,
-    "losts": 10,
+    "wins": 2,
+    "draws": 0,
+    "losses": 3,
+    "matches": 5,
+    "point": 6,
+    "goals": 11,
+    "losts": 12,
     "owns": 0,
     "yellowCards": 2,
-    "redCards": 0,
-    "rank": 2,
-    "voteChampions": [],
-    "voteFairPlays": [],
-    "history":["DRAW","WIN","LOSSES"],
-    "tags":"u11-hanoi-junior-league"
-  },
-  {
-    "team": {
-      "$oid": "656d97c2a671feb421a4829e"
-    },
-    "wins": 1,
-    "draws": 1,
-    "losses": 1,
-    "matches": 3,
-    "point": 4,
-    "goals": 10,
-    "losts": 9,
-    "owns": 1,
-    "yellowCards": 1,
     "redCards": 0,
     "rank": 3,
     "voteChampions": [],
     "voteFairPlays": [],
-    "history":["DRAW","LOSSES","WIN"],
-    "tags":"u11-hanoi-junior-league"
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   },
   {
     "team": {
-      "$oid": "656d97c2a671feb421a4829f"
+      "$oid": "6592c353ff79dfdf7a2d1f76"
+    },
+    "wins": 1,
+    "draws": 1,
+    "losses": 1,
+    "matches": 3,
+    "point": 4,
+    "goals": 5,
+    "losts": 9,
+    "owns": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "rank": 1,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+  {
+    "team": {
+      "$oid": "6592c353ff79dfdf7a2d1f77"
+    },
+    "wins": 2,
+    "draws": 1,
+    "losses": 2,
+    "matches": 5,
+    "point": 8,
+    "goals": 9,
+    "losts": 12,
+    "owns": 1,
+    "yellowCards": 1,
+    "redCards": 0,
+    "rank": 2,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+  {
+    "team": {
+      "$oid": "6592c353ff79dfdf7a2d1f78"
+    },
+    "wins": 1,
+    "draws": 1,
+    "losses": 1,
+    "matches": 3,
+    "point": 4,
+    "goals": 6,
+    "losts": 6,
+    "owns": 0,
+    "yellowCards": 3,
+    "redCards": 0,
+    "rank": 5,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+  {
+    "team": {
+      "$oid": "6592c353ff79dfdf7a2d1f79"
+    },
+    "wins": 3,
+    "draws": 1,
+    "losses": 1,
+    "matches": 5,
+    "point": 10,
+    "goals": 15,
+    "losts": 10,
+    "owns": 0,
+    "yellowCards": 5,
+    "redCards": 0,
+    "rank": 8,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+  {
+    "team": {
+      "$oid": "6592c353ff79dfdf7a2d1f7a"
+    },
+    "wins": 0,
+    "draws": 0,
+    "losses": 3,
+    "matches": 3,
+    "point": 0,
+    "goals": 5,
+    "losts": 11,
+    "owns": 1,
+    "yellowCards": 2,
+    "redCards": 0,
+    "rank": 6,
+    "voteChampions": [],
+    "voteFairPlays": [],
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+  },
+  {
+    "team": {
+      "$oid": "6592c353ff79dfdf7a2d1f7b"
     },
     "wins": 1,
     "draws": 0,
     "losses": 2,
     "matches": 3,
     "point": 3,
-    "goals": 9,
-    "losts": 11,
+    "goals": 6,
+    "losts": 4,
     "owns": 0,
-    "yellowCards": 1,
+    "yellowCards": 0,
     "redCards": 0,
-    "rank": 4,
+    "rank": 7,
     "voteChampions": [],
     "voteFairPlays": [],
-    "history":["WIN","LOSSES","LOSSES"],
-    "tags":"u11-hanoi-junior-league"
+    "history":["WIN","DRAW","WIN"],
+    "tags":"giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
   }
 ]

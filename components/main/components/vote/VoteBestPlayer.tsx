@@ -2,14 +2,14 @@
 import { useEffect, useState } from 'react';
 
 //chakra-ui
-import { List, Flex, Button, Text } from '@chakra-ui/react';
+import { List, Flex, Button, Text, Center } from '@chakra-ui/react';
 
 //component
 import ProgressBar from '@ramonak/react-progress-bar';
 
 //image
 import Image from 'next/image';
-import playerDefault from '@/public/images/team/playerDefault.png'
+import playerDefault from '@/public/images/team/playerDefault.png';
 
 //api
 import { useQuery } from '@tanstack/react-query';
@@ -20,6 +20,8 @@ import { useRouter } from 'next/router';
 
 //interface
 import { IPlayer } from '@/interfaces';
+import SkeletonComponent from '@/components/common/skeleton';
+import NotData from '@/components/common/notData';
 
 interface BoxUserProps {
   player: IPlayer;
@@ -37,11 +39,7 @@ const BoxUser = (props: BoxUserProps) => {
         pl="20px"
       >
         <Image
-          src={
-            player.avatar
-              ? player.avatar
-              : playerDefault
-          }
+          src={player.avatar ? player.avatar : playerDefault}
           alt=""
           width={50}
           height={50}
@@ -60,7 +58,7 @@ const BoxUser = (props: BoxUserProps) => {
 const VoteBestPlayer = () => {
   const route = useRouter();
 
-  const { data: players } = useQuery<IPlayer[]>({
+  const { data: players, isLoading } = useQuery<IPlayer[]>({
     queryKey: ['players', route.query.tags],
     queryFn: () => getPlayerByTags(route.query.tags),
     select: data => data
@@ -68,10 +66,14 @@ const VoteBestPlayer = () => {
 
   return (
     <List spacing={6}>
-      {!players? (
-        <Text mt="100">Updating...</Text>
-      ) : (
+      {isLoading ? (
+        <SkeletonComponent />
+      ) : players?.length ? (
         players.map((player, index) => <BoxUser key={index} player={player} />)
+      ) : (
+        <Center>
+          <NotData text='data best player'/>
+        </Center>
       )}
     </List>
   );

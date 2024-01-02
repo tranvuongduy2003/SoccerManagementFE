@@ -41,12 +41,12 @@ interface DashboardLayoutProps extends LayoutProps {
 export default function MainLayout(props: DashboardLayoutProps) {
   const routes: (IRoute | Title)[] = [
     {
-      name: 'MANAGE'
+      name: 'LEAGUES'
     },
     {
-      name: 'Admin',
-      layout: 'admin',
-      path: '/dashboard',
+      name: 'Find League',
+      layout: '/league',
+      path: '/no',
       icon: (
         <Icon
           as={MdOutlineAdminPanelSettings}
@@ -57,9 +57,9 @@ export default function MainLayout(props: DashboardLayoutProps) {
       )
     },
     {
-      name: 'OwnerTeam',
-      layout: 'owner',
-      path: '/owner',
+      name: 'Find Team',
+      layout: '/competitor',
+      path: '/no',
       icon: (
         <Icon
           as={MdOutlineManageAccounts}

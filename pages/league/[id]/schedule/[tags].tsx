@@ -11,10 +11,11 @@ import { Text } from '@chakra-ui/react';
 
 //component
 import ScheduleComponent from '@/components/main/components/schedule';
+import SkeletonComponent from '@/components/common/skeleton';
 
 //api
 import { useQuery } from '@tanstack/react-query';
-import { getRoundByTags } from '@/apis/round.api';
+import { getRoundByTags } from '@/apis';
 
 //route
 import { useRouter } from 'next/router';
@@ -26,7 +27,7 @@ const Schedule: NextPageWithLayout = () => {
   const route = useRouter();
   const round = useRoundStore(state => state.setRounds);
 
-  const { data: rounds } = useQuery<IRound[]>({
+  const { isLoading, data: rounds } = useQuery<IRound[]>({
     queryKey: ['round', route.query.tags],
     queryFn: () => getRoundByTags(route.query.tags),
     select: data => data
@@ -36,12 +37,10 @@ const Schedule: NextPageWithLayout = () => {
     if (rounds) {
       round(rounds);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rounds]);
 
-  return (
-    <>{!rounds ? <Text mt="100">Updating...</Text> : <ScheduleComponent />}</>
-  );
+  return <>{isLoading ? <SkeletonComponent /> : <ScheduleComponent />}</>;
 };
 
 Schedule.Layout = MainLayout;
