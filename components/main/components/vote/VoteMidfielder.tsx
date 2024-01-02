@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 
 //chakra-ui
-import { List, Flex, Button, Text } from '@chakra-ui/react';
+import { List, Flex, Button, Text, Center } from '@chakra-ui/react';
 
 //component
 import ProgressBar from '@ramonak/react-progress-bar';
@@ -21,6 +21,8 @@ import { useRouter } from 'next/router';
 
 //interface
 import { IPlayer } from '@/interfaces';
+import SkeletonComponent from '@/components/common/skeleton';
+import NotData from '@/components/common/notData';
 
 interface BoxUserProps {
   player: IPlayer;
@@ -60,7 +62,7 @@ const BoxUser = (props: BoxUserProps) => {
 const VoteMidfielder = () => {
   const route = useRouter();
 
-  const { data: players } = useQuery<IPlayer[]>({
+  const { data: players,isLoading } = useQuery<IPlayer[]>({
     queryKey: ['players', route.query.tags, 'Midfielder'],
     queryFn: () => getPlayerByTagsAndPosition(route.query.tags, 'Midfielder'),
     select: data => data
@@ -68,10 +70,14 @@ const VoteMidfielder = () => {
 
   return (
     <List spacing={6}>
-      {!players ? (
-        <Text mt="100">Updating...</Text>
-      ) : (
+      {isLoading ? (
+        <SkeletonComponent />
+      ) : players?.length ? (
         players.map((player, index) => <BoxUser key={index} player={player} />)
+      ) : (
+        <Center>
+          <NotData text='data midfielder' />
+        </Center>
       )}
     </List>
   );

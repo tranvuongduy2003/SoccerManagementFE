@@ -193,9 +193,6 @@ const FindLeagues: NextPageWithLayout = () => {
   };
 
   if (isLoading) return <div>Loading...</div>;
-  if (isError) {
-    console.log(error);
-  }
 
   return (
     <Flex

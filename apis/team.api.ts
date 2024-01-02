@@ -10,7 +10,6 @@ export const getTeamById = (id: string) => {
   return httpRequest.get<ITeam>(API_ROUTE.team + `/${id}`);
 };
 
-
 export const getTeamByTags = (tags: string | string[]) => {
   return httpRequest.get<ITeam[]>(API_ROUTE.team + `/tags/${tags}`);
 };

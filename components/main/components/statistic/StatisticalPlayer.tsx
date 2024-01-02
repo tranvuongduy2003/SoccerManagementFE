@@ -13,7 +13,8 @@ import {
   Tr,
   useColorModeValue,
   Avatar,
-  Image
+  Image,
+  Center
 } from '@chakra-ui/react';
 
 //table
@@ -28,19 +29,26 @@ import {
 
 //interface
 import { IStatisticalPLayer } from '@/interfaces';
+import NotData from '@/components/common/notData';
 
 const columnHelper = createColumnHelper<IStatisticalPLayer>();
 
 interface TablePlayerProps {
   statisticalPlayers: IStatisticalPLayer[];
 }
+let defaultData: IStatisticalPLayer[] = [];
 
 const TablePlayer = (props: TablePlayerProps) => {
   const { statisticalPlayers } = props;
+  console.log(statisticalPlayers);
   const [sorting, setSorting] = React.useState<SortingState>([]);
   const textColor = useColorModeValue('secondaryGray.900', 'white');
   const borderColor = useColorModeValue('gray.200', 'whiteAlpha.100');
-  let defaultData = statisticalPlayers;
+
+  if (statisticalPlayers) {
+    defaultData = statisticalPlayers;
+  }
+
   const columns = [
     columnHelper.accessor('_id', {
       id: '_id',
@@ -276,37 +284,42 @@ const TablePlayer = (props: TablePlayerProps) => {
               </Tr>
             ))}
           </Thead>
-          <Tbody>
-            {table.getRowModel().rows.map((row, index: number) => {
-              return (
-                <Tr
-                  key={row.id}
-                  textAlign="center"
-                  bgColor={index % 2 !== 0 ? 'gray.300' : 'white'}
-                  // _hover={{ bgColor: 'blue.100' }}
-                >
-                  {row.getVisibleCells().map(cell => {
-                    return (
-                      <Td
-                        key={cell.id}
-                        fontSize={{ sm: '14px' }}
-                        minW={{ sm: '150px', md: '200px', lg: 'auto' }}
-                        borderColor="transparent"
-                        textAlign="center"
-                        // cursor="pointer"
-                        onClick={() => console.log(row.original)}
-                      >
-                        {flexRender(
-                          cell.column.columnDef.cell,
-                          cell.getContext()
-                        )}
-                      </Td>
-                    );
-                  })}
-                </Tr>
-              );
-            })}
-          </Tbody>
+          {defaultData.length ? (
+            <Tbody>
+              {table.getRowModel().rows.map((row, index: number) => {
+                return (
+                  <Tr
+                    key={row.id}
+                    textAlign="center"
+                    bgColor={index % 2 !== 0 ? 'gray.300' : 'white'}
+                  >
+                    {row.getVisibleCells().map(cell => {
+                      return (
+                        <Td
+                          key={cell.id}
+                          fontSize={{ sm: '14px' }}
+                          minW={{ sm: '150px', md: '200px', lg: 'auto' }}
+                          borderColor="transparent"
+                          textAlign="center"
+                          // cursor="pointer"
+                          onClick={() => console.log(row.original)}
+                        >
+                          {flexRender(
+                            cell.column.columnDef.cell,
+                            cell.getContext()
+                          )}
+                        </Td>
+                      );
+                    })}
+                  </Tr>
+                );
+              })}
+            </Tbody>
+          ) : (
+            <Center mt="500px">
+              <NotData text="data statisticalPlayer" />
+            </Center>
+          )}
         </Table>
       </Box>
     </Box>

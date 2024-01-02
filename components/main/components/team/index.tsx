@@ -24,6 +24,7 @@ import { ITeam } from '@/interfaces';
 
 //store
 import { useTeamStore } from '@/stores/useTeamStore';
+import NotData from '@/components/common/notData';
 
 interface TeamProps {
   team: ITeam;
@@ -64,17 +65,17 @@ const Team = (props: TeamProps) => {
         <Stack mt="6" spacing="3">
           <Divider />
           <Heading size="xs" textAlign="center">
-            {team.statistical.matches} games player
+            {team?.statistical?.matches} games player
           </Heading>
           <Flex alignItems="center" justifyContent="center" gap="4">
             <Box bgColor="green.400" p="2" rounded="10px">
-              <Text color="white">{team.statistical.wins} wins</Text>
+              <Text color="white">{team?.statistical?.wins} wins</Text>
             </Box>
             <Box bgColor="purple.400" p="2" rounded="10px">
-              <Text color="white">{team.statistical.draws} draws</Text>
+              <Text color="white">{team?.statistical?.draws} draws</Text>
             </Box>
             <Box bgColor="red.400" p="2" rounded="10px">
-              <Text color="white">{team.statistical.losses} losses</Text>
+              <Text color="white">{team?.statistical?.losses} losses</Text>
             </Box>
           </Flex>
         </Stack>
@@ -122,7 +123,7 @@ interface TeamComponentProps {
 
 const TeamComponent = (props: TeamComponentProps) => {
   const { teams } = props;
-  console.log()
+
   return (
     <Grid
       templateColumns="repeat(auto-fit, minmax(20rem, 1fr))"
@@ -134,7 +135,9 @@ const TeamComponent = (props: TeamComponentProps) => {
       {teams.length !== 0 ? (
         teams.map((team, index) => <Team key={index} team={team} />)
       ) : (
-        <Text>No data...</Text>
+        <Center>
+          <NotData text='data team' />
+        </Center>
       )}
     </Grid>
   );

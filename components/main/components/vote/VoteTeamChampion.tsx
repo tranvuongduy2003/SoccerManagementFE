@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 
 //chakra-ui
-import { List, Flex, Button, Text } from '@chakra-ui/react';
+import { List, Flex, Button, Text, Center } from '@chakra-ui/react';
 
 //component
 import ProgressBar from '@ramonak/react-progress-bar';
@@ -20,6 +20,7 @@ import { useRouter } from 'next/router';
 //interface
 import { ITeam } from '@/interfaces';
 import SkeletonComponent from '@/components/common/skeleton';
+import NotData from '@/components/common/notData';
 
 interface BoxTeamProps {
   team: ITeam;
@@ -65,16 +66,16 @@ const VoteTeamChampion = () => {
     select: data => data
   });
 
-  if (isLoading) {
-    return <SkeletonComponent />;
-  }
-
   return (
     <List spacing={6}>
-      {!teams ? (
-        <Text mt="100">No data...</Text>
-      ) : (
+      {isLoading ? (
+        <SkeletonComponent />
+      ) : teams?.length ? (
         teams.map((team, index) => <BoxTeam key={index} team={team} />)
+      ) : (
+        <Center pl="100px">
+          <NotData text='data team champion'/>
+        </Center>
       )}
     </List>
   );

@@ -39,7 +39,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
   // verifies if routeName is the one active (in browser input)
   const activeRoute = useCallback(
     (routeName: string) => {
-      return pathname?.includes(routeName.slice(0,6));
+      return pathname?.includes(routeName.slice(0, 6));
     },
     [pathname]
   );
@@ -54,7 +54,10 @@ export function SidebarLinks(props: SidebarLinksProps) {
           w="full"
           bgColor="transparent"
           key={index}
-          onClick={() => router.push(route.layout + route.path)}
+          onClick={() => {
+            const res = route.path === '/no' ? '' : route.path;
+            router.push(route.layout + res);
+          }}
         >
           <Box position="absolute" left="0">
             <HStack
@@ -66,7 +69,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
               <Flex w="100%" alignItems="center" justifyContent="center">
                 <Box
                   color={
-                    activeRoute(route.path.toLowerCase()) 
+                    activeRoute(route.path.toLowerCase())
                       ? '#0079FF'
                       : textColor
                   }

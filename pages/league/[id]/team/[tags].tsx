@@ -17,24 +17,19 @@ import { getTeamByTags } from '@/apis';
 
 //route
 import { useRouter } from 'next/router';
+import SkeletonComponent from '@/components/common/skeleton';
 
 const Team: NextPageWithLayout = () => {
   const route = useRouter();
 
-  const { data: teams } = useQuery<ITeam[]>({
+  const { data: teams, isLoading } = useQuery<ITeam[]>({
     queryKey: ['teams', route.query.tags],
     queryFn: () => getTeamByTags(route.query.tags),
     select: data => data
   });
 
   return (
-    <>
-      {!teams ? (
-        <Text mt="100">Updating...</Text>
-      ) : (
-        <TeamComponent teams={teams} />
-      )}
-    </>
+    <>{isLoading ? <SkeletonComponent /> : <TeamComponent teams={teams!} />}</>
   );
 };
 

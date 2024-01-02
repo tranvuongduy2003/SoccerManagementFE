@@ -16,7 +16,7 @@ export interface ITeam {
   rank?: number;
   coach: ICoach;
   players: IPlayer[];
-  matches: IMatch;
+  matches: IMatch[];
   statistical: IStatisticalTeam;
   tags: string;
 }
@@ -26,7 +26,7 @@ export const InitTeam = {
   flag: '',
   coach: InitCoach,
   players: [InitPlayer],
-  matches: InitMatch,
+  matches: [InitMatch],
   statistical: InitStatisticalTeam,
   tags: ''
 } as ITeam;

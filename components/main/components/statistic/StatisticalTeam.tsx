@@ -11,7 +11,8 @@ import {
   Thead,
   Tr,
   useColorModeValue,
-  Image
+  Image,
+  Center
 } from '@chakra-ui/react';
 import * as React from 'react';
 
@@ -27,12 +28,14 @@ import {
 
 //interface
 import { IStatisticalTeam } from '@/interfaces';
+import NotData from '@/components/common/notData';
 
 const columnHelper = createColumnHelper<IStatisticalTeam>();
 
 interface TableTeamProps {
   statisticalTeams: IStatisticalTeam[];
 }
+let defaultData: IStatisticalTeam[] = [];
 
 const TableTeam = (props: TableTeamProps) => {
   const { statisticalTeams } = props;
@@ -40,7 +43,11 @@ const TableTeam = (props: TableTeamProps) => {
   const [sorting, setSorting] = React.useState<SortingState>([]);
   const textColor = useColorModeValue('secondaryGray.900', 'white');
   const borderColor = useColorModeValue('gray.200', 'whiteAlpha.100');
-  let defaultData: IStatisticalTeam[] = statisticalTeams;
+
+  if (statisticalTeams) {
+    defaultData = statisticalTeams;
+  }
+
   const columns = [
     columnHelper.accessor('_id', {
       id: '_id',
@@ -279,36 +286,42 @@ const TableTeam = (props: TableTeamProps) => {
               </Tr>
             ))}
           </Thead>
-          <Tbody>
-            {table
-              .getRowModel()
-              .rows.slice(0, 11)
-              .map((row, index: number) => {
-                return (
-                  <Tr
-                    key={row.id}
-                    bgColor={index % 2 === 0 ? 'gray.200' : 'white'}
-                  >
-                    {row.getVisibleCells().map(cell => {
-                      return (
-                        <Td
-                          key={cell.id}
-                          fontSize={{ sm: '14px' }}
-                          minW={{ sm: '150px', md: '200px', lg: 'auto' }}
-                          borderColor="transparent"
-                          textAlign="center"
-                        >
-                          {flexRender(
-                            cell.column.columnDef.cell,
-                            cell.getContext()
-                          )}
-                        </Td>
-                      );
-                    })}
-                  </Tr>
-                );
-              })}
-          </Tbody>
+          {defaultData.length ? (
+            <Tbody>
+              {table
+                .getRowModel()
+                .rows.slice(0, 11)
+                .map((row, index: number) => {
+                  return (
+                    <Tr
+                      key={row.id}
+                      bgColor={index % 2 === 0 ? 'gray.200' : 'white'}
+                    >
+                      {row.getVisibleCells().map(cell => {
+                        return (
+                          <Td
+                            key={cell.id}
+                            fontSize={{ sm: '14px' }}
+                            minW={{ sm: '150px', md: '200px', lg: 'auto' }}
+                            borderColor="transparent"
+                            textAlign="center"
+                          >
+                            {flexRender(
+                              cell.column.columnDef.cell,
+                              cell.getContext()
+                            )}
+                          </Td>
+                        );
+                      })}
+                    </Tr>
+                  );
+                })}
+            </Tbody>
+          ) : (
+            <Center mt="500px">
+              <NotData text="data statisticalTeam" />
+            </Center>
+          )}
         </Table>
       </Box>
     </Box>

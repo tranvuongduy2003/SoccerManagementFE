@@ -46,9 +46,6 @@ export const Navbar = () => {
                     </summary>
                     <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                       <li>
-                        <Link href="/auth/signin">Create league</Link>
-                      </li>
-                      <li>
                         <Link href="/league">Find leagues</Link>
                       </li>
                     </ul>
@@ -61,13 +58,7 @@ export const Navbar = () => {
                     </summary>
                     <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                       <li>
-                        <a>Create team</a>
-                      </li>
-                      <li>
-                        <a>Find teams</a>
-                      </li>
-                      <li>
-                        <a>Create lineup</a>
+                      <Link href="/competitor">Find leagues</Link>
                       </li>
                     </ul>
                   </details>
@@ -105,9 +96,6 @@ export const Navbar = () => {
                   </summary>
                   <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                     <li>
-                      <Link href="/auth/signin">Create league</Link>
-                    </li>
-                    <li>
                       <Link href="/league">Find leagues</Link>
                     </li>
                   </ul>
@@ -120,13 +108,7 @@ export const Navbar = () => {
                   </summary>
                   <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                     <li>
-                      <Link href="/auth/signin">Create team</Link>
-                    </li>
-                    <li>
                       <Link href="/competitor">Find teams</Link>
-                    </li>
-                    <li>
-                      <Link href="/auth/signin">Create lineup</Link>
                     </li>
                   </ul>
                 </details>

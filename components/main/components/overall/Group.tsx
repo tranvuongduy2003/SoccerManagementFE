@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import groups from '@/data/groups';
 
 //chakra-ui
 import {
@@ -20,11 +21,11 @@ import {
   ListIcon,
   ListItem,
   List,
-  useDisclosure
+  useDisclosure,
+  Center
 } from '@chakra-ui/react';
 
 //api
-
 
 //type
 import { ITable, ITeam } from '@/interfaces';
@@ -33,17 +34,20 @@ import { ITable, ITeam } from '@/interfaces';
 import { FcBusinessman } from 'react-icons/fc';
 import { LuUsers } from 'react-icons/lu';
 import { FaRankingStar } from 'react-icons/fa6';
+import NotData from '@/components/common/notData';
+import { Round } from '../schedule/Knockout/KnockOut';
+import { useRoundStore } from '@/stores';
 
 interface GroupProps {
   groups: ITable[];
 }
 
-const Group = (props: GroupProps) => {
+const Groups = (props: GroupProps) => {
   const GroupCard = chakra(Box, {
     baseStyle: {
       bg: '#75C2F6',
       borderRadius: '6px',
-      padding: '24px',
+      padding: '10px',
       display: 'flex',
       textAlign: 'center'
     }
@@ -51,6 +55,8 @@ const Group = (props: GroupProps) => {
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [team, setTeam] = useState<ITeam>();
+  const rounds = useRoundStore(state => state.rounds);
+  const roundsStage = rounds.filter(round => round.type === 'Stage');
 
   const openModal = (team: ITeam) => {
     setTeam(team);
@@ -60,110 +66,109 @@ const Group = (props: GroupProps) => {
   const { groups } = props;
 
   return (
-    <Grid
-      templateColumns="repeat(auto-fit, minmax(15rem, 1fr))"
-      gap="5"
-      justifyContent="center"
-    >
-      {groups.map((group: ITable, index: number) => {
-        return (
-          <GroupCard key={index} border="2px" borderColor="#1077C3">
-            <Flex flexDirection="column">
-              <Text color="#FFFFFF" fontSize="2xl">
-                Group {group.name}
-              </Text>
-              {group.teams.map((team: ITeam, index: any) => {
-                return (
-                  <>
+    <>
+      <Grid
+        templateColumns="repeat(auto-fit, minmax(20rem, 0fr))"
+        gap="5"
+        justifyContent="center"
+        marginBottom='20px'
+      >
+        {groups.map((group: ITable, index: number) => {
+          return (
+            <GroupCard key={index} border="2px" borderColor="#1077C3">
+              <Flex flexDirection="column" gap="10px">
+                <Text color="#FFFFFF" fontSize="2xl">
+                  Group {group.name}
+                </Text>
+                {group.teams.map((team: ITeam, index: any) => {
+                  return (
                     <Flex
-                      onClick={() => openModal(team)}
-                      alignItems="center"
-                      gap="10px"
+                      position="relative"
                       key={index}
-                      _hover={{
-                        bg: 'gray.300',
-                        cursor: 'pointer',
-                        rounded: 'xl'
-                      }}
+                      alignItems="center"
+                      justifyContent="space-between"
                     >
-                      <Image
-                        borderRadius="50%"
-                        boxSize="50px"
-                        objectFit="contain"
-                        src={team.flag}
-                        alt={team.name}
-                      />
-                      <Text color="#FEC310">{team.name}</Text>
+                      <Flex
+                        w="100%"
+                        p="1"
+                        onClick={() => openModal(team)}
+                        alignItems="center"
+                        gap="20px"
+                        _hover={{
+                          bg: 'gray.300',
+                          cursor: 'pointer',
+                          rounded: 'xl'
+                        }}
+                      >
+                        <Image
+                          borderRadius="50%"
+                          boxSize="50px"
+                          objectFit="cover"
+                          src={team.flag}
+                          alt={team.name}
+                        />
+                        <Text color="#FEC310">{team.name}</Text>
+                      </Flex>
                     </Flex>
-                  </>
-                );
-              })}
-            </Flex>
-          </GroupCard>
-        );
-      })}
-      <Modal isOpen={isOpen} onClose={onClose} size="xl">
-        <ModalContent mt="100px">
-          <Card
-            rounded="xl"
-            direction={{ base: 'column', sm: 'row' }}
-            variant="outline"
-          >
-            <Image
-              objectFit="cover"
-              maxW={{ base: '100%', sm: '300px' }}
-              src={team?.flag}
-              alt=""
-              roundedTopLeft="xl"
-            />
+                  );
+                })}
+              </Flex>
+            </GroupCard>
+          );
+        })}
+        <Modal isOpen={isOpen} onClose={onClose} size="xl">
+          <ModalContent mt="100px">
+            <Card
+              rounded="xl"
+              direction={{ base: 'column', sm: 'row' }}
+              variant="outline"
+            >
+              <Image
+                objectFit="cover"
+                maxW={{ base: '100%', sm: '300px' }}
+                src={team?.flag}
+                alt=""
+                roundedTopLeft="xl"
+              />
 
-            <Stack>
-              <CardBody>
-                <Heading mb="20px" size="md">
-                  {team?.name}
-                </Heading>
-                <List spacing={4}>
-                  <ListItem display="flex" alignItems="center">
-                    <ListIcon as={FaRankingStar} color="teal.400" />
-                    Rank: {team?.rank}
-                  </ListItem>
-                  <ListItem display="flex" alignItems="center">
-                    <ListIcon as={LuUsers} color="teal.400" />
-                    NumberOfPlayer: {team?.players.length}
-                  </ListItem>
-                  <ListItem display="flex" alignItems="center">
-                    <ListIcon as={FcBusinessman} />
-                    Referee: {team?.coach.name}
-                  </ListItem>
-                </List>
-              </CardBody>
-            </Stack>
-          </Card>
-          <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={onClose}>
-              Close
-            </Button>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
-    </Grid>
-  );
-};
-
-const Groups = () => {
-  return (
-    <Box mb="20px">
-      <Text fontSize="4xl" textAlign="center">
-        World Cup Qatar 2022: Groups
-      </Text>
-      {/* {data ? (
-        <Flex direction="column" pt={{ base: '120px', md: '40px' }}>
-          <Group groups={data} />
-        </Flex>
+              <Stack>
+                <CardBody>
+                  <Heading mb="20px" size="md">
+                    {team?.name}
+                  </Heading>
+                  <List spacing={4}>
+                    <ListItem display="flex" alignItems="center">
+                      <ListIcon as={FaRankingStar} color="teal.400" />
+                      Rank: {team?.rank}
+                    </ListItem>
+                    <ListItem display="flex" alignItems="center">
+                      <ListIcon as={LuUsers} color="teal.400" />
+                      NumberOfPlayer: {team?.players.length}
+                    </ListItem>
+                    <ListItem display="flex" alignItems="center">
+                      <ListIcon as={FcBusinessman} />
+                      Referee: {team?.coach.name}
+                    </ListItem>
+                  </List>
+                </CardBody>
+              </Stack>
+            </Card>
+            <ModalFooter>
+              <Button colorScheme="blue" mr={3} onClick={onClose}>
+                Close
+              </Button>
+            </ModalFooter>
+          </ModalContent>
+        </Modal>
+      </Grid>
+      {roundsStage.length ? (
+        roundsStage.map((round, index) => <Round key={index} round={round} />)
       ) : (
-        <Text>Loading</Text>
-      )} */}
-    </Box>
+        <Center mt="500px">
+          <NotData text="data round" />
+        </Center>
+      )}
+    </>
   );
 };
 

@@ -24,6 +24,12 @@ import { CheckCircleIcon } from '@chakra-ui/icons';
 //interface
 import { IStadium } from '@/interfaces';
 
+//component
+import SkeletonComponent from '@/components/common/skeleton';
+import NotData from '@/components/common/notData';
+
+
+
 interface StadiumProps {
   stadium: IStadium;
 }
@@ -88,7 +94,7 @@ const Stadiums = (props: StadiumsProps) => {
             <Stadium key={index} stadium={stadium} />
           ))
         ) : (
-          <Text>Updating...</Text>
+          <SkeletonComponent/>
         )}
       </Grid>
     </Box>

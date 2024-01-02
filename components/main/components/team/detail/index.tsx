@@ -24,6 +24,12 @@ import { useTeamStore } from '@/stores/useTeamStore';
 const DetailTeamComponent = () => {
   const team = useTeamStore(state => state.team);
 
+  const matches = team.matches.sort(function (a, b) {
+    const timeA = new Date(a.time);
+    const timeB = new Date(b.time);
+    return timeB.getTime() - timeA.getTime();
+  });
+
   return (
     <Box mt="100px">
       <Flex w="full" bg="gray.200" py="3" rounded="10px">
@@ -74,10 +80,10 @@ const DetailTeamComponent = () => {
         </TabList>
         <TabPanels>
           <TabPanel>
-            <Matches matches={team.matches}/>
+            <Matches matches={matches} />
           </TabPanel>
           <TabPanel>
-            <Member players={team.players}/>
+            <Member players={team.players} />
           </TabPanel>
         </TabPanels>
       </Tabs>

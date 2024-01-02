@@ -1,318 +1,118 @@
 [
   {
     "teamOne": {
-      "$oid": "656d97c2a671feb421a4829e"
+      "$oid": "6592c353ff79dfdf7a2d1f79"
     },
     "teamTwo": {
-      "$oid": "656d97c2a671feb421a4829c"
+      "$oid": "6592c353ff79dfdf7a2d1f77"
     },
-    "pointOfTeamOne": 0,
-    "pointOfTeamTwo": 3,
-    "scoreTeamOne": 2,
-    "scoreTeamTwo": 3,
+    "pointOfTeamOne": 3,
+    "pointOfTeamTwo": 0,
+    "scoreTeamOne": 4,
+    "scoreTeamTwo": 1,
     "mainReferee": {
-      "$oid": "656d864ca671feb421a48280"
+      "$oid": "6566c942495dac692d1a52f8"
     },
     "subReferee": [],
-    "round": "Round 1",
+    "round": "Semifinal",
     "time": {
-      "$date": "2022-12-03T07:00:00.000Z"
+      "$date": "2023-11-11T22:00:00.000Z"
     },
     "stadium": {
-      "$oid": "656d880a75c83eeb1a8178e6"
+      "$oid": "6566ca62495dac692d1a5305"
     },
     "status": "FINISHED",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "cardsTeamOne": [],
     "cardsTeamTwo": [],
-    "goalsTeamOne": [
-      {
-        "$oid": "656d956e75c83eeb1a817903"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817904"
-      }
-    ],
-    "goalsTeamTwo": [
-      {
-        "$oid": "656d956e75c83eeb1a817905"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817906"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817907"
-      }
-    ]
+    "goalsTeamOne": [],
+    "goalsTeamTwo": []
   },
   {
     "teamOne": {
-      "$oid": "656d97c2a671feb421a4829d"
+      "$oid": "6592c353ff79dfdf7a2d1f74"
     },
     "teamTwo": {
-      "$oid": "656d97c2a671feb421a4829f"
+      "$oid": "6592c353ff79dfdf7a2d1f75"
     },
     "pointOfTeamOne": 3,
     "pointOfTeamTwo": 0,
     "scoreTeamOne": 5,
     "scoreTeamTwo": 2,
     "mainReferee": {
-      "$oid": "656d864ca671feb421a48281"
+      "$oid": "6566c942495dac692d1a52f8"
     },
     "subReferee": [],
-    "round": "Round 1",
+    "round": "Semifinal",
     "time": {
-      "$date": "2022-12-03T07:00:00.000Z"
+      "$date": "2023-11-11T23:15:00.000Z"
     },
     "stadium": {
-      "$oid": "656d880a75c83eeb1a8178e7"
+      "$oid": "6566ca62495dac692d1a5306"
     },
     "status": "FINISHED",
-    "tags": "u11-hanoi-junior-league",
-    "cardsTeamOne": [
-      {
-        "$oid": "656d918575c83eeb1a8178f6"
-      }
-    ],
-    "cardsTeamTwo": [
-      {
-        "$oid": "656d918575c83eeb1a8178f5"
-      }
-    ],
-    "goalsTeamOne": [
-      {
-        "$oid": "656d956e75c83eeb1a817908"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817909"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81790a"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81790b"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81790c"
-      }
-    ],
-    "goalsTeamTwo": [
-      {
-        "$oid": "656d956e75c83eeb1a81790d"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81790e"
-      }
-    ]
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+    "cardsTeamOne": [],
+    "cardsTeamTwo": [],
+    "goalsTeamOne": [],
+    "goalsTeamTwo": []
   },
   {
     "teamOne": {
-      "$oid": "656d97c2a671feb421a4829f"
+      "$oid": "6592c353ff79dfdf7a2d1f79"
     },
     "teamTwo": {
-      "$oid": "656d97c2a671feb421a4829c"
+      "$oid": "6592c353ff79dfdf7a2d1f74"
     },
     "pointOfTeamOne": 0,
     "pointOfTeamTwo": 3,
-    "scoreTeamOne": 4,
-    "scoreTeamTwo": 6,
+    "scoreTeamOne": 1,
+    "scoreTeamTwo": 2,
     "mainReferee": {
-      "$oid": "656d864ca671feb421a48282"
+      "$oid": "6566c942495dac692d1a52f9"
     },
     "subReferee": [],
-    "round": "Round 2",
+    "round": "Final",
     "time": {
-      "$date": "2022-12-03T08:00:00.000Z"
+      "$date": "2023-11-12T23:15:00.000Z"
     },
     "stadium": {
-      "$oid": "656d880a75c83eeb1a8178e8"
+      "$oid": "6566ca62495dac692d1a5306"
     },
     "status": "FINISHED",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "cardsTeamOne": [],
     "cardsTeamTwo": [],
-    "goalsTeamOne": [
-      {
-        "$oid": "656d956e75c83eeb1a81790f"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817910"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817911"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817912"
-      }
-    ],
-    "goalsTeamTwo": [
-      {
-        "$oid": "656d956e75c83eeb1a817913"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817914"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817915"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817916"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817917"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817918"
-      }
-    ]
+    "goalsTeamOne": [],
+    "goalsTeamTwo": []
   },
   {
     "teamOne": {
-      "$oid": "656d97c2a671feb421a4829c"
+      "$oid": "6592c353ff79dfdf7a2d1f77"
     },
     "teamTwo": {
-      "$oid": "656d97c2a671feb421a4829d"
+      "$oid": "6592c353ff79dfdf7a2d1f75"
     },
     "pointOfTeamOne": 3,
     "pointOfTeamTwo": 0,
-    "scoreTeamOne": 6,
-    "scoreTeamTwo": 2,
-    "mainReferee": {
-      "$oid": "656d864ca671feb421a48283"
-    },
-    "subReferee": [],
-    "round": "Round 2",
-    "time": {
-      "$date": "2022-12-03T08:00:00.000Z"
-    },
-    "stadium": {
-      "$oid": "656d880a75c83eeb1a8178e9"
-    },
-    "status": "FINISHED",
-    "tags": "u11-hanoi-junior-league",
-    "cardsTeamOne": [
-      {
-        "$oid": "656d956e75c83eeb1a817919"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81791a"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81791b"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81791c"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81791d"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a81791e"
-      }
-    ],
-    "cardsTeamTwo": [
-      {
-        "$oid": "656d956e75c83eeb1a81791f"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817920"
-      }
-    ],
-    "goalsTeamOne": [
-      {
-        "$oid": "656d918575c83eeb1a8178f7"
-      }
-    ],
-    "goalsTeamTwo": [
-      {
-        "$oid": "656d918575c83eeb1a8178f8"
-      }
-    ]
-  },
-  {
-    "teamOne": {
-      "$oid": "656d97c2a671feb421a4829d"
-    },
-    "teamTwo": {
-      "$oid": "656d97c2a671feb421a4829e"
-    },
-    "pointOfTeamOne": 1,
-    "pointOfTeamTwo": 1,
     "scoreTeamOne": 2,
-    "scoreTeamTwo": 2,
+    "scoreTeamTwo": 1,
     "mainReferee": {
-      "$oid": "656d864ca671feb421a48282"
+      "$oid": "6566c942495dac692d1a52f7"
     },
     "subReferee": [],
-    "round": "Round 3",
+    "round": "competition3rd",
     "time": {
-      "$date": "2022-05-01T05:00:00.000Z"
+      "$date": "2023-11-12T22:00:00.000Z"
     },
     "stadium": {
-      "$oid": "656d880a75c83eeb1a8178e8"
+      "$oid": "6566ca62495dac692d1a5307"
     },
     "status": "FINISHED",
-    "tags": "u11-hanoi-junior-league",
-    "cardsTeamOne": [],
-    "cardsTeamTwo": [
-      {
-        "$oid": "656d918575c83eeb1a8178f9"
-      }
-    ],
-    "goalsTeamOne": [
-      {
-        "$oid": "656d956e75c83eeb1a817923"
-      }
-    ],
-    "goalsTeamTwo": [
-      {
-        "$oid": "656d956e75c83eeb1a817921"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817922"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817924"
-      }
-    ]
-  },
-  {
-    "teamOne": {
-      "$oid": "656d97c2a671feb421a4829f"
-    },
-    "teamTwo": {
-      "$oid": "656d97c2a671feb421a4829c"
-    },
-    "pointOfTeamOne": 0,
-    "pointOfTeamTwo": 0,
-    "scoreTeamOne": 0,
-    "scoreTeamTwo": 0,
-    "mainReferee": {
-      "$oid": "656d864ca671feb421a48280"
-    },
-    "subReferee": [],
-    "round": "Round 3",
-    "time": {
-      "$date": "2022-05-01T05:00:00.000Z"
-    },
-    "stadium": {
-      "$oid": "656d880a75c83eeb1a8178e7"
-    },
-    "status": "FINISHED",
-    "tags": "u11-hanoi-junior-league",
+    "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
     "cardsTeamOne": [],
     "cardsTeamTwo": [],
-    "goalsTeamOne": [
-      {
-        "$oid": "656d956e75c83eeb1a817925"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817926"
-      },
-      {
-        "$oid": "656d956e75c83eeb1a817927"
-      }
-    ],
+    "goalsTeamOne": [],
     "goalsTeamTwo": []
   }
 ]

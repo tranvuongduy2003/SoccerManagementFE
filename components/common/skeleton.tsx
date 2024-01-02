@@ -1,10 +1,7 @@
-import { useState } from 'react';
-
 //chakra-ui
-import { Stack, Skeleton, Box, Button } from '@chakra-ui/react';
+import { Stack, Skeleton, Box } from '@chakra-ui/react';
 
 const SkeletonComponent = () => {
-  //   const [isLoaded, setIsLoaded] = useState(false);
   return (
     <Stack padding={4} spacing={1}>
       <Skeleton height="40px">

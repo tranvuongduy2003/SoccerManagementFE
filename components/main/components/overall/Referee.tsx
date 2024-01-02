@@ -30,6 +30,9 @@ import { IReferee } from '@/interfaces';
 import Link from 'next/link';
 import moment from 'moment';
 
+//component
+import SkeletonComponent from '@/components/common/skeleton';
+
 interface RefereeProps {
   referee: IReferee;
 }
@@ -58,7 +61,7 @@ const Referee = (props: RefereeProps) => {
             </ListItem>
             <ListItem display="flex" alignItems="center">
               <ListIcon as={FcDribbble} color="teal.400" />
-              {moment(referee.dob).format("DD/MM/YYYY")}
+              {moment(referee.dob).format('DD/MM/YYYY')}
             </ListItem>
             <ListItem display="flex" alignItems="center">
               <ListIcon as={FcMindMap} color="teal.400" />
@@ -103,7 +106,7 @@ const Referees = (props: RefereesProps) => {
             <Referee key={index} referee={referee} />
           ))
         ) : (
-          <Text>Updating...</Text>
+          <SkeletonComponent />
         )}
       </Grid>
     </Box>

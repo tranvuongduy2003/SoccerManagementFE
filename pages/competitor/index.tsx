@@ -1,6 +1,6 @@
 //layout
 import { HomeLayout } from '@/components/layout';
-import { NextPageWithLayout } from '@/interfaces';
+import { ITeam, NextPageWithLayout } from '@/interfaces';
 
 //chakra-ui
 import {
@@ -24,48 +24,44 @@ import { SearchIcon } from '@chakra-ui/icons';
 import { RiTeamLine } from 'react-icons/ri';
 import { FaRegEye } from 'react-icons/fa';
 
-const Competitor = () => {
+//react-query
+import { useQuery } from '@tanstack/react-query';
+import { getTeams } from '@/apis';
+
+interface CompetitorProps {
+  team: ITeam;
+}
+
+const Competitor = (props: CompetitorProps) => {
+  const { team } = props;
+
   return (
     <Card maxW="sm" position="relative" paddingBottom="20px">
       <CardBody>
-        <Box position="relative">
+        <Center position="relative" height="40%">
           <Image
             position="relative"
-            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            src={team.flag}
             alt="Green double couch with wooden legs"
             borderRadius="lg"
           />
-          <Box
-            position="absolute"
-            left="-50%"
-            bottom="0"
-            translateX="-50%"
-            translateY="-50%"
-          >
-            <Image
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-              alt=""
-              className="h-[100px] w-[100px]"
-            />
-          </Box>
-        </Box>
+        </Center>
         <Stack mt="12" spacing="3">
           <Heading size="md" textAlign="center">
-            FiFa Club WorldCup 2022
+            {team.name}
           </Heading>
           <Text textAlign="center">
-            This sofa is perfect for modern tropical spaces, baroque inspired
-            spaces
+            {team.name} join in {team.tags}
           </Text>
         </Stack>
         <Flex justifyContent="center" alignItems="center" gap="30px" mt="20px">
           <Flex alignItems="center" gap="10px">
             <Icon as={RiTeamLine} color="black" />
-            <Text>10</Text>
+            <Text>{team.players.length}</Text>
           </Flex>
           <Flex alignItems="center" gap="10px">
             <Icon as={FaRegEye} color="black" />
-            <Text>10</Text>
+            <Text>{team.matches.length}</Text>
           </Flex>
         </Flex>
       </CardBody>
@@ -74,6 +70,38 @@ const Competitor = () => {
 };
 
 const Competitors: NextPageWithLayout = () => {
+  const {
+    isLoading,
+    data: teams,
+    isError,
+    error
+  } = useQuery<ITeam[]>({
+    queryKey: ['teams'],
+    queryFn: getTeams,
+    select: data => data
+  });
+
+  // const handleSearch = (e: React.ChangeEvent<any>) => {
+  //   const contains = ({ name }: { name: string }, query: string) => {
+  //     if (name.toLowerCase().includes(query)) {
+  //       return true;
+  //     }
+  //     return false;
+  //   };
+
+  //   const value = e.target.value;
+  //   const formatQuery = value.toLowerCase();
+  //   const filterData = filter(teams, category => {
+  //     return contains(category, formatQuery);
+  //   });
+  //   setLeagues(filterData);
+  // };
+
+  if (isLoading) return <div>Loading...</div>;
+  if (isError) {
+    console.log(error);
+  }
+
   return (
     <Flex
       direction="column"
@@ -85,28 +113,12 @@ const Competitors: NextPageWithLayout = () => {
     >
       <Flex direction="row" justifyContent="space-between" gap="200px">
         <Flex width="20%" direction="row" alignItems="center">
-          <Input placeholder="Search league" color="white" />
+          <Input placeholder="Search team" color="white" />
           <Center bgColor="blue.600" height="100%" px="4" rounded="6">
             <Icon as={SearchIcon} color="white" />
           </Center>
         </Flex>
-        <Flex direction="row" gap="20px" flexGrow="1">
-          <Select placeholder="Format" background="white" color="black">
-            <option value="option1">Knockout</option>
-            <option value="option2">Round Robin</option>
-            <option value="option3">Group Stage</option>
-          </Select>
-          <Select placeholder="Status" background="white" color="black">
-            <option value="option1">Registering</option>
-            <option value="option2">Active</option>
-            <option value="option3">Finished</option>
-          </Select>
-          <Select placeholder="Vision" background="white" color="black">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
-          </Select>
-        </Flex>
+        
       </Flex>
       <Grid
         templateColumns="repeat(auto-fit, minmax(20rem, 1fr))"
@@ -114,11 +126,11 @@ const Competitors: NextPageWithLayout = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <Competitor />
-        <Competitor />
-        <Competitor />
-        <Competitor />
-        <Competitor />
+        {teams!.length !== 0 ? (
+          teams?.map((team, index) => <Competitor key={index} team={team} />)
+        ) : (
+          <Text>Loading</Text>
+        )}
       </Grid>
     </Flex>
   );

@@ -17,7 +17,7 @@ import {
   TabList,
   Tab,
   TabPanels,
-  TabPanel,
+  TabPanel
 } from '@chakra-ui/react';
 
 //image
@@ -36,13 +36,15 @@ import { IMatch, IRound } from '@/interfaces';
 
 //moment
 import moment from 'moment';
+import SkeletonComponent from '@/components/common/skeleton';
+import NotData from '@/components/common/notData';
 
 interface MatchProps {
   index: number;
   match: IMatch;
 }
 
-const Match = (props: MatchProps) => {
+export const Match = (props: MatchProps) => {
   const { match, index } = props;
   const eventsTeamOne = [...match?.cardsTeamOne, ...match?.goalsTeamOne].sort(
     (a, b) => a.time! - b.time!
@@ -209,8 +211,8 @@ const Match = (props: MatchProps) => {
                 </Tab>
               </TabList>
 
-              <TabPanels >
-                <TabPanel >
+              <TabPanels>
+                <TabPanel>
                   <Flex justifyContent="space-between" w="full" gap="60px">
                     <Box w="210px">
                       {eventsTeamOne.map((event, index) => (
@@ -320,8 +322,15 @@ const Match = (props: MatchProps) => {
 interface RoundProps {
   round: IRound;
 }
-const Round = (props: RoundProps) => {
+export const Round = (props: RoundProps) => {
   const { round } = props;
+
+  const matches = round.matches?.sort((a, b) => {
+    const dateA = new Date(a.time);
+    const dateB = new Date(b.time);
+    return dateA.getTime() - dateB.getTime();
+  });
+
   return (
     <Flex width="100%" flexDirection="column" mb="20px">
       <Box bgColor="blue.300">
@@ -332,11 +341,13 @@ const Round = (props: RoundProps) => {
           textColor="white"
           py="4"
         >
-          {round.type.toUpperCase()}
+          {round.name.toUpperCase()}
         </Text>
       </Box>
-      {round.matches?.length ? (
-        round.matches.map((match, index) => <Match key={index} match={match} index={index} />)
+      {matches && matches.length ? (
+        matches.map((match, index) => (
+          <Match key={index} match={match} index={index} />
+        ))
       ) : (
         <Text>Updating</Text>
       )}
@@ -352,7 +363,9 @@ const KnockOut = () => {
       {rounds.length ? (
         rounds.map((round, index) => <Round key={index} round={round} />)
       ) : (
-        <Text>Update</Text>
+        <Center mt="500px">
+          <NotData text="data round" />
+        </Center>
       )}
     </>
   );

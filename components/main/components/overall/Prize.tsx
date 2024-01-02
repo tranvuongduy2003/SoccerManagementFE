@@ -21,6 +21,10 @@ import PrizeTableRow from '../../Table/TableAwardRow';
 //interface
 import { IPrize } from '@/interfaces';
 
+//Component
+import SkeletonComponent from '@/components/common/skeleton';
+import NotData from '@/components/common/notData';
+
 interface TableProps {
   captions: string[];
   data: IPrize[];
@@ -81,7 +85,7 @@ const Prizes = (props: PrizeProps) => {
           data={prizes}
         />
       ) : (
-        <Text>Updating...</Text>
+        <SkeletonComponent />
       )}
     </Flex>
   );
