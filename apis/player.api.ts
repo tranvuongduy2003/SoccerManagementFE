@@ -1,6 +1,6 @@
 import { IPlayer } from '@/interfaces';
 import { API_ROUTE } from '@/constants';
-import httpRequest from '@/api-client/httpRequest';
+import httpRequest from '@/services/httpRequest';
 
 export const getPlayers = () => {
   return httpRequest.get<IPlayer[]>(API_ROUTE.player + '/');
