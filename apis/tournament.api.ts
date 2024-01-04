@@ -1,9 +1,9 @@
 import { FormatLeague } from '@/pages/league';
 import { ITournament } from '@/interfaces';
 import { API_ROUTE } from '@/constants';
-import httpRequest from '@/api-client/httpRequest';
+import httpRequest from '@/services/httpRequest';
 
-export const getTournaments =  () => {
+export const getTournaments = () => {
   return httpRequest.get<ITournament[]>(API_ROUTE.tournament + '/');
 };
 

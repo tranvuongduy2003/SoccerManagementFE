@@ -1,12 +1,12 @@
-import { useEffect, useState } from 'react';
 import { LayoutProps } from '@/interfaces';
+import { useEffect, useState } from 'react';
 
 // Chakra
-import { Portal, Box, useDisclosure } from '@chakra-ui/react';
+import { SidebarContext } from '@/contexts/SidebarContext';
+import { Box, Portal, useDisclosure } from '@chakra-ui/react';
 import Footer from '../main/footer/FooterMain';
 import Navbar from '../main/navbar/NavbarMain';
 import Sidebar from '../main/sidebar/Sidebar';
-import { SidebarContext } from '@/contexts/SidebarContext';
 
 //routes
 import {
@@ -14,20 +14,20 @@ import {
   getActiveNavbarText,
   getActiveRoute
 } from '@/utils/navigation';
-import Router, { useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 
+import { IRoute, Title } from '@/interfaces/navigation';
 import { Icon } from '@chakra-ui/react';
 import {
-  MdOutlineAdminPanelSettings,
-  MdOutlineManageAccounts,
-  MdHome,
-  MdSchedule,
   MdBarChart,
   MdGroup,
+  MdHome,
+  MdHowToVote,
+  MdOutlineAdminPanelSettings,
+  MdOutlineManageAccounts,
   MdOutlineStackedLineChart,
-  MdHowToVote
+  MdSchedule
 } from 'react-icons/md';
-import { IRoute, Title } from '@/interfaces/navigation';
 
 interface DashboardLayoutProps extends LayoutProps {
   [x: string]: any;

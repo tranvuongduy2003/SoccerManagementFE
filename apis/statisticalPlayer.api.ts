@@ -1,9 +1,11 @@
 import { IStatisticalPLayer } from '@/interfaces';
 import { API_ROUTE } from '@/constants';
-import httpRequest from '@/api-client/httpRequest';
+import httpRequest from '@/services/httpRequest';
 
 export const getStatisticalPlayers = () => {
-  return httpRequest.get<IStatisticalPLayer[]>(API_ROUTE.statisticalPlayer + '/');
+  return httpRequest.get<IStatisticalPLayer[]>(
+    API_ROUTE.statisticalPlayer + '/'
+  );
 };
 
 export const getStatisticalPlayerById = (id: string) => {
@@ -19,7 +21,7 @@ export const getStatisticalPlayersByTags = (tags: string | string[]) => {
 };
 
 export const createStatisticalPlayer = (
-    StatisticalPlayer: IStatisticalPLayer
+  StatisticalPlayer: IStatisticalPLayer
 ) => {
   return httpRequest.post<IStatisticalPLayer>(
     API_ROUTE.statisticalPlayer + '/',

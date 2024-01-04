@@ -1,4 +1,4 @@
-import httpRequest from '@/api-client/httpRequest';
+import httpRequest from '@/services/httpRequest';
 import { API_ROUTE } from '@/constants';
 import { User } from '@/models';
 import { LoginPayload, LoginResponse, SignUpPayload } from '@/interfaces';
@@ -15,7 +15,7 @@ export const signIn = (data: LoginPayload) => {
 };
 
 export const signUp = (data: SignUpPayload) => {
-  return httpRequest.post<any, SignUpPayload>(
+  return httpRequest.post<LoginResponse, SignUpPayload>(
     API_ROUTE.auth + '/sign-up',
     data
   );

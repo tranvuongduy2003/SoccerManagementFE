@@ -1,6 +1,6 @@
 import { ITable } from '@/interfaces';
 import { API_ROUTE } from '@/constants';
-import httpRequest from '@/api-client/httpRequest';
+import httpRequest from '@/services/httpRequest';
 
 export const getTables = () => {
   return httpRequest.get<ITable[]>(API_ROUTE.table + '/');
@@ -19,14 +19,9 @@ export const createTable = (Table: ITable) => {
 };
 
 export const updateTable = (Table: ITable) => {
-  return httpRequest.put<ITable>(
-    API_ROUTE.table + `/${Table._id}`,
-    Table
-  );
+  return httpRequest.put<ITable>(API_ROUTE.table + `/${Table._id}`, Table);
 };
 
 export const deleteTable = (id: string) => {
   return httpRequest.delete<void>(API_ROUTE.table + `/${id}`);
 };
-
-
