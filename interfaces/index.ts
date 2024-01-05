@@ -22,4 +22,4 @@ export * from './tournament.interface';
 export * from './user.interface';
 export * from './common.interface';
 export * from './demo';
-
+export * from './toast.interface';
