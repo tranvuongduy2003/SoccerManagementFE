@@ -1,0 +1,82 @@
+[{
+  "_id": {
+    "$oid": "6566c517495dac692d1a52f1"
+  },
+  "category": "Champion",
+  "status": false,
+  "completion": 0,
+  "bonus": "$42/Team",
+  "image": "https://images.squarespace-cdn.com/content/v1/62d09f54a49d6f1c78455cce/67b9ee0c-7ccf-4cfd-8581-c50d5f62384a/T1_Logo_Primary+Red.png"
+},{
+  "_id": {
+    "$oid": "6566c517495dac692d1a52f2"
+  },
+  "category": "Runner",
+  "status": false,
+  "completion": 0,
+  "bonus": "$30/Team",
+  "image": "https://cdn-icons-png.flaticon.com/512/2248/2248967.png"
+},{
+  "_id": {
+    "$oid": "6566c517495dac692d1a52f3"
+  },
+  "category": "Grade 3",
+  "status": false,
+  "completion": 0,
+  "bonus": "$27/Team",
+  "image": "https://cdn-icons-png.flaticon.com/512/2249/2249022.png"
+},{
+  "_id": {
+    "$oid": "6566c517495dac692d1a52f4"
+  },
+  "category": "Grade 4",
+  "status": false,
+  "completion": 0,
+  "bonus": "$25/Team",
+  "image": "https://c8.alamy.com/comp/2AYRTYJ/ranking-medal-icon-illustration-4th-place-2AYRTYJ.jpg"
+},{
+  "_id": {
+    "$oid": "6566c517495dac692d1a52f5"
+  },
+  "category": "Quarterfinals",
+  "status": false,
+  "completion": 0,
+  "bonus": "$17/Team",
+  "image": "https://cdn-icons-png.flaticon.com/512/6409/6409750.png"
+},{
+  "_id": {
+    "$oid": "656d81c775c83eeb1a8178d8"
+  },
+  "category": "Champion",
+  "status": false,
+  "completion": 0,
+  "bonus": "$30/Team",
+  "image": "https://images.squarespace-cdn.com/content/v1/62d09f54a49d6f1c78455cce/67b9ee0c-7ccf-4cfd-8581-c50d5f62384a/T1_Logo_Primary+Red.png"
+},{
+  "_id": {
+    "$oid": "656d81c775c83eeb1a8178d9"
+  },
+  "category": "Runner",
+  "status": false,
+  "completion": 0,
+  "bonus": "$20/Team",
+  "image": "https://cdn-icons-png.flaticon.com/512/2248/2248967.png"
+},{
+  "_id": {
+    "$oid": "656d81c775c83eeb1a8178da"
+  },
+  "category": "Grade 3",
+  "status": false,
+  "completion": 0,
+  "bonus": "$10/Team",
+  "image": "https://cdn-icons-png.flaticon.com/512/2249/2249022.png"
+},{
+  "_id": {
+    "$oid": "656d81c775c83eeb1a8178db"
+  },
+  "category": "Grade 4",
+  "status": false,
+  "completion": 0,
+  "bonus": "$5/Team",
+  "image": "https://c8.alamy.com/comp/2AYRTYJ/ranking-medal-icon-illustration-4th-place-2AYRTYJ.jpg"
+}]

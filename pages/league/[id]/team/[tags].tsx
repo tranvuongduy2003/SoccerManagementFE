@@ -2,7 +2,7 @@
 'use client';
 
 //chakra-ui
-import { Text } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 
 //layout
 import MainLayout from '@/components/layout/main';
@@ -29,7 +29,15 @@ const Team: NextPageWithLayout = () => {
   });
 
   return (
-    <>{isLoading ? <SkeletonComponent /> : <TeamComponent teams={teams!} />}</>
+    <>
+      {isLoading ? (
+        <Box mt="100px">
+          <SkeletonComponent />
+        </Box>
+      ) : (
+        <TeamComponent teams={teams!} />
+      )}
+    </>
   );
 };
 

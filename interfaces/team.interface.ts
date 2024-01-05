@@ -12,6 +12,11 @@ import {
 export interface ITeam {
   _id?: string;
   name: string;
+  representative: string;
+  level: string;
+  area: string;
+  isPublic: string;
+  uniform: string[];
   flag: string;
   rank?: number;
   coach: ICoach;
@@ -24,9 +29,14 @@ export interface ITeam {
 export const InitTeam = {
   name: '',
   flag: '',
+  representative: '',
+  level: 'FUN',
+  area: '',
+  isPublic: 'PUBLIC',
+  uniform: [],
   coach: InitCoach,
-  players: [InitPlayer],
-  matches: [InitMatch],
+  players: [],
+  matches: [],
   statistical: InitStatisticalTeam,
   tags: ''
 } as ITeam;

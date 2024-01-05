@@ -16,11 +16,23 @@ import {
 import Content from './components/Content';
 import { renderThumb, renderTrack, renderView } from '../scrollbar/Scrollbar';
 import { Scrollbars } from 'react-custom-scrollbars-2';
+import  { useRouter } from 'next/router';
 
 // Assets
 import { IoMenuOutline } from 'react-icons/io5';
 import { IRoute, Title } from '@/interfaces/navigation';
 import { isWindowAvailable } from '@/utils/navigation';
+
+import {
+  MdOutlineAdminPanelSettings,
+  MdOutlineManageAccounts,
+  MdHome,
+  MdSchedule,
+  MdBarChart,
+  MdGroup,
+  MdOutlineStackedLineChart,
+  MdHowToVote
+} from 'react-icons/md';
 
 interface SidebarResponsiveProps {
   routes: (IRoute|Title)[];
@@ -71,15 +83,90 @@ function Sidebar(props: SidebarProps) {
 // FUNCTIONS
 
 export function SidebarResponsive(props: SidebarResponsiveProps) {
+  const routes: (IRoute | Title)[] = [
+    {
+      name: 'LEAGUES'
+    },
+    {
+      name: 'Find League',
+      layout: '/league',
+      path: '/no',
+      icon: (
+        <Icon
+          as={MdOutlineAdminPanelSettings}
+          width="20px"
+          height="20px"
+          color="inherit"
+        />
+      )
+    },
+    {
+      name: 'Find Team',
+      layout: '/competitor',
+      path: '/no',
+      icon: (
+        <Icon
+          as={MdOutlineManageAccounts}
+          width="20px"
+          height="20px"
+          color="inherit"
+        />
+      )
+    },
+    {
+      name: 'CHAMPION'
+    },
+    {
+      name: 'Overall',
+      layout: `/league/${useRouter().query.id}`,
+      path: `/overall/${useRouter().query.tags}`,
+      icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />
+    },
+    {
+      name: 'Schedule',
+      layout: `/league/${useRouter().query.id}`,
+      path: `/schedule/${useRouter().query.tags}`,
+      icon: <Icon as={MdSchedule} width="20px" height="20px" color="inherit" />,
+      secondary: true
+    },
+    {
+      name: 'LeaderBoard',
+      layout: `/league/${useRouter().query.id}`,
+      path: `/leaderboard/${useRouter().query.tags}`,
+      icon: <Icon as={MdBarChart} width="20px" height="20px" color="inherit" />
+    },
+    {
+      name: 'Competition Team',
+      layout: `/league/${useRouter().query.id}`,
+      path: `/team/${useRouter().query.tags}`,
+      icon: <Icon as={MdGroup} width="20px" height="20px" color="inherit" />
+    },
+    {
+      name: 'Statistic',
+      layout: `/league/${useRouter().query.id}`,
+      path: `/statistic/${useRouter().query.tags}`,
+      icon: (
+        <Icon
+          as={MdOutlineStackedLineChart}
+          width="20px"
+          height="20px"
+          color="inherit"
+        />
+      )
+    },
+    {
+      name: 'Vote',
+      layout: `/league/${useRouter().query.id}`,
+      path: `/vote/${useRouter().query.tags}`,
+      icon: <Icon as={MdHowToVote} width="20px" height="20px" color="inherit" />
+    }
+  ];
+
   let sidebarBackgroundColor = useColorModeValue('white', 'navy.800');
   let menuColor = useColorModeValue('gray.400', 'white');
   // // SIDEBAR
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef: any = React.useRef();
-
-  const { routes } = props;
-  // let isWindows = navigator.platform.startsWith("Win");
-  //  BRAND
 
   return (
     <Flex display={{ sm: 'flex', xl: 'none' }} alignItems="center">

@@ -1,0 +1,413 @@
+[{
+  "_id": {
+    "$oid": "6560deead3aede1ecf25ee25"
+  },
+  "formula": "ROUND FIGHT",
+  "name": "Đầm Hồng League",
+  "image": "https://res.cloudinary.com/dadvtny30/image/upload/v1700848793/61efb7b8b099687410e3478b317cfa51kkp0p_fijocq.png",
+  "logo": "https://res.cloudinary.com/dadvtny30/image/upload/v1700848826/Kpe7yYs0NdySRd7jzwHaiYehQnhqz2ks26XFPwus_l3w0a4.jpg",
+  "awardPlayers": [],
+  "awardTeams": [],
+  "prizes": [],
+  "vision": "DOMESTIC",
+  "sponsor": {
+    "$oid": "6566c170495dac692d1a52e8"
+  },
+  "referees": [],
+  "stadiums": [],
+  "rounds": [],
+  "status": "ACTIVE",
+  "description": "Đấu Vòng Tròn ║ Bóng Đá Sân 7 ║ Admin MyLeague ║ Sân Bóng Đầm Hồng 2",
+  "tags": "dam-hong-league",
+  "season": "2022-2023",
+  "statistical": {
+    "$oid": "6566d470121b1c11f355c8a1"
+  },
+  "teams": [],
+  "maxTeam": 0
+},{
+  "_id": {
+    "$oid": "6560deead3aede1ecf25ee26"
+  },
+  "formula": "KNOCKOUT",
+  "name": "Bóng đá nữ - ĐHTT SVVN tại nga 2022",
+  "image": "https://res.cloudinary.com/dadvtny30/image/upload/v1700848961/de6bbe6b48acc2d2ea92ed18a490f0c4_oiuawx.png",
+  "logo": "https://res.cloudinary.com/dadvtny30/image/upload/v1700849006/44f75abca4545d1b5a409ddd58c6b730_s5j5m0.png",
+  "awardPlayers": [],
+  "awardTeams": [],
+  "prizes": [
+    {
+      "$oid": "6566c517495dac692d1a52f1"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f2"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f3"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f4"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f5"
+    }
+  ],
+  "vision": "INTERNATIONAL",
+  "sponsor": {
+    "$oid": "6566c170495dac692d1a52e8"
+  },
+  "referees": [
+    {
+      "$oid": "6566c942495dac692d1a52f8"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52f9"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52fa"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52fb"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52fc"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52fd"
+    }
+  ],
+  "stadiums": [
+    {
+      "$oid": "6566ca62495dac692d1a5303"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5304"
+    },
+    {
+      "$oid": "6566caf1495dac692d1a530c"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5305"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5306"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5307"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5308"
+    }
+  ],
+  "rounds": [
+    {
+      "$oid": "6569cf0817b7aa93a79c30f4"
+    },
+    {
+      "$oid": "6569cf0817b7aa93a79c30f5"
+    },
+    {
+      "$oid": "6569cf4317b7aa93a79c30f6"
+    }
+  ],
+  "status": "FINISHED",
+  "description": "Loại Trực Tiếp ║ Bóng Đá Sân 7 ║ VZ ║ Генерала Ермолова Улица, Владение 1, Mát-Xcơ-Va, Nga",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "season": "2021-2022",
+  "statistical": {
+    "$oid": "6566d470121b1c11f355c8a0"
+  },
+  "teams": [
+    {
+      "$oid": "6567004c495dac692d1a5335"
+    },
+    {
+      "$oid": "6567004c495dac692d1a5336"
+    },
+    {
+      "$oid": "6567004c495dac692d1a5337"
+    },
+    {
+      "$oid": "6567004c495dac692d1a5338"
+    },
+    {
+      "$oid": "6567004c495dac692d1a5339"
+    },
+    {
+      "$oid": "6567004c495dac692d1a533a"
+    },
+    {
+      "$oid": "6567004c495dac692d1a533b"
+    },
+    {
+      "$oid": "6567004c495dac692d1a533c"
+    }
+  ],
+  "maxTeam": 8
+},{
+  "_id": {
+    "$oid": "6560deead3aede1ecf25ee27"
+  },
+  "formula": "GROUP STAGE",
+  "name": "Giải Bóng Đá Chào Mừng Kỷ Niệm 70 Năm Thành Lập Xã Thanh Đồng",
+  "image": "https://res.cloudinary.com/dadvtny30/image/upload/v1700849048/d03027384509f513a96d1fe0f2f01e7br6xh7_qkauze.png",
+  "logo": "https://res.cloudinary.com/dadvtny30/image/upload/v1700849077/ab8394ba71f852f9a8fd35d5fdbeaa2bi2ify_ilikxo.png",
+  "awardPlayers": [],
+  "awardTeams": [],
+  "prizes": [
+    {
+      "$oid": "6566c517495dac692d1a52f1"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f2"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f3"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f4"
+    },
+    {
+      "$oid": "6566c517495dac692d1a52f5"
+    }
+  ],
+  "vision": "DOMESTIC",
+  "sponsor": {
+    "$oid": "6566c170495dac692d1a52e8"
+  },
+  "referees": [
+    {
+      "$oid": "6566c942495dac692d1a52f8"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52f9"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52fa"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52fb"
+    },
+    {
+      "$oid": "6566c942495dac692d1a52fc"
+    }
+  ],
+  "stadiums": [
+    {
+      "$oid": "6566ca62495dac692d1a5303"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5304"
+    },
+    {
+      "$oid": "6566caf1495dac692d1a530c"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5305"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5306"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5307"
+    },
+    {
+      "$oid": "6566ca62495dac692d1a5308"
+    }
+  ],
+  "rounds": [
+    {
+      "$oid": "65946ae88fa78ce86aaab917"
+    },
+    {
+      "$oid": "65946ae88fa78ce86aaab918"
+    },
+    {
+      "$oid": "65946ae88fa78ce86aaab919"
+    },
+    {
+      "$oid": "659446d08fa78ce86aaab906"
+    },
+    {
+      "$oid": "659447498fa78ce86aaab908"
+    }
+  ],
+  "status": "FINISHED",
+  "description": "Chia Bảng Đấu ║ Bóng Đá Sân 7 ║ Thành Công ║ Thanh Đồng, Thanh Chương, Nghệ An, Việt Nam",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "season": "2022-2023",
+  "statistical": {
+    "$oid": "6566d470121b1c11f355c8a2"
+  },
+  "teams": [
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f74"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f75"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f76"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f77"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f78"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f79"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f7a"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f7b"
+    }
+  ],
+  "maxTeam": 0
+},{
+  "_id": {
+    "$oid": "6560deead3aede1ecf25ee28"
+  },
+  "formula": "KNOCKOUT",
+  "name": "Knock Out U17 Sơn Tây Cúp STfootball S2 2020",
+  "image": "https://res.cloudinary.com/dadvtny30/image/upload/v1700878502/bg_index_c0fq4g.png",
+  "logo": "https://res.cloudinary.com/dadvtny30/image/upload/v1700878564/8a3863335264b79e8c4241aa4f292173_mzb0hd.png",
+  "awardPlayers": [],
+  "awardTeams": [],
+  "prizes": [],
+  "vision": "DOMESTIC",
+  "sponsor": {
+    "$oid": "6566c170495dac692d1a52e8"
+  },
+  "referees": [],
+  "stadiums": [],
+  "rounds": [],
+  "year": "2022-2023",
+  "description": "Loại Trực Tiếp ║ Bóng Đá Sân 7 ║ Nguyễn Thanh Quang ║ Sơn Tây, Hà Nội, Việt Nam",
+  "tags": "knockout-u17-son-tay-cup-stfootball-s2-2020",
+  "season": "ACTIVE",
+  "statistical": {
+    "$oid": "6566d470121b1c11f355c8a3"
+  },
+  "teams": [],
+  "status": "REGESTERING",
+  "maxTeam": 0
+},{
+  "_id": {
+    "$oid": "6560deead3aede1ecf25ee29"
+  },
+  "formula": "ROUND FIGHT",
+  "name": "U11 Hanoi Junior League",
+  "image": "https://res.cloudinary.com/dadvtny30/image/upload/v1700878798/cover_b9csvw.png",
+  "logo": "https://res.cloudinary.com/dadvtny30/image/upload/v1700878807/hanoi_ff3hxl.png",
+  "awardPlayers": [],
+  "awardTeams": [],
+  "prizes": [
+    {
+      "$oid": "656d81c775c83eeb1a8178d8"
+    },
+    {
+      "$oid": "656d81c775c83eeb1a8178d9"
+    },
+    {
+      "$oid": "656d81c775c83eeb1a8178da"
+    },
+    {
+      "$oid": "656d81c775c83eeb1a8178db"
+    }
+  ],
+  "vision": "DOMESTIC",
+  "sponsor": {
+    "$oid": "6566c170495dac692d1a52e9"
+  },
+  "referees": [
+    {
+      "$oid": "656d864ca671feb421a48280"
+    },
+    {
+      "$oid": "656d864ca671feb421a48281"
+    },
+    {
+      "$oid": "656d864ca671feb421a48282"
+    },
+    {
+      "$oid": "656d864ca671feb421a48283"
+    }
+  ],
+  "stadiums": [
+    {
+      "$oid": "656d880a75c83eeb1a8178e6"
+    },
+    {
+      "$oid": "656d880a75c83eeb1a8178e7"
+    },
+    {
+      "$oid": "656d880a75c83eeb1a8178e8"
+    },
+    {
+      "$oid": "656d880a75c83eeb1a8178e9"
+    }
+  ],
+  "rounds": [
+    {
+      "$oid": "6569cf0817b7aa93a79c30f7"
+    },
+    {
+      "$oid": "6569cf0817b7aa93a79c30f8"
+    },
+    {
+      "$oid": "6569cf0817b7aa93a79c30f9"
+    }
+  ],
+  "status": "FINISHED",
+  "description": "Round Robin ║ 9 A Side ║ Hoang Le ║ Tay Ho Sports Complex, Đường Xuân La, Khu Đô Thị Tây Hồ Tây, Xuân La, Tây Hồ, Hanoi, Vietnam",
+  "tags": "u11-hanoi-junior-league",
+  "season": "2022-2023",
+  "statistical": {
+    "$oid": "6566d470121b1c11f355c8a4"
+  },
+  "teams": [
+    {
+      "$oid": "656d97c2a671feb421a4829c"
+    },
+    {
+      "$oid": "656d97c2a671feb421a4829d"
+    },
+    {
+      "$oid": "656d97c2a671feb421a4829e"
+    },
+    {
+      "$oid": "656d97c2a671feb421a4829f"
+    }
+  ],
+  "maxTeam": 4
+},{
+  "_id": {
+    "$oid": "6560deead3aede1ecf25ee30"
+  },
+  "formula": "GROUP STAGE",
+  "name": "Giải Vô Địch Châu Á - 2019",
+  "image": "https://res.cloudinary.com/dadvtny30/image/upload/v1700878972/aaaa_s94b5h.png",
+  "logo": "https://res.cloudinary.com/dadvtny30/image/upload/v1700879030/asa_e95t9f.png",
+  "awardPlayers": [],
+  "awardTeams": [],
+  "prizes": [],
+  "vision": "INTERNATIONAL",
+  "sponsor": {
+    "$oid": "6566c170495dac692d1a52e8"
+  },
+  "referees": [],
+  "stadiums": [],
+  "rounds": [],
+  "status": "REGISTERING",
+  "description": "Chia Bảng Đấu ║ Bóng Đá Sân 11 ║ Admin MyLeague ║ Các Tiểu Vương Quốc Ả Rập Thống Nhất, Châu Á",
+  "tags": "giai-bong-da-chau-a-2019",
+  "season": "2022-2023",
+  "statistical": {
+    "$oid": "6566d470121b1c11f355c8a5"
+  },
+  "teams": [],
+  "maxTeam": 0
+}]

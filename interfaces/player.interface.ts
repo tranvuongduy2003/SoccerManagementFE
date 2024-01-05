@@ -1,5 +1,5 @@
 import { IStatisticalPLayer, InitStatisticalPLayer } from '.';
-
+import { v4 } from 'uuid';
 export interface IPlayer {
   _id?: string;
   name: string;
@@ -17,13 +17,14 @@ export interface IPlayer {
 }
 
 export const InitPlayer = {
+  _id: '',
   name: '',
   avatar: '',
   age: 0,
-  height: '1m7',
-  weight: '56kg',
+  height: '',
+  weight: '',
   national: 'VietNam',
-  number: 10,
+  number: 0,
   dob: new Date(),
   position: 'Defender',
   statistical: InitStatisticalPLayer,

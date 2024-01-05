@@ -1,0 +1,207 @@
+[{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a532c"
+  },
+  "name": "Trần Duy Anh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248669/01eb077c0924cb7a9235-16604132154371122230744-1660413299004123563200-1685764078868873394051_nfvupn.webp",
+  "age": 60,
+  "dob": {
+    "$date": {
+      "$numberLong": "-202435200000"
+    }
+  },
+  "national": "VietNam"
+},{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a532d"
+  },
+  "name": "Mai Xuân Hải",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248378/hlv-doi-nam-dinh-lo-phai-chiu-tac-dong-tu-ben-ngoai-trong-tran-gap-slna_ioyvek.jpg",
+  "age": 55,
+  "dob": {
+    "$date": {
+      "$numberLong": "-41904000000"
+    }
+  },
+  "national": "Việt Nam"
+},{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a532e"
+  },
+  "name": "Mai Đình Khôi",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248376/images_xweqs5.jpg",
+  "age": 53,
+  "dob": {
+    "$date": {
+      "$numberLong": "-42854400000"
+    }
+  },
+  "national": "Việt Nam"
+},{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a532f"
+  },
+  "name": "Hoàng Văn Tùng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248375/Lu-Dinh-Tuan_fsnabf.jpg",
+  "age": 47,
+  "dob": {
+    "$date": "1975-12-13T00:00:00.000Z"
+  },
+  "national": "Qatar"
+},{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a5330"
+  },
+  "name": "Lý Gia Bảo",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248375/ludinhtuan-891_jbjra6.jpg",
+  "age": 55,
+  "dob": {
+    "$date": {
+      "$numberLong": "-39571200000"
+    }
+  },
+  "national": "Việt Nam"
+},{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a5331"
+  },
+  "name": "Nguyễn Anh Quân",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248373/img_8977-1159_ed7uxj.jpg",
+  "age": 45,
+  "dob": {
+    "$date": {
+      "$numberLong": "-16848000000"
+    }
+  },
+  "national": "Việt Nam"
+},{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a5332"
+  },
+  "name": "Trần Trọng Hiếu",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248372/hlv-nguyen-van-sy-hoa-ha-noi-fc-la-dieu-may-man_dx7ghj.jpg",
+  "age": 47,
+  "dob": {
+    "$date": "1976-07-01T00:00:00.000Z"
+  },
+  "national": "Việt Nam"
+},{
+  "_id": {
+    "$oid": "6566ff5b495dac692d1a5333"
+  },
+  "name": "Trần Anh Tuấn",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701248372/vutienthanh_g2wgu6.jpg",
+  "age": 48,
+  "dob": {
+    "$date": "1975-06-09T00:00:00.000Z"
+  },
+  "national": "Việt Nam"
+},{
+  "_id": {
+    "$oid": "656d8531a671feb421a4827b"
+  },
+  "name": "Park Hang-Seo",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701675811/park_SGNR1b_uyvcwn.jpg",
+  "age": 48,
+  "dob": "1975-04-05",
+  "nation": "Korea"
+},{
+  "_id": {
+    "$oid": "656d8531a671feb421a4827c"
+  },
+  "name": "Đinh La Thăng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701675811/mdc-1644247451-5541-1644247459_bj0ogi.jpg",
+  "age": 50,
+  "dob": "1973-11-02",
+  "nation": "Viet Nam"
+},{
+  "_id": {
+    "$oid": "656d8531a671feb421a4827d"
+  },
+  "name": "Nguyễn Hữu Thắng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701675811/japanese-expert-likely-to-coach-vietnamese-womens-football-team-623_qp1xry.jpg",
+  "age": 55,
+  "dob": "1968-02-02",
+  "nation": "Viet Nam"
+},{
+  "_id": {
+    "$oid": "656d8531a671feb421a4827e"
+  },
+  "name": "Hoàng Mạnh Cường",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701675810/images_tz4z1p.jpg",
+  "age": 43,
+  "dob": "1983-01-09",
+  "nation": "Viet Nam"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f6b"
+  },
+  "name": "Andre Villas-Boas ",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116719/villasboas-1949_tf7huu.jpg",
+  "age": 42,
+  "dob": "1975-04-05",
+  "nation": "Portugal"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f6c"
+  },
+  "name": "Domenico Tedesco",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116721/catthro-1950_ank8fn.jpg",
+  "age": 51,
+  "dob": "1973-11-02",
+  "nation": "Mexico"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f6d"
+  },
+  "name": "Yannick Ferreira",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116719/abascal-1950_sw9pip.jpg",
+  "age": 53,
+  "dob": "1968-02-02",
+  "nation": "Germany"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f6e"
+  },
+  "name": "Jacob Hunter",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116719/yannick1-1949_xhox5k.jpg",
+  "age": 47,
+  "dob": "1983-01-09",
+  "nation": "France"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f6f"
+  },
+  "name": "Robert Maaskant",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116719/tedesco-1949_rlq4jh.jpg",
+  "age": 47,
+  "dob": "1983-01-09",
+  "nation": "Denmark"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f70"
+  },
+  "name": "Ian Cathro",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116719/jacob-1950_i6ewzj.jpg",
+  "age": 47,
+  "dob": "1983-01-09",
+  "nation": "Italia"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f71"
+  },
+  "name": "Ryan Mason",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116719/maaskant-1950_ts4ilh.jpg",
+  "age": 47,
+  "dob": "1983-01-09",
+  "nation": "English"
+},{
+  "_id": {
+    "$oid": "6592c25dff79dfdf7a2d1f72"
+  },
+  "name": "Guillermo Abascal",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704116719/rm-1950_hgdwzo.jpg",
+  "age": 47,
+  "dob": "1983-01-09",
+  "nation": "Netherland"
+}]
