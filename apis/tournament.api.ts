@@ -4,7 +4,7 @@ import { API_ROUTE } from '@/constants';
 import httpRequest from '@/services/httpRequest';
 
 export const getTournaments = () => {
-  return httpRequest.get<ITournament[]>(API_ROUTE.tournament + '/');
+  return httpRequest.get<ITournament[]>(API_ROUTE.tournament);
 };
 
 export const getTournamentByFormat = (format: FormatLeague) => {
