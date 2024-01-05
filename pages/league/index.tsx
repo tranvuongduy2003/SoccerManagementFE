@@ -144,9 +144,17 @@ const FindLeagues: NextPageWithLayout = () => {
   } = useQuery<ITournament[]>({
     queryKey: ['tournaments'],
     queryFn: getTournaments,
-    select: data => data
+    select: data => data,
   });
   const queryClient = useQueryClient();
+
+  if(tournaments){
+    console.log(tournaments)
+  }
+
+  if(isError){
+    console.log(error);
+  }
 
   const getLeagueFormat = useMutation({
     mutationFn: getTournamentByFormat,
