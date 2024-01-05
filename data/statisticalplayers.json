@@ -1,0 +1,2347 @@
+[{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c3093"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d8d"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c3094"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d8e"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c3095"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d8f"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c3096"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d90"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c3097"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d91"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c3098"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d92"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c3099"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d93"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c309a"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d94"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c309b"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d95"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c309c"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d96"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c309d"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d97"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c309e"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d98"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c309f"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d99"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a0"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d9a"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a1"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d9b"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a2"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d9c"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a3"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d9d"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a4"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d9e"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a5"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9d9f"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a6"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da0"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a7"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da1"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a8"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da2"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30a9"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da3"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30aa"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da4"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30ab"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da5"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30ac"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da6"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30ad"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da7"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30ae"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da8"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30af"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9da9"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b0"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9daa"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b1"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dab"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b2"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dac"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "goals": 3,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b3"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dad"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b4"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dae"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b5"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9daf"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b6"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db0"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b7"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db1"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b8"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db2"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30b9"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db3"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30ba"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db4"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30bb"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db5"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30bc"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db6"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30bd"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db7"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30be"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db8"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30bf"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db9"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c0"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dba"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c1"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dbb"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 1,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c2"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dbc"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c3"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dbd"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c4"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dbe"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c5"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dbf"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c6"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dc0"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c7"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dc1"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c8"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dc2"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30c9"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dc3"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65685f9017b7aa93a79c30ca"
+  },
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dc4"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482dc"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c0"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482dd"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c1"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482de"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c2"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482df"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c3"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "goals": 7,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e0"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c4"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e1"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c5"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e2"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c6"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "goals": 3,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e3"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c7"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e4"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c8"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e5"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482c9"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e6"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482ca"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e7"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482cb"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e8"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482cc"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482e9"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482cd"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482ea"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482ce"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482eb"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482cf"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482ec"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d0"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "goals": 5,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482ed"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d1"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482ee"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d2"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482ef"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d3"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482f0"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d4"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482f1"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d5"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482f2"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d6"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "goals": 3,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656dacdca671feb421a482f3"
+  },
+  "player": {
+    "$oid": "656da7fea671feb421a482d7"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd473"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd468"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd474"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd469"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd475"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd46a"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 8,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd476"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd46b"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd477"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd46c"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd478"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd46d"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd479"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd46e"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592ed4e59f4e1c933abd47a"
+  },
+  "player": {
+    "$oid": "6592ebbd59f4e1c933abd46e"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f17d59f4e1c933abd47d"
+  },
+  "player": {
+    "$oid": "6592f0b72ffca4ad38e53121"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f17d59f4e1c933abd47e"
+  },
+  "player": {
+    "$oid": "6592f0b72ffca4ad38e53122"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "goals": 3,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f17d59f4e1c933abd47f"
+  },
+  "player": {
+    "$oid": "6592f0b72ffca4ad38e53123"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f17d59f4e1c933abd480"
+  },
+  "player": {
+    "$oid": "6592f0b72ffca4ad38e53124"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f17d59f4e1c933abd481"
+  },
+  "player": {
+    "$oid": "6592f0b72ffca4ad38e53125"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "goals": 4,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f17d59f4e1c933abd482"
+  },
+  "player": {
+    "$oid": "6592f0b72ffca4ad38e53126"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f17d59f4e1c933abd483"
+  },
+  "player": {
+    "$oid": "6592f0b72ffca4ad38e53127"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f46359f4e1c933abd495"
+  },
+  "player": {
+    "$oid": "6592f3ee2ffca4ad38e53130"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f46359f4e1c933abd496"
+  },
+  "player": {
+    "$oid": "6592f3ee2ffca4ad38e53131"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f46359f4e1c933abd497"
+  },
+  "player": {
+    "$oid": "6592f3ee2ffca4ad38e53132"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 2,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f46359f4e1c933abd498"
+  },
+  "player": {
+    "$oid": "6592f3ee2ffca4ad38e53133"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f46359f4e1c933abd499"
+  },
+  "player": {
+    "$oid": "6592f3ee2ffca4ad38e53134"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f46359f4e1c933abd49a"
+  },
+  "player": {
+    "$oid": "6592f3ee2ffca4ad38e53135"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f46359f4e1c933abd49b"
+  },
+  "player": {
+    "$oid": "6592f3ee2ffca4ad38e53136"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f6e32ffca4ad38e53138"
+  },
+  "player": {
+    "$oid": "6592f65659f4e1c933abd4a0"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f6e32ffca4ad38e53139"
+  },
+  "player": {
+    "$oid": "6592f65659f4e1c933abd4a1"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f6e32ffca4ad38e5313a"
+  },
+  "player": {
+    "$oid": "6592f65659f4e1c933abd4a2"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f6e32ffca4ad38e5313b"
+  },
+  "player": {
+    "$oid": "6592f65659f4e1c933abd4a3"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f6e32ffca4ad38e5313c"
+  },
+  "player": {
+    "$oid": "6592f65659f4e1c933abd4a4"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f6e32ffca4ad38e5313d"
+  },
+  "player": {
+    "$oid": "6592f65659f4e1c933abd4a5"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f6e32ffca4ad38e5313e"
+  },
+  "player": {
+    "$oid": "6592f65659f4e1c933abd4a6"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4ab"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e53147"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4ac"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e53148"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4ad"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e53149"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4ae"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e5314a"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4af"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e5314b"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4b0"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e5314c"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4b1"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e5314d"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592f96559f4e1c933abd4b2"
+  },
+  "player": {
+    "$oid": "6592f9102ffca4ad38e5314e"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fbf62ffca4ad38e53159"
+  },
+  "player": {
+    "$oid": "6592fb992ffca4ad38e53151"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fbf62ffca4ad38e5315a"
+  },
+  "player": {
+    "$oid": "6592fb992ffca4ad38e53152"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "goals": 4,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fbf62ffca4ad38e5315b"
+  },
+  "player": {
+    "$oid": "6592fb992ffca4ad38e53153"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "goals": 7,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fbf62ffca4ad38e5315c"
+  },
+  "player": {
+    "$oid": "6592fb992ffca4ad38e53154"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fbf62ffca4ad38e5315d"
+  },
+  "player": {
+    "$oid": "6592fb992ffca4ad38e53155"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fbf62ffca4ad38e5315e"
+  },
+  "player": {
+    "$oid": "6592fb992ffca4ad38e53156"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "goals": 3,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fbf62ffca4ad38e5315f"
+  },
+  "player": {
+    "$oid": "6592fb992ffca4ad38e53157"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 2,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fedb2ffca4ad38e5316a"
+  },
+  "player": {
+    "$oid": "6592fe7f2ffca4ad38e53161"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fedb2ffca4ad38e5316b"
+  },
+  "player": {
+    "$oid": "6592fe7f2ffca4ad38e53162"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fedb2ffca4ad38e5316c"
+  },
+  "player": {
+    "$oid": "6592fe7f2ffca4ad38e53163"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "goals": 3,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fedb2ffca4ad38e5316d"
+  },
+  "player": {
+    "$oid": "6592fe7f2ffca4ad38e53164"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 1,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fedb2ffca4ad38e5316e"
+  },
+  "player": {
+    "$oid": "6592fe7f2ffca4ad38e53165"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fedb2ffca4ad38e5316f"
+  },
+  "player": {
+    "$oid": "6592fe7f2ffca4ad38e53166"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592fedb2ffca4ad38e53170"
+  },
+  "player": {
+    "$oid": "6592fe7f2ffca4ad38e53167"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "659301d32ffca4ad38e53181"
+  },
+  "player": {
+    "$oid": "6593017c2ffca4ad38e53179"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "659301d32ffca4ad38e53182"
+  },
+  "player": {
+    "$oid": "6593017c2ffca4ad38e5317a"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "goals": 0,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "659301d32ffca4ad38e53183"
+  },
+  "player": {
+    "$oid": "6593017c2ffca4ad38e5317b"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "659301d32ffca4ad38e53184"
+  },
+  "player": {
+    "$oid": "6593017c2ffca4ad38e5317c"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "659301d32ffca4ad38e53185"
+  },
+  "player": {
+    "$oid": "6593017c2ffca4ad38e5317d"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "659301d32ffca4ad38e53186"
+  },
+  "player": {
+    "$oid": "6593017c2ffca4ad38e5317e"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "goals": 2,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "659301d32ffca4ad38e53187"
+  },
+  "player": {
+    "$oid": "6593017c2ffca4ad38e5317f"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "goals": 1,
+  "owner": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "voteBestPlayer": 0,
+  "voteBestPosition": 0,
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+}]

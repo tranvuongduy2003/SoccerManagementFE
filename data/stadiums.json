@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "6566ca62495dac692d1a5303"
+  },
+  "name": "Mỹ Đình",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kh%C3%A1n_%C4%91%C3%A0i_B_-_S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%E1%BB%91c_gia_M%E1%BB%B9_%C4%90%C3%ACnh.jpg/150px-Kh%C3%A1n_%C4%91%C3%A0i_B_-_S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Qu%E1%BB%91c_gia_M%E1%BB%B9_%C4%90%C3%ACnh.jpg",
+  "location": "HaNoi , VietNam",
+  "capacity": "88.966",
+  "coordinate": "21°1′14″B 105°45′49,7″Đ"
+},{
+  "_id": {
+    "$oid": "6566ca62495dac692d1a5304"
+  },
+  "name": "Lạch Tray",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Al_Bayt_Stadium.jpg/413px-Al_Bayt_Stadium.jpg",
+  "location": "HaiPhong, VietNam",
+  "capacity": "68,895",
+  "coordinate": "25°39′8″B 51°29′15″Đ"
+},{
+  "_id": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "name": "Thiên Trường",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng.jpg/150px-S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_Thi%C3%AAn_Tr%C6%B0%E1%BB%9Dng.jpg",
+  "location": "NamDinh, VietName",
+  "capacity": "44.400",
+  "coordinate": "25°14′07″B 51°31′56″Đ"
+},{
+  "_id": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "name": "ChiLang",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Chi_lang_stadiumfull.jpg/150px-Chi_lang_stadiumfull.jpg",
+  "location": "DaNang, VietNam",
+  "capacity": "45.857",
+  "coordinate": "25°15′49″B 51°26′53″Đ"
+},{
+  "_id": {
+    "$oid": "6566ca62495dac692d1a5307"
+  },
+  "name": "TuDo",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_T%E1%BB%B1_Do.jpg/150px-S%C3%A2n_v%E1%BA%ADn_%C4%91%E1%BB%99ng_T%E1%BB%B1_Do.jpg",
+  "location": "Hue, VietNam",
+  "capacity": "44.667",
+  "coordinate": "25°18′39″B 51°25′28″Đ"
+},{
+  "_id": {
+    "$oid": "6566ca62495dac692d1a5308"
+  },
+  "name": "Buôn Ma Thuột",
+  "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kh%C3%B4ng_%E1%BA%A3nh_ch%E1%BB%A5p_S%C3%A2n_V%E1%BA%ADn_-_%C4%90%E1%BB%99ng_Bu%C3%B4n_Ma_Thu%E1%BB%99t_n%C4%83m_2016.jpg/150px-Kh%C3%B4ng_%E1%BA%A3nh_ch%E1%BB%A5p_S%C3%A2n_V%E1%BA%ADn_-_%C4%90%E1%BB%99ng_Bu%C3%B4n_Ma_Thu%E1%BB%99t_n%C4%83m_2016.jpg",
+  "location": "DakLak, VietNam",
+  "capacity": "40.000",
+  "coordinate": "25°09′35,2″B 51°34′26,7″Đ"
+},{
+  "_id": {
+    "$oid": "656d880a75c83eeb1a8178e6"
+  },
+  "name": "Thành Nam",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676919/TOP-10-SAN-BONG-DA-PHUI-TAI-TPHCM-NAM-2023_yozrrs.jpg",
+  "location": "TP HCM , VietNam",
+  "capacity": "88.966",
+  "coordinate": "21°1′14″B 105°45′49,7″Đ"
+},{
+  "_id": {
+    "$oid": "656d880a75c83eeb1a8178e7"
+  },
+  "name": "Nhà Văn Hóa",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676918/TOP-10-SAN-BONG-DA-PHUI-TAI-TPHCM-NAM-2023-4_gcbkge.jpg",
+  "location": "TP HCM , VietNam",
+  "capacity": "88.966",
+  "coordinate": "21°1′14″B 105°45′49,7″Đ"
+},{
+  "_id": {
+    "$oid": "656d880a75c83eeb1a8178e8"
+  },
+  "name": "Thống Nhất",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676918/49344552_2000103490076481_193774549139980288_n_pavkan.jpg",
+  "location": "TP HCM , VietNam",
+  "capacity": "88.966",
+  "coordinate": "21°1′14″B 105°45′49,7″Đ"
+},{
+  "_id": {
+    "$oid": "656d880a75c83eeb1a8178e9"
+  },
+  "name": "Khai Tâm",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676917/images_2_jr6u64.jpg",
+  "location": "TP HCM , VietNam",
+  "capacity": "88.966",
+  "coordinate": "21°1′14″B 105°45′49,7″Đ"
+}]

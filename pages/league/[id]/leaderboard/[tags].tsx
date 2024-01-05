@@ -14,6 +14,7 @@ import { getStatisticalTeamsByTags } from '@/apis';
 //route
 import { useRouter } from 'next/router';
 import SkeletonComponent from '@/components/common/skeleton';
+import { Box } from '@chakra-ui/react';
 
 const LeaderBoard: NextPageWithLayout = () => {
   const route = useRouter();
@@ -25,7 +26,9 @@ const LeaderBoard: NextPageWithLayout = () => {
   });
 
   return isLoading ? (
-    <SkeletonComponent />
+    <Box mt="100px">
+      <SkeletonComponent />
+    </Box>
   ) : (
     <LeaderBoardComponent statisticalTeams={statisticalTeams!} />
   );

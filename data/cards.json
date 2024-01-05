@@ -1,0 +1,335 @@
+[{
+  "_id": {
+    "$oid": "656b45839a034940f9173b39"
+  },
+  "type": "YELLOW",
+  "player": "Nguyễn Thảo Nhi",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30f0"
+  },
+  "time": 26,
+  "number": 8
+},{
+  "_id": {
+    "$oid": "656b45839a034940f9173b3a"
+  },
+  "type": "YELLOW",
+  "player": "Võ Thị Trúc Ly",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30f0"
+  },
+  "time": 15,
+  "number": 5
+},{
+  "_id": {
+    "$oid": "656b45839a034940f9173b3b"
+  },
+  "type": "YELLOW",
+  "player": "Nguyễn Thị Thanh Hằng",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30f0"
+  },
+  "time": 21,
+  "number": 7
+},{
+  "_id": {
+    "$oid": "656b45839a034940f9173b3c"
+  },
+  "type": "RED",
+  "player": "Bùi Mai Liên",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "time": 27,
+  "number": 8
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f1"
+  },
+  "type": "YELLOW",
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dac"
+  },
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30f0"
+  },
+  "time": 26
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f2"
+  },
+  "type": "YELLOW",
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db1"
+  },
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30f0"
+  },
+  "time": 15
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f3"
+  },
+  "type": "YELLOW",
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9db2"
+  },
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30f0"
+  },
+  "time": 21
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f4"
+  },
+  "type": "RED",
+  "player": {
+    "$oid": "65682265ba532f5e1bfe9dbb"
+  },
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "time": 27
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f5"
+  },
+  "type": "YELLOW",
+  "player": "Phùng Tiến Đức",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "time": 26,
+  "number": 10
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f6"
+  },
+  "type": "YELLOW",
+  "player": "Nguyễn Văn Tài",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "time": 32,
+  "number": 14
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f7"
+  },
+  "type": "YELLOW",
+  "player": "Nguyễn Quang Anh",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "time": 12,
+  "number": 13
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f8"
+  },
+  "type": "YELLOW",
+  "player": "Lê Thanh Hải",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "time": 27,
+  "number": 8
+},{
+  "_id": {
+    "$oid": "656d918575c83eeb1a8178f9"
+  },
+  "type": "YELLOW",
+  "player": "Giang Nam Tran",
+  "match": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "time": 14,
+  "number": 17
+},{
+  "_id": {
+    "$oid": "6593d83c8fa78ce86aaab85e"
+  },
+  "type": "YELLOW",
+  "player": "Hoàng Vinh",
+  "match": {
+    "$oid": "6593d5a159f4e1c933abd518"
+  },
+  "time": 30,
+  "number": 15
+},{
+  "_id": {
+    "$oid": "6593d83c8fa78ce86aaab85f"
+  },
+  "type": "YELLOW",
+  "player": "Trần Võ Nam",
+  "match": {
+    "$oid": "6593d5a159f4e1c933abd518"
+  },
+  "time": 32,
+  "number": 15
+},{
+  "_id": {
+    "$oid": "6593da4259f4e1c933abd525"
+  },
+  "type": "YELLOW",
+  "player": "Hoàng Nông",
+  "match": {
+    "$oid": "6593d9e859f4e1c933abd51d"
+  },
+  "time": 30,
+  "number": 4
+},{
+  "_id": {
+    "$oid": "6593da4259f4e1c933abd526"
+  },
+  "type": "YELLOW",
+  "player": "Nguyễn Cảnh Quân",
+  "match": {
+    "$oid": "6593d9e859f4e1c933abd51d"
+  },
+  "time": 32,
+  "number": 14
+},{
+  "_id": {
+    "$oid": "6593da4259f4e1c933abd527"
+  },
+  "type": "YELLOW",
+  "player": "Duy Thắng",
+  "match": {
+    "$oid": "6593d9e859f4e1c933abd51d"
+  },
+  "time": 32,
+  "number": 17
+},{
+  "_id": {
+    "$oid": "6593da4259f4e1c933abd528"
+  },
+  "type": "RED",
+  "player": "Văn Pháp",
+  "match": {
+    "$oid": "6593d9e859f4e1c933abd51d"
+  },
+  "time": 32,
+  "number": 10
+},{
+  "_id": {
+    "$oid": "6593dc908fa78ce86aaab876"
+  },
+  "type": "YELLOW",
+  "player": "Trọng Trường",
+  "match": {
+    "$oid": "6593dc2759f4e1c933abd52e"
+  },
+  "time": 30,
+  "number": 12
+},{
+  "_id": {
+    "$oid": "6593dc908fa78ce86aaab877"
+  },
+  "type": "YELLOW",
+  "player": "Việt Trung",
+  "match": {
+    "$oid": "6593dc2759f4e1c933abd52e"
+  },
+  "time": 32,
+  "number": 99
+},{
+  "_id": {
+    "$oid": "6593e1cc8fa78ce86aaab886"
+  },
+  "type": "YELLOW",
+  "player": "Trọng Hiếu",
+  "match": {
+    "$oid": "6593e0cf59f4e1c933abd539"
+  },
+  "time": 25,
+  "number": 24
+},{
+  "_id": {
+    "$oid": "6593e1cc8fa78ce86aaab887"
+  },
+  "type": "YELLOW",
+  "player": "Xuân Phước",
+  "match": {
+    "$oid": "6593e0cf59f4e1c933abd539"
+  },
+  "time": 40,
+  "number": 19
+},{
+  "_id": {
+    "$oid": "6593e3408fa78ce86aaab88c"
+  },
+  "type": "YELLOW",
+  "player": "Trần Võ Dương",
+  "match": {
+    "$oid": "6593e0cf59f4e1c933abd53a"
+  },
+  "time": 10,
+  "number": 10
+},{
+  "_id": {
+    "$oid": "6593e3408fa78ce86aaab88d"
+  },
+  "type": "YELLOW",
+  "player": "Trần Võ Nam",
+  "match": {
+    "$oid": "6593e0cf59f4e1c933abd53a"
+  },
+  "time": 20,
+  "number": 15
+},{
+  "_id": {
+    "$oid": "6593e90e59f4e1c933abd54c"
+  },
+  "type": "YELLOW",
+  "player": "Nguyễn Cao Phi Hùng",
+  "match": {
+    "$oid": "6593e8218fa78ce86aaab8a4"
+  },
+  "time": 24,
+  "number": 3
+},{
+  "_id": {
+    "$oid": "6593eb3459f4e1c933abd55b"
+  },
+  "type": "YELLOW",
+  "player": "Bá Chính",
+  "match": {
+    "$oid": "6593e8218fa78ce86aaab8a5"
+  },
+  "time": 24,
+  "number": 5
+},{
+  "_id": {
+    "$oid": "6593eb3459f4e1c933abd55c"
+  },
+  "type": "YELLOW",
+  "player": "Tiến Mạnh",
+  "match": {
+    "$oid": "6593e8218fa78ce86aaab8a5"
+  },
+  "time": 52,
+  "number": 23
+},{
+  "_id": {
+    "$oid": "6593fab28fa78ce86aaab8c1"
+  },
+  "type": "YELLOW",
+  "player": "Nguyễn Đình Đạt",
+  "match": {
+    "$oid": "6593f97059f4e1c933abd56a"
+  },
+  "time": 31,
+  "number": 2
+},{
+  "_id": {
+    "$oid": "6593fab28fa78ce86aaab8c2"
+  },
+  "type": "YELLOW",
+  "player": "Văn Phong",
+  "match": {
+    "$oid": "6593f97059f4e1c933abd56a"
+  },
+  "time": 49,
+  "number": 15
+}]

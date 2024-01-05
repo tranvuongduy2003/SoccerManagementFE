@@ -1,0 +1,1438 @@
+[{
+  "_id": {
+    "$oid": "6569cda417b7aa93a79c30ea"
+  },
+  "teamOne": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "teamTwo": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 0,
+  "scoreTeamTwo": 0,
+  "penaltyTeamOne": 2,
+  "penaltyTeamTwo": 0,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Quarterfinal",
+  "time": {
+    "$date": "2022-05-01T05:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5303"
+  },
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [
+    {
+      "$oid": "656b45839a034940f9173b3c"
+    }
+  ],
+  "goalsTeamOne": [],
+  "goalsTeamTwo": []
+},{
+  "_id": {
+    "$oid": "6569cda417b7aa93a79c30eb"
+  },
+  "teamOne": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "teamTwo": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 4,
+  "scoreTeamTwo": 0,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f9"
+  },
+  "subReferee": [],
+  "round": "Quarterfinal",
+  "time": {
+    "$date": "2022-05-01T10:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5304"
+  },
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "656b4c089a034940f9173b42"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b43"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b44"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b45"
+    }
+  ],
+  "goalsTeamTwo": []
+},{
+  "_id": {
+    "$oid": "6569cda417b7aa93a79c30ec"
+  },
+  "teamOne": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "teamTwo": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 0,
+  "scoreTeamTwo": 3,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52fa"
+  },
+  "subReferee": [],
+  "round": "Quarterfinal",
+  "time": {
+    "$date": "2022-05-02T03:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656b4c089a034940f9173b46"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b47"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b48"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6569cda417b7aa93a79c30ed"
+  },
+  "teamOne": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "teamTwo": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 3,
+  "scoreTeamTwo": 1,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52fb"
+  },
+  "subReferee": [],
+  "round": "Quarterfinal",
+  "time": {
+    "$date": "2022-05-02T05:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "656b4c089a034940f9173b49"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b4a"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b4c"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656b4c089a034940f9173b4b"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6569cda417b7aa93a79c30ee"
+  },
+  "teamOne": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "teamTwo": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 1,
+  "scoreTeamTwo": 0,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52fc"
+  },
+  "subReferee": [],
+  "round": "Semifinal",
+  "time": {
+    "$date": "2022-05-02T09:30:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5307"
+  },
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "656b4c089a034940f9173b4d"
+    }
+  ],
+  "goalsTeamTwo": []
+},{
+  "_id": {
+    "$oid": "6569cda417b7aa93a79c30ef"
+  },
+  "teamOne": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "teamTwo": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 0,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52fd"
+  },
+  "subReferee": [],
+  "round": "Semifinal",
+  "time": {
+    "$date": "2022-05-02T10:20:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5308"
+  },
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656b4c089a034940f9173b4e"
+    },
+    {
+      "$oid": "656b4c089a034940f9173b4f"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6569cda417b7aa93a79c30f0"
+  },
+  "teamOne": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "teamTwo": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 0,
+  "scoreTeamTwo": 0,
+  "penaltyTeamOne": 2,
+  "penaltyTeamTwo": 3,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Final",
+  "time": {
+    "$date": "2022-05-08T07:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "cardsTeamOne": [
+    {
+      "$oid": "656b45839a034940f9173b3a"
+    },
+    {
+      "$oid": "656b45839a034940f9173b3b"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "656b45839a034940f9173b39"
+    }
+  ],
+  "goalsTeamOne": [],
+  "goalsTeamTwo": []
+},{
+  "_id": {
+    "$oid": "656db67a0639beefd449753b"
+  },
+  "teamOne": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "teamTwo": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 2,
+  "scoreTeamTwo": 3,
+  "mainReferee": {
+    "$oid": "656d864ca671feb421a48280"
+  },
+  "subReferee": [],
+  "round": "Round 1",
+  "time": {
+    "$date": "2022-12-03T07:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "656d880a75c83eeb1a8178e6"
+  },
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "656d956e75c83eeb1a817903"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817904"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656d956e75c83eeb1a817905"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817906"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817907"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "656db67a0639beefd449753c"
+  },
+  "teamOne": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "teamTwo": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 5,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "656d864ca671feb421a48281"
+  },
+  "subReferee": [],
+  "round": "Round 1",
+  "time": {
+    "$date": "2022-12-03T07:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "656d880a75c83eeb1a8178e7"
+  },
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "cardsTeamOne": [
+    {
+      "$oid": "656d918575c83eeb1a8178f6"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "656d918575c83eeb1a8178f5"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "656d956e75c83eeb1a817908"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817909"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81790a"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81790b"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81790c"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656d956e75c83eeb1a81790d"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81790e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "656db67a0639beefd449753d"
+  },
+  "teamOne": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "teamTwo": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 4,
+  "scoreTeamTwo": 6,
+  "mainReferee": {
+    "$oid": "656d864ca671feb421a48282"
+  },
+  "subReferee": [],
+  "round": "Round 2",
+  "time": {
+    "$date": "2022-12-03T08:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "656d880a75c83eeb1a8178e8"
+  },
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "656d956e75c83eeb1a81790f"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817910"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817911"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817912"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656d956e75c83eeb1a817913"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817914"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817915"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817916"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817917"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817918"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "656db67a0639beefd449753e"
+  },
+  "teamOne": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "teamTwo": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 6,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "656d864ca671feb421a48283"
+  },
+  "subReferee": [],
+  "round": "Round 2",
+  "time": {
+    "$date": "2022-12-03T08:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "656d880a75c83eeb1a8178e9"
+  },
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "cardsTeamOne": [
+    {
+      "$oid": "656d918575c83eeb1a8178f7"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "656d918575c83eeb1a8178f8"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "656d956e75c83eeb1a817919"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81791a"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81791b"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81791c"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81791d"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a81791e"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656d956e75c83eeb1a81791f"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817920"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "656db67a0639beefd449753f"
+  },
+  "teamOne": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "teamTwo": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "pointOfTeamOne": 1,
+  "pointOfTeamTwo": 1,
+  "scoreTeamOne": 2,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "656d864ca671feb421a48282"
+  },
+  "subReferee": [],
+  "round": "Round 3",
+  "time": {
+    "$date": "2022-05-01T05:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "656d880a75c83eeb1a8178e8"
+  },
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [
+    {
+      "$oid": "656d918575c83eeb1a8178f9"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "656d956e75c83eeb1a817923"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "656d956e75c83eeb1a817921"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817922"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817924"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "656db67a0639beefd4497540"
+  },
+  "teamOne": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "teamTwo": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 3,
+  "scoreTeamTwo": 0,
+  "mainReferee": {
+    "$oid": "656d864ca671feb421a48280"
+  },
+  "subReferee": [],
+  "round": "Round 3",
+  "time": {
+    "$date": "2022-05-01T05:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "656d880a75c83eeb1a8178e7"
+  },
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "656d956e75c83eeb1a817925"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817926"
+    },
+    {
+      "$oid": "656d956e75c83eeb1a817927"
+    }
+  ],
+  "goalsTeamTwo": []
+},{
+  "_id": {
+    "$oid": "6593d5a159f4e1c933abd518"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 4,
+  "scoreTeamTwo": 5,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Round 1",
+  "time": {
+    "$date": "2023-10-22T01:30:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5303"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [
+    {
+      "$oid": "6593d83c8fa78ce86aaab85e"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593d83c8fa78ce86aaab85f"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593d7488fa78ce86aaab854"
+    },
+    {
+      "$oid": "6593d7488fa78ce86aaab855"
+    },
+    {
+      "$oid": "6593d7488fa78ce86aaab856"
+    },
+    {
+      "$oid": "6593d7488fa78ce86aaab857"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593d7488fa78ce86aaab858"
+    },
+    {
+      "$oid": "6593d7488fa78ce86aaab859"
+    },
+    {
+      "$oid": "6593d7488fa78ce86aaab85a"
+    },
+    {
+      "$oid": "6593d7488fa78ce86aaab85b"
+    },
+    {
+      "$oid": "6593d7488fa78ce86aaab85c"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593d9e859f4e1c933abd51d"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 3,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f9"
+  },
+  "subReferee": [],
+  "round": "Round 1",
+  "time": {
+    "$date": "2023-10-22T02:45:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5304"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [
+    {
+      "$oid": "6593da4259f4e1c933abd525"
+    },
+    {
+      "$oid": "6593da4259f4e1c933abd526"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593da4259f4e1c933abd527"
+    },
+    {
+      "$oid": "6593da4259f4e1c933abd528"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593da3359f4e1c933abd51f"
+    },
+    {
+      "$oid": "6593da3359f4e1c933abd520"
+    },
+    {
+      "$oid": "6593da3359f4e1c933abd521"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593da3359f4e1c933abd522"
+    },
+    {
+      "$oid": "6593da3359f4e1c933abd523"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593dc2759f4e1c933abd52e"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 0,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f6"
+  },
+  "subReferee": [],
+  "round": "Round 1",
+  "time": {
+    "$date": "2023-10-22T08:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5304"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593dc908fa78ce86aaab876"
+    },
+    {
+      "$oid": "6593dc908fa78ce86aaab877"
+    }
+  ],
+  "goalsTeamOne": [],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593dcbc8fa78ce86aaab879"
+    },
+    {
+      "$oid": "6593dcbc8fa78ce86aaab87a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593dd468fa78ce86aaab87d"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "pointOfTeamOne": 1,
+  "pointOfTeamTwo": 1,
+  "scoreTeamOne": 2,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Round 1",
+  "time": {
+    "$date": "2023-10-22T09:15:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593dda459f4e1c933abd532"
+    },
+    {
+      "$oid": "6593dda459f4e1c933abd533"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593dda459f4e1c933abd534"
+    },
+    {
+      "$oid": "6593dda459f4e1c933abd535"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593e0cf59f4e1c933abd539"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 3,
+  "scoreTeamTwo": 1,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f7"
+  },
+  "subReferee": [],
+  "round": "Round 2",
+  "time": {
+    "$date": "2023-11-04T01:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [
+    {
+      "$oid": "6593e1cc8fa78ce86aaab886"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593e1cc8fa78ce86aaab887"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593e19f8fa78ce86aaab881"
+    },
+    {
+      "$oid": "6593e19f8fa78ce86aaab884"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593e19f8fa78ce86aaab882"
+    },
+    {
+      "$oid": "6593e19f8fa78ce86aaab883"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593e0cf59f4e1c933abd53a"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "pointOfTeamOne": 1,
+  "pointOfTeamTwo": 1,
+  "scoreTeamOne": 1,
+  "scoreTeamTwo": 1,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f7"
+  },
+  "subReferee": [],
+  "round": "Round 2",
+  "time": {
+    "$date": "2023-11-04T02:15:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [
+    {
+      "$oid": "6593e3408fa78ce86aaab88c"
+    },
+    {
+      "$oid": "6593e3408fa78ce86aaab88d"
+    }
+  ],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593e3128fa78ce86aaab88a"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593e3128fa78ce86aaab889"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593e0cf59f4e1c933abd53b"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 5,
+  "scoreTeamTwo": 0,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Round 2",
+  "time": {
+    "$date": "2023-11-04T08:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593e48a8fa78ce86aaab897"
+    },
+    {
+      "$oid": "6593e48a8fa78ce86aaab898"
+    },
+    {
+      "$oid": "6593e48a8fa78ce86aaab899"
+    },
+    {
+      "$oid": "6593e48a8fa78ce86aaab89a"
+    },
+    {
+      "$oid": "6593e48a8fa78ce86aaab89b"
+    }
+  ],
+  "goalsTeamTwo": []
+},{
+  "_id": {
+    "$oid": "6593e0cf59f4e1c933abd53c"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 4,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f9"
+  },
+  "subReferee": [],
+  "round": "Round 2",
+  "time": {
+    "$date": "2023-11-04T09:15:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593e62f8fa78ce86aaab89c"
+    },
+    {
+      "$oid": "6593e62f8fa78ce86aaab89d"
+    },
+    {
+      "$oid": "6593e62f8fa78ce86aaab89f"
+    },
+    {
+      "$oid": "6593e62f8fa78ce86aaab89f"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593e62f8fa78ce86aaab89e"
+    },
+    {
+      "$oid": "6593e62f8fa78ce86aaab8a0"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593e8218fa78ce86aaab8a4"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 2,
+  "scoreTeamTwo": 5,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f9"
+  },
+  "subReferee": [],
+  "round": "Round 3",
+  "time": {
+    "$date": "2023-11-05T01:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593e90e59f4e1c933abd54c"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593e9b259f4e1c933abd551"
+    },
+    {
+      "$oid": "6593e9b259f4e1c933abd552"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593e9b259f4e1c933abd54e"
+    },
+    {
+      "$oid": "6593e9b259f4e1c933abd54f"
+    },
+    {
+      "$oid": "6593e9b259f4e1c933abd550"
+    },
+    {
+      "$oid": "6593e9b259f4e1c933abd553"
+    },
+    {
+      "$oid": "6593e9b259f4e1c933abd554"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593e8218fa78ce86aaab8a5"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 3,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Round 3",
+  "time": {
+    "$date": "2023-11-05T02:15:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [
+    {
+      "$oid": "6593eb3459f4e1c933abd55b"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593eb3459f4e1c933abd55c"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593eb2b59f4e1c933abd556"
+    },
+    {
+      "$oid": "6593eb2b59f4e1c933abd557"
+    },
+    {
+      "$oid": "6593eb2b59f4e1c933abd559"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593eb2b59f4e1c933abd555"
+    },
+    {
+      "$oid": "6593eb2b59f4e1c933abd558"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593e8218fa78ce86aaab8a6"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 3,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f9"
+  },
+  "subReferee": [],
+  "round": "Round 3",
+  "time": {
+    "$date": "2023-11-05T08:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593efdc8fa78ce86aaab8b0"
+    },
+    {
+      "$oid": "6593efdc8fa78ce86aaab8b2"
+    },
+    {
+      "$oid": "6593efdc8fa78ce86aaab8b4"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593efdc8fa78ce86aaab8b1"
+    },
+    {
+      "$oid": "6593efdc8fa78ce86aaab8b3"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593e8218fa78ce86aaab8a7"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 1,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f7"
+  },
+  "subReferee": [],
+  "round": "Round 3",
+  "time": {
+    "$date": "2023-11-05T09:15:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5307"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593f0858fa78ce86aaab8b5"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593f0858fa78ce86aaab8b6"
+    },
+    {
+      "$oid": "6593f0858fa78ce86aaab8b7"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593f97059f4e1c933abd56a"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 4,
+  "scoreTeamTwo": 1,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Semifinal",
+  "time": {
+    "$date": "2023-11-11T08:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5305"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [
+    {
+      "$oid": "6593fab28fa78ce86aaab8c1"
+    }
+  ],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593fab28fa78ce86aaab8c2"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593fab28fa78ce86aaab8c2"
+    },
+    {
+      "$oid": "6593fa9a8fa78ce86aaab8bd"
+    },
+    {
+      "$oid": "6593fa9a8fa78ce86aaab8bf"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593fa9a8fa78ce86aaab8bb"
+    },
+    {
+      "$oid": "6593fa9a8fa78ce86aaab8be"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593f97059f4e1c933abd56b"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 5,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "subReferee": [],
+  "round": "Semifinal",
+  "time": {
+    "$date": "2023-11-11T09:15:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c5"
+    },
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c6"
+    }
+  ],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593fc2d59f4e1c933abd571"
+    },
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c7"
+    },
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c8"
+    },
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c9"
+    },
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8ca"
+    },
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c4"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c5"
+    },
+    {
+      "$oid": "6593fc0b8fa78ce86aaab8c6"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593f97059f4e1c933abd56c"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "pointOfTeamOne": 0,
+  "pointOfTeamTwo": 3,
+  "scoreTeamOne": 1,
+  "scoreTeamTwo": 2,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f9"
+  },
+  "subReferee": [],
+  "round": "Final",
+  "time": {
+    "$date": "2023-11-12T09:15:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5306"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593fcf98fa78ce86aaab8cd"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593fcf98fa78ce86aaab8cb"
+    },
+    {
+      "$oid": "6593fcf98fa78ce86aaab8cc"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6593f97059f4e1c933abd56d"
+  },
+  "teamOne": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "teamTwo": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "pointOfTeamOne": 3,
+  "pointOfTeamTwo": 0,
+  "scoreTeamOne": 2,
+  "scoreTeamTwo": 1,
+  "mainReferee": {
+    "$oid": "6566c942495dac692d1a52f7"
+  },
+  "subReferee": [],
+  "round": "competition3rd",
+  "time": {
+    "$date": "2023-11-12T08:00:00.000Z"
+  },
+  "stadium": {
+    "$oid": "6566ca62495dac692d1a5307"
+  },
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "cardsTeamOne": [],
+  "cardsTeamTwo": [],
+  "goalsTeamOne": [
+    {
+      "$oid": "6593fdb28fa78ce86aaab8ce"
+    },
+    {
+      "$oid": "6593fdb28fa78ce86aaab8d0"
+    }
+  ],
+  "goalsTeamTwo": [
+    {
+      "$oid": "6593fdb28fa78ce86aaab8cf"
+    }
+  ]
+}]

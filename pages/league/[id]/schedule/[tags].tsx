@@ -7,7 +7,7 @@ import MainLayout from '@/components/layout/main';
 import { IRound, NextPageWithLayout } from '@/interfaces';
 
 //chakra-ui
-import { Text } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 
 //component
 import ScheduleComponent from '@/components/main/components/schedule';
@@ -40,7 +40,17 @@ const Schedule: NextPageWithLayout = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [rounds]);
 
-  return <>{isLoading ? <SkeletonComponent /> : <ScheduleComponent />}</>;
+  return (
+    <>
+      {isLoading ? (
+        <Box mt="100px">
+          <SkeletonComponent />
+        </Box>
+      ) : (
+        <ScheduleComponent />
+      )}
+    </>
+  );
 };
 
 Schedule.Layout = MainLayout;

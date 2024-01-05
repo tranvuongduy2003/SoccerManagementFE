@@ -1,0 +1,187 @@
+[{
+  "_id": {
+    "$oid": "6566d470121b1c11f355c8a0"
+  },
+  "totalPlayer": 56,
+  "totalGoal": 14,
+  "totalOwN": 0,
+  "totalMatches": 7,
+  "totalCard": 4,
+  "matchMostGoal": [
+    {
+      "$oid": "6569cda417b7aa93a79c30eb"
+    }
+  ],
+  "matchMostCard": [
+    {
+      "$oid": "6569cda417b7aa93a79c30f0"
+    }
+  ],
+  "goalPerMatch": 2,
+  "cardPerMatch": 0.6,
+  "totalDoubleKick": 1,
+  "totalHattrick": 1,
+  "totalPocker": 0,
+  "teamMostGoal": [
+    {
+      "$oid": "6567004c495dac692d1a5339"
+    }
+  ],
+  "teamMostCard": [
+    {
+      "$oid": "6567004c495dac692d1a533a"
+    }
+  ],
+  "totalYellowCard": 3,
+  "totalRedCard": 1,
+  "playerMostCard": [
+    {
+      "$oid": "65682265ba532f5e1bfe9dbb"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6566d470121b1c11f355c8a1"
+  },
+  "totalPlayer": 0,
+  "totalGoal": 0,
+  "totalOwN": 0,
+  "totalMatches": 0,
+  "totalCard": 0,
+  "matchMostGoal": [],
+  "matchMostCard": [],
+  "goalPerMatch": 0,
+  "cardPerMatch": 0,
+  "totalDoubleKick": 0,
+  "totalHattrick": 0,
+  "totalPocker": 0,
+  "teamMostGoal": [],
+  "teamMostCard": [],
+  "totalYellowCard": 1,
+  "totalRedCard": 1,
+  "playerMostCard": []
+},{
+  "_id": {
+    "$oid": "6566d470121b1c11f355c8a2"
+  },
+  "totalPlayer": 58,
+  "totalGoal": 73,
+  "totalOwN": 2,
+  "totalMatches": 16,
+  "totalCard": 17,
+  "matchMostGoal": [
+    {
+      "$oid": "6593d5a159f4e1c933abd518"
+    }
+  ],
+  "matchMostCard": [
+    {
+      "$oid": "6593d9e859f4e1c933abd51d"
+    }
+  ],
+  "goalPerMatch": 4.7,
+  "cardPerMatch": 1.1,
+  "totalDoubleKick": 9,
+  "totalHattrick": 3,
+  "totalPocker": 0,
+  "teamMostGoal": [
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f74"
+    }
+  ],
+  "teamMostCard": [
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f79"
+    }
+  ],
+  "totalYellowCard": 16,
+  "totalRedCard": 1,
+  "playerMostCard": [
+    {
+      "$oid": "6592fb992ffca4ad38e53157"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6566d470121b1c11f355c8a3"
+  },
+  "totalPlayer": 0,
+  "totalGoal": 0,
+  "totalOwN": 0,
+  "totalMatches": 0,
+  "totalCard": 0,
+  "matchMostGoal": [],
+  "matchMostCard": [],
+  "goalPerMatch": 0,
+  "cardPerMatch": 0,
+  "totalDoubleKick": 0,
+  "totalHattrick": 0,
+  "totalPocker": 0,
+  "teamMostGoal": [],
+  "teamMostCard": [],
+  "playerMoseCard": [],
+  "totalYellowCard": 1,
+  "totalRedCard": 1
+},{
+  "_id": {
+    "$oid": "6566d470121b1c11f355c8a4"
+  },
+  "totalPlayer": 24,
+  "totalGoal": 36,
+  "totalOwN": 1,
+  "totalMatches": 6,
+  "totalCard": 5,
+  "matchMostGoal": [
+    {
+      "$oid": "656db67a0639beefd449753d"
+    }
+  ],
+  "matchMostCard": [
+    {
+      "$oid": "656db67a0639beefd449753e"
+    }
+  ],
+  "goalPerMatch": 6,
+  "cardPerMatch": 0.8,
+  "totalDoubleKick": 5,
+  "totalHattrick": 1,
+  "totalPocker": 0,
+  "teamMostGoal": [
+    {
+      "$oid": "656d97c2a671feb421a4829e"
+    }
+  ],
+  "teamMostCard": [
+    {
+      "$oid": "656d97c2a671feb421a4829d"
+    }
+  ],
+  "totalYellowCard": 5,
+  "totalRedCard": 0,
+  "playerMostCard": [
+    {
+      "$oid": "656da7fea671feb421a482d7"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6566d470121b1c11f355c8a5"
+  },
+  "totalPlayer": 0,
+  "totalGoal": 0,
+  "totalOwN": 0,
+  "totalMatches": 0,
+  "totalCard": 0,
+  "matchMostGoal": [],
+  "matchMostCard": [],
+  "goalPerMatch": 0,
+  "cardPerMatch": 0,
+  "totalDoubleKick": 0,
+  "totalHattrick": 0,
+  "totalPocker": 0,
+  "teamMostGoal": [],
+  "teamMostCard": [],
+  "playerMoseCard": [],
+  "totalYellowCard": 1,
+  "totalRedCard": 1
+}]

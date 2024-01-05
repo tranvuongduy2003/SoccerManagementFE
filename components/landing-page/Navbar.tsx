@@ -58,7 +58,7 @@ export const Navbar = () => {
                     </summary>
                     <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                       <li>
-                      <Link href="/competitor">Find leagues</Link>
+                      <Link href="/competitor">Find teams</Link>
                       </li>
                     </ul>
                   </details>
@@ -109,6 +109,12 @@ export const Navbar = () => {
                   <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                     <li>
                       <Link href="/competitor">Find teams</Link>
+                    </li>
+                    <li>
+                      <Link href="/competitor">My team</Link>
+                    </li>
+                    <li>
+                      <Link href="/competitor/create">Create team</Link>
                     </li>
                   </ul>
                 </details>

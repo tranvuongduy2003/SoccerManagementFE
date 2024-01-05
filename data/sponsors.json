@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6566c170495dac692d1a52e8"
+  },
+  "name": "Red Bull",
+  "image": "https://upload.wikimedia.org/wikipedia/vi/thumb/6/6d/Red_Bull_Logo.svg/1200px-Red_Bull_Logo.svg.png",
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUfQyLvYJNo0KtsdJtMHd2fzh8lmhBEZztWh0vpylM2rk1iKY5BLA84WmF0-SRkNSZtQ&usqp=CAU",
+  "email": "redbull@gmail.com"
+},{
+  "_id": {
+    "$oid": "6566c170495dac692d1a52e9"
+  },
+  "name": "Red Bull2",
+  "image": "https://upload.wikimedia.org/wikipedia/vi/thumb/6/6d/Red_Bull_Logo.svg/1200px-Red_Bull_Logo.svg.png",
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfUfQyLvYJNo0KtsdJtMHd2fzh8lmhBEZztWh0vpylM2rk1iKY5BLA84WmF0-SRkNSZtQ&usqp=CAU",
+  "email": "redbull@gmail.com"
+}]

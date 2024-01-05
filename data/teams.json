@@ -1,0 +1,929 @@
+[{
+  "_id": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "name": "FA",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247523/FA_xuvvnt.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a532c"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9d8d"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d8e"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d8f"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d90"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d91"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d92"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d93"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30ed"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5352"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "name": "GUU",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247524/CUP_idqy9i.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a532d"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9d94"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d95"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d96"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d97"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d98"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d99"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d9a"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30ef"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ec"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5353"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "name": "MGLU + MIREA",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247523/MGLU_MIREA_qbsphy.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a532e"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9d9b"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d9c"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d9d"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d9e"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9d9f"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da0"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da1"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30ee"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30eb"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5354"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "name": "NÔNG NGHIỆP",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247525/NONGNGHIEP_xigpgu.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a532f"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9da2"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da3"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da4"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da5"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da6"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da7"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9da8"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30eb"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5355"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "name": "PLEKHANOV",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247523/52440895e5addf5c0a28ee80d72198e2_qnexd8.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a5330"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9da9"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9daa"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dab"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dac"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dad"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dae"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9daf"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30f0"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ef"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ed"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5356"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "name": "PUSHKIN + BỘ NỘI VỤ",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247523/15dcb6a62cf108cfc8f8a36ce46b28f4_dqd6oa.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a5331"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9db0"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db1"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db2"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db3"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db4"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db5"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db6"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30f0"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ee"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5357"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "name": "RUDN",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247523/750134a2d165db4b9d23332b679ab523_bwoy86.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a5332"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9db7"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db8"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9db9"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dba"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dbb"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dbc"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dbd"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5358"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "name": "TULA",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701247523/6d28c62ac4fcb41c1fc46f7a47eeace8_ojsomk.png",
+  "coach": {
+    "$oid": "6566ff5b495dac692d1a5333"
+  },
+  "players": [
+    {
+      "$oid": "65682265ba532f5e1bfe9dbe"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dbf"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dc0"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dc1"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dc2"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dc3"
+    },
+    {
+      "$oid": "65682265ba532f5e1bfe9dc4"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30ec"
+    }
+  ],
+  "statistical": {
+    "$oid": "65670b68495dac692d1a5359"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "name": "U11 Cityzens Z FC",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/f4559d59e4495592e3a7495ad53d45a5xr4ds_jybeag.png",
+  "coach": {
+    "$oid": "656d8531a671feb421a4827d"
+  },
+  "players": [
+    {
+      "$oid": "656da7fea671feb421a482c0"
+    },
+    {
+      "$oid": "656da7fea671feb421a482c1"
+    },
+    {
+      "$oid": "656da7fea671feb421a482c2"
+    },
+    {
+      "$oid": "656dd8bf52467a1d27e3884b"
+    },
+    {
+      "$oid": "656da7fea671feb421a482c4"
+    },
+    {
+      "$oid": "656da7fea671feb421a482c5"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "656db67a0639beefd449753b"
+    },
+    {
+      "$oid": "656db67a0639beefd449753e"
+    },
+    {
+      "$oid": "656db67a0639beefd4497540"
+    }
+  ],
+  "statistical": {
+    "$oid": "656d9d32a671feb421a482a3"
+  },
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "name": "U11 FC Blue Moon",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/c44fbd6a36e3be4bf911d4e1e93258cfm69j0_higbcc.png",
+  "coach": {
+    "$oid": "656d8531a671feb421a4827e"
+  },
+  "players": [
+    {
+      "$oid": "656da7fea671feb421a482c6"
+    },
+    {
+      "$oid": "656da7fea671feb421a482c7"
+    },
+    {
+      "$oid": "656da7fea671feb421a482c8"
+    },
+    {
+      "$oid": "656da7fea671feb421a482c9"
+    },
+    {
+      "$oid": "656da7fea671feb421a482ca"
+    },
+    {
+      "$oid": "656da7fea671feb421a482cb"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "656db67a0639beefd449753c"
+    },
+    {
+      "$oid": "656db67a0639beefd449753e"
+    },
+    {
+      "$oid": "656db67a0639beefd449753f"
+    }
+  ],
+  "statistical": {
+    "$oid": "656d9d32a671feb421a482a4"
+  },
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "name": "U11 MCFC Cityzens",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/8231f67ee711a1ec6bcd809a90875b22lsc8u_ymqcyh.png",
+  "coach": {
+    "$oid": "656d8531a671feb421a4827c"
+  },
+  "players": [
+    {
+      "$oid": "656da7fea671feb421a482cc"
+    },
+    {
+      "$oid": "656da7fea671feb421a482cd"
+    },
+    {
+      "$oid": "656da7fea671feb421a482ce"
+    },
+    {
+      "$oid": "656da7fea671feb421a482cf"
+    },
+    {
+      "$oid": "656da7fea671feb421a482d0"
+    },
+    {
+      "$oid": "656da7fea671feb421a482d1"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "656db67a0639beefd449753b"
+    },
+    {
+      "$oid": "656db67a0639beefd449753d"
+    },
+    {
+      "$oid": "656db67a0639beefd449753f"
+    }
+  ],
+  "statistical": {
+    "$oid": "656d9d32a671feb421a482a5"
+  },
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "name": "U11 MCFC Liên Quân",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1701680700/68a335b119a2ddc35160e01747569da5nrhyh_xq7999.png",
+  "coach": {
+    "$oid": "656d8531a671feb421a4827b"
+  },
+  "players": [
+    {
+      "$oid": "656da7fea671feb421a482d2"
+    },
+    {
+      "$oid": "656da7fea671feb421a482d3"
+    },
+    {
+      "$oid": "656da7fea671feb421a482d4"
+    },
+    {
+      "$oid": "656da7fea671feb421a482d5"
+    },
+    {
+      "$oid": "656da7fea671feb421a482d6"
+    },
+    {
+      "$oid": "656da7fea671feb421a482d7"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "656db67a0639beefd449753c"
+    },
+    {
+      "$oid": "656db67a0639beefd449753d"
+    },
+    {
+      "$oid": "656db67a0639beefd4497540"
+    }
+  ],
+  "statistical": {
+    "$oid": "656d9d32a671feb421a482a6"
+  },
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "name": "Dùng FC",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115140/d727e580ef52a0e94f2d5999c61838e72aemu_fcofim.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f6b"
+  },
+  "players": [
+    {
+      "$oid": "6592ebbd59f4e1c933abd468"
+    },
+    {
+      "$oid": "6592ebbd59f4e1c933abd469"
+    },
+    {
+      "$oid": "6592ebbd59f4e1c933abd46a"
+    },
+    {
+      "$oid": "6592ebbd59f4e1c933abd46b"
+    },
+    {
+      "$oid": "6592ebbd59f4e1c933abd46c"
+    },
+    {
+      "$oid": "6592ebbd59f4e1c933abd46d"
+    },
+    {
+      "$oid": "6592ebbd59f4e1c933abd46e"
+    },
+    {
+      "$oid": "6592ebbd59f4e1c933abd46f"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593d5a159f4e1c933abd518"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd539"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a5"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56b"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56c"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f80"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "name": "FC Đại Đồng",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115140/bea29f51daa3cdbf6e9c27b95880b4b5rm9it_s6upke.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f6c"
+  },
+  "players": [
+    {
+      "$oid": "6592f0b72ffca4ad38e53121"
+    },
+    {
+      "$oid": "6592f0b72ffca4ad38e53122"
+    },
+    {
+      "$oid": "6592f0b72ffca4ad38e53123"
+    },
+    {
+      "$oid": "6592f0b72ffca4ad38e53124"
+    },
+    {
+      "$oid": "6592f0b72ffca4ad38e53125"
+    },
+    {
+      "$oid": "6592f0b72ffca4ad38e53126"
+    },
+    {
+      "$oid": "6592f0b72ffca4ad38e53127"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593dc2759f4e1c933abd52e"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53c"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a6"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56b"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56d"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f81"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "name": "FC Đồng Văn",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115139/829fbe6ed7021fe32bbf05bfcce03322djhzy_kqtdeu.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f6d"
+  },
+  "players": [
+    {
+      "$oid": "6592f3ee2ffca4ad38e53130"
+    },
+    {
+      "$oid": "6592f3ee2ffca4ad38e53131"
+    },
+    {
+      "$oid": "6592f3ee2ffca4ad38e53132"
+    },
+    {
+      "$oid": "6592f3ee2ffca4ad38e53133"
+    },
+    {
+      "$oid": "6592f3ee2ffca4ad38e53134"
+    },
+    {
+      "$oid": "6592f3ee2ffca4ad38e53135"
+    },
+    {
+      "$oid": "6592f3ee2ffca4ad38e53136"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593dd468fa78ce86aaab87d"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53b"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a6"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f82"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "name": "FC Thanh Hương",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115139/f1b7758b2e1e7d75cee8f249affd18e5cvw7y_1_iyogee.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f6e"
+  },
+  "players": [
+    {
+      "$oid": "6592f65659f4e1c933abd4a0"
+    },
+    {
+      "$oid": "6592f65659f4e1c933abd4a1"
+    },
+    {
+      "$oid": "6592f65659f4e1c933abd4a2"
+    },
+    {
+      "$oid": "6592f65659f4e1c933abd4a3"
+    },
+    {
+      "$oid": "6592f65659f4e1c933abd4a4"
+    },
+    {
+      "$oid": "6592f65659f4e1c933abd4a5"
+    },
+    {
+      "$oid": "6592f65659f4e1c933abd4a6"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593dd468fa78ce86aaab87d"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53c"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a7"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56a"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56d"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f83"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "name": "FC Thanh Ngọc",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115258/ab7718fc566e57c4e2700902d7868eae7onl6_u071fi.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f6f"
+  },
+  "players": [
+    {
+      "$oid": "6592f9102ffca4ad38e53147"
+    },
+    {
+      "$oid": "6592f9102ffca4ad38e53148"
+    },
+    {
+      "$oid": "6592f9102ffca4ad38e53149"
+    },
+    {
+      "$oid": "6592f9102ffca4ad38e5314a"
+    },
+    {
+      "$oid": "6592f9102ffca4ad38e5314b"
+    },
+    {
+      "$oid": "6592f9102ffca4ad38e5314c"
+    },
+    {
+      "$oid": "6592f9102ffca4ad38e5314d"
+    },
+    {
+      "$oid": "6592f9102ffca4ad38e5314e"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593d9e859f4e1c933abd51d"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53a"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a5"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f84"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "name": "FC Thanh Đồng",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115139/112959737b2654340cfc8ce3170d9e941n0j2_bisinh.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f70"
+  },
+  "players": [
+    {
+      "$oid": "6592fb992ffca4ad38e53151"
+    },
+    {
+      "$oid": "6592fb992ffca4ad38e53152"
+    },
+    {
+      "$oid": "6592fb992ffca4ad38e53153"
+    },
+    {
+      "$oid": "6592fb992ffca4ad38e53154"
+    },
+    {
+      "$oid": "6592fb992ffca4ad38e53155"
+    },
+    {
+      "$oid": "6592fb992ffca4ad38e53156"
+    },
+    {
+      "$oid": "6592fb992ffca4ad38e53157"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593d5a159f4e1c933abd518"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53a"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a4"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56a"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56c"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f85"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "name": "Thanh Phong FC",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115139/85eb6e68ac0e0649bc5078e74e8d7e76j92jf_emsjxj.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f71"
+  },
+  "players": [
+    {
+      "$oid": "6592fe7f2ffca4ad38e53161"
+    },
+    {
+      "$oid": "6592fe7f2ffca4ad38e53162"
+    },
+    {
+      "$oid": "6592fe7f2ffca4ad38e53163"
+    },
+    {
+      "$oid": "6592fe7f2ffca4ad38e53164"
+    },
+    {
+      "$oid": "6592fe7f2ffca4ad38e53165"
+    },
+    {
+      "$oid": "6592fe7f2ffca4ad38e53166"
+    },
+    {
+      "$oid": "6592fe7f2ffca4ad38e53167"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593d9e859f4e1c933abd51d"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd539"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a4"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f86"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "name": "Thanh Tiên",
+  "flag": "https://res.cloudinary.com/dadvtny30/image/upload/v1704115140/49c9c7f72ba52c85500c6cdaafeb1895ns20v_qxyoga.png",
+  "coach": {
+    "$oid": "6592c25dff79dfdf7a2d1f72"
+  },
+  "players": [
+    {
+      "$oid": "6593017c2ffca4ad38e53179"
+    },
+    {
+      "$oid": "6593017c2ffca4ad38e5317a"
+    },
+    {
+      "$oid": "6593017c2ffca4ad38e5317b"
+    },
+    {
+      "$oid": "6593017c2ffca4ad38e5317c"
+    },
+    {
+      "$oid": "6593017c2ffca4ad38e5317d"
+    },
+    {
+      "$oid": "6593017c2ffca4ad38e5317e"
+    },
+    {
+      "$oid": "6593017c2ffca4ad38e5317f"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593dc2759f4e1c933abd52e"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53b"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a7"
+    }
+  ],
+  "statistical": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f87"
+  },
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+}]

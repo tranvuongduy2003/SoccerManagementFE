@@ -1,0 +1,103 @@
+[{
+  "_id": {
+    "$oid": "6566c942495dac692d1a52f8"
+  },
+  "name": "Ngô Duy Lân",
+  "avatar": "https://cdn.tuoitre.vn/zoom/480_300/471584752817336320/2023/8/15/ngo-duy-lan4-16607221109631025873277-418-836-1837-3107-crop-1692076977335385803274.jpg",
+  "age": 39,
+  "dob": {
+    "$date": "1984-07-03T00:00:00.000Z"
+  },
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "6566c942495dac692d1a52f9"
+  },
+  "name": "Hoàng Ngọc Hà",
+  "avatar": "https://cdn.tuoitre.vn/zoom/480_300/471584752817336320/2023/10/26/trogn-tai-nguyen-viet-duan-1698321732979736177412-103-274-1007-1720-crop-1698321755056485405460.jpg",
+  "age": 40,
+  "dob": {
+    "$date": "1983-09-17T00:00:00.000Z"
+  },
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "6566c942495dac692d1a52fa"
+  },
+  "name": "Nguyễn Mạnh Hải",
+  "avatar": "https://cdn.tuoitre.vn/zoom/480_300/2022/4/5/2745382052895980664663638269079593943152138n-1649152023572614054557-crop-164915204451596530567.jpg",
+  "age": 36,
+  "dob": {
+    "$date": "1987-11-11T00:00:00.000Z"
+  },
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "6566c942495dac692d1a52fb"
+  },
+  "name": "Nguyễn Minh Nhật",
+  "avatar": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blta4d9333cd28fdff7/60db2d84c5c41538a1523fdb/de64c25fed2c18b5247744ebfb5a50b0d9eafaae.jpg?auto=webp&format=pjpg&width=3840&quality=60",
+  "age": 41,
+  "dob": {
+    "$date": "1981-06-06T00:00:00.000Z"
+  },
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "6566c942495dac692d1a52fc"
+  },
+  "name": "Hoàng Thanh Bình",
+  "avatar": "https://cdn.tuoitre.vn/zoom/480_300/2022/10/29/trong-tai-var-1667008782127812956049-crop-16670088439121715655197.jpg",
+  "age": 43,
+  "dob": {
+    "$date": "1980-02-21T00:00:00.000Z"
+  },
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "6566c942495dac692d1a52fd"
+  },
+  "name": "Trương Hồng Vũ",
+  "avatar": "https://cdn1.tuoitre.vn/zoom/600_315/2022/7/19/z35793158699392967154664c0b7664aedfa50586e5b05-1658243021795491887634-crop-165824304336097963645.jpg",
+  "age": 39,
+  "dob": {
+    "$date": "1984-07-01T00:00:00.000Z"
+  },
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "656d864ca671feb421a48280"
+  },
+  "name": "Nguyễn Văn Tân",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676461/ngoduylan-1634706663-6395-1634-9305-1941-1634712675_hfinau.jpg",
+  "age": 39,
+  "dob": "1984-07-01",
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "656d864ca671feb421a48281"
+  },
+  "name": "Hoàng Tuấn Vũ",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676461/vu3935233PM_qxclyj.jpg",
+  "age": 43,
+  "dob": "1980-11-12",
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "656d864ca671feb421a48282"
+  },
+  "name": "Đào Duy Sang",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676461/1686630064_152_2-trong-tai-Malaysia-tung-lam-V-League-dieu-khien-2_dpcc1p.jpg",
+  "age": 50,
+  "dob": "1970-12-18",
+  "nation": "VietNam"
+},{
+  "_id": {
+    "$oid": "656d864ca671feb421a48283"
+  },
+  "name": "Đỗ Đức Mạnh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701676461/images_1_fea3fk.jpg",
+  "age": 45,
+  "dob": "1978-09-12",
+  "nation": "VietNam"
+}]

@@ -14,6 +14,7 @@ interface SidebarContentProps {
 
 function SidebarContent(props: SidebarContentProps) {
 	const { routes } = props;
+
 	// SIDEBAR
 	return (
 		<Flex direction='column' height='100%' pt='25px' borderRadius='30px'>

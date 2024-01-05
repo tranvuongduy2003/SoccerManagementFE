@@ -137,7 +137,7 @@ export default function MainLayout(props: DashboardLayoutProps) {
           setToggleSidebar
         }}
       >
-        <Sidebar routes={routes} display="none" {...rest} />
+        <Sidebar routes={routes} display="none" />
         <Box
           float="right"
           minHeight="100vh"
