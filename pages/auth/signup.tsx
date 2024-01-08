@@ -95,30 +95,31 @@ function SignUp() {
       const { email, username, phone, password } = values;
 
       //TODO: call signup api
-      const { accessToken, refreshToken, user } = await signUp({
+      const Avatar = await signUp({
         email,
         password,
         name: username,
         phone
       });
-      authService.login({
-        accessToken: accessToken,
-        refreshToken: refreshToken,
-        name: user.fullname,
-        id: user.id,
-        role: user.role,
-        email: user.email
-      });
+      console.log(Avatar);
+      // authService.login({
+      //   accessToken: accessToken,
+      //   refreshToken: refreshToken,
+      //   name: user.fullname,
+      //   id: user.id,
+      //   role: user.role,
+      //   email: user.email
+      // });
 
-      setIsLoading(false);
-      toast({
-        title: 'Create new account successfully!',
-        description: 'You will be redirected to Home page',
-        status: 'success',
-        duration: 500,
-        onCloseComplete: () => router.push('/'),
-        position: 'top-right'
-      });
+      // setIsLoading(false);
+      // toast({
+      //   title: 'Create new account successfully!',
+      //   description: 'You will be redirected to Home page',
+      //   status: 'success',
+      //   duration: 500,
+      //   onCloseComplete: () => router.push('/'),
+      //   position: 'top-right'
+      // });
     } catch (error: any) {
       setIsLoading(false);
       toast({

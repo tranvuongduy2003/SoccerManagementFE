@@ -143,16 +143,16 @@ const FindLeagues: NextPageWithLayout = () => {
     error
   } = useQuery<ITournament[]>({
     queryKey: ['tournaments'],
-    queryFn: getTournaments,
-    select: data => data,
+    queryFn: getTournaments!,
+    initialData: [],
   });
   const queryClient = useQueryClient();
 
-  if(tournaments){
-    console.log(tournaments)
+  if (tournaments) {
+    console.log(tournaments);
   }
 
-  if(isError){
+  if (isError) {
     console.log(error);
   }
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import * as XLSX from 'xlsx';
 
 //chakra-ui
 import {
@@ -8,7 +9,13 @@ import {
   Button,
   Divider,
   Center,
-  Icon
+  Icon,
+  Input,
+  FormControl,
+  FormLabel,
+  InputGroup,
+  InputLeftElement,
+  FormErrorMessage
 } from '@chakra-ui/react';
 
 //icons
@@ -35,36 +42,44 @@ import { v4 } from 'uuid';
 
 // const Player = () => {};
 
-interface MemberFormProps {
-  member: any;
+interface MembersFormProps {
   handleDeleteForm: () => void;
-  // handleSaveItem: () => void;
-  updateMember: (member: IPlayer) => void;
+  membersForm: any;
+  index: number;
 }
 
-const MemberForm = (props: MemberFormProps) => {
-  const { updateMember, member, handleDeleteForm } = props;
+const MembersForm = (props: MembersFormProps) => {
+  const { membersForm, index, handleDeleteForm } = props;
 
-  const methods = useForm({ defaultValues: member, mode: 'onBlur' });
+  const memberForm = useForm({
+    defaultValues: membersForm.watch().members[index],
+    mode: 'onChange'
+  });
 
-  const { reset } = methods;
+  // useEffect(() => {
+  //   if (index === 0) {
+  //     memberForm.setValue(`members.${index}.name`, memberForm.watch().name);
+  //   }
+  // }, []);
+
+  useEffect(() => {
+    // ticketsForm.setValue(
+    //   `tickets.${index}.fullname`,
+    //   ticketForm.watch().fullname
+    // );
+    // ticketsForm.setValue(`tickets.${index}.email`, ticketForm.watch().email);
+    // ticketsForm.setValue(`tickets.${index}.phone`, ticketForm.watch().phone);
+    membersForm.setValue(`members.${index}.name`, memberForm.watch().name);
+    membersForm.setValue(`members.${index}.weight`, memberForm.watch().weight);
+
+    console.log('haha');
+  }, [membersForm.watch().members.length]);
 
   const [file, setImageUrl] = useState('');
 
-  console.log(member);
-
-  const handleChange = () => {
-    updateMember(methods.getValues());
-    
-  };
-
-  useEffect(() => {
-    reset()
-  }, []);
-
   return (
-    <FormProvider {...methods}>
-      <form onChange={handleChange}>
+    <FormProvider {...memberForm}>
+      <form>
         <Flex
           position="relative"
           alignItems="center"
@@ -182,93 +197,116 @@ const MemberForm = (props: MemberFormProps) => {
 };
 
 const MemberTeam = () => {
-  const [membersForm, setMembersForm] = useState<IPlayer[]>([]);
-  const [players, setPlayers] = useState<IPlayer[]>([]);
+  const membersForm = useForm<any>({
+    defaultValues: {
+      members: []
+    },
+    mode: 'onChange'
+  });
 
-  const addNewMember = () => {
-    setMembersForm([{ ...InitPlayer, _id: v4() }, ...membersForm]);
+  const handleIncreaseQuantity = () => {
+    const members = membersForm.watch().members;
+    members.push(InitPlayer);
+    membersForm.setValue('members', members);
   };
 
-  const updateMember = (memberUpdate: IPlayer) => {
-    const newUsers = membersForm.map(member => {
-      return member._id === memberUpdate._id ? memberUpdate : member;
-    });
-    setMembersForm(newUsers);
-  };
-
-  const removeMember = (id: string) => {
-    const newUsers = membersForm.filter(member => member._id !== id);
-    console.log(newUsers);
-    setMembersForm(newUsers);
+  const handleDecreaseQuantity = () => {
+    const members = membersForm.watch().members;
+    members.pop();
+    membersForm.setValue('members', members);
   };
 
   const handleSave = () => {
-    console.log(membersForm);
+    console.log(membersForm.getValues());
+  };
+
+  const handleFileUpload = (e: any) => {
+    const reader = new FileReader();
+
+    reader.readAsBinaryString(e.target.files[0]);
+    reader.onload = e => {
+      const data = e.target?.result;
+      const workbook = XLSX.read(data, { type: 'binary' });
+      const sheetName = workbook.SheetNames[0];
+      const sheet = workbook.Sheets[sheetName];
+      const parseData = XLSX.utils.sheet_to_json(sheet);
+      console.log(parseData);
+    };
   };
 
   return (
     <Box>
-      <Text>There are {players.length} players.</Text>
-      {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-      <Flex
-        alignItems="center"
-        justifyContent="space-between"
-        bgColor="#f3f3f3"
-        p={2}
-      >
-        <Button
-          display="flex"
-          gap={2}
-          bgColor="#9ADE7B"
-          _hover={{ bgColor: '#65B741' }}
-          textColor="#FFF"
-          onClick={addNewMember}
+      <Text>There are {membersForm.watch().members.length} players.</Text>
+      <FormProvider {...membersForm}>
+        <Flex
+          alignItems="center"
+          justifyContent="space-between"
+          bgColor="#f3f3f3"
+          p={2}
         >
-          <Flex alignItems="center" gap={2}></Flex>
-          <MdAdd />
-          Add player
-        </Button>
-
-        <Button
-          display="flex"
-          gap={2}
-          bgColor="#C499F3"
-          _hover={{ bgColor: '#7360DF' }}
-          textColor="#FFF"
-        >
-          <FaFileImport />
-          Import file
-        </Button>
-      </Flex>
-      <Divider my={4} />
-      <Flex flexDirection="column" gap={4}>
-        {membersForm.map((member, index) => (
-          <MemberForm
-            // handleSaveItem={() => {}}
-            updateMember={updateMember}
-            member={member}
-            key={index}
-            handleDeleteForm={() => removeMember(member._id!)}
-          />
-        ))}
-      </Flex>
-      {membersForm.length ? (
-        <Flex justifyContent="flex-end">
           <Button
+            display="flex"
+            gap={2}
+            bgColor="#9ADE7B"
+            _hover={{ bgColor: '#65B741' }}
+            textColor="#FFF"
+            onClick={e => {
+              e.preventDefault();
+              handleIncreaseQuantity();
+            }}
+          >
+            <Flex alignItems="center" gap={2}></Flex>
+            <MdAdd />
+            Add player
+          </Button>
+          
+          <Input
+            type="file"
+            accept=".xlsx, .xls"
+            display="flex"
+            w={150}
+            gap={2}
             bgColor="#C499F3"
             _hover={{ bgColor: '#7360DF' }}
             textColor="#FFF"
-            mt={4}
-            right={0}
-            onClick={handleSave}
+            onClick={handleFileUpload}
+            aria-label='import file'
           >
-            Save
-          </Button>
+            {/* <Box>
+              <FaFileImport />
+              Import file
+            </Box> */}
+          </Input>
+          
         </Flex>
-      ) : (
-        <Box />
-      )}
-      {/* </form> */}
+        <Divider my={4} />
+        <Flex flexDirection="column" gap={4}>
+          {membersForm.watch().members.map((member: any, index: number) => (
+            <MembersForm
+              membersForm={membersForm}
+              handleDeleteForm={handleDecreaseQuantity}
+              key={index}
+              index={index}
+            />
+          ))}
+        </Flex>
+        {membersForm.watch().members.length ? (
+          <Flex justifyContent="flex-end">
+            <Button
+              bgColor="#C499F3"
+              _hover={{ bgColor: '#7360DF' }}
+              textColor="#FFF"
+              mt={4}
+              right={0}
+              onClick={handleSave}
+            >
+              Save
+            </Button>
+          </Flex>
+        ) : (
+          <Box />
+        )}
+      </FormProvider>
     </Box>
   );
 };
