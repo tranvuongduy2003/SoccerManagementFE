@@ -58,7 +58,7 @@ export default function initRequest() {
 
   axiosInstance.interceptors.response.use(
     res => {
-      return res?.data.data;
+      return res.data;
     },
     error => {
       switch (error.response?.status) {

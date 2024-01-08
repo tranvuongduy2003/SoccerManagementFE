@@ -1,5 +1,5 @@
 import { IStatisticalPLayer, InitStatisticalPLayer } from '.';
-import { v4 } from 'uuid';
+
 export interface IPlayer {
   _id?: string;
   name: string;
