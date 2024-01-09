@@ -23,7 +23,7 @@ import {
 import { FieldError } from 'react-hook-form';
 import { FiAlertCircle, FiPlus } from 'react-icons/fi';
 
-export interface FileInputProps {
+interface FileInputProps {
   label: string;
   color: string;
   width: number;
@@ -34,16 +34,11 @@ export interface FileInputProps {
   localImageUrl: any;
   setLocalImageUrl: Dispatch<SetStateAction<string>>;
   setError: any;
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => any;
-  // trigger: UseFormTrigger<FieldValues>;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const FileInputBase: ForwardRefRenderFunction<
-  HTMLInputElement,
-  FileInputProps
-> = (
-  {
-    // control
+const FileInput = (props: FileInputProps) => {
+  const {
     round,
     label,
     width,
@@ -54,12 +49,9 @@ const FileInputBase: ForwardRefRenderFunction<
     localImageUrl,
     setLocalImageUrl,
     setError,
-    onChange,
-    //   trigger,
-    ...rest
-  },
-  ref
-) => {
+    onChange
+  } = props;
+
   const toast = useToast();
   const [progress, setProgress] = useState(0);
   const [isSending, setIsSending] = useState(false);
@@ -96,16 +88,16 @@ const FileInputBase: ForwardRefRenderFunction<
           id={name}
           name={name}
           // onChange={handleImageUpload}
-          ref={ref}
+          // ref={ref}
           type="file"
           style={{
             display: 'none'
           }}
-          {...rest}
+          // {...rest}
         />
       </FormLabel>
     </FormControl>
   );
 };
 
-export const FileInput = forwardRef(FileInputBase);
+export default FileInput;

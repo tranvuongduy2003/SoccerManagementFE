@@ -8,12 +8,12 @@ export interface IPlayer {
   height: string;
   weight: string;
   national: string;
-  number: number;
+  number: number | undefined;
   dob: Date;
   position: string;
   statistical: IStatisticalPLayer;
   tags: string;
-  captain?: boolean;
+  captain?: string | boolean;
 }
 
 export const InitPlayer = {
@@ -24,7 +24,7 @@ export const InitPlayer = {
   height: '',
   weight: '',
   national: 'VietNam',
-  number: 0,
+  number: undefined,
   dob: new Date(),
   position: 'Defender',
   statistical: InitStatisticalPLayer,
