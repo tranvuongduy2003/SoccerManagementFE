@@ -5,56 +5,36 @@ import { HomeLayout } from '@/components/layout';
 import { ITeam, InitTeam, NextPageWithLayout } from '@/interfaces';
 
 //chark-ra ui
-import { Box, Center, Divider, Flex, Text } from '@chakra-ui/react';
-
-//image
-import team from '@/public/images/common/team.png';
-import uniform from '@/public/images/common/shirt.svg';
+import { Box, Center, Divider, Flex, Text, Image } from '@chakra-ui/react';
 
 //form
 import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
 // import * as Yup from "yup";
-import {
-  InputControl,
-  SelectControl,
-  FileInput,
-  SubmitButton
-} from '@/components/form';
+import { InputControl, SelectControl, SubmitButton } from '@/components/form';
 
 //route
 import { useRouter } from 'next/navigation';
 
-// const defaultValues = {
-//   firstName: '',
-//   lastName: '',
-//   age: 0,
-//   phoneNumber: '',
-//   confirmationPin: '',
-//   website: '',
-//   willingToRelocate: true,
-//   favoriteColor: '',
-//   preferredShift: ['afternoons'],
-//   additionalNotes: '',
-//   previousExperience: false,
-//   callbackTime: '',
-//   excitementScale: 5,
-//   password: ''
-// };
-
-// We're using yup validation for this demo but you can choose any other react hook form supported validation provider
-// const validationSchema = Yup.object({
-//     name: Yup.string().required("First Name is required"),
-// });
+//image
+import { CldUploadWidget } from 'next-cloudinary';
 
 const Create: NextPageWithLayout = () => {
   const methods = useForm({ defaultValues: InitTeam, mode: 'onBlur' });
   const router = useRouter();
-  const [image, setImageUrl] = useState<string>('');
-
-  const { control } = methods;
+  const [logo, setLogo] = useState<string>('');
+  const [uniformOne, setUniformOne] = useState<string>('');
+  const [uniformTwo, setUniformTwo] = useState<string>('');
+  const [uniformThree, setUniformThree] = useState<string>('');
 
   const onSubmit: SubmitHandler<ITeam> = async (data: ITeam) => {
-    // console.log(data);
+    const uniforms = [uniformOne, uniformTwo, uniformThree];
+    const formData = {
+      ...data,
+      flag: logo,
+      uniform: uniforms,
+      representative: '12345'
+    };
+    console.log(formData);
     router.push('/competitor/2/profile');
   };
   return (
@@ -73,23 +53,50 @@ const Create: NextPageWithLayout = () => {
           <form onSubmit={methods.handleSubmit(onSubmit)}>
             <Flex gap={4}>
               <Flex flexDirection="column" color="black">
-                <FileInput
-                  // control={control}
-                  round="2px"
-                  width={300}
-                  label="Avatar"
-                  color="black"
-                  name="flag"
-                  setImageUrl={setImageUrl}
-                  localImageUrl={team}
-                  setError={() => {}}
-                  onChange={e => {}}
-                  setLocalImageUrl={uniform}
-                />
+                <CldUploadWidget
+                  uploadPreset="soccer_upload"
+                  options={{
+                    folder: 'samples',
+                    sources: ['local', 'url', 'google_drive'],
+                    multiple: false,
+                    styles: {}
+                  }}
+                  onSuccess={(result: any) => {
+                    setLogo(result.info.secure_url);
+                    console.log(
+                      'modalData backgroundImage:: ' + result.info.secure_url
+                    );
+                  }}
+                  onError={error => {
+                    console.log(error);
+                  }}
+                >
+                  {({ open }) => {
+                    return (
+                      <div className="h-80 w-full md:h-3/5">
+                        <h2 className="font-semibold">Logo</h2>
+                        <div className="relative mt-2 h-[90%] w-full rounded bg-gray-200">
+                          <button
+                            className="relative h-full w-full"
+                            onClick={() => {
+                              open();
+                            }}
+                          >
+                            <Image
+                              src={logo ? logo : '/images/common/team.png'}
+                              objectFit="cover"
+                              alt="Default Cover Image"
+                              className="rounded h-[250px] w-[250px]"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  }}
+                </CldUploadWidget>
               </Flex>
               <Flex flexDirection="column" w="400px" gap={1}>
                 <InputControl
-                  // control={control}
                   type="text"
                   name="name"
                   label="Name"
@@ -97,12 +104,13 @@ const Create: NextPageWithLayout = () => {
                   color="black"
                 />
                 <InputControl
-                  // control={control}
+                  readonly={true}
                   type="text"
-                  placeholder="Enter Representative"
+                  // placeholder="Enter Representative"
                   name="representative"
                   label="Representative"
                   color="black"
+                  value="Anh Quoc"
                 />
                 <Flex gap={4}>
                   <SelectControl
@@ -128,7 +136,6 @@ const Create: NextPageWithLayout = () => {
                   </SelectControl>
                 </Flex>
                 <InputControl
-                  // control={control}
                   type="text"
                   placeholder="Enter Activity area"
                   name="area"
@@ -138,47 +145,143 @@ const Create: NextPageWithLayout = () => {
               </Flex>
             </Flex>
             <Divider py="2" />
-            <Center>
-              <FileInput
-                // control={control}
-                round="2px"
-                width={90}
-                label="Uniform 1"
-                color="black"
-                name="uniform"
-                setImageUrl={setImageUrl}
-                localImageUrl={uniform}
-                setError={() => {}}
-                onChange={e => {}}
-                setLocalImageUrl={uniform}
-              />
-              <FileInput
-                // control={control}
-                round="2px"
-                width={90}
-                label="Uniform 2"
-                color="black"
-                name="uniform"
-                setImageUrl={setImageUrl}
-                localImageUrl={uniform}
-                setError={() => {}}
-                onChange={e => {}}
-                setLocalImageUrl={uniform}
-              />
-              <FileInput
-                // control={control}
-                round="2px"
-                width={90}
-                label="Uniform 3"
-                color="black"
-                name="uniform"
-                setImageUrl={setImageUrl}
-                localImageUrl={uniform}
-                setError={() => {}}
-                onChange={e => {}}
-                setLocalImageUrl={uniform}
-              />
-            </Center>
+            <Flex alignItems="center" justifyContent="center">
+              <CldUploadWidget
+                uploadPreset="soccer_upload"
+                options={{
+                  folder: 'samples',
+                  sources: ['local', 'url', 'google_drive'],
+                  multiple: false,
+                  styles: {}
+                }}
+                onSuccess={(result: any) => {
+                  setUniformOne(result.info.secure_url);
+                  console.log(
+                    'modalData backgroundImage:: ' + result.info.secure_url
+                  );
+                }}
+                onError={error => {
+                  console.log(error);
+                }}
+              >
+                {({ open }) => {
+                  return (
+                    <div className="h-80 w-full md:h-3/5 flex flex-col items-center">
+                      <h2 className="font-semibold text-black">Uniform 1</h2>
+                      <div className="relative mt-2 h-[90%] rounded bg-gray-200">
+                        <button
+                          className="relative h-full w-full"
+                          onClick={() => {
+                            open();
+                          }}
+                        >
+                          <Image
+                            src={
+                              uniformOne
+                                ? uniformOne
+                                : '/images/common/shirt.svg'
+                            }
+                            objectFit="cover"
+                            alt="Default Cover Image"
+                            className="rounded h-[100px] w-[100px]"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  );
+                }}
+              </CldUploadWidget>
+              <CldUploadWidget
+                uploadPreset="soccer_upload"
+                options={{
+                  folder: 'samples',
+                  sources: ['local', 'url', 'google_drive'],
+                  multiple: false,
+                  styles: {}
+                }}
+                onSuccess={(result: any) => {
+                  setUniformTwo(result.info.secure_url);
+                  console.log(
+                    'modalData backgroundImage:: ' + result.info.secure_url
+                  );
+                }}
+                onError={error => {
+                  console.log(error);
+                }}
+              >
+                {({ open }) => {
+                  return (
+                    <div className="h-80 w-full md:h-3/5 flex flex-col items-center">
+                      <h2 className="font-semibold text-black">Uniform 2</h2>
+                      <div className="relative mt-2 h-[90%]  rounded bg-gray-200">
+                        <button
+                          className="relative h-full w-full"
+                          onClick={() => {
+                            open();
+                          }}
+                        >
+                          <Image
+                            src={
+                              uniformTwo
+                                ? uniformTwo
+                                : '/images/common/shirt.svg'
+                            }
+                            objectFit="cover"
+                            alt="Default Cover Image"
+                            className="rounded h-[100px] w-[100px]"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  );
+                }}
+              </CldUploadWidget>
+              <CldUploadWidget
+                uploadPreset="soccer_upload"
+                options={{
+                  folder: 'samples',
+                  sources: ['local', 'url', 'google_drive'],
+                  multiple: false,
+                  styles: {}
+                }}
+                onSuccess={(result: any) => {
+                  setUniformThree(result.info.secure_url);
+                  console.log(
+                    'modalData backgroundImage:: ' + result.info.secure_url
+                  );
+                }}
+                onError={error => {
+                  console.log(error);
+                }}
+              >
+                {({ open }) => {
+                  return (
+                    <div className="h-80 w-full md:h-3/5 flex flex-col items-center">
+                      <h2 className="font-semibold text-black">Uniform 3</h2>
+                      <div className="relative mt-2 h-[90%] rounded bg-gray-200">
+                        <button
+                          className="relative h-full w-full"
+                          onClick={() => {
+                            open();
+                          }}
+                        >
+                          <Image
+                            src={
+                              uniformThree
+                                ? uniformThree
+                                : '/images/common/shirt.svg'
+                            }
+                            objectFit="cover"
+                            alt="Default Cover Image"
+                            className="rounded h-[100px] w-[100px]"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  );
+                }}
+              </CldUploadWidget>
+            </Flex>
             <Center>
               <SubmitButton type="submit">Save</SubmitButton>
             </Center>
