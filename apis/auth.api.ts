@@ -1,10 +1,14 @@
 import httpRequest from '@/services/httpRequest';
 import { API_ROUTE } from '@/constants';
-import { User } from '@/models';
-import { LoginPayload, LoginResponse, SignUpPayload } from '@/interfaces';
+import {
+  IUser,
+  LoginPayload,
+  LoginResponse,
+  SignUpPayload
+} from '@/interfaces';
 
 export const getUserProfile = () => {
-  return httpRequest.get<User>('/profile');
+  return httpRequest.get<IUser>('/profile');
 };
 
 export const signIn = (data: LoginPayload) => {

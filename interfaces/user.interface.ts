@@ -1,13 +1,16 @@
 export interface IUser {
-  _id?: string;
-  username: string;
+  _id: string;
   email: string;
-  phone: string;
   password: string;
-  dob: Date;
+  username: string;
+  phone?: string;
+  dob?: Date;
   isActive: boolean;
+  role: string;
+  avatar?: string;
   refreshToken?: string;
-  role: ERole;
+  createdAt: Date;
+  updatedAt: Date;
 }
 
 export const InitUser = {
@@ -24,14 +27,4 @@ export enum ERole {
   ADMIN = 'ADMIN',
   OWNER = 'OWNER',
   VIEWER = 'VIEWER'
-}
-
-export interface IRoleType {
-  _id?: string;
-  name: string;
-}
-
-export interface IRole {
-  roleId: String;
-  userId: string;
 }

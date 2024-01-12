@@ -1,4 +1,4 @@
-import { User } from '@/models';
+import { IUser } from '.';
 
 export interface LoginPayload {
   email: string;
@@ -18,7 +18,7 @@ export interface Token {
 }
 
 export interface LoginResponse {
-  user: User;
+  user: IUser;
   accessToken: Token;
   refreshToken: Token;
 }
