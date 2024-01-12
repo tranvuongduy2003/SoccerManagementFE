@@ -1,15 +1,13 @@
-import React from 'react';
-
 //chakra-ui
 import {
   Flex,
+  Heading,
   Table,
   Tbody,
   Text,
   Th,
   Thead,
   Tr,
-  Heading,
   useColorModeValue
 } from '@chakra-ui/react';
 
@@ -23,7 +21,6 @@ import { IPrize } from '@/interfaces';
 
 //Component
 import SkeletonComponent from '@/components/common/skeleton';
-import NotData from '@/components/common/notData';
 
 interface TableProps {
   captions: string[];

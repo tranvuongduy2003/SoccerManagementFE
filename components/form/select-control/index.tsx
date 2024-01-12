@@ -1,22 +1,24 @@
-import { Select, SelectProps } from "@chakra-ui/react"
-import { FC, ReactNode } from "react"
-import { useController } from "react-hook-form"
-import { BaseProps, FormControl } from "../form-control"
+import { Select, SelectProps } from '@chakra-ui/react';
+import { FC, ReactNode } from 'react';
+import { useController } from 'react-hook-form';
+import { BaseProps, FormControl } from '../form-control';
 
 export interface SelectControlProps extends BaseProps {
   /**
    * Chakra SelectProps
    */
-  selectProps?: SelectProps
+  selectProps?: SelectProps;
 
   /**
    * The ReactNode to be rendered inside Chakra Select component
    */
-  children: ReactNode
+  children: ReactNode;
 }
 
-export const SelectControl: FC<SelectControlProps> = (props: SelectControlProps) => {
-  const { name, control, selectProps, children,color, ...rest } = props
+export const SelectControl: FC<SelectControlProps> = (
+  props: SelectControlProps
+) => {
+  const { name, control, selectProps, children, color, ...rest } = props;
   const {
     field,
     formState: { isSubmitting }
@@ -24,7 +26,7 @@ export const SelectControl: FC<SelectControlProps> = (props: SelectControlProps)
     name,
     control,
     defaultValue: props.selectProps?.defaultValue || ''
-  })
+  });
 
   return (
     <FormControl color={color} name={name} control={control} {...rest}>
@@ -32,9 +34,9 @@ export const SelectControl: FC<SelectControlProps> = (props: SelectControlProps)
         {children}
       </Select>
     </FormControl>
-  )
-}
+  );
+};
 
-SelectControl.displayName = "SelectControl"
+SelectControl.displayName = 'SelectControl';
 
-export default SelectControl
+export default SelectControl;

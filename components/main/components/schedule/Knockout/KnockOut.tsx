@@ -1,28 +1,28 @@
 //chakra-ui
 import {
-  Flex,
-  Box,
-  Text,
-  Center,
   Avatar,
-  useDisclosure,
+  Box,
+  Center,
+  Flex,
+  Icon,
   Modal,
-  ModalOverlay,
-  ModalHeader,
-  ModalContent,
   ModalBody,
   ModalCloseButton,
-  Icon,
-  Tabs,
-  TabList,
+  ModalContent,
+  ModalHeader,
+  ModalOverlay,
   Tab,
+  TabList,
+  TabPanel,
   TabPanels,
-  TabPanel
+  Tabs,
+  Text,
+  useDisclosure
 } from '@chakra-ui/react';
 
 //image
-import Image from 'next/image';
 import stadium from '@/public/images/schedule/position.png';
+import Image from 'next/image';
 
 //icons
 import { FaRegClock } from 'react-icons/fa';
@@ -35,9 +35,8 @@ import { useRoundStore } from '@/stores';
 import { IMatch, IRound } from '@/interfaces';
 
 //moment
-import moment from 'moment';
-import SkeletonComponent from '@/components/common/skeleton';
 import NotData from '@/components/common/notData';
+import moment from 'moment';
 
 interface MatchProps {
   index: number;

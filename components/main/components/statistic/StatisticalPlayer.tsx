@@ -2,8 +2,11 @@ import * as React from 'react';
 
 //chakra-ui
 import {
-  Flex,
+  Avatar,
   Box,
+  Center,
+  Flex,
+  Image,
   Table,
   Tbody,
   Td,
@@ -11,10 +14,7 @@ import {
   Th,
   Thead,
   Tr,
-  useColorModeValue,
-  Avatar,
-  Image,
-  Center
+  useColorModeValue
 } from '@chakra-ui/react';
 
 //table
@@ -28,8 +28,8 @@ import {
 } from '@tanstack/react-table';
 
 //interface
-import { IStatisticalPLayer } from '@/interfaces';
 import NotData from '@/components/common/notData';
+import { IPlayer, IStatisticalPLayer } from '@/interfaces';
 
 const columnHelper = createColumnHelper<IStatisticalPLayer>();
 
@@ -82,7 +82,7 @@ const TablePlayer = (props: TablePlayerProps) => {
       cell: info => (
         <Flex align="center">
           <Text color="green" fontSize="sm" fontWeight="700">
-            {info.getValue()?.name}
+            {(info.getValue() as IPlayer)?.name}
           </Text>
         </Flex>
       )
@@ -101,7 +101,7 @@ const TablePlayer = (props: TablePlayerProps) => {
       ),
       cell: info => (
         <Box position="relative">
-          <Avatar src={info.getValue()?.avatar} size="lg" />
+          <Avatar src={(info.getValue() as IPlayer)?.avatar} size="lg" />
           <Box
             position="absolute"
             top="0"
@@ -111,7 +111,7 @@ const TablePlayer = (props: TablePlayerProps) => {
             h="20px"
           >
             <Text color="white" fontSize="sm" fontWeight="700">
-              {info.getValue()?.number}
+              {(info.getValue() as IPlayer)?.number}
             </Text>
           </Box>
         </Box>

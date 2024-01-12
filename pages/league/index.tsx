@@ -6,32 +6,32 @@ import { ITournament, NextPageWithLayout } from '@/interfaces';
 
 //chakra-ui
 import {
-  Grid,
-  Card,
-  Image,
-  Stack,
-  Heading,
-  Text,
-  CardBody,
-  Flex,
-  Select,
   Box,
-  Input,
+  Card,
+  CardBody,
+  Center,
+  Flex,
+  Grid,
+  Heading,
   Icon,
-  Center
+  Image,
+  Input,
+  Select,
+  Stack,
+  Text
 } from '@chakra-ui/react';
 
 //icons
 import { SearchIcon } from '@chakra-ui/icons';
-import { RiTeamLine } from 'react-icons/ri';
 import { GiTargetPrize } from 'react-icons/gi';
+import { RiTeamLine } from 'react-icons/ri';
 
 //route
 import Link from 'next/link';
 
 //api
-import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { getTournamentByFormat, getTournaments } from '@/apis';
+import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 
 //filter
 import filter from 'lodash.filter';
@@ -144,7 +144,7 @@ const FindLeagues: NextPageWithLayout = () => {
   } = useQuery<ITournament[]>({
     queryKey: ['tournaments'],
     queryFn: getTournaments!,
-    initialData: [],
+    initialData: []
   });
   const queryClient = useQueryClient();
 

@@ -18,7 +18,7 @@ import {
 import Image from 'next/image';
 
 //interface
-import { ETypeHistory, IStatisticalTeam } from '@/interfaces';
+import { ETypeHistory, IStatisticalTeam, ITeam } from '@/interfaces';
 import NotData from '@/components/common/notData';
 
 interface StatisticalTeamProps {
@@ -34,7 +34,7 @@ const StatisticalTeam = (props: StatisticalTeamProps) => {
       <Td textAlign="center">
         <Flex alignItems="center" justifyContent="flex-start" gap="4">
           <Image
-            src={statisticalTeam.team?.flag}
+            src={(statisticalTeam.team as ITeam)?.flag}
             alt=""
             width="50"
             height="50"
@@ -43,7 +43,7 @@ const StatisticalTeam = (props: StatisticalTeamProps) => {
             textColor="yellow.700"
             _hover={{ textDecoration: 'underline', cursor: 'pointer' }}
           >
-            {statisticalTeam.team.name}
+            {(statisticalTeam.team as ITeam).name}
           </Text>
         </Flex>
       </Td>

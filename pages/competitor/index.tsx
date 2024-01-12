@@ -4,29 +4,27 @@ import { ITeam, NextPageWithLayout } from '@/interfaces';
 
 //chakra-ui
 import {
-  Grid,
   Card,
-  Image,
-  Stack,
-  Heading,
-  Text,
   CardBody,
+  Center,
   Flex,
-  Select,
-  Box,
-  Input,
+  Grid,
+  Heading,
   Icon,
-  Center
+  Image,
+  Input,
+  Stack,
+  Text
 } from '@chakra-ui/react';
 
 //icons
 import { SearchIcon } from '@chakra-ui/icons';
-import { RiTeamLine } from 'react-icons/ri';
 import { FaRegEye } from 'react-icons/fa';
+import { RiTeamLine } from 'react-icons/ri';
 
 //react-query
-import { useQuery } from '@tanstack/react-query';
 import { getTeams } from '@/apis';
+import { useQuery } from '@tanstack/react-query';
 import Link from 'next/link';
 
 interface CompetitorProps {

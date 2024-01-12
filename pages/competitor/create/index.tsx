@@ -18,7 +18,6 @@ import { useRouter } from 'next/navigation';
 //image
 import { CldUploadWidget } from 'next-cloudinary';
 
-
 import authService from '@/services/authService';
 import { InitStatisticalTeam } from '@/interfaces';
 //react-query
@@ -37,12 +36,10 @@ const Create: NextPageWithLayout = () => {
   const user = authService.getUser();
   const methods = useForm({ defaultValues: InitTeam, mode: 'onBlur' });
 
-
   const [logo, setLogo] = useState<string>('');
   const [uniformOne, setUniformOne] = useState<string>('');
   const [uniformTwo, setUniformTwo] = useState<string>('');
   const [uniformThree, setUniformThree] = useState<string>('');
-
 
   const handleCreateStatisticalTeam = useMutation({
     mutationFn: createStatisticalTeam,
@@ -129,7 +126,6 @@ const Create: NextPageWithLayout = () => {
                         <div className="relative mt-2 h-[90%] w-full rounded bg-gray-200">
                           <button
                             className="relative h-full w-full"
-
                             onClick={e => {
                               e.preventDefault();
                               open();
@@ -163,7 +159,6 @@ const Create: NextPageWithLayout = () => {
                   name="representative"
                   label="Representative"
                   color="black"
-
                   value={user?.username}
                 />
                 <Flex gap={4}>
@@ -225,7 +220,6 @@ const Create: NextPageWithLayout = () => {
                       <div className="relative mt-2 h-[90%] rounded bg-gray-200">
                         <button
                           className="relative h-full w-full"
-
                           onClick={e => {
                             e.preventDefault();
                             open();
@@ -272,7 +266,6 @@ const Create: NextPageWithLayout = () => {
                       <div className="relative mt-2 h-[90%]  rounded bg-gray-200">
                         <button
                           className="relative h-full w-full"
-
                           onClick={e => {
                             e.preventDefault();
                             open();

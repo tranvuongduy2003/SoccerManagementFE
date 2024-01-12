@@ -1,12 +1,10 @@
 'use client';
 // Chakra Imports
 import {
-  Box,
   Button,
   Center,
   Flex,
   Icon,
-  Link,
   Menu,
   MenuButton,
   MenuItem,
@@ -18,15 +16,15 @@ import {
 // Custom Components
 import { Image } from '../image/Image';
 import { ItemContent } from '../menu/ItemContent';
-import { SearchBar } from './searchBar/SearchBar';
 import { SidebarResponsive } from '../sidebar/Sidebar';
+import { SearchBar } from './searchBar/SearchBar';
 // Assets
 import { player1 } from '@/public/images/landing';
+import routes from '@/routes';
+import { useRouter } from 'next/router';
 import { FaEthereum } from 'react-icons/fa';
 import { IoMdMoon, IoMdSunny } from 'react-icons/io';
 import { MdInfoOutline, MdNotificationsNone } from 'react-icons/md';
-import routes from '@/routes';
-import  { useRouter } from 'next/router';
 export default function HeaderLinks(props: {
   secondary: boolean;
   onOpen: any;

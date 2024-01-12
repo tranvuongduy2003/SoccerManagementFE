@@ -1,28 +1,26 @@
-import React, { useState } from 'react';
-import groups from '@/data/groups';
+import { useState } from 'react';
 
 //chakra-ui
 import {
-  Grid,
   Box,
-  chakra,
-  Flex,
-  Image,
-  Text,
-  ModalContent,
   Button,
-  Modal,
-  ModalFooter,
   Card,
   CardBody,
-  Stack,
+  Center,
+  Flex,
+  Grid,
   Heading,
-  CardFooter,
+  Image,
+  List,
   ListIcon,
   ListItem,
-  List,
-  useDisclosure,
-  Center
+  Modal,
+  ModalContent,
+  ModalFooter,
+  Stack,
+  Text,
+  chakra,
+  useDisclosure
 } from '@chakra-ui/react';
 
 //api
@@ -31,12 +29,12 @@ import {
 import { ITable, ITeam } from '@/interfaces';
 
 //icon
+import NotData from '@/components/common/notData';
+import { useRoundStore } from '@/stores';
+import { FaRankingStar } from 'react-icons/fa6';
 import { FcBusinessman } from 'react-icons/fc';
 import { LuUsers } from 'react-icons/lu';
-import { FaRankingStar } from 'react-icons/fa6';
-import NotData from '@/components/common/notData';
 import { Round } from '../schedule/Knockout/KnockOut';
-import { useRoundStore } from '@/stores';
 
 interface GroupProps {
   groups: ITable[];
@@ -71,7 +69,7 @@ const Groups = (props: GroupProps) => {
         templateColumns="repeat(auto-fit, minmax(20rem, 0fr))"
         gap="5"
         justifyContent="center"
-        marginBottom='20px'
+        marginBottom="20px"
       >
         {groups.map((group: ITable, index: number) => {
           return (
@@ -147,7 +145,7 @@ const Groups = (props: GroupProps) => {
                     </ListItem>
                     <ListItem display="flex" alignItems="center">
                       <ListIcon as={FcBusinessman} />
-                      Referee: {team?.coach.name}
+                      Referee: {team?.coach?.name}
                     </ListItem>
                   </List>
                 </CardBody>

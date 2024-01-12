@@ -3,39 +3,39 @@ import React from 'react';
 // chakra imports
 import {
   Box,
-  Flex,
   Drawer,
   DrawerBody,
+  DrawerCloseButton,
+  DrawerContent,
+  DrawerOverlay,
+  Flex,
   Icon,
   useColorModeValue,
-  DrawerOverlay,
-  useDisclosure,
-  DrawerContent,
-  DrawerCloseButton
+  useDisclosure
 } from '@chakra-ui/react';
-import Content from './components/Content';
-import { renderThumb, renderTrack, renderView } from '../scrollbar/Scrollbar';
+import { useRouter } from 'next/router';
 import { Scrollbars } from 'react-custom-scrollbars-2';
-import  { useRouter } from 'next/router';
+import { renderThumb, renderTrack, renderView } from '../scrollbar/Scrollbar';
+import Content from './components/Content';
 
 // Assets
-import { IoMenuOutline } from 'react-icons/io5';
 import { IRoute, Title } from '@/interfaces/navigation';
 import { isWindowAvailable } from '@/utils/navigation';
+import { IoMenuOutline } from 'react-icons/io5';
 
 import {
-  MdOutlineAdminPanelSettings,
-  MdOutlineManageAccounts,
-  MdHome,
-  MdSchedule,
   MdBarChart,
   MdGroup,
+  MdHome,
+  MdHowToVote,
+  MdOutlineAdminPanelSettings,
+  MdOutlineManageAccounts,
   MdOutlineStackedLineChart,
-  MdHowToVote
+  MdSchedule
 } from 'react-icons/md';
 
 interface SidebarResponsiveProps {
-  routes: (IRoute|Title)[];
+  routes: (IRoute | Title)[];
 }
 
 interface SidebarProps extends SidebarResponsiveProps {

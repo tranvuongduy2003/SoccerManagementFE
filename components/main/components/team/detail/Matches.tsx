@@ -214,8 +214,8 @@ const Match = (props: MatchProps) => {
                 </Tab>
               </TabList>
 
-              <TabPanels >
-                <TabPanel >
+              <TabPanels>
+                <TabPanel>
                   <Flex justifyContent="space-between" w="full" gap="60px">
                     <Box w="210px">
                       {eventsTeamOne.map((event, index) => (

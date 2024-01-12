@@ -1,27 +1,26 @@
 //chakra-ui
 import {
-  TabList,
-  Tabs,
-  Tab,
-  TabPanels,
-  TabPanel,
-  Flex,
-  Icon,
-  Heading,
-  Button,
   Box,
+  Button,
+  Flex,
+  Heading,
+  Icon,
+  Tab,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Tabs,
   Text
 } from '@chakra-ui/react';
 
 //icons
-import { MdOutlineMedicalInformation } from 'react-icons/md';
 import { FaUserFriends } from 'react-icons/fa';
 import { IoMdArrowRoundBack } from 'react-icons/io';
+import { MdOutlineMedicalInformation } from 'react-icons/md';
 
 //routes
 import { useRouter } from 'next/navigation';
 import Members from './Member';
-import TeamComponent from '..';
 import TeamInformation from './TeamInfomation';
 
 //store

@@ -1,34 +1,29 @@
-import React from 'react';
-
 //chakra-ui
 import {
+  Box,
+  ButtonGroup,
   Card,
   CardBody,
-  Stack,
+  CardFooter,
+  Divider,
+  Grid,
   Heading,
   Image,
-  Text,
-  Divider,
-  CardFooter,
-  ButtonGroup,
-  Box,
-  Grid,
   List,
+  ListIcon,
   ListItem,
-  ListIcon
+  Stack
 } from '@chakra-ui/react';
 
 //icon
-import { FcLike } from 'react-icons/fc';
-import { FcDribbble } from 'react-icons/fc';
-import { FcMindMap } from 'react-icons/fc';
+import { FcDribbble, FcLike, FcMindMap } from 'react-icons/fc';
 
 //interface
 import { IReferee } from '@/interfaces';
 
 //routes
-import Link from 'next/link';
 import moment from 'moment';
+import Link from 'next/link';
 
 //component
 import SkeletonComponent from '@/components/common/skeleton';

@@ -1,5 +1,5 @@
 //chakra-ui
-import { Flex, Box, Text, Center, Avatar } from '@chakra-ui/react';
+import { Avatar, Center, Flex, Text } from '@chakra-ui/react';
 
 //bracket
 import { Bracket, Seed, SeedItem, SeedTeam } from 'react-brackets';
@@ -9,7 +9,6 @@ import { useRoundStore } from '@/stores';
 
 //moment
 import NotData from '@/components/common/notData';
-import { Round } from './Knockout/KnockOut';
 
 const CustomSeed = ({ seed, breakpoint }: any) => {
   return (

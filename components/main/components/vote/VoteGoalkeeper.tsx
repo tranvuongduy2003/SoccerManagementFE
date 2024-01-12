@@ -1,28 +1,26 @@
 'use client';
-import { useEffect, useState } from 'react';
 
 //chakra-ui
-import { List, Flex, Button, Text, Center } from '@chakra-ui/react';
+import { Button, Center, Flex, List, Text } from '@chakra-ui/react';
 
 //component
 import ProgressBar from '@ramonak/react-progress-bar';
 
 //image
+import playerDefault from '@/public/images/team/playerDefault.png';
 import Image from 'next/image';
-import playerDefault from '@/public/images/team/playerDefault.png'
-
 
 //api
-import { useQuery } from '@tanstack/react-query';
 import { getPlayerByTagsAndPosition } from '@/apis';
+import { useQuery } from '@tanstack/react-query';
 
 //route
 import { useRouter } from 'next/router';
 
 //interface
-import { IPlayer } from '@/interfaces';
-import SkeletonComponent from '@/components/common/skeleton';
 import NotData from '@/components/common/notData';
+import SkeletonComponent from '@/components/common/skeleton';
+import { IPlayer } from '@/interfaces';
 
 interface BoxUserProps {
   player: IPlayer;
@@ -39,11 +37,7 @@ const BoxUser = (props: BoxUserProps) => {
         pl="20px"
       >
         <Image
-          src={
-            player.avatar
-              ? player.avatar
-              : playerDefault
-          }
+          src={player.avatar ? player.avatar : playerDefault}
           alt=""
           width={50}
           height={50}
@@ -62,9 +56,9 @@ const BoxUser = (props: BoxUserProps) => {
 const VoteGoalkeeper = () => {
   const route = useRouter();
 
-  const { data: players,isLoading } = useQuery<IPlayer[]>({
+  const { data: players, isLoading } = useQuery<IPlayer[]>({
     queryKey: ['players', route.query.tags, 'Goalkeeper'],
-    queryFn: () => getPlayerByTagsAndPosition(route.query.tags, 'Goalkeeper'),
+    queryFn: () => getPlayerByTagsAndPosition(route.query.tags!, 'Goalkeeper'),
     select: data => data
   });
 
@@ -76,7 +70,7 @@ const VoteGoalkeeper = () => {
         players.map((player, index) => <BoxUser key={index} player={player} />)
       ) : (
         <Center>
-          <NotData text='data goalkeeper'/>
+          <NotData text="data goalkeeper" />
         </Center>
       )}
     </List>

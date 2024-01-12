@@ -1,7 +1,6 @@
 // Chakra imports
 import { signUp } from '@/apis';
 import { PASSWORD_REGEX, PHONE_REGEX } from '@/constants';
-import authService from '@/services/authService';
 import {
   Button,
   Flex,
@@ -95,7 +94,7 @@ function SignUp() {
       const { email, username, phone, password } = values;
 
       //TODO: call signup api
-      const {user,accessToken,refreshToken} = await signUp({
+      const { user, accessToken, refreshToken } = await signUp({
         email,
         password,
         username,

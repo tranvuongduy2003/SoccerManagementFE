@@ -1,15 +1,13 @@
-import { useRef } from 'react';
 //chakra-ui
 import {
-  useDisclosure,
-  Button,
   AlertDialog,
-  AlertDialogOverlay,
-  AlertDialogContent,
-  AlertDialogHeader,
   AlertDialogBody,
+  AlertDialogCloseButton,
+  AlertDialogContent,
   AlertDialogFooter,
-  AlertDialogCloseButton
+  AlertDialogHeader,
+  AlertDialogOverlay,
+  Button
 } from '@chakra-ui/react';
 
 interface ModalDeleteProps {

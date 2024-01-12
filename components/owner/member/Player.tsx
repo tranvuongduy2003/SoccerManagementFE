@@ -1,23 +1,22 @@
-import { useRef } from 'react';
 import { IPlayer } from '@/interfaces';
 import {
-  Box,
   Avatar,
-  Text,
-  Icon,
+  Box,
   Button,
   Flex,
+  Icon,
+  Text,
   useDisclosure
 } from '@chakra-ui/react';
+import { useRef } from 'react';
 
 //icons
-import { GrFormNextLink, GrUpdate } from 'react-icons/gr';
+import { GrUpdate } from 'react-icons/gr';
 import { MdDelete } from 'react-icons/md';
 
 //react-query
 import { deletePlayerByOwner } from '@/apis';
-import { useMutation } from '@tanstack/react-query';
-import { useQueryClient } from '@tanstack/react-query';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 //component
 import ModalDelete from './ModalDelete';

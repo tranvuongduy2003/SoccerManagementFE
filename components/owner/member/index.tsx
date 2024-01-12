@@ -5,41 +5,36 @@ import * as XLSX from 'xlsx';
 //chakra-ui
 import {
   Box,
-  Text,
-  Flex,
   Button,
-  Divider,
   Center,
+  Divider,
+  Flex,
   Icon,
-  Input,
   Image,
-  Avatar
+  Input,
+  Text
 } from '@chakra-ui/react';
 
 import Player from './Player';
 
 //icons
-import { MdAdd } from 'react-icons/md';
-import { IoMdCloseCircleOutline } from 'react-icons/io';
 import { FaFileImport } from 'react-icons/fa';
-import { GrFormNextLink } from 'react-icons/gr';
-
+import { IoMdCloseCircleOutline } from 'react-icons/io';
+import { MdAdd } from 'react-icons/md';
 
 //interface
 import { IPlayer, InitPlayer, InitStatisticalPLayer } from '@/interfaces';
 
 //form
-import { FormProvider, useForm } from 'react-hook-form';
 import { InputControl, SelectControl } from '@/components/form';
+import { FormProvider, useForm } from 'react-hook-form';
 
 //image
 import { CldUploadWidget } from 'next-cloudinary';
 
 //react-query
-import { useMutation } from '@tanstack/react-query';
 import { createPlayer, createStatisticalPlayer } from '@/apis';
-import { useQueryClient } from '@tanstack/react-query';
-import Team from '@/pages/league/[id]/team/[tags]';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 interface MembersFormProps {
   member: any;
@@ -250,7 +245,6 @@ const MembersForm = (props: MembersFormProps) => {
   );
 };
 
-
 interface MemberTeamProps {
   players: IPlayer[];
   idTeam: string;
@@ -280,13 +274,12 @@ const MemberTeam = (props: MemberTeamProps) => {
   const handleCreatePlayer = useMutation({
     mutationFn: createPlayer,
     onSuccess: data => {
-
       queryClient.invalidateQueries();
       membersForm.setValue('members', []);
       const statisticalPlayers = data.map(player => {
         return { ...InitStatisticalPLayer, player: player._id, team: idTeam };
       });
-      handleCreateStatisticalPlayer.mutate(statisticalPlayers)
+      handleCreateStatisticalPlayer.mutate(statisticalPlayers);
     },
     onError: e => {
       console.log(e);

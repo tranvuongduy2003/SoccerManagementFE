@@ -1,29 +1,28 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 // Chakra imports
 import {
-  Box,
-  Flex,
   Button,
+  Flex,
   FormControl,
+  FormErrorMessage,
   FormLabel,
   Heading,
   Input,
   Switch,
   Text,
   useColorModeValue,
-  useToast,
-  FormErrorMessage
+  useToast
 } from '@chakra-ui/react';
 
 //routes
-import Link from 'next/link';
-import { LoginPayload } from '@/interfaces';
-import { useForm } from 'react-hook-form';
-import { useRouter } from 'next/router';
 import { signIn } from '@/apis';
+import { LoginPayload } from '@/interfaces';
 import authService from '@/services/authService';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { useForm } from 'react-hook-form';
 
 function SignIn() {
   const router = useRouter();
