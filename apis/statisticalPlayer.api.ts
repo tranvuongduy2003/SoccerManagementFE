@@ -20,10 +20,8 @@ export const getStatisticalPlayersByTags = (tags: string | string[]) => {
   );
 };
 
-export const createStatisticalPlayer = (
-  StatisticalPlayer: IStatisticalPLayer
-) => {
-  return httpRequest.post<IStatisticalPLayer>(
+export const createStatisticalPlayer = (StatisticalPlayer: any) => {
+  return httpRequest.post<IStatisticalPLayer[]>(
     API_ROUTE.statisticalPlayer + '/',
     StatisticalPlayer
   );

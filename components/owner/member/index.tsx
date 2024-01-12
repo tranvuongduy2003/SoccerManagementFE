@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react';
 import * as XLSX from 'xlsx';
 
@@ -11,16 +12,20 @@ import {
   Center,
   Icon,
   Input,
-  Image
+  Image,
+  Avatar
 } from '@chakra-ui/react';
+
+import Player from './Player';
 
 //icons
 import { MdAdd } from 'react-icons/md';
 import { IoMdCloseCircleOutline } from 'react-icons/io';
 import { FaFileImport } from 'react-icons/fa';
+import { GrFormNextLink } from 'react-icons/gr';
 
 //interface
-import { IPlayer, InitPlayer } from '@/interfaces';
+import { IPlayer, InitPlayer, InitStatisticalPLayer } from '@/interfaces';
 
 //form
 import { FormProvider, useForm } from 'react-hook-form';
@@ -29,7 +34,11 @@ import { InputControl, SelectControl } from '@/components/form';
 //image
 import { CldUploadWidget } from 'next-cloudinary';
 
-// const Player = () => {};
+//react-query
+import { useMutation } from '@tanstack/react-query';
+import { createPlayer, createStatisticalPlayer } from '@/apis';
+import { useQueryClient } from '@tanstack/react-query';
+import Team from '@/pages/league/[id]/team/[tags]';
 
 interface MembersFormProps {
   member: any;
@@ -47,21 +56,35 @@ const MembersForm = (props: MembersFormProps) => {
     mode: 'onChange'
   });
 
-  console.log(member);
-
   useEffect(() => {
     membersForm.setValue(`members.${index}.name`, memberForm.watch().name);
     membersForm.setValue(`members.${index}.number`, memberForm.watch().number);
+    membersForm.setValue(
+      `members.${index}.position`,
+      memberForm.watch().position
+    );
+    membersForm.setValue(
+      `members.${index}.captain`,
+      memberForm.watch().captain
+    );
+    membersForm.setValue(`members.${index}.height`, memberForm.watch().height);
+    membersForm.setValue(`members.${index}.dob`, memberForm.watch().dob);
+    membersForm.setValue(`members.${index}.weight`, memberForm.watch().weight);
+    membersForm.setValue(
+      `members.${index}.national`,
+      memberForm.watch().national
+    );
+  }, [
+    memberForm.watch().name,
+    memberForm.watch().number,
+    memberForm.watch().position,
+    memberForm.watch().captain,
+    memberForm.watch().height,
+    memberForm.watch().dob,
+    memberForm.watch().weight,
+    memberForm.watch().national
+  ]);
 
-    // membersForm.setValue(`members.${index}.weight`, memberForm.watch().weight);
-
-    console.log('haha');
-  }, [memberForm.watch().name,memberForm.watch().number]);
-
-  // useEffect(() => {
-  //   console.log('vao day')
-  //   memberForm.reset(member);
-  // }, []);
   return (
     <FormProvider {...memberForm}>
       <form>
@@ -222,14 +245,46 @@ const MembersForm = (props: MembersFormProps) => {
   );
 };
 
-const MemberTeam = () => {
-  // const [dataImport,setDataImport]=useState([])
+interface MemberTeamProps {
+  players: IPlayer[];
+  idTeam: string;
+}
+const MemberTeam = (props: MemberTeamProps) => {
+  const queryClient = useQueryClient();
+  const { players, idTeam } = props;
 
-  const membersForm = useForm<any>({
+  const membersForm: any = useForm<any>({
     defaultValues: {
       members: []
     },
     mode: 'onChange'
+  });
+
+  const handleCreateStatisticalPlayer = useMutation({
+    mutationFn: createStatisticalPlayer,
+    onSuccess: data => {
+      queryClient.invalidateQueries();
+      // console.log(data);
+    },
+    onError: e => {
+      console.log(e);
+    }
+  });
+
+  const handleCreatePlayer = useMutation({
+    mutationFn: createPlayer,
+    onSuccess: data => {
+
+      queryClient.invalidateQueries();
+      membersForm.setValue('members', []);
+      const statisticalPlayers = data.map(player => {
+        return { ...InitStatisticalPLayer, player: player._id, team: idTeam };
+      });
+      handleCreateStatisticalPlayer.mutate(statisticalPlayers)
+    },
+    onError: e => {
+      console.log(e);
+    }
   });
 
   const handleIncreaseQuantity = () => {
@@ -239,20 +294,16 @@ const MemberTeam = () => {
   };
 
   const handleDecreaseQuantity = (index: number) => {
-    const members = membersForm.getValues().members;
+    const members = membersForm.watch().members;
     const newMembers = members.filter(
-      (item: any, idx: number) => item.name !== 'Anh Quoc'
+      (item: any, idx: number) => idx !== index
     );
-    console.log(members);
-    console.log(newMembers);
-
-    membersForm.reset({ members: newMembers });
-    console.log(membersForm.watch().members);
-    console.log(membersForm.getValues());
+    membersForm.setValue('members', newMembers);
   };
 
   const handleSave = () => {
-    console.log(membersForm.getValues());
+    const formData: any = membersForm.watch().members;
+    handleCreatePlayer.mutate({ players: formData, idTeam });
   };
 
   const handleFileUpload = (e: any) => {
@@ -364,6 +415,12 @@ const MemberTeam = () => {
           <Box />
         )}
       </FormProvider>
+      <Flex flexWrap="wrap" gap={20}>
+        {players &&
+          players.map((player, index) => (
+            <Player player={player} key={index} idTeam={idTeam} />
+          ))}
+      </Flex>
     </Box>
   );
 };

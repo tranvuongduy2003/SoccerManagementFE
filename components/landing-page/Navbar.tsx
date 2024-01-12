@@ -1,4 +1,6 @@
-import { useState } from 'react';
+'use client'
+
+import { useState, useEffect } from 'react';
 
 //image
 import { Login, Logo } from '@/public/images/landing';
@@ -7,8 +9,16 @@ import Image from 'next/image';
 //route
 import Link from 'next/link';
 
+
+import authService from '@/services/authService';
+
 export const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
+
+  // const user = authService.getUser();
+  // console.log(user)
+  // console.log(user);
+  const user = true;
 
   return (
     <nav className="z-[1] w-full px-5 fixed mt-10">
@@ -58,7 +68,7 @@ export const Navbar = () => {
                     </summary>
                     <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                       <li>
-                      <Link href="/competitor">Find teams</Link>
+                        <Link href="/competitor">Find teams</Link>
                       </li>
                     </ul>
                   </details>
@@ -114,7 +124,9 @@ export const Navbar = () => {
                       <Link href="/competitor">My team</Link>
                     </li>
                     <li>
-                      <Link href="/competitor/create">Create team</Link>
+                      <Link href={`/competitor/${user ? 'create' : 'signin'}`}>
+                        Create team
+                      </Link>
                     </li>
                   </ul>
                 </details>

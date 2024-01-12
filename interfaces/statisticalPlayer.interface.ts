@@ -2,7 +2,7 @@ import { IPlayer, ITeam, InitPlayer, InitTeam } from '.';
 
 export interface IStatisticalPLayer {
   _id?: string;
-  player: IPlayer;
+  player: IPlayer | string;
   team: ITeam;
   goals: number;
   owner: number;
@@ -14,7 +14,7 @@ export interface IStatisticalPLayer {
 }
 
 export const InitStatisticalPLayer = {
-  player: InitPlayer,
+  player: '',
   team: InitTeam,
   goals: 0,
   owner: 0,

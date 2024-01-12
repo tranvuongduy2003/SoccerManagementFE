@@ -27,6 +27,7 @@ import { FaRegEye } from 'react-icons/fa';
 //react-query
 import { useQuery } from '@tanstack/react-query';
 import { getTeams } from '@/apis';
+import Link from 'next/link';
 
 interface CompetitorProps {
   team: ITeam;
@@ -36,7 +37,14 @@ const Competitor = (props: CompetitorProps) => {
   const { team } = props;
 
   return (
-    <Card maxW="sm" position="relative" paddingBottom="20px">
+    <Card
+      as={Link}
+      maxW="sm"
+      position="relative"
+      paddingBottom="20px"
+      _hover={{ bgColor: 'gray.300', cursor: 'pointer' }}
+      href={`/competitor/${team._id}/profile`}
+    >
       <CardBody>
         <Center position="relative" height="40%">
           <Image
@@ -118,7 +126,6 @@ const Competitors: NextPageWithLayout = () => {
             <Icon as={SearchIcon} color="white" />
           </Center>
         </Flex>
-        
       </Flex>
       <Grid
         templateColumns="repeat(auto-fit, minmax(20rem, 1fr))"

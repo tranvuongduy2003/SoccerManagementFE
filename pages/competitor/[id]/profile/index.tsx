@@ -15,20 +15,35 @@ import {
 
 //icons
 import { GiChampions } from 'react-icons/gi';
-import { FaUsers } from "react-icons/fa";
-import { NextPageWithLayout } from '@/interfaces';
+import { FaUsers } from 'react-icons/fa';
+import { ITeam, NextPageWithLayout } from '@/interfaces';
 import { HomeLayout } from '@/components/layout';
 
 import TeamInformation from '@/components/owner/information';
 import MemberTeam from '@/components/owner/member';
 
+//route
+import { useRouter } from 'next/router';
+
+//react-query
+import { useQuery } from '@tanstack/react-query';
+import { getTeamById } from '@/apis';
+import SkeletonComponent from '@/components/common/skeleton';
 const TeamProfile: NextPageWithLayout = () => {
+  const route = useRouter();
+  const teamId: any = route.query.id;
+
+  const { data: team, isLoading } = useQuery<ITeam>({
+    queryKey: ['team', teamId],
+    queryFn: () => getTeamById(teamId)
+  });
+
   return (
     <Box className="h-screen relative">
       <Tabs
         rounded={20}
-        top='25%'
-        p="20px"    
+        top="25%"
+        p="20px"
         colorScheme="purple"
         variant="enclosed"
         direction="ltr"
@@ -37,7 +52,6 @@ const TeamProfile: NextPageWithLayout = () => {
         align="start"
         bgColor="white"
         bottom="0"
-
       >
         <Flex height="full">
           <TabList flexDirection="column">
@@ -64,16 +78,22 @@ const TeamProfile: NextPageWithLayout = () => {
 
           <TabPanels>
             <TabPanel>
-              <Heading textAlign="center" mb={6}>
-                Team information
-              </Heading>
-              <TeamInformation/>
+              {isLoading ? (
+                <SkeletonComponent />
+              ) : (
+                <>
+                  <Heading textAlign="center" mb={6}>
+                    Team information
+                  </Heading>
+                  <TeamInformation team={team!} />
+                </>
+              )}
             </TabPanel>
             <TabPanel>
               <Heading textAlign="center" mb={6}>
                 Member
               </Heading>
-              <MemberTeam/>
+              {team! && <MemberTeam players={team?.players} idTeam={team._id!}/>}
             </TabPanel>
           </TabPanels>
         </Flex>

@@ -18,24 +18,71 @@ import { useRouter } from 'next/navigation';
 //image
 import { CldUploadWidget } from 'next-cloudinary';
 
+import authService from '@/services/authService';
+import { InitStatisticalTeam } from '@/interfaces';
+//react-query
+import { createTeam, createStatisticalTeam } from '@/apis';
+import { useMutation } from '@tanstack/react-query';
+import { useQueryClient } from '@tanstack/react-query';
+
+//toast
+import { useToast } from '@chakra-ui/react';
+
 const Create: NextPageWithLayout = () => {
-  const methods = useForm({ defaultValues: InitTeam, mode: 'onBlur' });
   const router = useRouter();
+  const toast = useToast();
+  const queryClient = useQueryClient();
+  const user = authService.getUser();
+  const methods = useForm({ defaultValues: InitTeam, mode: 'onBlur' });
+
   const [logo, setLogo] = useState<string>('');
   const [uniformOne, setUniformOne] = useState<string>('');
   const [uniformTwo, setUniformTwo] = useState<string>('');
   const [uniformThree, setUniformThree] = useState<string>('');
 
-  const onSubmit: SubmitHandler<ITeam> = async (data: ITeam) => {
+  const handleCreateStatisticalTeam = useMutation({
+    mutationFn: createStatisticalTeam,
+    onSuccess: data => {
+      queryClient.invalidateQueries();
+      toast({
+        title: 'Create team successfully!',
+        description: 'You will be redirected to Team page',
+        status: 'success',
+        duration: 500,
+        onCloseComplete: () => router.push(`/competitor/${data.team}/profile`),
+        position: 'top-right'
+      });
+    }
+  });
+
+  const handleCreateTeam = useMutation({
+    mutationFn: createTeam,
+    onSuccess: data => {
+      queryClient.invalidateQueries();
+      const formData: any = { ...InitStatisticalTeam, team: data?._id };
+      handleCreateStatisticalTeam.mutate(formData);
+    },
+    onError: () => {
+      toast({
+        title: 'Create team failed!',
+        description: 'name already exists',
+        status: 'error',
+        duration: 1500,
+        position: 'top-right'
+      });
+    }
+  });
+
+  // console.log(user);
+  const onSubmit: SubmitHandler<ITeam> = async (data: any) => {
     const uniforms = [uniformOne, uniformTwo, uniformThree];
-    const formData = {
+    const formData: ITeam = {
       ...data,
       flag: logo,
       uniform: uniforms,
-      representative: '12345'
+      representative: user?._id
     };
-    console.log(formData);
-    router.push('/competitor/2/profile');
+    handleCreateTeam.mutate(formData!);
   };
   return (
     <div className="w-full h-screen text-white relative flex items-center justify-center">
@@ -78,7 +125,8 @@ const Create: NextPageWithLayout = () => {
                         <div className="relative mt-2 h-[90%] w-full rounded bg-gray-200">
                           <button
                             className="relative h-full w-full"
-                            onClick={() => {
+                            onClick={e => {
+                              e.preventDefault();
                               open();
                             }}
                           >
@@ -110,7 +158,7 @@ const Create: NextPageWithLayout = () => {
                   name="representative"
                   label="Representative"
                   color="black"
-                  value="Anh Quoc"
+                  value={user?.username}
                 />
                 <Flex gap={4}>
                   <SelectControl
@@ -171,7 +219,8 @@ const Create: NextPageWithLayout = () => {
                       <div className="relative mt-2 h-[90%] rounded bg-gray-200">
                         <button
                           className="relative h-full w-full"
-                          onClick={() => {
+                          onClick={e => {
+                            e.preventDefault();
                             open();
                           }}
                         >
@@ -216,7 +265,9 @@ const Create: NextPageWithLayout = () => {
                       <div className="relative mt-2 h-[90%]  rounded bg-gray-200">
                         <button
                           className="relative h-full w-full"
-                          onClick={() => {
+                          onClick={e => {
+                            e.preventDefault();
+
                             open();
                           }}
                         >
@@ -261,7 +312,9 @@ const Create: NextPageWithLayout = () => {
                       <div className="relative mt-2 h-[90%] rounded bg-gray-200">
                         <button
                           className="relative h-full w-full"
-                          onClick={() => {
+                          onClick={e => {
+                            e.preventDefault();
+
                             open();
                           }}
                         >

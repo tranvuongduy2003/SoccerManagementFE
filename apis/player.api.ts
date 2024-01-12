@@ -23,14 +23,20 @@ export const getPlayerByTagsAndPosition = (
   );
 };
 
-export const createPlayer = (Player: IPlayer) => {
-  return httpRequest.post<IPlayer>(API_ROUTE.player + '/', Player);
+export const createPlayer = (data: any) => {
+  return httpRequest.post<IPlayer[]>(API_ROUTE.player + '/', data);
 };
 
-export const updatePlayer = (Player: IPlayer) => {
-  return httpRequest.put<IPlayer>(API_ROUTE.player + `/${Player._id}`, Player);
+export const updatePlayer = (player: IPlayer) => {
+  return httpRequest.put<IPlayer>(API_ROUTE.player + `/${player._id}`, player);
 };
 
 export const deletePlayer = (id: string) => {
-  return httpRequest.delete<void>(API_ROUTE.player + `/${id}`);
+  return httpRequest.delete<void>(API_ROUTE.player + `/${id}/`);
+};
+
+export const deletePlayerByOwner = (data: { id: string; idTeam: string }) => {
+  return httpRequest.delete<void>(
+    API_ROUTE.player + `/${data.id}/team/${data.idTeam}/`
+  );
 };

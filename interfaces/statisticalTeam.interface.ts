@@ -2,9 +2,8 @@ import { ITeam, IUser, InitTeam } from '.';
 
 export interface IStatisticalTeam {
   _id?: string;
-  team: ITeam;
+  team: ITeam | string;
   rank: number;
-  name: string;
   matches: number;
   wins: number;
   draws: number;
@@ -23,9 +22,8 @@ export interface IStatisticalTeam {
 }
 
 export const InitStatisticalTeam = {
-  team: InitTeam,
+  team: '',
   rank: 0,
-  name: '',
   wins: 0,
   draws: 0,
   losses: 0,

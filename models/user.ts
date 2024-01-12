@@ -1,8 +1,8 @@
 export type User = {
-  id: number | string;
+  _id: number | string;
   email: string;
   password: string;
-  fullname: string;
+  username: string;
   phone?: string;
   orderCount?: number;
   totalPayment?: number | string;
