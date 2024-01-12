@@ -1,3 +1,5 @@
+'use client';
+
 //chakra-ui
 import {
   Grid,
@@ -136,7 +138,7 @@ const TeamComponent = (props: TeamComponentProps) => {
         teams.map((team, index) => <Team key={index} team={team} />)
       ) : (
         <Center>
-          <NotData text='data team' />
+          <NotData text="data team" />
         </Center>
       )}
     </Grid>

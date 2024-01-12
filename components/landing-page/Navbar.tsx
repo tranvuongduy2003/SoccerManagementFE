@@ -1,6 +1,6 @@
-'use client'
+'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 //image
 import { Login, Logo } from '@/public/images/landing';
@@ -8,9 +8,6 @@ import Image from 'next/image';
 
 //route
 import Link from 'next/link';
-
-
-import authService from '@/services/authService';
 
 export const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState<boolean>(false);

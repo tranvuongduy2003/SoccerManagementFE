@@ -12,15 +12,13 @@ const SkeletonComponent = () => {
         bg="green.500"
         color="white"
         fadeDuration={1}
-      >
-      </Skeleton>
+      ></Skeleton>
       <Skeleton
         height="40px"
         fadeDuration={4}
         bg="blue.500"
         color="white"
-      >
-      </Skeleton>
+      ></Skeleton>
     </Stack>
   );
 };

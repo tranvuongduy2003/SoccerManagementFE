@@ -23,7 +23,7 @@ const GroupStage = () => {
 
   const { isLoading, data: tables } = useQuery<ITable[]>({
     queryKey: ['table', route.query.tags],
-    queryFn: () => getTableByTags(route.query.tags),
+    queryFn: () => getTableByTags(route.query.tags!),
     select: data => data
   });
 

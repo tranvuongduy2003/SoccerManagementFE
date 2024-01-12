@@ -1,8 +1,7 @@
 'use client';
-import { useEffect, useState } from 'react';
 
 //chakra-ui
-import { List, Flex, Button, Text, Center } from '@chakra-ui/react';
+import { Button, Center, Flex, List, Text } from '@chakra-ui/react';
 
 //component
 import ProgressBar from '@ramonak/react-progress-bar';
@@ -11,16 +10,16 @@ import ProgressBar from '@ramonak/react-progress-bar';
 import Image from 'next/image';
 
 //api
-import { useQuery } from '@tanstack/react-query';
 import { getTeamByTags } from '@/apis';
+import { useQuery } from '@tanstack/react-query';
 
 //route
 import { useRouter } from 'next/router';
 
 //interface
-import { ITeam } from '@/interfaces';
-import SkeletonComponent from '@/components/common/skeleton';
 import NotData from '@/components/common/notData';
+import SkeletonComponent from '@/components/common/skeleton';
+import { ITeam } from '@/interfaces';
 
 interface BoxTeamProps {
   team: ITeam;
@@ -29,12 +28,7 @@ interface BoxTeamProps {
 const BoxTeam = (props: BoxTeamProps) => {
   const { team } = props;
   return (
-    <Flex
-      alignItems="center"
-      shadow="dark-lg"
-      py="16px"
-      flexGrow="1"
-    >
+    <Flex alignItems="center" shadow="dark-lg" py="16px" flexGrow="1">
       <Flex
         w="30%"
         justifyContent="flex-start"
@@ -65,12 +59,11 @@ const BoxTeam = (props: BoxTeamProps) => {
 const VoteTeamFairPlay = () => {
   const route = useRouter();
 
-  const { data: teams,isLoading } = useQuery<ITeam[]>({
+  const { data: teams, isLoading } = useQuery<ITeam[]>({
     queryKey: ['teams', route.query.tags],
-    queryFn: () => getTeamByTags(route.query.tags),
+    queryFn: () => getTeamByTags(route.query.tags!),
     select: data => data
   });
-
 
   return (
     <List spacing={6}>
@@ -80,7 +73,7 @@ const VoteTeamFairPlay = () => {
         teams.map((team, index) => <BoxTeam key={index} team={team} />)
       ) : (
         <Center>
-          <NotData text='data team fairplay'/>
+          <NotData text="data team fairplay" />
         </Center>
       )}
     </List>

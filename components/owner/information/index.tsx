@@ -1,10 +1,9 @@
-import { Flex, Heading, Text, Box, Icon } from '@chakra-ui/react';
+import { Box, Flex, Icon, Text } from '@chakra-ui/react';
 
 import { FaUserTie } from 'react-icons/fa';
 
+import { ITeam } from '@/interfaces';
 import Image from 'next/image';
-import { ICoach, IPlayer, ITeam } from '@/interfaces';
-import Team from '@/pages/league/[id]/team/[tags]';
 
 import teamImg from '@/public/images/common/team.png';
 
@@ -74,7 +73,7 @@ const TeamInformation = (props: TeamInformationProps) => {
               rounded="md"
               pl="10px"
             >
-              {team.coach?.name ? team.coach?.name :'No data'}
+              {team.coach?.name ? team.coach?.name : 'No data'}
             </Box>
           </Flex>
           <Flex

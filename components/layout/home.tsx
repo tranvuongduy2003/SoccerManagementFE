@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { LayoutProps } from '@/interfaces';
 import { Navbar } from '../landing-page';

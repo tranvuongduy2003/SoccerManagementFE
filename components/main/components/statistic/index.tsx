@@ -1,7 +1,7 @@
 'use client';
 
 //chark-ui
-import { TabList, Tabs, Tab, TabPanels, TabPanel, Box } from '@chakra-ui/react';
+import { Tab, TabList, TabPanel, TabPanels, Tabs } from '@chakra-ui/react';
 
 //interface
 import { IStatisticalPLayer, IStatisticalTeam } from '@/interfaces';
@@ -9,7 +9,6 @@ import { IStatisticalPLayer, IStatisticalTeam } from '@/interfaces';
 //component
 import TablePlayer from './StatisticalPlayer';
 import TableTeam from './StatisticalTeam';
-import NotData from '@/components/common/notData';
 
 interface StatisticComponentProps {
   statisticalTeams: IStatisticalTeam[];

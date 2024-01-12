@@ -1,16 +1,14 @@
-import React from 'react';
 import {
-  Tr,
-  Td,
   Flex,
-  Text,
   Progress,
-  Icon,
+  Td,
+  Text,
+  Tr,
   useColorModeValue
 } from '@chakra-ui/react';
 // import { FaEllipsisV } from 'react-icons/fa';
-import Image from 'next/image';
 import { ETypeStatusPrize } from '@/interfaces';
+import Image from 'next/image';
 
 interface PrizeTableProps {
   category: string;

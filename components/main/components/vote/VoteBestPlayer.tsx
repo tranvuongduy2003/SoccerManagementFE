@@ -1,27 +1,26 @@
 'use client';
-import { useEffect, useState } from 'react';
 
 //chakra-ui
-import { List, Flex, Button, Text, Center } from '@chakra-ui/react';
+import { Button, Center, Flex, List, Text } from '@chakra-ui/react';
 
 //component
 import ProgressBar from '@ramonak/react-progress-bar';
 
 //image
-import Image from 'next/image';
 import playerDefault from '@/public/images/team/playerDefault.png';
+import Image from 'next/image';
 
 //api
-import { useQuery } from '@tanstack/react-query';
 import { getPlayerByTags } from '@/apis';
+import { useQuery } from '@tanstack/react-query';
 
 //route
 import { useRouter } from 'next/router';
 
 //interface
-import { IPlayer } from '@/interfaces';
-import SkeletonComponent from '@/components/common/skeleton';
 import NotData from '@/components/common/notData';
+import SkeletonComponent from '@/components/common/skeleton';
+import { IPlayer } from '@/interfaces';
 
 interface BoxUserProps {
   player: IPlayer;
@@ -60,7 +59,7 @@ const VoteBestPlayer = () => {
 
   const { data: players, isLoading } = useQuery<IPlayer[]>({
     queryKey: ['players', route.query.tags],
-    queryFn: () => getPlayerByTags(route.query.tags),
+    queryFn: () => getPlayerByTags(route.query.tags!),
     select: data => data
   });
 
@@ -72,7 +71,7 @@ const VoteBestPlayer = () => {
         players.map((player, index) => <BoxUser key={index} player={player} />)
       ) : (
         <Center>
-          <NotData text='data best player'/>
+          <NotData text="data best player" />
         </Center>
       )}
     </List>

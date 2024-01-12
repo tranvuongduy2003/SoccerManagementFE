@@ -2,37 +2,37 @@
 
 //chakra
 import {
-  Box,
-  Flex,
   Avatar,
-  HStack,
-  Text,
-  IconButton,
+  Box,
   Button,
+  Flex,
+  HStack,
+  IconButton,
   Menu,
   MenuButton,
-  MenuList,
-  MenuItem,
   MenuDivider,
-  useDisclosure,
+  MenuItem,
+  MenuList,
   Stack,
-  TabList,
   Tab,
-  Tabs
+  TabList,
+  Tabs,
+  Text,
+  useDisclosure
 } from '@chakra-ui/react';
 
 //icons
 import {
-  HamburgerIcon,
-  CloseIcon,
   BellIcon,
+  ChatIcon,
+  CloseIcon,
   EmailIcon,
-  ChatIcon
+  HamburgerIcon
 } from '@chakra-ui/icons';
 
 //image
-import Image from 'next/image';
 import { Logo } from '@/public/images/landing';
+import Image from 'next/image';
 
 //routes
 import Link from 'next/link';
@@ -64,7 +64,7 @@ const NavLink = (props: Props) => {
   const { children, href } = props;
 
   return (
-    <Tab  
+    <Tab
       color={'gray'}
       as={Link}
       px={2}
@@ -74,15 +74,15 @@ const NavLink = (props: Props) => {
         textDecoration: 'none',
         bg: 'gray.100'
       }}
-      _selected={{ bg: '#0079FF',color:"white" }}
+      _selected={{ bg: '#0079FF', color: 'white' }}
       href={href}
     >
-      {children}  
+      {children}
     </Tab>
   );
 };
 
-export default function Navbar(props:any) {
+export default function Navbar(props: any) {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (

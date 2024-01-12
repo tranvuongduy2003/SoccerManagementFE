@@ -15,9 +15,7 @@ const OverallComponent = () => {
 
   return (
     <Box mt="100px">
-      <Statistic
-        id={tournament.statistical}
-      />
+      <Statistic id={tournament.statistical} />
       <Referees referees={tournament.referees} />
       <Stadiums stadiums={tournament.stadiums} />
       <Prize prizes={tournament.prizes} />

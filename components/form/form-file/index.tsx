@@ -1,27 +1,8 @@
-import {
-  Box,
-  FormLabel,
-  CircularProgress,
-  CircularProgressLabel,
-  Icon,
-  Text,
-  FormControl,
-  FormErrorMessage,
-  Flex,
-  useToast,
-  Tooltip
-} from '@chakra-ui/react';
-import Image from 'next/image';
+import { FormControl, FormLabel, Text, useToast } from '@chakra-ui/react';
 import { CancelTokenSource } from 'axios';
-import {
-  useState,
-  SetStateAction,
-  Dispatch,
-  ForwardRefRenderFunction,
-  forwardRef
-} from 'react';
+import Image from 'next/image';
+import { Dispatch, SetStateAction, useState } from 'react';
 import { FieldError } from 'react-hook-form';
-import { FiAlertCircle, FiPlus } from 'react-icons/fi';
 
 interface FileInputProps {
   label: string;

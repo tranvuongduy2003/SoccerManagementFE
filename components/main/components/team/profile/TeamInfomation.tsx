@@ -1,10 +1,9 @@
-import { Flex, Heading, Text, Box, Icon } from '@chakra-ui/react';
+import { Box, Flex, Heading, Icon, Text } from '@chakra-ui/react';
 
 import { FaUserTie } from 'react-icons/fa';
 
-import Image from 'next/image';
 import { ICoach, IPlayer } from '@/interfaces';
-import Team from '@/pages/league/[id]/team/[tags]';
+import Image from 'next/image';
 
 interface TeamInformationProps {
   flag: string;

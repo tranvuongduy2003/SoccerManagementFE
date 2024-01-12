@@ -1,6 +1,6 @@
 'use client';
 //chakra-ui
-import { Box, Text } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
 //layout
 import MainLayout from '@/components/layout/main';
@@ -14,13 +14,12 @@ import {
 import StatisticComponent from '@/components/main/components/statistic';
 
 //api
+import { getStatisticalPlayersByTags, getStatisticalTeamsByTags } from '@/apis';
 import { useQuery } from '@tanstack/react-query';
-import { getStatisticalTeamsByTags } from '@/apis';
-import { getStatisticalPlayersByTags } from '@/apis';
 
 //route
-import { useRouter } from 'next/router';
 import SkeletonComponent from '@/components/common/skeleton';
+import { useRouter } from 'next/router';
 
 const Statistic: NextPageWithLayout = () => {
   const route = useRouter();
@@ -29,7 +28,7 @@ const Statistic: NextPageWithLayout = () => {
     IStatisticalTeam[]
   >({
     queryKey: ['statisticalTeams', route.query.tags],
-    queryFn: () => getStatisticalTeamsByTags(route.query.tags),
+    queryFn: () => getStatisticalTeamsByTags(route.query.tags!),
     select: data => data
   });
 
@@ -37,7 +36,7 @@ const Statistic: NextPageWithLayout = () => {
     IStatisticalPLayer[]
   >({
     queryKey: ['statisticalPlayers', route.query.tags],
-    queryFn: () => getStatisticalPlayersByTags(route.query.tags),
+    queryFn: () => getStatisticalPlayersByTags(route.query.tags!),
     select: data => data.sort((a, b) => b.goals! - a.goals!)
   });
 

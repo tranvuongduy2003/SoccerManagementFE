@@ -1,34 +1,28 @@
-import React from 'react';
-
 //chakra-ui
 import {
+  Box,
   Card,
   CardBody,
-  Stack,
+  Divider,
+  Grid,
   Heading,
   Image,
-  Text,
-  Divider,
-  Box,
-  Grid,
   List,
+  ListIcon,
   ListItem,
-  ListIcon
+  Stack
 } from '@chakra-ui/react';
 
 //icon
+import { CheckCircleIcon } from '@chakra-ui/icons';
 import { GrCapacity } from 'react-icons/gr';
 import { IoLocation } from 'react-icons/io5';
-import { CheckCircleIcon } from '@chakra-ui/icons';
 
 //interface
 import { IStadium } from '@/interfaces';
 
 //component
 import SkeletonComponent from '@/components/common/skeleton';
-import NotData from '@/components/common/notData';
-
-
 
 interface StadiumProps {
   stadium: IStadium;
@@ -94,7 +88,7 @@ const Stadiums = (props: StadiumsProps) => {
             <Stadium key={index} stadium={stadium} />
           ))
         ) : (
-          <SkeletonComponent/>
+          <SkeletonComponent />
         )}
       </Grid>
     </Box>

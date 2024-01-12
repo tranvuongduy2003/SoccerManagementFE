@@ -1,8 +1,7 @@
 'use client';
-import { useEffect, useState } from 'react';
 
 //chakra-ui
-import { List, Flex, Button, Text, Center } from '@chakra-ui/react';
+import { Button, Center, Flex, List, Text } from '@chakra-ui/react';
 
 //component
 import ProgressBar from '@ramonak/react-progress-bar';
@@ -11,16 +10,16 @@ import ProgressBar from '@ramonak/react-progress-bar';
 import Image from 'next/image';
 
 //api
-import { useQuery } from '@tanstack/react-query';
 import { getTeamByTags } from '@/apis';
+import { useQuery } from '@tanstack/react-query';
 
 //route
 import { useRouter } from 'next/router';
 
 //interface
-import { ITeam } from '@/interfaces';
-import SkeletonComponent from '@/components/common/skeleton';
 import NotData from '@/components/common/notData';
+import SkeletonComponent from '@/components/common/skeleton';
+import { ITeam } from '@/interfaces';
 
 interface BoxTeamProps {
   team: ITeam;
@@ -62,7 +61,7 @@ const VoteTeamChampion = () => {
 
   const { isLoading, data: teams } = useQuery<ITeam[]>({
     queryKey: ['teams', route.query.tags],
-    queryFn: () => getTeamByTags(route.query.tags),
+    queryFn: () => getTeamByTags(route.query.tags!),
     select: data => data
   });
 
@@ -74,7 +73,7 @@ const VoteTeamChampion = () => {
         teams.map((team, index) => <BoxTeam key={index} team={team} />)
       ) : (
         <Center pl="100px">
-          <NotData text='data team champion'/>
+          <NotData text="data team champion" />
         </Center>
       )}
     </List>

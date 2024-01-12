@@ -1,5 +1,5 @@
 //chakra-ui
-import { IPlayer } from '@/interfaces';
+import { IPlayer, IStatisticalPLayer } from '@/interfaces';
 import { Grid, Text, Flex, Avatar, Box, Center } from '@chakra-ui/react';
 
 interface PlayerProps {
@@ -25,7 +25,7 @@ const Player = (props: PlayerProps) => {
       </Flex>
       <Flex flexDirection="column" gap="10px">
         <Flex alignItems="center" justifyContent="space-between" minW="50px">
-          <Text>{player.statistical.goals}</Text>
+          <Text>{(player.statistical as IStatisticalPLayer).goals}</Text>
           <Center minW="30px">
             <Avatar
               size="xs"
@@ -34,13 +34,13 @@ const Player = (props: PlayerProps) => {
           </Center>
         </Flex>
         <Flex alignItems="center" justifyContent="space-between" minW="50px">
-          <Text>{player.statistical.yellowCards}</Text>
+          <Text>{(player.statistical as IStatisticalPLayer).yellowCards}</Text>
           <Center minW="30px">
             <Box px="2" py="3" bgColor="yellow.200"></Box>
           </Center>
         </Flex>
         <Flex alignItems="center" justifyContent="space-between" minW="50px">
-          <Text>{player.statistical.redCards}</Text>
+          <Text>{(player.statistical as IStatisticalPLayer).redCards}</Text>
           <Center minW="30px">
             <Box px="2" py="3" bgColor="red"></Box>
           </Center>

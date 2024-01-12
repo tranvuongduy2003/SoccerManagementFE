@@ -1,9 +1,9 @@
 import {
   Input,
-  InputProps,
   InputGroup,
   InputLeftAddon,
   InputLeftElement,
+  InputProps,
   InputRightAddon,
   InputRightElement
 } from '@chakra-ui/react';

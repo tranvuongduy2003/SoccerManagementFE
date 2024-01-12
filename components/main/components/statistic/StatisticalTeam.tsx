@@ -1,18 +1,17 @@
 //chakra-ui
 import {
-  Flex,
   Box,
+  Center,
+  Flex,
+  Image,
   Table,
-  Checkbox,
   Tbody,
   Td,
   Text,
   Th,
   Thead,
   Tr,
-  useColorModeValue,
-  Image,
-  Center
+  useColorModeValue
 } from '@chakra-ui/react';
 import * as React from 'react';
 
@@ -27,8 +26,8 @@ import {
 } from '@tanstack/react-table';
 
 //interface
-import { IStatisticalTeam } from '@/interfaces';
 import NotData from '@/components/common/notData';
+import { IStatisticalTeam, ITeam } from '@/interfaces';
 
 const columnHelper = createColumnHelper<IStatisticalTeam>();
 
@@ -80,9 +79,13 @@ const TableTeam = (props: TableTeamProps) => {
       ),
       cell: info => (
         <Flex alignItems="center" justifyContent="flex-start" gap="20px">
-          <Image src={info?.getValue()?.flag} alt="" boxSize="30px" />
+          <Image
+            src={(info?.getValue() as ITeam)?.flag}
+            alt=""
+            boxSize="30px"
+          />
           <Text color="green" fontSize="sm" fontWeight="700" textAlign="left">
-            {info.getValue()?.name}
+            {(info?.getValue() as ITeam)?.name}
           </Text>
         </Flex>
       )

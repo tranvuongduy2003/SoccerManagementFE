@@ -1,28 +1,27 @@
 //chakra-ui
 import {
-  Flex,
-  Icon,
-  Heading,
-  Button,
-  Box,
-  Text,
-  Grid,
   Avatar,
-  useDisclosure,
+  Box,
+  Button,
+  Flex,
+  Grid,
+  Icon,
   Modal,
-  ModalContent,
   ModalBody,
   ModalCloseButton,
-  ModalHeader
+  ModalContent,
+  ModalHeader,
+  Text,
+  useDisclosure
 } from '@chakra-ui/react';
 
 //icons
-import { GrFormNextLink } from 'react-icons/gr';
-import { FcGlobe, FcContacts } from 'react-icons/fc';
+import { IPlayer } from '@/interfaces';
 import { FaBirthdayCake } from 'react-icons/fa';
+import { FcContacts, FcGlobe } from 'react-icons/fc';
+import { GrFormNextLink } from 'react-icons/gr';
 import { IoShirt } from 'react-icons/io5';
 import { LiaSitemapSolid } from 'react-icons/lia';
-import { IPlayer } from '@/interfaces';
 
 interface PlayerProps {
   player: IPlayer;
@@ -35,7 +34,7 @@ const Player = (props: PlayerProps) => {
       direction="column"
       justifyContent="center"
       alignItems="center"
-      border='1px solid #75C2F6'
+      border="1px solid #75C2F6"
       px="8"
       py="14"
       position="relative"
@@ -67,7 +66,7 @@ const Player = (props: PlayerProps) => {
           right: ' -12px',
           borderTop: '21px solid transparent',
           borderBottom: '21px solid transparent',
-          borderLeft: `12px solid ${player.captain?'#EC8F5E':'#75C2F6'}`
+          borderLeft: `12px solid ${player.captain ? '#EC8F5E' : '#75C2F6'}`
         }}
       >
         {player.captain ? 'Captain' : 'Player'}

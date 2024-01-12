@@ -30,7 +30,7 @@ import redCard from '@/public/images/overall/redCard.png';
 import { FaUserFriends } from 'react-icons/fa';
 
 //interface
-import { IStatisticalTournament } from '@/interfaces';
+import { IStatisticalPLayer, IStatisticalTournament } from '@/interfaces';
 
 //api
 import { useQuery } from '@tanstack/react-query';
@@ -574,7 +574,7 @@ const Statistic = (props: StatisticalProps) => {
                     <Text fontSize="x-large" fontWeight="bold">
                       {statisticalTournament?.teamMostGoal &&
                         statisticalTournament?.teamMostGoal[0].statistical
-                          .goals}
+                          ?.goals}
                     </Text>
                   </Flex>
                 </>
@@ -625,7 +625,7 @@ const Statistic = (props: StatisticalProps) => {
                     <Text fontSize="x-large" fontWeight="bold">
                       {statisticalTournament?.teamMostCard &&
                         statisticalTournament?.teamMostCard[0].statistical
-                          .yellowCards}
+                          ?.yellowCards}
                     </Text>
                   </Flex>
                 </>
@@ -680,10 +680,14 @@ const Statistic = (props: StatisticalProps) => {
                     </Text>
                     <Text fontSize="x-large" fontWeight="bold">
                       {statisticalTournament?.playerMostCard &&
-                        statisticalTournament?.playerMostCard[0].statistical
-                          .redCards +
-                          statisticalTournament?.playerMostCard[0].statistical
-                            .yellowCards}
+                        (
+                          statisticalTournament?.playerMostCard[0]
+                            .statistical as IStatisticalPLayer
+                        )?.redCards +
+                          (
+                            statisticalTournament?.playerMostCard[0]
+                              .statistical as IStatisticalPLayer
+                          )?.yellowCards}
                     </Text>
                   </Flex>
                 </>
