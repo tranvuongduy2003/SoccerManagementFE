@@ -95,13 +95,12 @@ function SignUp() {
       const { email, username, phone, password } = values;
 
       //TODO: call signup api
-      const Avatar = await signUp({
+      const {user,accessToken,refreshToken} = await signUp({
         email,
         password,
-        name: username,
+        username,
         phone
       });
-      console.log(Avatar);
       // authService.login({
       //   accessToken: accessToken,
       //   refreshToken: refreshToken,

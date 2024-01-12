@@ -3,6 +3,7 @@ import {
   IMatch,
   IPlayer,
   IStatisticalTeam,
+  IUser,
   InitCoach,
   InitMatch,
   InitPlayer,
@@ -12,17 +13,17 @@ import {
 export interface ITeam {
   _id?: string;
   name: string;
-  representative: string;
+  representative: any;
   level: string;
   area: string;
   isPublic: string;
   uniform: string[];
   flag: string;
   rank?: number;
-  coach: ICoach;
+  coach: ICoach | undefined;
   players: IPlayer[];
   matches: IMatch[];
-  statistical: IStatisticalTeam;
+  statistical: IStatisticalTeam | undefined;
   tags: string;
 }
 
@@ -34,9 +35,9 @@ export const InitTeam = {
   area: '',
   isPublic: 'PUBLIC',
   uniform: [],
-  coach: InitCoach,
+  coach: undefined,
   players: [],
   matches: [],
-  statistical: InitStatisticalTeam,
+  statistical: undefined,
   tags: ''
 } as ITeam;

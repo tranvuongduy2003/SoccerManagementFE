@@ -148,14 +148,6 @@ const FindLeagues: NextPageWithLayout = () => {
   });
   const queryClient = useQueryClient();
 
-  if (tournaments) {
-    console.log(tournaments);
-  }
-
-  if (isError) {
-    console.log(error);
-  }
-
   const getLeagueFormat = useMutation({
     mutationFn: getTournamentByFormat,
     onSuccess: () => {

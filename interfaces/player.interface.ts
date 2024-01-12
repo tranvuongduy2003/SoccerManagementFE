@@ -11,7 +11,7 @@ export interface IPlayer {
   number: number | undefined;
   dob: Date;
   position: string;
-  statistical: IStatisticalPLayer;
+  statistical: IStatisticalPLayer | string;
   tags: string;
   captain?: string | boolean;
 }
@@ -27,7 +27,7 @@ export const InitPlayer = {
   number: undefined,
   dob: new Date(),
   position: 'Defender',
-  statistical: InitStatisticalPLayer,
+  statistical: '',
   tags: '',
-  captain: false
+  captain: 'No Captain'
 } as IPlayer;

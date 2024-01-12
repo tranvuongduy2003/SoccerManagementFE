@@ -46,42 +46,70 @@ function SignIn() {
   // 2. Define a submit handler.
   async function onSubmit(values: LoginPayload) {
     setIsLoading(true);
-    try {
-      const { email, password } = values;
+    const { email, password } = values;
+    const auth = await signIn({
+      email,
+      password
+    });
 
-      //TODO: call login api
-      const { accessToken, refreshToken, user } = await signIn({
-        email,
-        password
-      });
+    //   // });
+    if (auth) {
+      const { accessToken, refreshToken, user } = auth;
       authService.login({
         accessToken: accessToken,
         refreshToken: refreshToken,
-        name: user.fullname,
-        id: user.id,
+        username: user.username,
+        _id: user._id,
         role: user.role,
-        email: user.email
+        email: user.email,
+        phone: user.phone
       });
-
-      setIsLoading(false);
-      toast({
-        title: 'Login successfully!',
-        description: 'You will be redirected to Home page',
-        status: 'success',
-        duration: 500,
-        onCloseComplete: () => router.push('/'),
-        position: 'top-right'
-      });
-    } catch (error: any) {
-      setIsLoading(false);
+      router.push('/');
+    } else {
       toast({
         title: 'Login failed!',
-        description: error,
+        description: 'Some thing wrong',
         status: 'error',
         duration: 1500,
         position: 'top-right'
       });
     }
+    // try {
+    //   const { email, password } = values;
+
+    //   //TODO: call login api
+    //   const { accessToken, refreshToken, user } = await signIn({
+    //     email,
+    //     password
+    //   });
+    //   // authService.login({
+    //   //   accessToken: accessToken,
+    //   //   refreshToken: refreshToken,
+    //   //   name: user.fullname,
+    //   //   id: user.id,
+    //   //   role: user.role,
+    //   //   email: user.email
+    //   // });
+
+    //   // setIsLoading(false);
+    //   // toast({
+    //   //   title: 'Login successfully!',
+    //   //   description: 'You will be redirected to Home page',
+    //   //   status: 'success',
+    //   //   duration: 500,
+    //   //   onCloseComplete: () => router.push('/'),
+    //   //   position: 'top-right'
+    //   // });
+    // } catch (error: any) {
+    //   setIsLoading(false);
+    //   toast({
+    //     title: 'Login failed!',
+    //     description: error,
+    //     status: 'error',
+    //     duration: 1500,
+    //     position: 'top-right'
+    //   });
+    // }
   }
 
   // Chakra color mode

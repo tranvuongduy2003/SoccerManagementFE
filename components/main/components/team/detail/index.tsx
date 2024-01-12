@@ -42,8 +42,8 @@ const DetailTeamComponent = () => {
             <Box>
               <Text color="gray.400">Respresentative</Text>
               <Flex alignItems="center" gap="10px">
-                <Avatar src={team.coach.avatar} />
-                <Text>{team.coach.name}</Text>
+                <Avatar src={team.coach!.avatar} />
+                <Text>{team?.coach!.name}</Text>
               </Flex>
             </Box>
             <Box>
@@ -52,14 +52,14 @@ const DetailTeamComponent = () => {
             </Box>
             <Box>
               <Text color="gray.400">Matches played</Text>
-              <Text>{team.statistical.matches} match</Text>
+              <Text>{team.statistical!.matches} match</Text>
             </Box>
             <Box>
               <Text color="gray.400">Wins - Draws - Losses</Text>
               <Flex>
-                <Text color="green.400"> {team.statistical.wins} </Text> -
-                <Text> {team.statistical.draws} </Text> -
-                <Text color="red.400"> {team.statistical.losses} </Text>
+                <Text color="green.400"> {team.statistical!.wins} </Text> -
+                <Text> {team.statistical!.draws} </Text> -
+                <Text color="red.400"> {team.statistical!.losses} </Text>
               </Flex>
             </Box>
           </Flex>

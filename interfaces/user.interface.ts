@@ -2,6 +2,7 @@ export interface IUser {
   _id?: string;
   username: string;
   email: string;
+  phone: string;
   password: string;
   dob: Date;
   isActive: boolean;
@@ -13,6 +14,7 @@ export const InitUser = {
   username: '',
   email: '',
   password: '',
+  phone: '',
   dob: new Date(),
   isActive: true,
   role: 'VIEWER'

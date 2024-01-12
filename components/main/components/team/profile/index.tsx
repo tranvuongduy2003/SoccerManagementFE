@@ -80,7 +80,7 @@ const ProfileTeamComponent = () => {
               <TeamInformation
                 flag={team.flag}
                 name={team.name}
-                coach={team.coach}
+                coach={team.coach!}
                 players={team.players}
               />
             </TabPanel>
