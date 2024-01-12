@@ -24,6 +24,7 @@ import { IoMdCloseCircleOutline } from 'react-icons/io';
 import { FaFileImport } from 'react-icons/fa';
 import { GrFormNextLink } from 'react-icons/gr';
 
+
 //interface
 import { IPlayer, InitPlayer, InitStatisticalPLayer } from '@/interfaces';
 
@@ -85,6 +86,10 @@ const MembersForm = (props: MembersFormProps) => {
     memberForm.watch().national
   ]);
 
+  // useEffect(() => {
+  //   console.log('vao day')
+  //   memberForm.reset(member);
+  // }, []);
   return (
     <FormProvider {...memberForm}>
       <form>
@@ -244,6 +249,7 @@ const MembersForm = (props: MembersFormProps) => {
     </FormProvider>
   );
 };
+
 
 interface MemberTeamProps {
   players: IPlayer[];
