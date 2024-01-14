@@ -6,11 +6,3 @@ export interface IStadium {
   capacity: string;
   coordinate: string;
 }
-
-export const InitStadium = {
-  name: '',
-  avatar: '',
-  location: '',
-  capacity: '',
-  coordinate: ''
-} as IStadium;

@@ -5,10 +5,3 @@ export interface ISponsor {
   logo: string;
   email: string;
 }
-
-export const InitSponsor = {
-  name: '',
-  image: '',
-  logo: '',
-  email: ''
-} as ISponsor;

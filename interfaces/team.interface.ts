@@ -1,14 +1,4 @@
-import {
-  ICoach,
-  IMatch,
-  IPlayer,
-  IStatisticalTeam,
-  IUser,
-  InitCoach,
-  InitMatch,
-  InitPlayer,
-  InitStatisticalTeam
-} from '.';
+import { ICoach, IMatch, IPlayer, IStatisticalTeam } from '.';
 
 export interface ITeam {
   _id?: string;

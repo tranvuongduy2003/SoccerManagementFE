@@ -1,13 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 
 //layout
 import { HomeLayout } from '@/components/layout';
-import { ITeam, InitTeam, NextPageWithLayout } from '@/interfaces';
+import { ITeam, NextPageWithLayout } from '@/interfaces';
 
 //chark-ra ui
-import { Box, Center, Divider, Flex, Text, Image } from '@chakra-ui/react';
+import { Box, Center, Divider, Flex, Image, Text } from '@chakra-ui/react';
 
 //form
 import { FormProvider, SubmitHandler, useForm } from 'react-hook-form';
@@ -20,23 +20,39 @@ import { useRouter } from 'next/navigation';
 //image
 import { CldUploadWidget } from 'next-cloudinary';
 
-import authService from '@/services/authService';
-import { InitStatisticalTeam } from '@/interfaces';
 //react-query
-import { createTeam, createStatisticalTeam } from '@/apis';
-import { useMutation } from '@tanstack/react-query';
-import { useQueryClient } from '@tanstack/react-query';
+import { createStatisticalTeam, createTeam } from '@/apis';
+import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 //toast
+import { AuthContext } from '@/contexts/AuthProvider';
 import { useToast } from '@chakra-ui/react';
 
 const Create: NextPageWithLayout = () => {
   const router = useRouter();
 
+  const authContext = useContext(AuthContext);
+
   const toast = useToast();
   const queryClient = useQueryClient();
-  const user = authService.getUser();
-  const methods = useForm({ defaultValues: InitTeam, mode: 'onBlur' });
+  const user = authContext!.getUser();
+  const methods = useForm({
+    defaultValues: {
+      name: '',
+      flag: '',
+      representative: '',
+      level: 'FUN',
+      area: '',
+      isPublic: 'PUBLIC',
+      uniform: [],
+      coach: undefined,
+      players: [],
+      matches: [],
+      statistical: undefined,
+      tags: ''
+    },
+    mode: 'onBlur'
+  });
 
   const [logo, setLogo] = useState<string>('');
   const [uniformOne, setUniformOne] = useState<string>('');
@@ -62,7 +78,28 @@ const Create: NextPageWithLayout = () => {
     mutationFn: createTeam,
     onSuccess: data => {
       queryClient.invalidateQueries();
-      const formData: any = { ...InitStatisticalTeam, team: data?._id };
+      const formData: any = {
+        ...{
+          team: '',
+          rank: 0,
+          wins: 0,
+          draws: 0,
+          losses: 0,
+          matches: 0,
+          WDL: '',
+          point: 0,
+          goals: 0,
+          losts: 0,
+          owns: 0,
+          yellowCards: 0,
+          redCards: 0,
+          voteChampions: [],
+          voteFairPlays: [],
+          history: [],
+          tags: ''
+        },
+        team: data?._id
+      };
       handleCreateStatisticalTeam.mutate(formData);
     },
     onError: () => {
@@ -334,7 +371,7 @@ const Create: NextPageWithLayout = () => {
                 type="submit"
               >
                 Save
-              </SubmitButton> 
+              </SubmitButton>
             </Center>
           </form>
         </FormProvider>

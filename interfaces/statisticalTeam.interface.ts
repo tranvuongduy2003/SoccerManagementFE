@@ -1,4 +1,4 @@
-import { ITeam, IUser, InitTeam } from '.';
+import { ITeam, IUser } from '.';
 
 export interface IStatisticalTeam {
   _id?: string;
@@ -21,29 +21,8 @@ export interface IStatisticalTeam {
   tags: string;
 }
 
-export const InitStatisticalTeam = {
-  team: '',
-  rank: 0,
-  wins: 0,
-  draws: 0,
-  losses: 0,
-  matches: 0,
-  WDL: '',
-  point: 0,
-  goals: 0,
-  losts: 0,
-  owns: 0,
-  yellowCards: 0,
-  redCards: 0,
-  voteChampions: [],
-  voteFairPlays: [],
-  history: [],
-  tags: ''
-} as IStatisticalTeam;
-
-
 export enum ETypeHistory {
   WIN = 'WIN',
   DRAW = 'DRAW',
-  LOSSES = 'LOSSES',
+  LOSSES = 'LOSSES'
 }

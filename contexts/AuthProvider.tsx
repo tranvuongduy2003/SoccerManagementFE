@@ -5,7 +5,6 @@ import React, { ReactNode, useState } from 'react';
 import { signIn, signUp } from '@/apis';
 import { IUser, LoginPayload, SignUpPayload } from '@/interfaces';
 import { checkNullish } from '@/utils';
-import { jwtDecode } from 'jwt-decode';
 import { toast } from 'react-toastify';
 
 interface AuthProviderProps {
@@ -51,13 +50,11 @@ const AuthProvider = (props: AuthProviderProps) => {
       setAccessToken(accessToken);
       setRefreshToken(refreshToken);
 
-      const { exp: accessTokenExp } = jwtDecode(accessToken);
-      const { exp: refreshTokenExp } = jwtDecode(refreshToken);
+      // const { exp: accessTokenExp } = jwtDecode(accessToken);
+      // const { exp: refreshTokenExp } = jwtDecode(refreshToken);
 
-      Cookies.set('accessToken', `${accessToken}`, { expires: accessTokenExp });
-      Cookies.set('refreshToken', `${refreshToken}`, {
-        expires: refreshTokenExp
-      });
+      Cookies.set('accessToken', `${accessToken}`, { expires: 8 / 24 });
+      Cookies.set('refreshToken', `${refreshToken}`, { expires: 1 });
 
       const userStringify = JSON.stringify(user);
       Cookies.set('user', userStringify);
@@ -91,13 +88,11 @@ const AuthProvider = (props: AuthProviderProps) => {
       setAccessToken(accessToken);
       setRefreshToken(refreshToken);
 
-      const { exp: accessTokenExp } = jwtDecode(accessToken);
-      const { exp: refreshTokenExp } = jwtDecode(refreshToken);
+      // const { exp: accessTokenExp } = jwtDecode(accessToken);
+      // const { exp: refreshTokenExp } = jwtDecode(refreshToken);
 
-      Cookies.set('accessToken', `${accessToken}`, { expires: accessTokenExp });
-      Cookies.set('refreshToken', `${refreshToken}`, {
-        expires: refreshTokenExp
-      });
+      Cookies.set('accessToken', `${accessToken}`, { expires: 8 / 24 });
+      Cookies.set('refreshToken', `${refreshToken}`, { expires: 1 });
 
       const userStringify = JSON.stringify(user);
       Cookies.set('user', userStringify);

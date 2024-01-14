@@ -1,4 +1,4 @@
-import { IStatisticalPLayer, InitStatisticalPLayer } from '.';
+import { IStatisticalPLayer } from '.';
 
 export interface IPlayer {
   _id?: string;
@@ -15,21 +15,3 @@ export interface IPlayer {
   tags: string;
   captain?: string | boolean;
 }
-
-// const date = Date().toString().split('T')[0];
-
-export const InitPlayer = {
-  _id: '',
-  name: '',
-  avatar: '',
-  age: 0,
-  height: '',
-  weight: '',
-  national: 'VietNam',
-  number: undefined,
-  dob: new Date(),
-  position: 'Defender',
-  statistical: '',
-  tags: '',
-  captain: 'No Captain'
-} as IPlayer;

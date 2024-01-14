@@ -24,11 +24,12 @@ import { useTeamStore } from '@/stores/useTeamStore';
 const DetailTeamComponent = () => {
   const team = useTeamStore(state => state.team);
 
-  const matches = team.matches.sort(function (a, b) {
-    const timeA = new Date(a.time);
-    const timeB = new Date(b.time);
-    return timeB.getTime() - timeA.getTime();
-  });
+  const matches =
+    team?.matches?.sort(function (a, b) {
+      const timeA = new Date(a.time);
+      const timeB = new Date(b.time);
+      return timeB.getTime() - timeA.getTime();
+    }) || [];
 
   return (
     <Box mt="100px">
@@ -37,13 +38,13 @@ const DetailTeamComponent = () => {
           <Image src={team.flag} alt="" width={200} height={200} />
         </Box>
         <Flex flexDirection="column" justifyContent="space-around">
-          <Heading color="#00A9FF">{team.name}</Heading>
+          <Heading color="#00A9FF">{team?.name || ''}</Heading>
           <Flex gap="40px">
             <Box>
               <Text color="gray.400">Respresentative</Text>
               <Flex alignItems="center" gap="10px">
-                <Avatar src={team.coach!.avatar} />
-                <Text>{team?.coach!.name}</Text>
+                <Avatar src={team.coach?.avatar || ''} />
+                <Text>{team?.coach?.name || ''}</Text>
               </Flex>
             </Box>
             <Box>
@@ -52,14 +53,14 @@ const DetailTeamComponent = () => {
             </Box>
             <Box>
               <Text color="gray.400">Matches played</Text>
-              <Text>{team.statistical!.matches} match</Text>
+              <Text>{team.statistical?.matches} match</Text>
             </Box>
             <Box>
               <Text color="gray.400">Wins - Draws - Losses</Text>
               <Flex>
-                <Text color="green.400"> {team.statistical!.wins} </Text> -
-                <Text> {team.statistical!.draws} </Text> -
-                <Text color="red.400"> {team.statistical!.losses} </Text>
+                <Text color="green.400"> {team.statistical?.wins} </Text> -
+                <Text> {team.statistical?.draws} </Text> -
+                <Text color="red.400"> {team.statistical?.losses} </Text>
               </Flex>
             </Box>
           </Flex>
@@ -80,7 +81,7 @@ const DetailTeamComponent = () => {
         </TabList>
         <TabPanels>
           <TabPanel>
-            <Matches matches={matches} />
+            <Matches matches={matches || []} />
           </TabPanel>
           <TabPanel>
             <Member players={team.players} />

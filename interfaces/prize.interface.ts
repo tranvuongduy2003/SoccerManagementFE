@@ -8,14 +8,6 @@ export interface IPrize {
   checked?: boolean;
 }
 
-export const InitPrize = {
-  category: '',
-  status: 'COMING',
-  completion: 0,
-  bonus: '',
-  image: ''
-};
-
 export enum ETypeStatusPrize {
   COMING = 'COMING',
   ACTIVE = 'ACTIVE',

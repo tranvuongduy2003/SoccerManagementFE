@@ -44,7 +44,7 @@ const TeamInformation = (props: TeamInformationProps) => {
                 rounded="md"
                 pl="10px"
               >
-                {coach.name}
+                {coach?.name || ''}
               </Box>
             </Flex>
             <Flex

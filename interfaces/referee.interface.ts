@@ -7,12 +7,3 @@ export interface IReferee {
   nation: string;
   wikipedia: string;
 }
-
-export const InitReferee = {
-  name: '',
-  avatar: '',
-  age: 0,
-  dob: new Date(),
-  nation: '',
-  wikipedia: ''
-} as IReferee;

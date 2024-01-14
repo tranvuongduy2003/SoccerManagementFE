@@ -1,4 +1,9 @@
-import { ITournament, InitTournament } from '@/interfaces';
+import {
+  ETypeFormulaTour,
+  ETypeStatusTour,
+  ETypeVisionTour,
+  ITournament
+} from '@/interfaces';
 import { create } from 'zustand';
 
 type State = {
@@ -10,6 +15,31 @@ type Action = {
 };
 
 export const useTournamentStore = create<State & Action>(set => ({
-  tournament: InitTournament,
+  tournament: {
+    formula: ETypeFormulaTour.STAGE,
+    name: '',
+    image: '',
+    logo: '',
+    prizes: [],
+    awardTeams: [],
+    awardPlayers: [],
+    vision: ETypeVisionTour.DOMESTIC,
+    teams: [],
+    rounds: [],
+    stadiums: [],
+    referees: [],
+    sponsor: {
+      name: '',
+      image: '',
+      logo: '',
+      email: ''
+    },
+    season: '',
+    status: ETypeStatusTour.REGISTERING,
+    description: '',
+    statistical: '',
+    tags: '',
+    maxTeam: 0
+  },
   setTournament: tournament => set(() => ({ tournament: tournament }))
 }));

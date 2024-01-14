@@ -1,4 +1,4 @@
-import { IPlayer, ITeam, InitPlayer, InitTeam } from '.';
+import { IPlayer, ITeam } from '.';
 
 export interface IStatisticalPLayer {
   _id?: string;
@@ -12,15 +12,3 @@ export interface IStatisticalPLayer {
   voteBestPosition: number;
   tags: string;
 }
-
-export const InitStatisticalPLayer = {
-  player: '',
-  team: InitTeam,
-  goals: 0,
-  owner: 0,
-  yellowCards: 0,
-  redCards: 0,
-  voteBestPlayer: 0,
-  voteBestPosition: 0,
-  tags: ''
-} as IStatisticalPLayer;
