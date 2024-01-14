@@ -66,7 +66,7 @@ const createLeagueSchema = z.object({
   stadiums: z.array(z.string()).nonempty('You must add at least 1 stadium'),
   referees: z.array(z.string()).nonempty('You must add at least 1 referee'),
   sponsor: z.string(),
-  maxTeam: z.number().min(0, 'You must select max team')
+  maxTeam: z.any()
 });
 
 const CreateLeague: NextPageWithLayout = () => {
@@ -179,6 +179,7 @@ const CreateLeague: NextPageWithLayout = () => {
       const payload: CreateTournamentPayload = { ...values } as any;
       payload.logo = logo;
       payload.image = image;
+      payload.maxTeam = Number.parseInt(payload.maxTeam as any);
 
       await createTournament(payload);
 

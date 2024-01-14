@@ -2,22 +2,22 @@
 export const maxTeamOptions = [
   {
     id: 0,
-    value: 4
+    value: '4'
   },
   {
     id: 1,
-    value: 8
+    value: '8'
   },
   {
     id: 2,
-    value: 12
+    value: '12'
   },
   {
     id: 3,
-    value: 16
+    value: '16'
   },
   {
     id: 4,
-    value: 32
+    value: '32'
   }
 ];
