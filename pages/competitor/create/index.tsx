@@ -3,7 +3,7 @@
 import { useContext, useState } from 'react';
 
 //layout
-import { AdminLayout, HomeLayout } from '@/components/layout';
+import { AdminLayout } from '@/components/layout';
 import { ITeam, NextPageWithLayout } from '@/interfaces';
 
 //chark-ra ui

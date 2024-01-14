@@ -324,7 +324,6 @@ const SignUp: NextPageWithLayout = () => {
             <Button
               type="submit"
               bg="#0079FF"
-              fontSize="10px"
               color="white"
               fontWeight="bold"
               w="100%"

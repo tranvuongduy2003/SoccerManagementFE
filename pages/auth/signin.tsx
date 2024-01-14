@@ -143,7 +143,6 @@ const SignIn: NextPageWithLayout = () => {
                 </FormLabel>
               </FormControl>
               <Button
-                fontSize="10px"
                 type="submit"
                 bg="#0079FF"
                 w="100%"

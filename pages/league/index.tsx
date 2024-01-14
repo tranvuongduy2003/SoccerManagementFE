@@ -52,10 +52,11 @@ const League = (props: LeagueProps) => {
   return (
     <Card
       as={Link}
+      textDecoration={'none'}
       maxW="sm"
       position="relative"
       paddingBottom="10px"
-      _hover={{ cursor: 'pointer' }}
+      _hover={{ cursor: 'pointer', textDecoration: 'none' }}
       href={`league/${league._id}/overall/${league.tags}`}
       onClick={() => setTournament(league)}
     >
