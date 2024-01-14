@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 
 // Chakra imports
 import {
@@ -12,21 +12,18 @@ import {
   Input,
   Switch,
   Text,
-  useColorModeValue,
-  useToast
+  useColorModeValue
 } from '@chakra-ui/react';
 
 //routes
-import { signIn } from '@/apis';
-import { LoginPayload } from '@/interfaces';
-import authService from '@/services/authService';
+import { AuthLayout } from '@/components/layout';
+import { AuthContext } from '@/contexts/AuthProvider';
+import { LoginPayload, NextPageWithLayout } from '@/interfaces';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { useForm } from 'react-hook-form';
 
-function SignIn() {
-  const router = useRouter();
-  const toast = useToast();
+const SignIn: NextPageWithLayout = () => {
+  const authContext = useContext(AuthContext);
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
@@ -44,42 +41,9 @@ function SignIn() {
 
   // 2. Define a submit handler.
   async function onSubmit(values: LoginPayload) {
-    try {
-      setIsLoading(true);
-      const { email, password } = values;
-      const { accessToken, refreshToken, user } = await signIn({
-        email,
-        password
-      });
-
-      authService.login({
-        accessToken: accessToken,
-        refreshToken: refreshToken,
-        username: user.username,
-        _id: user._id,
-        role: user.role,
-        email: user.email,
-        phone: user.phone
-      });
-      setIsLoading(false);
-      toast({
-        title: 'Login successfully!',
-        description: 'You will be redirected to Home page',
-        status: 'success',
-        duration: 500,
-        onCloseComplete: () => router.push('/'),
-        position: 'top-right'
-      });
-    } catch (error: any) {
-      setIsLoading(false);
-      toast({
-        title: 'Login failed!',
-        description: error.message ? error.message : 'Some thing wrong',
-        status: 'error',
-        duration: 1500,
-        position: 'top-right'
-      });
-    }
+    setIsLoading(true);
+    await authContext!.login(values);
+    setIsLoading(false);
   }
 
   // Chakra color mode
@@ -134,7 +98,7 @@ function SignIn() {
                   borderRadius="15px"
                   mb="24px"
                   fontSize="sm"
-                  placeholder="Your email adress"
+                  placeholder="Your email address"
                   size="lg"
                   type="email"
                   id="email"
@@ -193,6 +157,7 @@ function SignIn() {
                 _active={{
                   bg: 'teal.400'
                 }}
+                isLoading={isLoading}
               >
                 SIGN IN
               </Button>
@@ -219,6 +184,8 @@ function SignIn() {
       </Flex>
     </Flex>
   );
-}
+};
+
+SignIn.Layout = AuthLayout;
 
 export default SignIn;

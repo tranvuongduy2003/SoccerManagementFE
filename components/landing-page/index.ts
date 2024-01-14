@@ -1,4 +1,4 @@
-export * from './Navbar'
+export * from './Navbar';
 export * from './Footer';
 export * from './GoodPlayer';
 export * from './HighLightMatch';

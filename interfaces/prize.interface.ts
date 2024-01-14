@@ -5,6 +5,7 @@ export interface IPrize {
   completion: number;
   bonus: string;
   image: string;
+  checked?: boolean;
 }
 
 export const InitPrize = {

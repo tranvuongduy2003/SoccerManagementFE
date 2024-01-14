@@ -12,13 +12,8 @@ export interface SignUpPayload {
   phone: string;
 }
 
-export interface Token {
-  token: string;
-  expiredAt: string;
-}
-
 export interface LoginResponse {
   user: IUser;
-  accessToken: Token;
-  refreshToken: Token;
+  accessToken: string;
+  refreshToken: string;
 }

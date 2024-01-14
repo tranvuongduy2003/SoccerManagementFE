@@ -1,16 +1,20 @@
+import { AuthContext } from '@/contexts/AuthProvider';
 import { LayoutProps } from '@/interfaces';
-import authService from '@/services/authService';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 
 export function AuthLayout({ children }: LayoutProps) {
-  const router = useRouter()
+  const authContext = useContext(AuthContext);
+
+  const { loggedIn } = authContext!;
+
+  const router = useRouter();
 
   useEffect(() => {
-    if (authService.isAuthenticated()) {
+    if (loggedIn) {
       router.push('/');
     }
-  }, [router]);
+  }, [router, loggedIn]);
 
   return <>{children}</>;
 }
