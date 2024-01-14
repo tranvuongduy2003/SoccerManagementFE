@@ -24,7 +24,7 @@ import { FaRegEye } from 'react-icons/fa';
 import { RiTeamLine } from 'react-icons/ri';
 
 //react-query
-import { getTeams } from '@/apis';
+import { getTeamsByOwnerId } from '@/apis';
 import { useQuery } from '@tanstack/react-query';
 import Link from 'next/link';
 import SkeletonComponent from '@/components/common/skeleton';
@@ -32,6 +32,7 @@ import { useEffect, useState } from 'react';
 
 //filter
 import filter from 'lodash.filter';
+import { useRouter } from 'next/router';
 import NotData from '@/components/common/notData';
 
 interface CompetitorProps {
@@ -83,11 +84,10 @@ const Competitor = (props: CompetitorProps) => {
 };
 
 const Competitors: NextPageWithLayout = () => {
-  const { data,isLoading } = useQuery<ITeam[]>({
-    queryKey: ['teams'],
-    queryFn: getTeams
-    // select: data => data
-    
+  const route = useRouter();
+  const { data, isLoading } = useQuery<ITeam[]>({
+    queryKey: ['teams', route.query.index],
+    queryFn: () => getTeamsByOwnerId(route.query.index!)
   });
 
   const [teams, setTeams] = useState<ITeam[]>([]);
@@ -142,6 +142,19 @@ const Competitors: NextPageWithLayout = () => {
           </Center>
         </Flex>
       </Flex>
+      {/* <Grid
+        templateColumns="repeat(4,1fr)"
+        gap={5}
+        justifyContent="flex-start"
+        alignItems="center"
+        mx="auto"
+      >
+        {teams!.length !== 0 ? (
+          teams?.map((team, index) => <Competitor key={index} team={team} />)
+        ) : (
+          <Text color='#ffffff'>No result</Text>
+        )}
+      </Grid> */}
       {teams!.length !== 0 ? (
         <Grid
           templateColumns="repeat(4,1fr)"

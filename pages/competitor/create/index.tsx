@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 
 //layout
@@ -74,7 +76,6 @@ const Create: NextPageWithLayout = () => {
     }
   });
 
-  // console.log(user);
   const onSubmit: SubmitHandler<ITeam> = async (data: any) => {
     const uniforms = [uniformOne, uniformTwo, uniformThree];
     const formData: ITeam = {
@@ -111,9 +112,6 @@ const Create: NextPageWithLayout = () => {
                   }}
                   onSuccess={(result: any) => {
                     setLogo(result.info.secure_url);
-                    console.log(
-                      'modalData backgroundImage:: ' + result.info.secure_url
-                    );
                   }}
                   onError={error => {
                     console.log(error);
@@ -205,9 +203,6 @@ const Create: NextPageWithLayout = () => {
                 }}
                 onSuccess={(result: any) => {
                   setUniformOne(result.info.secure_url);
-                  console.log(
-                    'modalData backgroundImage:: ' + result.info.secure_url
-                  );
                 }}
                 onError={error => {
                   console.log(error);
@@ -229,7 +224,7 @@ const Create: NextPageWithLayout = () => {
                             src={
                               uniformOne
                                 ? uniformOne
-                                : '/images/common/shirt.svg'
+                                : '/images/common/shirt.png'
                             }
                             objectFit="cover"
                             alt="Default Cover Image"
@@ -251,9 +246,6 @@ const Create: NextPageWithLayout = () => {
                 }}
                 onSuccess={(result: any) => {
                   setUniformTwo(result.info.secure_url);
-                  console.log(
-                    'modalData backgroundImage:: ' + result.info.secure_url
-                  );
                 }}
                 onError={error => {
                   console.log(error);
@@ -275,7 +267,7 @@ const Create: NextPageWithLayout = () => {
                             src={
                               uniformTwo
                                 ? uniformTwo
-                                : '/images/common/shirt.svg'
+                                : '/images/common/shirt.png'
                             }
                             objectFit="cover"
                             alt="Default Cover Image"
@@ -321,7 +313,7 @@ const Create: NextPageWithLayout = () => {
                             src={
                               uniformThree
                                 ? uniformThree
-                                : '/images/common/shirt.svg'
+                                : '/images/common/shirt.png'
                             }
                             objectFit="cover"
                             alt="Default Cover Image"
@@ -335,7 +327,14 @@ const Create: NextPageWithLayout = () => {
               </CldUploadWidget>
             </Flex>
             <Center>
-              <SubmitButton type="submit">Save</SubmitButton>
+              <SubmitButton
+                color="#FFFFFF"
+                bgColor="#A1EEBD"
+                _hover={{ bgColor: '#65B741' }}
+                type="submit"
+              >
+                Save
+              </SubmitButton> 
             </Center>
           </form>
         </FormProvider>

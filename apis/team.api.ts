@@ -6,6 +6,10 @@ export const getTeams = () => {
   return httpRequest.get<ITeam[]>(API_ROUTE.team + '/');
 };
 
+export const getTeamsByOwnerId = (id: string | string[]) => {
+  return httpRequest.get<ITeam[]>(API_ROUTE.team + `/owner/${id}`);
+};
+
 export const getTeamById = (id: string) => {
   return httpRequest.get<ITeam>(API_ROUTE.team + `/${id}`);
 };

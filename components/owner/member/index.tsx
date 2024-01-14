@@ -12,7 +12,8 @@ import {
   Icon,
   Image,
   Input,
-  Text
+  Text,
+  useToast
 } from '@chakra-ui/react';
 
 import Player from './Player';
@@ -53,6 +54,10 @@ const MembersForm = (props: MembersFormProps) => {
   });
 
   useEffect(() => {
+    if (avatar) {
+      membersForm.setValue(`members.${index}.avatar`, avatar);
+    }
+
     membersForm.setValue(`members.${index}.name`, memberForm.watch().name);
     membersForm.setValue(`members.${index}.number`, memberForm.watch().number);
     membersForm.setValue(
@@ -78,13 +83,10 @@ const MembersForm = (props: MembersFormProps) => {
     memberForm.watch().height,
     memberForm.watch().dob,
     memberForm.watch().weight,
-    memberForm.watch().national
+    memberForm.watch().national,
+    avatar
   ]);
 
-  // useEffect(() => {
-  //   console.log('vao day')
-  //   memberForm.reset(member);
-  // }, []);
   return (
     <FormProvider {...memberForm}>
       <form>
@@ -137,9 +139,10 @@ const MembersForm = (props: MembersFormProps) => {
                       >
                         <Image
                           src={
-                            memberForm.getValues().avatar
-                              ? memberForm.getValues().avatar
-                              : '/images/team/playerDefault.png'
+                            avatar
+                              ? avatar
+                              : memberForm.watch().avatar ||
+                                '/images/team/playerDefault.png'
                           }
                           objectFit="cover"
                           alt="Default Cover Image"
@@ -250,6 +253,7 @@ interface MemberTeamProps {
   idTeam: string;
 }
 const MemberTeam = (props: MemberTeamProps) => {
+  const toast = useToast();
   const queryClient = useQueryClient();
   const { players, idTeam } = props;
 
@@ -264,7 +268,13 @@ const MemberTeam = (props: MemberTeamProps) => {
     mutationFn: createStatisticalPlayer,
     onSuccess: data => {
       queryClient.invalidateQueries();
-      // console.log(data);
+      toast({
+        title: 'Create successfully!',
+        description: 'your player is created',
+        status: 'success',
+        duration: 1000,
+        position: 'top-right'
+      });
     },
     onError: e => {
       console.log(e);
@@ -281,8 +291,14 @@ const MemberTeam = (props: MemberTeamProps) => {
       });
       handleCreateStatisticalPlayer.mutate(statisticalPlayers);
     },
-    onError: e => {
-      console.log(e);
+    onError: () => {
+      toast({
+        title: 'Create failure!',
+        description: 'Please enter valid full information',
+        status: 'error',
+        duration: 1000,
+        position: 'top-right'
+      });
     }
   });
 
@@ -325,6 +341,7 @@ const MemberTeam = (props: MemberTeamProps) => {
           dob: dateString
         };
       });
+      console.log(newData);
       let members = membersForm.watch().members;
       members = newData;
       membersForm.setValue('members', members);
@@ -333,7 +350,7 @@ const MemberTeam = (props: MemberTeamProps) => {
 
   return (
     <Box>
-      <Text>There are {membersForm.watch().members.length} players.</Text>
+      <Text>There are {players.length} players.</Text>
       <FormProvider {...membersForm}>
         <Flex
           alignItems="center"

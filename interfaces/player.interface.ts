@@ -9,12 +9,14 @@ export interface IPlayer {
   weight: string;
   national: string;
   number: number | undefined;
-  dob: Date;
+  dob: Date | string;
   position: string;
   statistical: IStatisticalPLayer | string;
   tags: string;
   captain?: string | boolean;
 }
+
+// const date = Date().toString().split('T')[0];
 
 export const InitPlayer = {
   _id: '',

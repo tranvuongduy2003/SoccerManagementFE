@@ -9,13 +9,13 @@ import Image from 'next/image';
 //route
 import Link from 'next/link';
 
+import authService from '@/services/authService';
+
 export const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
 
-  // const user = authService.getUser();
-  // console.log(user)
-  // console.log(user);
-  const user = true;
+  const user = authService.getUser();
+
 
   return (
     <nav className="z-[1] w-full px-5 fixed mt-10">
@@ -118,7 +118,7 @@ export const Navbar = () => {
                       <Link href="/competitor">Find teams</Link>
                     </li>
                     <li>
-                      <Link href="/competitor">My team</Link>
+                      <Link href={`/competitor/owner/${user._id}`}>My team</Link>
                     </li>
                     <li>
                       <Link href={`/competitor/${user ? 'create' : 'signin'}`}>
