@@ -8,11 +8,11 @@ import { Navbar } from '../landing-page';
 //   ssr: false
 // });
 
-export function HomeLayout({ children }: LayoutProps) {
+export const HomeLayout = ({ children }: LayoutProps) => {
   return (
     <div className="font-fontLanding bg-body-color min-h-screen">
       <Navbar />
       {children}
     </div>
   );
-}
+};

@@ -7,5 +7,9 @@ export const API_ROUTE = {
   player: '/player',
   statisticalPlayer: '/statisticalPlayer',
   round: '/round',
-  table:'/table'
+  table: '/table',
+  sponsor: '/sponsor',
+  prize: '/prize',
+  referee: '/referee',
+  stadium: '/stadium'
 };

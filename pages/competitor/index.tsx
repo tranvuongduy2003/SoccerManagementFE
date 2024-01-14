@@ -25,7 +25,7 @@ import { RiTeamLine } from 'react-icons/ri';
 //react-query
 import { getTeams } from '@/apis';
 import { useQuery } from '@tanstack/react-query';
-import Link from 'next/link';
+import { Link } from '@chakra-ui/next-js';
 
 interface CompetitorProps {
   team: ITeam;
@@ -142,4 +142,5 @@ const Competitors: NextPageWithLayout = () => {
 };
 
 Competitors.Layout = HomeLayout;
+
 export default Competitors;

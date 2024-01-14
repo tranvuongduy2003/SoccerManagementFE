@@ -1,6 +1,8 @@
 // Chakra imports
-import { signUp } from '@/apis';
+import { AuthLayout } from '@/components/layout';
 import { PASSWORD_REGEX, PHONE_REGEX } from '@/constants';
+import { AuthContext } from '@/contexts/AuthProvider';
+import { NextPageWithLayout } from '@/interfaces';
 import {
   Button,
   Flex,
@@ -12,15 +14,13 @@ import {
   Input,
   Switch,
   Text,
-  useColorModeValue,
-  useToast
+  useColorModeValue
 } from '@chakra-ui/react';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 // Assets
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { FaApple, FaFacebook, FaGoogle } from 'react-icons/fa';
 import * as z from 'zod';
@@ -65,9 +65,8 @@ const formSchema = z
     path: ['confirmPassword']
   });
 
-function SignUp() {
-  const router = useRouter();
-  const toast = useToast();
+const SignUp: NextPageWithLayout = () => {
+  const authContext = useContext(AuthContext);
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
@@ -90,44 +89,8 @@ function SignUp() {
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsLoading(true);
-    try {
-      const { email, username, phone, password } = values;
-
-      //TODO: call signup api
-      const { user, accessToken, refreshToken } = await signUp({
-        email,
-        password,
-        username,
-        phone
-      });
-      // authService.login({
-      //   accessToken: accessToken,
-      //   refreshToken: refreshToken,
-      //   name: user.fullname,
-      //   id: user.id,
-      //   role: user.role,
-      //   email: user.email
-      // });
-
-      // setIsLoading(false);
-      // toast({
-      //   title: 'Create new account successfully!',
-      //   description: 'You will be redirected to Home page',
-      //   status: 'success',
-      //   duration: 500,
-      //   onCloseComplete: () => router.push('/'),
-      //   position: 'top-right'
-      // });
-    } catch (error: any) {
-      setIsLoading(false);
-      toast({
-        title: 'Create new account failed!',
-        description: error,
-        status: 'error',
-        duration: 1500,
-        position: 'top-right'
-      });
-    }
+    await authContext!.register(values);
+    setIsLoading(false);
   }
 
   const titleColor = useColorModeValue('teal.300', 'teal.200');
@@ -373,6 +336,7 @@ function SignUp() {
               _active={{
                 bg: 'teal.400'
               }}
+              isLoading={isLoading}
             >
               SIGN UP
             </Button>
@@ -398,6 +362,8 @@ function SignUp() {
       </Flex>
     </Flex>
   );
-}
+};
+
+SignUp.Layout = AuthLayout;
 
 export default SignUp;

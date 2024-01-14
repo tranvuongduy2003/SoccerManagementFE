@@ -25,6 +25,7 @@ export interface ITeam {
   matches: IMatch[];
   statistical: IStatisticalTeam | undefined;
   tags: string;
+  checked?: boolean;
 }
 
 export const InitTeam = {

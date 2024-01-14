@@ -1,16 +1,27 @@
-import { LayoutProps } from '@/interfaces';
-import authService from '@/services/authService';
+import { AuthContext } from '@/contexts/AuthProvider';
+import { ERole, LayoutProps } from '@/interfaces';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { useContext, useEffect, useRef } from 'react';
+import { Navbar } from '../landing-page';
 
 export function AdminLayout({ children }: LayoutProps) {
+  const authContext = useContext(AuthContext);
+
+  const { loggedIn, getUser } = authContext!;
+  const user = getUser();
+
   const router = useRouter();
 
   useEffect(() => {
-    if (!authService.isAuthenticated() || !authService.isAdmin()) {
+    if (!loggedIn || user?.role !== ERole.ADMIN) {
       router.push('/auth/signin');
     }
-  }, [router]);
+  }, [router, loggedIn, user]);
 
-  return <div>{children}</div>;
+  return (
+    <div className="font-fontLanding bg-body-color min-h-screen relative p-4">
+      <Navbar />
+      <div className="pt-[120px]">{children}</div>
+    </div>
+  );
 }
