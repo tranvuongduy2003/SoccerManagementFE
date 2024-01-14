@@ -1,0 +1,217 @@
+[{
+  "_id": {
+    "$oid": "6569cf0817b7aa93a79c30f4"
+  },
+  "type": "Knock",
+  "numberOfTeam": 8,
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30ea"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30eb"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ec"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ed"
+    }
+  ],
+  "name": "Quarterfinal",
+  "priority": 3
+},{
+  "_id": {
+    "$oid": "6569cf0817b7aa93a79c30f5"
+  },
+  "type": "Knock",
+  "numberOfTeam": 4,
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30ee"
+    },
+    {
+      "$oid": "6569cda417b7aa93a79c30ef"
+    }
+  ],
+  "name": "Semifinal",
+  "priority": 2
+},{
+  "_id": {
+    "$oid": "6569cf0817b7aa93a79c30f6"
+  },
+  "type": "Knock",
+  "numberOfTeam": 1,
+  "status": "FINISHED",
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "matches": [
+    {
+      "$oid": "6569cda417b7aa93a79c30f0"
+    }
+  ],
+  "name": "Final",
+  "priority": 1
+},{
+  "_id": {
+    "$oid": "6569cf0817b7aa93a79c30f7"
+  },
+  "numberOfTeam": 4,
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "matches": [
+    {
+      "$oid": "656db67a0639beefd449753b"
+    },
+    {
+      "$oid": "656db67a0639beefd449753c"
+    }
+  ],
+  "name": "Round 1",
+  "type": "Stage",
+  "priority": 3
+},{
+  "_id": {
+    "$oid": "6569cf0817b7aa93a79c30f8"
+  },
+  "type": "Stage",
+  "numberOfTeam": 4,
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "matches": [
+    {
+      "$oid": "656db67a0639beefd449753d"
+    },
+    {
+      "$oid": "656db67a0639beefd449753e"
+    }
+  ],
+  "name": "Round 2",
+  "priority": 2
+},{
+  "_id": {
+    "$oid": "6569cf0817b7aa93a79c30f9"
+  },
+  "type": "Stage",
+  "numberOfTeam": 4,
+  "status": "FINISHED",
+  "tags": "u11-hanoi-junior-league",
+  "matches": [
+    {
+      "$oid": "656db67a0639beefd449753f"
+    },
+    {
+      "$oid": "656db67a0639beefd4497540"
+    }
+  ],
+  "name": "Round 3",
+  "priority": 1
+},{
+  "_id": {
+    "$oid": "659446d08fa78ce86aaab906"
+  },
+  "type": "Knock",
+  "numberOfTeam": 4,
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "matches": [
+    {
+      "$oid": "6593f97059f4e1c933abd56a"
+    },
+    {
+      "$oid": "6593f97059f4e1c933abd56b"
+    }
+  ],
+  "name": "Semifinal",
+  "priority": 2
+},{
+  "_id": {
+    "$oid": "659447498fa78ce86aaab908"
+  },
+  "type": "Knock",
+  "numberOfTeam": 1,
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "matches": [
+    {
+      "$oid": "6593f97059f4e1c933abd56c"
+    }
+  ],
+  "name": "Final",
+  "priority": 1
+},{
+  "_id": {
+    "$oid": "65946ae88fa78ce86aaab917"
+  },
+  "numberOfTeam": 8,
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "matches": [
+    {
+      "$oid": "6593d5a159f4e1c933abd518"
+    },
+    {
+      "$oid": "6593d9e859f4e1c933abd51d"
+    },
+    {
+      "$oid": "6593dc2759f4e1c933abd52e"
+    },
+    {
+      "$oid": "6593dd468fa78ce86aaab87d"
+    }
+  ],
+  "name": "Round 1",
+  "type": "Stage",
+  "priority": 5
+},{
+  "_id": {
+    "$oid": "65946ae88fa78ce86aaab918"
+  },
+  "type": "Stage",
+  "numberOfTeam": 8,
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "matches": [
+    {
+      "$oid": "6593e0cf59f4e1c933abd539"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53a"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53b"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53c"
+    }
+  ],
+  "name": "Round 2",
+  "priority": 4
+},{
+  "_id": {
+    "$oid": "65946ae88fa78ce86aaab919"
+  },
+  "type": "Stage",
+  "numberOfTeam": 8,
+  "status": "FINISHED",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "matches": [
+    {
+      "$oid": "6593e8218fa78ce86aaab8a4"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a5"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a6"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a7"
+    }
+  ],
+  "name": "Round 3",
+  "priority": 3
+}]

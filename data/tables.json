@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "655b383b9d68f51d302f33fc"
+  },
+  "name": "A",
+  "teams": [
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f74"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f79"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f7a"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f78"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593d5a159f4e1c933abd518"
+    },
+    {
+      "$oid": "6593d9e859f4e1c933abd51d"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd539"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53a"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a4"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a5"
+    }
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "rounds": []
+},{
+  "_id": {
+    "$oid": "655b383b9d68f51d302f33fd"
+  },
+  "name": "B",
+  "teams": [
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f75"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f76"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f77"
+    },
+    {
+      "$oid": "6592c353ff79dfdf7a2d1f7b"
+    }
+  ],
+  "matches": [
+    {
+      "$oid": "6593dc2759f4e1c933abd52e"
+    },
+    {
+      "$oid": "6593dd468fa78ce86aaab87d"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53b"
+    },
+    {
+      "$oid": "6593e0cf59f4e1c933abd53c"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a6"
+    },
+    {
+      "$oid": "6593e8218fa78ce86aaab8a7"
+    }
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "rounds": []
+}]

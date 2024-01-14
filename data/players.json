@@ -1,0 +1,2693 @@
+[{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d8d"
+  },
+  "name": "Phạm Đỗ Hoài Phương",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701314279/4df32c33336d955a855c36e6bb6c6a96_wevg94.png",
+  "age": 31,
+  "height": "1m7",
+  "weight": "68kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c3093"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": true
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d8e"
+  },
+  "name": "Lê Thảo Phương",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701314278/27e4b057728ad5770d3565b54d64cd11_qslzfx.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "55kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2000-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c3094"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d8f"
+  },
+  "name": "Nguyễn Thị Ngọc Hải",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701314280/e3c79ebb56043dc7d8ec92f8e77eebd4_dcgbr4.png",
+  "age": 20,
+  "height": "1m64",
+  "weight": "60kg",
+  "national": "VietNam",
+  "number": 8,
+  "dob": {
+    "$date": "2003-05-17T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c3095"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d90"
+  },
+  "name": "Nguyễn Thị Doãn An",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701314283/654817fcb99e87c4a12edf18f0132dc6_r7jxly.png",
+  "age": 24,
+  "height": "1m63",
+  "weight": "59",
+  "national": "VietNam",
+  "number": 9,
+  "dob": {
+    "$date": "1999-02-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c3096"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d91"
+  },
+  "name": "Nguyễn Phương Hoa",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701314285/5acb70085eebcc4d4c376aa96eb0698b_dmuqkt.png",
+  "age": 25,
+  "height": "1m61",
+  "weight": "52",
+  "national": "VietNam",
+  "number": 11,
+  "dob": {
+    "$date": "1998-01-07T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c3097"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d92"
+  },
+  "name": "Trần Thị Hương Giang",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701314290/e0b3473a80d1e7c02f6432cf6953908a_kqba4i.png",
+  "age": 31,
+  "height": "1m66",
+  "weight": "65kg",
+  "national": "VietNam",
+  "number": 13,
+  "dob": {
+    "$date": "1970-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c3098"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d93"
+  },
+  "name": "Tô Hải Linh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701314287/3c0f96d0448e25dcd454b4498dba5f53_font83.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 15,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c3099"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d94"
+  },
+  "name": "Nguyễn Ngọc Khánh Linh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701317905/b4eb9d0529c312ad845f1dbf2b6d5ca6_e5gwfb.png",
+  "age": 21,
+  "height": "1m74",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c309a"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": true
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d95"
+  },
+  "name": "Nguyễn Ngọc Anh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701317905/a5a80ebc114fe497343e6447f674ffb7_osxysa.png",
+  "age": 23,
+  "height": "1m71",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2000-02-06T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c309b"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d96"
+  },
+  "name": "Đậu Thị Cúc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701317976/f894a4a62003368ebab7e8aea138b113_kmdrlp.png",
+  "age": 25,
+  "height": "1m62",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 4,
+  "dob": {
+    "$date": "1998-07-21T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c309c"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d97"
+  },
+  "name": "Lê Kiều Thiên Trang",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701317978/5b8b7ff1500088cd0282f13227929549_z93m6j.png",
+  "age": 21,
+  "height": "1m69",
+  "weight": "60kg",
+  "national": "VietNam",
+  "number": 6,
+  "dob": {
+    "$date": "2002-05-11T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c309d"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d98"
+  },
+  "name": "Lê Thị Hồng Hạnh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701317980/348b382aec08d3e4b2cbca6c1b96a09a_c3rgpo.png",
+  "age": 21,
+  "height": "1m63",
+  "weight": "55kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2002-12-09T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c309e"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d99"
+  },
+  "name": "Đoàn Thị Thủy",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701317982/85d8006df9dfc13ba9e1251f5abac648_pjt6sb.png",
+  "age": 24,
+  "height": "1m72",
+  "weight": "63kg",
+  "national": "VietNam",
+  "number": 9,
+  "dob": {
+    "$date": "1999-11-02T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c309f"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d9a"
+  },
+  "name": "Hoàng Thu Thủy",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701317983/ffaa810407d149233cd57cea91f3609e_djinqr.png",
+  "age": 23,
+  "height": "1m70",
+  "weight": "64kg",
+  "national": "VietNam",
+  "number": 11,
+  "dob": {
+    "$date": "2000-04-26T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a0"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d9b"
+  },
+  "name": "Hoàng Hạnh Như",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701318565/ab0790830e45c94685498768bea62512_pupyfo.png",
+  "age": 22,
+  "height": "1m78",
+  "weight": "74kg",
+  "national": "VietNam",
+  "number": 47,
+  "dob": {
+    "$date": "2001-02-11T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a1"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": "true"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d9c"
+  },
+  "name": "Bùi Thị Thanh Hương",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701318564/a8ed9458c41da8248d697cdca48278e4_wiyzxt.png",
+  "age": 23,
+  "height": "1m71",
+  "weight": "65kg",
+  "national": "VietNam",
+  "number": 4,
+  "dob": {
+    "$date": "2000-04-12T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a2"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d9d"
+  },
+  "name": "Trần Thị Kim Oanh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701318564/5e37f08d02a6c7a59a436cceccc20a08_rzr9jh.png",
+  "age": 21,
+  "height": "1m63",
+  "weight": "57kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2002-09-14T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a3"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d9e"
+  },
+  "name": "Dư Nguyễn Trúc Ngân",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701318565/45055b8df481d292270ac4c93dea58c6_bhcbj1.png",
+  "age": 24,
+  "height": "1m74",
+  "weight": "72kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "1999-08-13T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a4"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9d9f"
+  },
+  "name": "Trần Thị Thu Hoàn",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701318565/5a40ddfddb673f732a921b8a9a790715_lwtcor.png",
+  "age": 25,
+  "height": "1m64",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 11,
+  "dob": {
+    "$date": "1998-12-14T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a5"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da0"
+  },
+  "name": "Phạm Hương Giang",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701318565/05abd1fedb503ff576c413df0c555222_ci3rpc.png",
+  "age": 21,
+  "height": "1m64",
+  "weight": "61kg",
+  "national": "VietNam",
+  "number": 17,
+  "dob": {
+    "$date": "2002-02-10T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a6"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da1"
+  },
+  "name": "Đỗ Thị Mỹ Linh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701318565/b79ba92da9726fc2713b1eca4d463181_nytgww.png",
+  "age": 22,
+  "height": "1m74",
+  "weight": "75kg",
+  "national": "VietNam",
+  "number": 22,
+  "dob": {
+    "$date": "2001-04-09T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a7"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da2"
+  },
+  "name": "Nguyễn Hồng Phúc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701319411/659a1b85500aee17b23a8f91c05a9691_rsidw0.png",
+  "age": 22,
+  "height": "1m70",
+  "weight": "65kg",
+  "national": "VietNam",
+  "number": 13,
+  "dob": {
+    "$date": "2001-11-11T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a8"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": true
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da3"
+  },
+  "name": "Đường Ngọc Mai",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701319411/a7166a48ef99546a84cf6a42c6d001c6_ar5ftc.png",
+  "age": 25,
+  "height": "1m74",
+  "weight": "72kg",
+  "national": "VietNam",
+  "number": 4,
+  "dob": {
+    "$date": "1998-04-06T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30a9"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da4"
+  },
+  "name": "Phương Thị Thanh Loan",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701319412/43cbe2d1c979faf6a0e97acad586bef1_u68mfj.png",
+  "age": 23,
+  "height": "1m69",
+  "weight": "71kg",
+  "national": "VietNam",
+  "number": 11,
+  "dob": {
+    "$date": "2000-12-06T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30aa"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da5"
+  },
+  "name": "Nguyễn Phước Thảo Linh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701319412/35a0716a41370ec907c92524551ef409_zpyvtn.png",
+  "age": 21,
+  "height": "1m68",
+  "weight": "58kg",
+  "national": "VietNam",
+  "number": 12,
+  "dob": {
+    "$date": "2002-11-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30ab"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da6"
+  },
+  "name": "Nguyễn Phương Anh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701319412/715322e59e226356a1daf3ff3e717922_jz7e5j.png",
+  "age": 21,
+  "height": "1m74",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 19,
+  "dob": {
+    "$date": "2002-08-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30ac"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da7"
+  },
+  "name": "Đỗ Thị Mai",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701319412/c09c09b29557e9a4aaffa4735342df2e_idowkx.png",
+  "age": 23,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 21,
+  "dob": {
+    "$date": "2000-12-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30ad"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da8"
+  },
+  "name": "Nguyễn Thùy Trang",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701319412/757c6c037612950aa672fe912105b9f0_cmzlm8.png",
+  "age": 23,
+  "height": "1m68",
+  "weight": "60kg",
+  "national": "VietNam",
+  "number": 15,
+  "dob": {
+    "$date": "2000-05-08T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30ae"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9da9"
+  },
+  "name": "Phạm Như Ngọc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701320936/574bf153d18ebe5d367ba4807deb6bb7_rzvzjf.png",
+  "age": 22,
+  "height": "1m71",
+  "weight": "65kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2002-02-08T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30af"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": true
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9daa"
+  },
+  "name": "Trần Quỳnh Hoa",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701320936/f723fa961ea740f5f309cc7dbf29bcd2_vthnjv.png",
+  "age": 22,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 5,
+  "dob": {
+    "$date": "2001-12-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b0"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dab"
+  },
+  "name": "Nguyễn Thị Thúy Hằng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701320936/11590d938f9cceba6723c8a326a2db8d_olzww8.png",
+  "age": 21,
+  "height": "1m59",
+  "weight": "55kg",
+  "national": "VietNam",
+  "number": 6,
+  "dob": {
+    "$date": "2002-09-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b1"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dac"
+  },
+  "name": "Nguyễn Thảo Nhi",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701320936/4f8060558f148987a3814e7b123e170d_b81x9d.png",
+  "age": 23,
+  "height": "1m70",
+  "weight": "65kg",
+  "national": "VietNam",
+  "number": 8,
+  "dob": {
+    "$date": "2000-04-12T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b2"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dad"
+  },
+  "name": "Nguyễn Hương Quỳnh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701320936/18acf0c615a2d6fb5003948838c67dde_elzydm.png",
+  "age": 21,
+  "height": "1m74",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 12,
+  "dob": {
+    "$date": "2002-12-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b3"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dae"
+  },
+  "name": "Nghiêm Thúy Nga",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701320936/6057d888b17ac9c8495c869d3056f278_kesa2o.png",
+  "age": 21,
+  "height": "1m71",
+  "weight": "64kg",
+  "national": "VietNam",
+  "number": 12,
+  "dob": {
+    "$date": "2002-07-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b4"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9daf"
+  },
+  "name": "Trần Ngọc Ánh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701320937/a2be7db767e2ad61676a3a07dd8f59e3_z8q8ok.png",
+  "age": 22,
+  "height": "1m75",
+  "weight": "62kg",
+  "national": "VietNam",
+  "number": 23,
+  "dob": {
+    "$date": "2001-04-12T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b5"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db0"
+  },
+  "name": "Nguyễn Khánh Hạ",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321515/0f6281a71b1fb81f35afb96db909ebfe_dnnljw.png",
+  "age": 21,
+  "height": "1m76",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b6"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": true
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db1"
+  },
+  "name": "Võ Thị Trúc Ly",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321515/e2f615ebd56984458e2a3ab4f449c853_inf3rn.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 5,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b7"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db2"
+  },
+  "name": "Nguyễn Thị Thanh Hằng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321515/894d3e98223123cdcd88b2169668bdd5_yrdhmz.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b8"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db3"
+  },
+  "name": "Hồ Thị Đoài",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321515/2559ddd30b6aa3ba987ce0f6aaa147e7_lim7cu.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30b9"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db4"
+  },
+  "name": "Phan Thị Phương",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321515/93bf1a82184ad5d89438eb682678af60_xo2vet.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 11,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30ba"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db5"
+  },
+  "name": "Trần Thị Thảo",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321515/9fad5fd0a481d3a9ef0dff4573f5bcf3_ypxqst.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 12,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30bb"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db6"
+  },
+  "name": "Vũ Thị Huyền",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321516/914bfffe8d20437aff31cbc4a7f0fef3_lemyyv.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 18,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30bc"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db7"
+  },
+  "name": "Phan Thị Thu Phương",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321871/61824ab54f05fed8f3c1b18a44376bf6_xmhjbh.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30bd"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": true
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db8"
+  },
+  "name": "Phạm Quỳnh Ngọc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321871/d7865fc76f8c74edfa0937a7253415be_jwaqfj.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 3,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30be"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9db9"
+  },
+  "name": "Võ Thị Hải Yến",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321872/5f1eeda71dbcee816dea5f98204305d5_vlmk0x.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 5,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30bf"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dba"
+  },
+  "name": "Phan Thị Quỳnh Trang",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321872/2c6904babcdccc024d31bce3c47949c3_q9wmz6.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 6,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c0"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dbb"
+  },
+  "name": "Bùi Mai Liên",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321872/78b659d5170b170b38748770880621d8_fbs2dw.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 8,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c1"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dbc"
+  },
+  "name": "Trương Vỹ Linh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321872/3044453d8e152f56410ea90ca074f406_ggqg8g.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 9,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c2"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dbd"
+  },
+  "name": "Phan Thị Thục Anh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701321872/92064bc610916ef7e35e38263f945363_oosgkc.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 25,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c3"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dbe"
+  },
+  "name": "Nguyễn Thị Trinh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701322328/a7410198addda1f8470a559b985332a4_chx6wa.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 14,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c4"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022",
+  "captain": true
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dbf"
+  },
+  "name": "Hà Thị Liên",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701322328/e63da3b922325b497f70725595c77335_yrwtfr.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c5"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dc0"
+  },
+  "name": "Phạm Thị Trà My",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701322328/576e7dc2c5ff2bba3aa4d8c103ff064c_p4dyze.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c6"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dc1"
+  },
+  "name": "Vũ Thùy Trang",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701322328/e63da3b922325b497f70725595c77335_yrwtfr.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 8,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c7"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dc2"
+  },
+  "name": "Lê Thái Nữ",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701322328/a7410198addda1f8470a559b985332a4_chx6wa.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 9,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c8"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dc3"
+  },
+  "name": "Đỗ Thị Hồng Nga",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701322328/576e7dc2c5ff2bba3aa4d8c103ff064c_p4dyze.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30c9"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65682265ba532f5e1bfe9dc4"
+  },
+  "name": "Phạm Thị Kim Anh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1701322328/56e847286ed144c2669c07b27dca28b8_tz4m0d.png",
+  "age": 21,
+  "height": "1m72",
+  "weight": "70kg",
+  "national": "VietNam",
+  "number": 18,
+  "dob": {
+    "$date": "2002-04-08T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "statistical": {
+    "$oid": "65685f9017b7aa93a79c30ca"
+  },
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c0"
+  },
+  "name": "Trương Đình Diện",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482dc"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c1"
+  },
+  "name": "Nguyễn Văn Khiêm",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 6,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482dd"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c2"
+  },
+  "name": "Phạm Thanh Tùng",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482de"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c3"
+  },
+  "name": "Nguyễn Cao Minh Quang",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 17,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482df"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c4"
+  },
+  "name": "Nguyễn Quang Anh",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 13,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e0"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c5"
+  },
+  "name": "Nguyễn Văn Cường",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 25,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e1"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c6"
+  },
+  "name": "Trần Đình Huynh",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 77,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e2"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c7"
+  },
+  "name": "Lưu Văn Tùng",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e3"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c8"
+  },
+  "name": "Lê Thanh Hải",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e4"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482c9"
+  },
+  "name": "Nguyễn Quang Tuấn",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e5"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482ca"
+  },
+  "name": "Nguyễn Văn Tài",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e6"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482cb"
+  },
+  "name": "Nguyễn Đức Lương",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 16,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e7"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482cc"
+  },
+  "name": "Anh Tuấn",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e8"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482cd"
+  },
+  "name": "Thường Vụ",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 8,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482e9"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482ce"
+  },
+  "name": "Văn Tú",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482ea"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482cf"
+  },
+  "name": "Quang Sang",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 13,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482eb"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d0"
+  },
+  "name": "Giang Nam Trần",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 17,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482ec"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d1"
+  },
+  "name": "Thin Nguyễn",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 21,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482ed"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d2"
+  },
+  "name": "Vi Hoàng Hải",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482ee"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d3"
+  },
+  "name": "Bùi Công Danh",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 3,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482ef"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d4"
+  },
+  "name": "Nguyễn Tiến Luật",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 11,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482f0"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d5"
+  },
+  "name": "Nguyễn Thế Anh",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 15,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482f1"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d6"
+  },
+  "name": "Nguyễn Văn Dương",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 4,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482f2"
+  }
+},{
+  "_id": {
+    "$oid": "656da7fea671feb421a482d7"
+  },
+  "name": "Phùng Tiến Đức",
+  "avatar": "",
+  "age": 11,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "u11-hanoi-junior-league",
+  "statistical": {
+    "$oid": "656dacdca671feb421a482f3"
+  }
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd468"
+  },
+  "name": "Bá Chính",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220134/3767b415f89fdc2a5a7d68e5fb7ed7f7f7j9s_imczio.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 5,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd473"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd469"
+  },
+  "name": "Thanh Kong",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220134/444543c402b56ed0258ae57427b013ac7oygq_vbkwa5.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 9,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd474"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd46a"
+  },
+  "name": "Duy Nam",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220134/97e8a7a61bf88e2583b25c7e79d778bc2y0cx_yjo1rk.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd475"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd46b"
+  },
+  "name": "Khôi Nguyên",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220135/a9e828c2f390bca43f67879763d5c6f6hxput_ziabfs.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd476"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd46c"
+  },
+  "name": "Hoàng Vinh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220135/8585cb0aa405f4503efc7a01e341231fu702l_e4mc78.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 15,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd477"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd46d"
+  },
+  "name": "Trọng Hiếu",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220135/4635e4c52555a58edd427979eb468a3a59rtr_lagper.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 24,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd478"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd46e"
+  },
+  "name": "Hoàng Hải",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220135/2541491d5136df43156c40a1a4a63eadkjfez_gjwnii.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 27,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd479"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592ebbd59f4e1c933abd46f"
+  },
+  "name": "Thành Công",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220135/MSC-ClassDiagram-Architecture.drawio_okyaim.png",
+  "age": 20,
+  "height": "1m82",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 68,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592ed4e59f4e1c933abd47a"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f0b72ffca4ad38e53121"
+  },
+  "name": "Cảnh Đậu",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220425/9aa5bdb654d1525253a4ce3383512996xwpr1_scgjtl.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 5,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f17d59f4e1c933abd47d"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592f0b72ffca4ad38e53122"
+  },
+  "name": "Thái Đặng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220426/3eb3dd7068a1258ca729fbb9b94a1b1ehhslj_b0ud88.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 9,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f17d59f4e1c933abd47e"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f0b72ffca4ad38e53123"
+  },
+  "name": "Trọng Trường",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220426/231f5667b36ff343e14a837e16ed4788ufewp_ngyzlh.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f17d59f4e1c933abd47f"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f0b72ffca4ad38e53124"
+  },
+  "name": "Đình Tuấn",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220426/7bed05371359b971784bcee2e5ad11003r3au_pxf5zc.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f17d59f4e1c933abd480"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f0b72ffca4ad38e53125"
+  },
+  "name": "Văn Phúc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220426/8fb4375ec250552e5dcb7ce891f3e5e6aowsk_f6cmlo.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 15,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f17d59f4e1c933abd481"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f0b72ffca4ad38e53126"
+  },
+  "name": "Lê Bằng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220426/aadb4afbd8b59fc62f63298214078135u4mor_epchpz.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 24,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f17d59f4e1c933abd482"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f0b72ffca4ad38e53127"
+  },
+  "name": "Việt Trung",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220426/9d3f7d2c222776917c91a902d0f597car0zy7_vfek5n.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 27,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f17d59f4e1c933abd483"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f3ee2ffca4ad38e53130"
+  },
+  "name": "Tú Đị",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220700/825ee9fa2d14fa26d7fb057215e9168f1ivcn_vfglqc.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f46359f4e1c933abd495"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592f3ee2ffca4ad38e53131"
+  },
+  "name": "Võ Đình Cường",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220700/78d2aae548295a3c5227e1beec9f586fno9by_up7omz.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 14,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f46359f4e1c933abd496"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f3ee2ffca4ad38e53132"
+  },
+  "name": "Phạm Nhật",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220700/c96da57aafc64aaa38a54475c585e9aclvir6_jqjiu3.png",
+  "age": 98,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f46359f4e1c933abd497"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f3ee2ffca4ad38e53133"
+  },
+  "name": "Ka",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220700/54c6f59b9b1b79673b1647b8fa5d1f32lerxn_urkgzu.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 15,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f46359f4e1c933abd498"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f3ee2ffca4ad38e53134"
+  },
+  "name": "Lâm Hùng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220701/20bc111330950ed327bdf57b85788aec5yppu_zg8qc5.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 18,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f46359f4e1c933abd499"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f3ee2ffca4ad38e53135"
+  },
+  "name": "Huy Ka",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220701/4ecba8f58ac39fc004de87be137aef20wb4s2_nifryb.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 77,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f46359f4e1c933abd49a"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f3ee2ffca4ad38e53136"
+  },
+  "name": "Đình Tuân",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220701/5b36953081b8d119ba67515f9830a75a0v0td_ygz2ca.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 99,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f46359f4e1c933abd49b"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f65659f4e1c933abd4a0"
+  },
+  "name": "Văn Mạnh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220882/fdab21a0f4fd950bfc5f3e1f027c9dd51vvgr_vbtvxg.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f6e32ffca4ad38e53138"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592f65659f4e1c933abd4a1"
+  },
+  "name": "Văn Phong",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220882/3563366cfbb3646f4a917597f2f94c99kocri_xjn1pe.png",
+  "age": 15,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 14,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f6e32ffca4ad38e53139"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f65659f4e1c933abd4a2"
+  },
+  "name": "Trần Đình Hoàng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220883/d0fd791a4bf47a02cd949616d553c98fn2h2g_whmn3d.png",
+  "age": 98,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f6e32ffca4ad38e5313a"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f65659f4e1c933abd4a3"
+  },
+  "name": "Văn Tuyển",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220883/826d7e81a9f0d9b9817005484d438bd4a7dli_bttnfd.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 8,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f6e32ffca4ad38e5313b"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f65659f4e1c933abd4a4"
+  },
+  "name": "Văn Huy",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220883/0d366ba8b80e1ee082b8b2ca2dc11da07efry_mtkyx5.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f6e32ffca4ad38e5313c"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f65659f4e1c933abd4a5"
+  },
+  "name": "Đăng Hưng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220883/f7ba7562b4cf8da4a7c4f82d1caf2b5f5jlhz_du6dn1.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 21,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f6e32ffca4ad38e5313d"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f65659f4e1c933abd4a6"
+  },
+  "name": "Văn Lương",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704220883/b5fae4fd5a269039065208906e4ac83fhgi3k_klkuao.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 96,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f6e32ffca4ad38e5313e"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e53147"
+  },
+  "name": "Nguyễn Cảnh Quân",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221111/ead209b5a7ed73c1b6656bcccd187ba47ef3f_az1twx.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 14,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4ab"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e53148"
+  },
+  "name": "Lê Đắc Lộc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221111/a0fca444010f22435e00ce82c42abf6b7i6pp_is29ln.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 21,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4ac"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e53149"
+  },
+  "name": "Võ Phúc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221111/7cb79e280a935432399bd6ee5eca55bcouf10_eek5gi.png",
+  "age": 23,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 23,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4ad"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e5314a"
+  },
+  "name": "Tiến Mạnh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221111/e6de9f28d4dc0d7f9d1bb16d81330e57l3s7u_p5fn5v.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 86,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4ae"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e5314b"
+  },
+  "name": "Hoàng Nông",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221111/e8724dc7c4e925ef7581c948f5b10b91m4up7_jwff6w.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 4,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4af"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e5314c"
+  },
+  "name": "Võ Khải",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221111/67a0f61c021b631cea49282644cf2bc0uftaz_yczemc.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4b0"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e5314d"
+  },
+  "name": "Hoàng Thắng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221112/432aca127553009ce64903f165113522qalre_cgk2o1.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 9,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4b1"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592f9102ffca4ad38e5314e"
+  },
+  "name": "Võ Minh Quân",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221112/d85cbece41b68f2b50d2f74fd25f28d7tmatp_qy3t9g.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 27,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592f96559f4e1c933abd4b2"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592fb992ffca4ad38e53151"
+  },
+  "name": "Nguyễn Văn Hà",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221311/76278c68d65b8d006c7e0e6f03afb24dvm0sy_ltqosn.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fbf62ffca4ad38e53159"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592fb992ffca4ad38e53152"
+  },
+  "name": "Nguyễn Đình Đạt",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221311/076c45a35f6bca029c4b8d68df983c4de1prj_n2vspw.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 2,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fbf62ffca4ad38e5315a"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fb992ffca4ad38e53153"
+  },
+  "name": "Lê Duy Trung",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221311/412851fef2e265bd560d5db0d06bebc9hcved_repvsl.png",
+  "age": 23,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 7,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fbf62ffca4ad38e5315b"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fb992ffca4ad38e53154"
+  },
+  "name": "Trần Võ Tuyết",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221311/2e88b520982ab85ac10d62f51e3212f6at6sk_zm5naf.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 11,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fbf62ffca4ad38e5315c"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fb992ffca4ad38e53155"
+  },
+  "name": "Nguyễn Cao Phi Hùng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221311/7c022cd10812cf967ade443d697975d03ytdn_tk4php.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 3,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fbf62ffca4ad38e5315d"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fb992ffca4ad38e53156"
+  },
+  "name": "Trần Võ Dương",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221311/410ab2bf287b0dd90e0e16344afc40e12wc5d_hhznoz.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fbf62ffca4ad38e5315e"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fb992ffca4ad38e53157"
+  },
+  "name": "Trần Võ Nam",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221311/c7e11365cdfd8b66a8660c37086283fcxagoq_lke4he.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 91,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fbf62ffca4ad38e5315f"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fe7f2ffca4ad38e53161"
+  },
+  "name": "Trọng Tưởng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221709/412851fef2e265bd560d5db0d06bebc9hcved_izq0fd.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 3,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fedb2ffca4ad38e5316a"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6592fe7f2ffca4ad38e53162"
+  },
+  "name": "Lưu Còi",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221709/1c287765632e52906a2727d1a2a1d22bllpn8_ttot0y.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 6,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fedb2ffca4ad38e5316b"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fe7f2ffca4ad38e53163"
+  },
+  "name": "Duy Trường",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221709/c03e540f6d73192908dfe4061d9359470umv9_clqqeg.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 22,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fedb2ffca4ad38e5316c"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fe7f2ffca4ad38e53164"
+  },
+  "name": "Văn Pháp",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221710/19150ca1c093de463a81000682da4762wl97m_phjghc.png",
+  "age": 23,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 10,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fedb2ffca4ad38e5316d"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fe7f2ffca4ad38e53165"
+  },
+  "name": "Duy Thắng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221710/c03e540f6d73192908dfe4061d9359470umv9_1_vwjecu.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 17,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fedb2ffca4ad38e5316e"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fe7f2ffca4ad38e53166"
+  },
+  "name": "Xuân Phươc",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221710/5fdc0ce91aaad5cd909068559aa49d438wwpz_bgl2lc.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 19,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fedb2ffca4ad38e5316f"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6592fe7f2ffca4ad38e53167"
+  },
+  "name": "Văn Sáng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221710/b3998e99ec978581b84d9e6f690e46fa2bu2g_oo8ssw.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 91,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "6592fedb2ffca4ad38e53170"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6593017c2ffca4ad38e53179"
+  },
+  "name": "Thế Quỳnh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221710/61fce44cb86bcb811f3f4266037379e97cw6i_g2ot5m.png",
+  "age": 20,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 13,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Goalkeeper",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "659301d32ffca4ad38e53181"
+  },
+  "captain": true
+},{
+  "_id": {
+    "$oid": "6593017c2ffca4ad38e5317a"
+  },
+  "name": "Nguyễn Văn Quảng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221710/3ca70d841454b04f435c6eae217bfcf072pek_smdyfn.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 5,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "659301d32ffca4ad38e53182"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6593017c2ffca4ad38e5317b"
+  },
+  "name": "Dương Lê Thành",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221710/db4cb5f44fc28a88f0c4df9d3a31d1e8rht6u_pf4arv.png",
+  "age": 20,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 3,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Defender",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "659301d32ffca4ad38e53183"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6593017c2ffca4ad38e5317c"
+  },
+  "name": "Nguyễn Văn Mạnh",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221711/79e6c877f82d19ad61b708b9a543cb8a5z19u_vyy5qr.png",
+  "age": 23,
+  "height": "1m72",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 90,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "659301d32ffca4ad38e53184"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6593017c2ffca4ad38e5317d"
+  },
+  "name": "Nguyễn Hữu Hưng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221711/6b873577b0b292579bccc6dfea0987b3fdkih_jgcf7x.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 1,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "659301d32ffca4ad38e53185"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6593017c2ffca4ad38e5317e"
+  },
+  "name": "Dương Lê Cường",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221711/0205c9e55d13a82635b432402eb7cf78bsv7v_bxbfiu.png",
+  "age": 23,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 24,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Striker",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "659301d32ffca4ad38e53186"
+  },
+  "captain": false
+},{
+  "_id": {
+    "$oid": "6593017c2ffca4ad38e5317f"
+  },
+  "name": "Nguyễn Bá Phượng",
+  "avatar": "https://res.cloudinary.com/dadvtny30/image/upload/v1704221711/5a21d8cfb4be94ae510e07653dab3f67b5uy6_amgqeh.png",
+  "age": 0,
+  "height": "1m62",
+  "weight": "50kg",
+  "national": "VietNam",
+  "number": 89,
+  "dob": {
+    "$date": "2012-01-01T00:00:00.000Z"
+  },
+  "position": "Midfielder",
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong",
+  "statistical": {
+    "$oid": "659301d32ffca4ad38e53187"
+  },
+  "captain": false
+}]

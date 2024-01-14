@@ -1,0 +1,511 @@
+[{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5352"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5335"
+  },
+  "wins": 0,
+  "draws": 0,
+  "losses": 1,
+  "matches": 1,
+  "point": 0,
+  "goals": 1,
+  "losts": 3,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "rank": 7,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5353"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5336"
+  },
+  "wins": 1,
+  "draws": 0,
+  "losses": 1,
+  "matches": 2,
+  "point": 3,
+  "goals": 3,
+  "losts": 2,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "rank": 4,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES",
+    "WIN"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5354"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5337"
+  },
+  "wins": 1,
+  "draws": 0,
+  "losses": 1,
+  "matches": 2,
+  "point": 3,
+  "goals": 4,
+  "losts": 1,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "rank": 3,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES",
+    "WIN"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5355"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5338"
+  },
+  "wins": 0,
+  "draws": 0,
+  "losses": 1,
+  "matches": 1,
+  "point": 0,
+  "goals": 0,
+  "losts": 4,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "rank": 5,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5356"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a5339"
+  },
+  "wins": 3,
+  "draws": 0,
+  "losses": 0,
+  "matches": 3,
+  "point": 9,
+  "goals": 5,
+  "losts": 1,
+  "owns": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "rank": 1,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "WIN",
+    "WIN"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5357"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533a"
+  },
+  "wins": 2,
+  "draws": 0,
+  "losses": 1,
+  "matches": 3,
+  "point": 9,
+  "goals": 1,
+  "losts": 0,
+  "owns": 0,
+  "yellowCards": 2,
+  "redCards": 0,
+  "rank": 2,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES",
+    "WIN",
+    "WIN"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5358"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533b"
+  },
+  "wins": 0,
+  "draws": 0,
+  "losses": 1,
+  "matches": 1,
+  "point": 0,
+  "goals": 0,
+  "losts": 0,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 1,
+  "rank": 8,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "65670b68495dac692d1a5359"
+  },
+  "team": {
+    "$oid": "6567004c495dac692d1a533c"
+  },
+  "wins": 0,
+  "draws": 0,
+  "losses": 1,
+  "matches": 1,
+  "point": 0,
+  "goals": 0,
+  "losts": 3,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "rank": 6,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES"
+  ],
+  "tags": "bong-da-nu-dhtt-ssvn-tai-nga-2022"
+},{
+  "_id": {
+    "$oid": "656d9d32a671feb421a482a3"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829c"
+  },
+  "wins": 2,
+  "draws": 0,
+  "losses": 1,
+  "matches": 3,
+  "point": 6,
+  "goals": 9,
+  "losts": 7,
+  "owns": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "rank": 1,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "LOSSES",
+    "WIN",
+    "WIN"
+  ],
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656d9d32a671feb421a482a4"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829d"
+  },
+  "wins": 1,
+  "draws": 1,
+  "losses": 1,
+  "matches": 3,
+  "point": 4,
+  "goals": 8,
+  "losts": 10,
+  "owns": 0,
+  "yellowCards": 2,
+  "redCards": 0,
+  "rank": 3,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "DRAW",
+    "WIN",
+    "LOSSES"
+  ],
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656d9d32a671feb421a482a5"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829e"
+  },
+  "wins": 1,
+  "draws": 1,
+  "losses": 1,
+  "matches": 3,
+  "point": 4,
+  "goals": 10,
+  "losts": 9,
+  "owns": 1,
+  "yellowCards": 1,
+  "redCards": 0,
+  "rank": 2,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "DRAW",
+    "LOSSES",
+    "WIN"
+  ],
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "656d9d32a671feb421a482a6"
+  },
+  "team": {
+    "$oid": "656d97c2a671feb421a4829f"
+  },
+  "wins": 1,
+  "draws": 0,
+  "losses": 2,
+  "matches": 3,
+  "point": 3,
+  "goals": 9,
+  "losts": 11,
+  "owns": 0,
+  "yellowCards": 1,
+  "redCards": 0,
+  "rank": 4,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "LOSSES",
+    "LOSSES"
+  ],
+  "tags": "u11-hanoi-junior-league"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f80"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f74"
+  },
+  "wins": 4,
+  "draws": 0,
+  "losses": 1,
+  "matches": 5,
+  "point": 12,
+  "goals": 16,
+  "losts": 11,
+  "owns": 0,
+  "yellowCards": 3,
+  "redCards": 0,
+  "rank": 1,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f81"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f75"
+  },
+  "wins": 2,
+  "draws": 0,
+  "losses": 3,
+  "matches": 5,
+  "point": 6,
+  "goals": 11,
+  "losts": 12,
+  "owns": 0,
+  "yellowCards": 2,
+  "redCards": 0,
+  "rank": 3,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f82"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f76"
+  },
+  "wins": 1,
+  "draws": 1,
+  "losses": 1,
+  "matches": 3,
+  "point": 4,
+  "goals": 5,
+  "losts": 9,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "rank": 1,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f83"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f77"
+  },
+  "wins": 2,
+  "draws": 1,
+  "losses": 2,
+  "matches": 5,
+  "point": 8,
+  "goals": 9,
+  "losts": 12,
+  "owns": 1,
+  "yellowCards": 1,
+  "redCards": 0,
+  "rank": 2,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f84"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f78"
+  },
+  "wins": 1,
+  "draws": 1,
+  "losses": 1,
+  "matches": 3,
+  "point": 4,
+  "goals": 6,
+  "losts": 6,
+  "owns": 0,
+  "yellowCards": 3,
+  "redCards": 0,
+  "rank": 5,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f85"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f79"
+  },
+  "wins": 3,
+  "draws": 1,
+  "losses": 1,
+  "matches": 5,
+  "point": 10,
+  "goals": 15,
+  "losts": 10,
+  "owns": 0,
+  "yellowCards": 5,
+  "redCards": 0,
+  "rank": 8,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f86"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7a"
+  },
+  "wins": 0,
+  "draws": 0,
+  "losses": 3,
+  "matches": 3,
+  "point": 0,
+  "goals": 5,
+  "losts": 11,
+  "owns": 1,
+  "yellowCards": 2,
+  "redCards": 1,
+  "rank": 6,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+},{
+  "_id": {
+    "$oid": "6592cbc8ff79dfdf7a2d1f87"
+  },
+  "team": {
+    "$oid": "6592c353ff79dfdf7a2d1f7b"
+  },
+  "wins": 1,
+  "draws": 0,
+  "losses": 2,
+  "matches": 3,
+  "point": 3,
+  "goals": 6,
+  "losts": 4,
+  "owns": 0,
+  "yellowCards": 0,
+  "redCards": 0,
+  "rank": 7,
+  "voteChampions": [],
+  "voteFairPlays": [],
+  "history": [
+    "WIN",
+    "DRAW",
+    "WIN"
+  ],
+  "tags": "giai-bong-da-chao-mung-ky-niem-70-nam-thanh-lap-xa-thanh-dong"
+}]
