@@ -5,7 +5,7 @@ import React, { ReactNode, useState } from 'react';
 import { signIn, signUp } from '@/apis';
 import { IUser, LoginPayload, SignUpPayload } from '@/interfaces';
 import { checkNullish } from '@/utils';
-import { toast } from 'react-toastify';
+import { useToast } from '@chakra-ui/react';
 
 interface AuthProviderProps {
   children: ReactNode;
@@ -36,13 +36,14 @@ const isValidToken = () => {
 };
 
 const AuthProvider = (props: AuthProviderProps) => {
+  const toast = useToast();
+
   const [loggedIn, setLoggedIn] = useState<boolean>(isValidToken());
   const [user, setUser] = useState<IUser | null>(null);
   const [accessToken, setAccessToken] = useState<string | null>(null);
   const [refreshToken, setRefreshToken] = useState<string | null>(null);
 
   const login = async (params: LoginPayload) => {
-    const id = toast.loading('Loading...');
     try {
       const { accessToken, refreshToken, user } = await signIn(params);
 
@@ -80,7 +81,6 @@ const AuthProvider = (props: AuthProviderProps) => {
     }
   };
   const register = async (data: SignUpPayload) => {
-    const id = toast.loading('Loading...');
     try {
       const { user, accessToken, refreshToken } = await signUp(data);
 

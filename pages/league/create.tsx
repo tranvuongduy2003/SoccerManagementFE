@@ -21,7 +21,6 @@ import { maxTeamOptions } from '@/constants';
 import {
   CreateTournamentPayload,
   ETypeFormulaTour,
-  ETypeStatusTour,
   ETypeVisionTour,
   IPrize,
   IReferee,
@@ -44,16 +43,15 @@ import {
   Image,
   Input,
   Select,
-  Text
+  Text,
+  useToast
 } from '@chakra-ui/react';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useQuery } from '@tanstack/react-query';
 import { CldUploadWidget } from 'next-cloudinary';
-import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { LuPlus } from 'react-icons/lu';
-import { toast } from 'react-toastify';
 import * as z from 'zod';
 
 const createLeagueSchema = z.object({
@@ -72,7 +70,7 @@ const createLeagueSchema = z.object({
 });
 
 const CreateLeague: NextPageWithLayout = () => {
-  const router = useRouter();
+  const toast = useToast();
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isPrizeModalOpen, setIsPrizeModalOpen] = useState<boolean>(false);
