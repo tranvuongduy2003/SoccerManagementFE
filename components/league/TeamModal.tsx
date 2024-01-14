@@ -53,34 +53,36 @@ export function TeamModal({
           <ModalCloseButton />
           <ModalBody>
             <Grid templateColumns="repeat(3, 1fr)" gap={4}>
-              {teams.map(item => (
-                <GridItem key={item._id} id="teams">
-                  <Center>
-                    <Checkbox
-                      disabled={
-                        selectedIds.includes(item._id!) ? false : disabled
-                      }
-                      id="teams"
-                      {...register}
-                      fontSize="sm"
-                      value={item._id}
-                      flexDirection="column-reverse"
-                      gap={2}
-                      borderColor={'gray.300'}
-                      borderWidth={1}
-                      p={2}
-                      rounded="md"
-                      _hover={{
-                        bg: 'gray.50'
-                      }}
-                      maxWidth={40}
-                      width={40}
-                    >
-                      <TeamItem key={item._id} team={item} />
-                    </Checkbox>
-                  </Center>
-                </GridItem>
-              ))}
+              {teams &&
+                teams.length > 0 &&
+                teams.map(item => (
+                  <GridItem key={item._id} id="teams">
+                    <Center>
+                      <Checkbox
+                        disabled={
+                          selectedIds.includes(item._id!) ? false : disabled
+                        }
+                        id="teams"
+                        {...register}
+                        fontSize="sm"
+                        value={item._id}
+                        flexDirection="column-reverse"
+                        gap={2}
+                        borderColor={'gray.300'}
+                        borderWidth={1}
+                        p={2}
+                        rounded="md"
+                        _hover={{
+                          bg: 'gray.50'
+                        }}
+                        maxWidth={40}
+                        width={40}
+                      >
+                        <TeamItem key={item._id} team={item} />
+                      </Checkbox>
+                    </Center>
+                  </GridItem>
+                ))}
             </Grid>
           </ModalBody>
 

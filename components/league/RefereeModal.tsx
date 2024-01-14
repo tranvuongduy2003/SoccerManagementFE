@@ -41,31 +41,33 @@ export function RefereeModal({
           <ModalCloseButton />
           <ModalBody>
             <Grid templateColumns="repeat(3, 1fr)" gap={4}>
-              {referees.map(item => (
-                <GridItem key={item._id}>
-                  <Center id="referees">
-                    <Checkbox
-                      id="referees"
-                      {...register}
-                      fontSize="sm"
-                      value={item._id}
-                      flexDirection="column-reverse"
-                      gap={2}
-                      borderColor={'gray.300'}
-                      borderWidth={1}
-                      p={2}
-                      rounded="md"
-                      _hover={{
-                        bg: 'gray.50'
-                      }}
-                      maxWidth={40}
-                      width={40}
-                    >
-                      <RefereeItem key={item._id} referee={item} />
-                    </Checkbox>
-                  </Center>
-                </GridItem>
-              ))}
+              {referees &&
+                referees.length > 0 &&
+                referees.map(item => (
+                  <GridItem key={item._id}>
+                    <Center id="referees">
+                      <Checkbox
+                        id="referees"
+                        {...register}
+                        fontSize="sm"
+                        value={item._id}
+                        flexDirection="column-reverse"
+                        gap={2}
+                        borderColor={'gray.300'}
+                        borderWidth={1}
+                        p={2}
+                        rounded="md"
+                        _hover={{
+                          bg: 'gray.50'
+                        }}
+                        maxWidth={40}
+                        width={40}
+                      >
+                        <RefereeItem key={item._id} referee={item} />
+                      </Checkbox>
+                    </Center>
+                  </GridItem>
+                ))}
             </Grid>
           </ModalBody>
 
