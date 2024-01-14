@@ -66,7 +66,7 @@ const createLeagueSchema = z.object({
   stadiums: z.array(z.string()).nonempty('You must add at least 1 stadium'),
   referees: z.array(z.string()).nonempty('You must add at least 1 referee'),
   sponsor: z.string(),
-  maxTeam: z.any()
+  maxTeam: z.string()
 });
 
 const CreateLeague: NextPageWithLayout = () => {
@@ -433,7 +433,10 @@ const CreateLeague: NextPageWithLayout = () => {
                       </Flex>
                     </FormLabel>
                     <TeamModal
-                      disabled={watch('teams').length >= watch('maxTeam')}
+                      disabled={
+                        watch('teams').length >=
+                        Number.parseInt(watch('maxTeam'))
+                      }
                       isOpen={isTeamModalOpen}
                       onClose={() => setIsTeamModalOpen(false)}
                       teams={teams}
