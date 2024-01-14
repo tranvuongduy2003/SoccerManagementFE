@@ -9,12 +9,23 @@ import Image from 'next/image';
 //route
 import { AuthContext } from '@/contexts/AuthProvider';
 import { Link } from '@chakra-ui/next-js';
-import { Button, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
-import { LuChevronDown } from 'react-icons/lu';
+import {
+  Avatar,
+  Box,
+  Button,
+  Flex,
+  Icon,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList
+} from '@chakra-ui/react';
+import { LuChevronDown, LuLogIn, LuLogOut } from 'react-icons/lu';
 
 export const Navbar = () => {
   const authContext = useContext(AuthContext);
-  const user = authContext!.getUser();
+  const { getUser, loggedIn, logOut } = authContext!;
+  const user = getUser();
 
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
 
@@ -246,32 +257,51 @@ export const Navbar = () => {
             </ul>
           </div>
 
-          <div className="lg:mx-5 hidden lg:block">
-            <Link
-              href="/auth/signin"
-              className="btn flex justify-center bg-body-color border-0 w-38 p-4"
-              textDecoration={'none'}
-              _hover={{
-                textDecoration: 'none'
-              }}
-            >
-              <Image src={Login} alt="" className="w-5" />
-              <p className="text-white font-bold bg-">Login</p>
-            </Link>
-          </div>
-          <div className="lg:mx-5 hidden lg:block">
-            <Link
-              href="/auth/signup"
-              className="btn flex justify-center bg-body-color border-0 w-38 p-4"
-              textDecoration={'none'}
-              _hover={{
-                textDecoration: 'none'
-              }}
-            >
-              <Image src={Login} alt="" className="w-5" />
-              <p className="text-white font-bold bg-">Register</p>
-            </Link>
-          </div>
+          {loggedIn && user ? (
+            <Flex alignItems="center" gap={4}>
+              <Avatar src={user?.avatar} name={user?.username || 'AV'} />
+              <Button
+                bg="body-color"
+                onClick={e => {
+                  e.preventDefault();
+                  logOut();
+                }}
+                gap={2}
+              >
+                <Icon as={LuLogOut} color="white" />
+                <p className="text-white font-bold bg-">Logout</p>
+              </Button>
+            </Flex>
+          ) : (
+            <Flex alignItems="center" gap={2}>
+              <Button bg="body-color">
+                <Link
+                  href="/auth/signin"
+                  className="flex items-center gap-2"
+                  textDecoration={'none'}
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                >
+                  <Icon as={LuLogIn} color="white" />
+                  <p className="text-white font-bold">Login</p>
+                </Link>
+              </Button>
+              <Button bg="body-color">
+                <Link
+                  href="/auth/signup"
+                  className="flex items-center gap-2"
+                  textDecoration={'none'}
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                >
+                  <Icon as={LuLogIn} color="white" />
+                  <p className="text-white font-bold">Register</p>
+                </Link>
+              </Button>
+            </Flex>
+          )}
         </div>
       </div>
     </nav>
