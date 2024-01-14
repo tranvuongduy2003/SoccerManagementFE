@@ -210,7 +210,7 @@ export const Navbar = () => {
                       <MenuItem>My team</MenuItem>
                     </Link>
                     <Link
-                      href={`/competitor/${user ? 'create' : 'signin'}`}
+                      href={`/competitor/create`}
                       textDecoration={'none'}
                       _hover={{
                         textDecoration: 'none'

@@ -41,31 +41,33 @@ export function PrizeModal({
           <ModalCloseButton />
           <ModalBody>
             <Grid templateColumns="repeat(3, 1fr)" gap={4}>
-              {prizes.map(item => (
-                <GridItem key={item._id} id="prizes">
-                  <Center>
-                    <Checkbox
-                      id="prizes"
-                      {...register}
-                      fontSize="sm"
-                      value={item._id}
-                      flexDirection="column-reverse"
-                      gap={2}
-                      borderColor={'gray.300'}
-                      borderWidth={1}
-                      p={2}
-                      rounded="md"
-                      _hover={{
-                        bg: 'gray.50'
-                      }}
-                      maxWidth={40}
-                      width={40}
-                    >
-                      <PrizeItem key={item._id} prize={item} />
-                    </Checkbox>
-                  </Center>
-                </GridItem>
-              ))}
+              {prizes &&
+                prizes.length > 0 &&
+                prizes.map(item => (
+                  <GridItem key={item._id} id="prizes">
+                    <Center>
+                      <Checkbox
+                        id="prizes"
+                        {...register}
+                        fontSize="sm"
+                        value={item._id}
+                        flexDirection="column-reverse"
+                        gap={2}
+                        borderColor={'gray.300'}
+                        borderWidth={1}
+                        p={2}
+                        rounded="md"
+                        _hover={{
+                          bg: 'gray.50'
+                        }}
+                        maxWidth={40}
+                        width={40}
+                      >
+                        <PrizeItem key={item._id} prize={item} />
+                      </Checkbox>
+                    </Center>
+                  </GridItem>
+                ))}
             </Grid>
           </ModalBody>
 
