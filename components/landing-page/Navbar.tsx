@@ -12,6 +12,8 @@ import { Link } from '@chakra-ui/next-js';
 import { Button, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
 import { LuChevronDown } from 'react-icons/lu';
 
+import authService from '@/services/authService';
+
 export const Navbar = () => {
   const authContext = useContext(AuthContext);
   const user = authContext!.getUser();

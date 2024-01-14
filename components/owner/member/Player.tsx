@@ -6,27 +6,42 @@ import {
   Flex,
   Icon,
   Text,
-  useDisclosure
+  useDisclosure,
+  useToast
 } from '@chakra-ui/react';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 //icons
 import { GrUpdate } from 'react-icons/gr';
 import { MdDelete } from 'react-icons/md';
 
 //react-query
-import { deletePlayerByOwner } from '@/apis';
+import { deletePlayerByOwner, updatePlayer } from '@/apis';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 //component
 import ModalDelete from './ModalDelete';
+import { ModalUpdate } from './ModalUpdate';
+
+//toast
 
 interface PlayerProps {
   player: IPlayer;
   idTeam: string;
 }
 const Player = (props: PlayerProps) => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const toast = useToast();
+  const {
+    isOpen: isOpenDelete,
+    onOpen: onOpenDelete,
+    onClose: onCloseDelete
+  } = useDisclosure();
+  const {
+    isOpen: isOpenUpdate,
+    onOpen: onOpenUpdate,
+    onClose: onCloseUpdate
+  } = useDisclosure();
+
   const cancelRef: any = useRef(true);
 
   const { player, idTeam } = props;
@@ -36,11 +51,39 @@ const Player = (props: PlayerProps) => {
     mutationFn: deletePlayerByOwner,
     onSuccess: () => {
       queryClient.invalidateQueries();
+
+      toast({
+        title: 'Delete successfully!',
+        description: 'your player is deleted',
+        status: 'success',
+        duration: 1500,
+        onCloseComplete: () => onCloseDelete(),
+        position: 'top-right'
+      });
     }
   });
 
   const handleRemovePlayer = () => {
     removePlayer.mutate({ id: player._id!, idTeam });
+  };
+
+  const updatePlayerByOwner = useMutation({
+    mutationFn: updatePlayer,
+    onSuccess: () => {
+      queryClient.invalidateQueries();
+      toast({
+        title: 'Update successfully!',
+        description: 'your player is updated',
+        status: 'success',
+        duration: 1000,
+        onCloseComplete: () => onCloseUpdate(),
+        position: 'top-right'
+      });
+    }
+  });
+
+  const handleUpdatePlayer = (data: IPlayer) => {
+    updatePlayerByOwner.mutate(data);
   };
 
   return (
@@ -52,7 +95,6 @@ const Player = (props: PlayerProps) => {
         border="1px solid #75C2F6"
         width={200}
         height={300}
-        //   px="8"
         pt="14"
         position="relative"
       >
@@ -94,7 +136,12 @@ const Player = (props: PlayerProps) => {
           justifyContent="flex-start"
           height={150}
         >
-          <Avatar size="xl" src={player.avatar} />
+          <Avatar
+            size="xl"
+            src={
+              player.avatar ? player.avatar : '/images/team/playerDefault.png'
+            }
+          />
           <Text py="2" textAlign="center">
             {player.name}
           </Text>
@@ -107,7 +154,8 @@ const Player = (props: PlayerProps) => {
             bottom="0"
             bgColor="#9ADE7B"
             rounded="none"
-            // onClick={onOpen}
+            onClick={onOpenUpdate}
+            // onClick={() => showEditModal(player._id)}
           >
             <Icon as={GrUpdate} size="#75C2F6" />
           </Button>
@@ -117,19 +165,28 @@ const Player = (props: PlayerProps) => {
             bgColor="#D24545"
             _hover={{ bgColor: '#FF004D' }}
             rounded="none"
-            // onClick={onOpen}
-            onClick={onOpen}
+            onClick={onOpenDelete}
           >
             <Icon as={MdDelete} size="#75C2F6" />
           </Button>
         </Flex>
       </Flex>
       <ModalDelete
-        isOpen={isOpen}
-        onOpen={onOpen}
-        onClose={onClose}
+        isOpen={isOpenDelete}
+        onOpen={onOpenDelete}
+        onClose={onCloseDelete}
         cancelRef={cancelRef}
         handleRemovePlayer={handleRemovePlayer}
+      />
+      <ModalUpdate
+        isOpen={isOpenUpdate}
+        onOpen={onOpenUpdate}
+        onClose={onCloseUpdate}
+        handleUpdatePlayer={(data: any) => handleUpdatePlayer(data)}
+        player={{
+          ...player,
+          captain: player.captain ? 'Captain' : 'No Captain'
+        }}
       />
     </>
   );

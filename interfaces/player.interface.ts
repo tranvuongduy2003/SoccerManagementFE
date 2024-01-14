@@ -9,7 +9,7 @@ export interface IPlayer {
   weight: string;
   national: string;
   number: number | undefined;
-  dob: Date;
+  dob: Date | string;
   position: string;
   statistical: IStatisticalPLayer | string;
   tags: string;

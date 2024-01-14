@@ -60,7 +60,7 @@ const ProfileTeamComponent = () => {
                 justifyContent="flex-start"
               >
                 <Icon as={MdOutlineMedicalInformation} />
-                Team information
+                Team Information
               </Tab>
               <Tab
                 _selected={{ color: 'white', bg: '#75C2F6' }}
