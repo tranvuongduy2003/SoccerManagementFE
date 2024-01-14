@@ -60,7 +60,7 @@ const ProfileTeamComponent = () => {
                 justifyContent="flex-start"
               >
                 <Icon as={MdOutlineMedicalInformation} />
-                Team information
+                Team Information
               </Tab>
               <Tab
                 _selected={{ color: 'white', bg: '#75C2F6' }}
@@ -87,9 +87,9 @@ const ProfileTeamComponent = () => {
               <Heading textAlign="center" size="lg">
                 Member
               </Heading>
-              <Heading textAlign="center" mb={6}>
+              <Text textAlign="center" mb={6}>
                 ({team.name})
-              </Heading>
+              </Text>
               <Members players={team.players} />
             </TabPanel>
           </TabPanels>

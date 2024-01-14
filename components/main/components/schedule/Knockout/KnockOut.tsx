@@ -118,7 +118,7 @@ export const Match = (props: MatchProps) => {
             {/* <Text fontWeight="bold" mb="1rem">
                 You can scroll the content behind the modal
               </Text> */}
-            <Box bg="gray.500">
+            <Box bg="#B6BBC4" rounded={2}>
               <Flex
                 flexDirection="column"
                 alignItems="center"

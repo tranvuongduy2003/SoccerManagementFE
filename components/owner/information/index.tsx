@@ -1,29 +1,54 @@
-import { Box, Flex, Icon, Text } from '@chakra-ui/react';
+//chakra-ui
+import {
+  Box,
+  Button,
+  Flex,
+  Icon,
+  Modal,
+  ModalBody,
+  ModalCloseButton,
+  ModalContent,
+  ModalHeader,
+  ModalOverlay,
+  Text,
+  useDisclosure
+} from '@chakra-ui/react';
 
+//interface
+import { ITeam } from '@/interfaces';
+
+//icons
+import { GrUpdate } from 'react-icons/gr';
 import { FaUserTie } from 'react-icons/fa';
 
-import { ITeam } from '@/interfaces';
+//images
 import Image from 'next/image';
-
 import teamImg from '@/public/images/common/team.png';
+import UpdateTeam from './ModalUpdate';
+
+//component
 
 interface TeamInformationProps {
   team: ITeam;
 }
 const TeamInformation = (props: TeamInformationProps) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const { team } = props;
 
-  console.log(team);
   return (
     <Box>
       <Flex alignItems="center">
-        <Flex flexGrow={1}>
+        <Flex flexGrow={1} flexDirection="column" alignItems='center'>
           <Image
             src={team.flag ? team.flag : teamImg}
             alt=""
             width={250}
             height={250}
+            className='w-[250px] h-[250px] object-contain rounded'
           />
+          <Text fontSize="xl" fontWeight="bold">
+            {team.name}
+          </Text>
         </Flex>
         <Flex flexGrow={2} gap={10}>
           <Flex flexDirection="column" gap={3} fontWeight={700}>
@@ -56,6 +81,38 @@ const TeamInformation = (props: TeamInformationProps) => {
           </Flex>
         </Flex>
         <Flex direction="column" flexGrow={2} gap="4">
+          <Flex justifyContent="flex-end">
+            <Button
+              bgColor="#7BD3EA"
+              color="#FFFFFF"
+              _hover={{ bgColor: '#4CB9E7' }}
+              gap={2}
+              onClick={onOpen}
+            >
+              <Icon as={GrUpdate} />
+              Update
+            </Button>
+            <Modal
+              blockScrollOnMount={false}
+              isOpen={isOpen}
+              onClose={onClose}
+              size="3xl"
+            >
+              <ModalOverlay />
+              <ModalContent>
+                <ModalHeader>Update Team</ModalHeader>
+                <ModalCloseButton />
+                <ModalBody>
+                  <UpdateTeam
+                    team={{
+                      ...team,
+                      isPublic: team.isPublic ? 'Public' : 'Private'
+                    }}
+                  />
+                </ModalBody>
+              </ModalContent>
+            </Modal>
+          </Flex>
           <Flex
             direction="column"
             alignItems="flex-start"

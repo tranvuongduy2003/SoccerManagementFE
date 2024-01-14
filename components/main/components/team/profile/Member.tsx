@@ -97,7 +97,7 @@ const Player = (props: PlayerProps) => {
           <ModalHeader>Player summary</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Box bg="gray.500">
+            <Box bg="#B6BBC4" rounded={2}>
               <Flex
                 alignItems="center"
                 justifyContent="center"

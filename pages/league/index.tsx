@@ -39,6 +39,7 @@ import filter from 'lodash.filter';
 
 //store
 import { useTournamentStore } from '@/stores';
+import SkeletonComponent from '@/components/common/skeleton';
 
 interface LeagueProps {
   league: ITournament;
@@ -188,7 +189,12 @@ const FindLeagues: NextPageWithLayout = () => {
     setLeagues(filterData);
   };
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading)
+    return (
+      <Box>
+        <SkeletonComponent />
+      </Box>
+    );
 
   return (
     <Flex
@@ -246,7 +252,7 @@ const FindLeagues: NextPageWithLayout = () => {
         </Flex>
       </Flex>
       <Grid
-        templateColumns="repeat(auto-fit, minmax(20rem, 1fr))"
+        templateColumns="repeat(4,1fr)"
         gap="5"
         justifyContent="center"
         alignItems="center"
