@@ -3,7 +3,7 @@
 import { useContext, useState } from 'react';
 
 //layout
-import { HomeLayout } from '@/components/layout';
+import { AdminLayout, HomeLayout } from '@/components/layout';
 import { ITeam, NextPageWithLayout } from '@/interfaces';
 
 //chark-ra ui
@@ -380,6 +380,6 @@ const Create: NextPageWithLayout = () => {
   );
 };
 
-Create.Layout = HomeLayout;
+Create.Layout = AdminLayout;
 
 export default Create;
