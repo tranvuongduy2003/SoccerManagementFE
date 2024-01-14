@@ -116,9 +116,16 @@ const Competitors: NextPageWithLayout = () => {
 
   if (isLoading)
     return (
-      <Box>
+      <Flex
+        direction="column"
+        paddingTop="150px"
+        justifyContent="space-between"
+        gap="50px"
+        paddingLeft="30px"
+        paddingRight="30px"
+      >
         <SkeletonComponent />
-      </Box>
+      </Flex>
     );
 
   return (
