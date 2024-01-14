@@ -6,6 +6,7 @@ import { Inter, Poppins } from 'next/font/google';
 
 import '@/styles/globals.css';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+import AuthProvider from '@/contexts/AuthProvider';
 
 const client = new QueryClient({
   defaultOptions: {
@@ -53,13 +54,15 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
   const Layout = Component.Layout ?? EmptyLayout;
 
   return (
-    <QueryClientProvider client={client}>
-      <ReactQueryDevtools initialIsOpen={false} />
-      <ChakraProvider theme={theme}>
+    <ChakraProvider theme={theme}>
+      <AuthProvider>
         <Layout>
-          <Component {...pageProps} />
+          <QueryClientProvider client={client}>
+            <Component {...pageProps} />
+            <ReactQueryDevtools />
+          </QueryClientProvider>
         </Layout>
-      </ChakraProvider>
-    </QueryClientProvider>
+      </AuthProvider>
+    </ChakraProvider>
   );
 }

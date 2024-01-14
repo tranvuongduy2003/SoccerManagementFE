@@ -32,3 +32,13 @@ body {
   background-attachment: fixed;
   background-size: contain;
 }
+
+#prizes .chakra-checkbox__label {
+  margin: 0;
+} 
+#teams .chakra-checkbox__label {
+  margin: 0;
+} 
+#referees .chakra-checkbox__label {
+  margin: 0;
+} 

@@ -1,16 +1,21 @@
-import { LayoutProps } from '@/interfaces';
-import authService from '@/services/authService';
+import { AuthContext } from '@/contexts/AuthProvider';
+import { ERole, LayoutProps } from '@/interfaces';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 
 export function OwnerLayout({ children }: LayoutProps) {
+  const authContext = useContext(AuthContext);
+
+  const { loggedIn, getUser } = authContext!;
+  const user = getUser();
+
   const router = useRouter();
 
   useEffect(() => {
-    if (!authService.isAuthenticated() || !authService.isOwner()) {
+    if (!loggedIn || user?.role !== ERole.OWNER) {
       router.push('/auth/signin');
     }
-  }, [router]);
+  }, [router, loggedIn, user]);
 
   return <div>{children}</div>;
 }

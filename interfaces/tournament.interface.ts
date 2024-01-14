@@ -33,6 +33,20 @@ export interface ITournament {
   maxTeam: number;
 }
 
+export interface CreateTournamentPayload {
+  formula: ETypeFormulaTour;
+  name: string;
+  image: string;
+  logo: string;
+  prizes: string[];
+  vision: ETypeVisionTour;
+  teams: string[];
+  stadiums: string[];
+  referees: string[];
+  sponsor: string;
+  maxTeam: number;
+}
+
 export const InitTournament = {
   formula: 'KNOCKOUT',
   name: '',

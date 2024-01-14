@@ -23,7 +23,11 @@ const nextConfig = {
       'img.freepik.com',
       'myleague.vn',
       'www.google.com',
-      'cryptoast.fr'
+      'cryptoast.fr',
+      'cdn.tuoitre.vn',
+      'assets.goal.com',
+      'cdn1.tuoitre.vn',
+      'upload.wikimedia.org'
     ]
   }
 };

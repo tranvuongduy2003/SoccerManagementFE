@@ -1,3 +1,5 @@
+'use client';
+
 import { useEffect, useState } from 'react';
 
 //layout - interface
@@ -22,13 +24,12 @@ import {
 } from '@chakra-ui/react';
 
 //icons
-import { SearchIcon } from '@chakra-ui/icons';
 import { GiTargetPrize } from 'react-icons/gi';
 import { RiTeamLine } from 'react-icons/ri';
+import { LuSearch } from 'react-icons/lu';
 
 //route
-import Link from 'next/link';
-
+import { Link } from '@chakra-ui/next-js';
 //api
 import { getTournamentByFormat, getTournaments } from '@/apis';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
@@ -137,12 +138,7 @@ const FindLeagues: NextPageWithLayout = () => {
   const [state, setState] = useState(false);
   const [leagues, setLeagues] = useState<ITournament[]>([]);
 
-  const {
-    isLoading,
-    data: tournaments,
-    isError,
-    error
-  } = useQuery<ITournament[]>({
+  const { isLoading, data: tournaments } = useQuery<ITournament[]>({
     queryKey: ['tournaments'],
     queryFn: getTournaments!,
     initialData: []
@@ -217,7 +213,7 @@ const FindLeagues: NextPageWithLayout = () => {
             onChange={handleSearch}
           />
           <Center bgColor="blue.600" height="100%" px="4" rounded="6">
-            <Icon as={SearchIcon} color="white" />
+            <Icon as={LuSearch} color="white" />
           </Center>
         </Flex>
         <Flex direction="row" gap="20px" flexGrow="1">
@@ -272,4 +268,5 @@ const FindLeagues: NextPageWithLayout = () => {
 };
 
 FindLeagues.Layout = HomeLayout;
+
 export default FindLeagues;

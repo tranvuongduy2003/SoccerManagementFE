@@ -1,21 +1,24 @@
 'use client';
 
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 
 //image
 import { Login, Logo } from '@/public/images/landing';
 import Image from 'next/image';
 
 //route
-import Link from 'next/link';
+import { AuthContext } from '@/contexts/AuthProvider';
+import { Link } from '@chakra-ui/next-js';
+import { Button, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
+import { LuChevronDown } from 'react-icons/lu';
 
 import authService from '@/services/authService';
 
 export const Navbar = () => {
+  const authContext = useContext(AuthContext);
+  const user = authContext!.getUser();
+
   const [showDropdown, setShowDropdown] = useState<boolean>(false);
-
-  const user = authService.getUser();
-
 
   return (
     <nav className="z-[1] w-full px-5 fixed mt-10">
@@ -43,7 +46,13 @@ export const Navbar = () => {
             </label>
             {showDropdown && (
               <ul className=" dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 lg:hidden">
-                <Link href={'#home'}>
+                <Link
+                  href={'#home'}
+                  textDecoration={'none'}
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                >
                   <li>Home</li>
                 </Link>
                 <li>
@@ -53,7 +62,15 @@ export const Navbar = () => {
                     </summary>
                     <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                       <li>
-                        <Link href="/league">Find leagues</Link>
+                        <Link
+                          href="/league"
+                          textDecoration={'none'}
+                          _hover={{
+                            textDecoration: 'none'
+                          }}
+                        >
+                          Find leagues
+                        </Link>
                       </li>
                     </ul>
                   </details>
@@ -65,16 +82,40 @@ export const Navbar = () => {
                     </summary>
                     <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                       <li>
-                        <Link href="/competitor">Find teams</Link>
+                        <Link
+                          href="/competitor"
+                          textDecoration={'none'}
+                          _hover={{
+                            textDecoration: 'none'
+                          }}
+                        >
+                          Find teams
+                        </Link>
                       </li>
                     </ul>
                   </details>
                 </li>
                 <li>
-                  <Link href="/">Blogs</Link>
+                  <Link
+                    href="/"
+                    textDecoration={'none'}
+                    _hover={{
+                      textDecoration: 'none'
+                    }}
+                  >
+                    Blogs
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">Shop</Link>
+                  <Link
+                    href="/"
+                    textDecoration={'none'}
+                    _hover={{
+                      textDecoration: 'none'
+                    }}
+                  >
+                    Shop
+                  </Link>
                 </li>
                 <li>
                   <div className="btn flex bg-body-color border-0 w-28">
@@ -85,7 +126,14 @@ export const Navbar = () => {
               </ul>
             )}
           </div>
-          <Link href={'/'} className="btn btn-ghost normal-case text-xl">
+          <Link
+            href={'/'}
+            className="btn btn-ghost normal-case text-xl"
+            textDecoration={'none'}
+            _hover={{
+              textDecoration: 'none'
+            }}
+          >
             <Image src={Logo} alt="" className="w-36" />
           </Link>
         </div>
@@ -94,45 +142,108 @@ export const Navbar = () => {
           <div className="hidden lg:flex">
             <ul className="menu menu-horizontal px-1 font-bold flex justify-center items-center">
               <li>
-                <Link href="/">Home</Link>
+                <Link
+                  href="/"
+                  textDecoration={'none'}
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <details className="dropdown h-[30px]">
-                  <summary className="btn bg-transparent border-none font-bold">
-                    Leagues
-                  </summary>
-                  <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                    <li>
-                      <Link href="/league">Find leagues</Link>
-                    </li>
-                  </ul>
-                </details>
+                <Menu>
+                  <MenuButton
+                    bg={'none'}
+                    as={Button}
+                    rightIcon={<LuChevronDown />}
+                  >
+                    LEAGUES
+                  </MenuButton>
+                  <MenuList>
+                    <Link
+                      href="/league"
+                      textDecoration={'none'}
+                      _hover={{
+                        textDecoration: 'none'
+                      }}
+                    >
+                      <MenuItem>Find leagues</MenuItem>
+                    </Link>
+                    <Link
+                      href="/league/create"
+                      textDecoration={'none'}
+                      _hover={{
+                        textDecoration: 'none'
+                      }}
+                    >
+                      <MenuItem>Create league</MenuItem>
+                    </Link>
+                  </MenuList>
+                </Menu>
               </li>
               <li>
-                <details className="dropdown h-[30px]">
-                  <summary className="btn bg-transparent border-none font-bold">
-                    Teams
-                  </summary>
-                  <ul className="shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                    <li>
-                      <Link href="/competitor">Find teams</Link>
-                    </li>
-                    <li>
-                      <Link href={`/competitor/owner/${user._id}`}>My team</Link>
-                    </li>
-                    <li>
-                      <Link href={`/competitor/${user ? 'create' : 'signin'}`}>
-                        Create team
-                      </Link>
-                    </li>
-                  </ul>
-                </details>
+                <Menu>
+                  <MenuButton
+                    bg={'none'}
+                    as={Button}
+                    rightIcon={<LuChevronDown />}
+                  >
+                    TEAMS
+                  </MenuButton>
+                  <MenuList>
+                    <Link
+                      href="/competitor"
+                      textDecoration={'none'}
+                      _hover={{
+                        textDecoration: 'none'
+                      }}
+                    >
+                      <MenuItem>Find teams</MenuItem>
+                    </Link>
+                    <Link
+                      href="/competitor"
+                      textDecoration={'none'}
+                      _hover={{
+                        textDecoration: 'none'
+                      }}
+                    >
+                      <MenuItem>My team</MenuItem>
+                    </Link>
+                    <Link
+                      href={`/competitor/${user ? 'create' : 'signin'}`}
+                      textDecoration={'none'}
+                      _hover={{
+                        textDecoration: 'none'
+                      }}
+                    >
+                      <MenuItem>Create team</MenuItem>
+                    </Link>
+                  </MenuList>
+                </Menu>
               </li>
               <li>
-                <Link href="/">Blogs</Link>
+                <Link
+                  href="/"
+                  textDecoration={'none'}
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                >
+                  Blogs
+                </Link>
               </li>
               <li>
-                <Link href="/">Shop</Link>
+                <Link
+                  href="/"
+                  textDecoration={'none'}
+                  _hover={{
+                    textDecoration: 'none'
+                  }}
+                >
+                  Shop
+                </Link>
               </li>
             </ul>
           </div>
@@ -141,6 +252,10 @@ export const Navbar = () => {
             <Link
               href="/auth/signin"
               className="btn flex justify-center bg-body-color border-0 w-38 p-4"
+              textDecoration={'none'}
+              _hover={{
+                textDecoration: 'none'
+              }}
             >
               <Image src={Login} alt="" className="w-5" />
               <p className="text-white font-bold bg-">Login</p>
@@ -150,6 +265,10 @@ export const Navbar = () => {
             <Link
               href="/auth/signup"
               className="btn flex justify-center bg-body-color border-0 w-38 p-4"
+              textDecoration={'none'}
+              _hover={{
+                textDecoration: 'none'
+              }}
             >
               <Image src={Login} alt="" className="w-5" />
               <p className="text-white font-bold bg-">Register</p>

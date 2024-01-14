@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 //layout
 import { HomeLayout } from '@/components/layout';

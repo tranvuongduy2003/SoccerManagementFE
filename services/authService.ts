@@ -1,9 +1,9 @@
-'use client'
+'use client';
 
 import cookie from 'js-cookie';
 import { jwtDecode } from 'jwt-decode';
 import { getCookie } from '@/utils';
-import { User } from '@/models';
+import { ERole, IUser } from '@/interfaces';
 
 class AuthService {
   login = ({
@@ -34,7 +34,7 @@ class AuthService {
   getUser = () => {
     const jsonUser = localStorage.getItem('user') || '';
     if (jsonUser) {
-      return JSON.parse(jsonUser) as User;
+      return JSON.parse(jsonUser) as IUser;
     }
     return null;
   };
@@ -44,20 +44,20 @@ class AuthService {
   isAuthenticated = () => !!this.getAccessToken() && !!this.getUser();
 
   isAdmin = () => {
-    const user: User | null = this.getUser();
-    if (user?.role === 'ADMIN') return true;
-    return false;
-  };
-
-  isClient = () => {
-    const user: User | null = this.getUser();
-    if (user?.role === 'CLIENT') return true;
+    const user: IUser | null = this.getUser();
+    if (user?.role === ERole.ADMIN) return true;
     return false;
   };
 
   isOwner = () => {
-    const user: User | null = this.getUser();
-    if (user?.role === 'OWNER') return true;
+    const user: IUser | null = this.getUser();
+    if (user?.role === ERole.OWNER) return true;
+    return false;
+  };
+
+  isViewer = () => {
+    const user: IUser | null = this.getUser();
+    if (user?.role === ERole.VIEWER) return true;
     return false;
   };
 }

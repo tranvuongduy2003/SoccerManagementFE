@@ -162,4 +162,5 @@ const Competitors: NextPageWithLayout = () => {
 };
 
 Competitors.Layout = HomeLayout;
+
 export default Competitors;
