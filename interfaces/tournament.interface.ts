@@ -6,8 +6,7 @@ import {
   IRound,
   ISponsor,
   IStadium,
-  ITeam,
-  InitSponsor
+  ITeam
 } from '.';
 
 export interface ITournament {
@@ -24,7 +23,7 @@ export interface ITournament {
   rounds: IRound[];
   stadiums: IStadium[];
   referees: IReferee[];
-  sponsor: ISponsor;
+  sponsor?: ISponsor;
   season: string;
   status: ETypeStatusTour;
   description: string;
@@ -46,28 +45,6 @@ export interface CreateTournamentPayload {
   sponsor: string;
   maxTeam: number;
 }
-
-export const InitTournament = {
-  formula: 'KNOCKOUT',
-  name: '',
-  image: '',
-  logo: '',
-  prizes: [],
-  awardTeams: [],
-  awardPlayers: [],
-  vision: 'DOMESTIC',
-  teams: [],
-  rounds: [],
-  stadiums: [],
-  referees: [],
-  sponsor: InitSponsor,
-  season: '',
-  status: 'REGISTERING',
-  description: '',
-  statistical: '',
-  tags: '',
-  maxTeam: 0
-} as ITournament;
 
 export enum ETypeFormulaTour {
   STAGE = 'KNOCKOUT',

@@ -9,12 +9,3 @@ export interface IRound {
   tags: string;
   matches?: IMatch[];
 }
-
-export const InitRound = {
-  name: '',
-  type: '',
-  numberOfTeam: 0,
-  tables: [],
-  tags: '',
-  matches: []
-} as IRound;

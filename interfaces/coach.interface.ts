@@ -6,11 +6,3 @@ export interface ICoach {
   dob: Date;
   national: string;
 }
-
-export const InitCoach = {
-  name: '',
-  avatar: '',
-  age: 0,
-  dob: new Date(),
-  national: ''
-} as ICoach;

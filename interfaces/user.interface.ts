@@ -13,16 +13,6 @@ export interface IUser {
   updatedAt: Date;
 }
 
-export const InitUser = {
-  username: '',
-  email: '',
-  password: '',
-  phone: '',
-  dob: new Date(),
-  isActive: true,
-  role: 'VIEWER'
-};
-
 export enum ERole {
   ADMIN = 'ADMIN',
   OWNER = 'OWNER',

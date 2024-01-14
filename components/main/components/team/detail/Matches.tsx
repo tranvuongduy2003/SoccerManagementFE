@@ -329,7 +329,7 @@ const Matches = (props: MatchesProps) => {
   const { matches } = props;
   return (
     <>
-      {matches.length ? (
+      {matches && matches.length > 0 ? (
         matches.map((match, index) => (
           <Match key={index} match={match} index={index} />
         ))

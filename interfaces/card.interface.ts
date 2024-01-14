@@ -1,4 +1,4 @@
-import { IMatch, InitMatch } from '.';
+import { IMatch } from '.';
 
 export interface ICard {
   _id?: string;
@@ -8,14 +8,6 @@ export interface ICard {
   time: number;
   number: number;
 }
-
-export const InitCard = {
-  type: 'YELLOW',
-  player: '',
-  match: InitMatch,
-  time: 0,
-  number: 0
-} as ICard;
 
 export enum ETypeCard {
   YELLOW = 'YELLOW',

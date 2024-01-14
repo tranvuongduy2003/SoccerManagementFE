@@ -23,7 +23,7 @@ import { IoMdCloseCircleOutline } from 'react-icons/io';
 import { MdAdd } from 'react-icons/md';
 
 //interface
-import { IPlayer, InitPlayer, InitStatisticalPLayer } from '@/interfaces';
+import { IPlayer } from '@/interfaces';
 
 //form
 import { InputControl, SelectControl } from '@/components/form';
@@ -277,7 +277,34 @@ const MemberTeam = (props: MemberTeamProps) => {
       queryClient.invalidateQueries();
       membersForm.setValue('members', []);
       const statisticalPlayers = data.map(player => {
-        return { ...InitStatisticalPLayer, player: player._id, team: idTeam };
+        return {
+          ...{
+            player: '',
+            team: {
+              name: '',
+              flag: '',
+              representative: '',
+              level: 'FUN',
+              area: '',
+              isPublic: 'PUBLIC',
+              uniform: [],
+              coach: undefined,
+              players: [],
+              matches: [],
+              statistical: undefined,
+              tags: ''
+            },
+            goals: 0,
+            owner: 0,
+            yellowCards: 0,
+            redCards: 0,
+            voteBestPlayer: 0,
+            voteBestPosition: 0,
+            tags: ''
+          },
+          player: player._id,
+          team: idTeam
+        };
       });
       handleCreateStatisticalPlayer.mutate(statisticalPlayers);
     },
@@ -288,7 +315,21 @@ const MemberTeam = (props: MemberTeamProps) => {
 
   const handleIncreaseQuantity = () => {
     const members = membersForm.watch().members;
-    members.push(InitPlayer);
+    members.push({
+      _id: '',
+      name: '',
+      avatar: '',
+      age: 0,
+      height: '',
+      weight: '',
+      national: 'VietNam',
+      number: undefined,
+      dob: new Date(),
+      position: 'Defender',
+      statistical: '',
+      tags: '',
+      captain: 'No Captain'
+    });
     membersForm.setValue('members', members);
   };
 

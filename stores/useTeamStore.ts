@@ -1,4 +1,4 @@
-import { ITeam, InitTeam, InitTournament } from '@/interfaces';
+import { ITeam } from '@/interfaces';
 import { create } from 'zustand';
 
 type State = {
@@ -10,6 +10,19 @@ type Action = {
 };
 
 export const useTeamStore = create<State & Action>(set => ({
-  team: InitTeam,
+  team: {
+    name: '',
+    flag: '',
+    representative: '',
+    level: 'FUN',
+    area: '',
+    isPublic: 'PUBLIC',
+    uniform: [],
+    coach: undefined,
+    players: [],
+    matches: [],
+    statistical: undefined,
+    tags: ''
+  },
   setTeam: team => set(() => ({ team: team }))
 }));

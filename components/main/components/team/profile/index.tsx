@@ -78,7 +78,7 @@ const ProfileTeamComponent = () => {
             <TabPanel>
               <TeamInformation
                 flag={team.flag}
-                name={team.name}
+                name={team.name || ''}
                 coach={team.coach!}
                 players={team.players}
               />
@@ -88,7 +88,7 @@ const ProfileTeamComponent = () => {
                 Member
               </Heading>
               <Heading textAlign="center" mb={6}>
-                ({team.name})
+                ({team.name || ''})
               </Heading>
               <Members players={team.players} />
             </TabPanel>
