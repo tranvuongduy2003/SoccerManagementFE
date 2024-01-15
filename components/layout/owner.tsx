@@ -12,7 +12,10 @@ export function OwnerLayout({ children }: LayoutProps) {
   const router = useRouter();
 
   useEffect(() => {
-    if (!loggedIn || user?.role !== ERole.OWNER) {
+    if (
+      !loggedIn ||
+      (user?.role !== ERole.OWNER && user?.role !== ERole.ADMIN)
+    ) {
       router.push('/auth/signin');
     }
   }, [router, loggedIn, user]);
