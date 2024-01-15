@@ -2,6 +2,7 @@ import { AuthContext } from '@/contexts/AuthProvider';
 import { ERole, LayoutProps } from '@/interfaces';
 import { useRouter } from 'next/router';
 import { useContext, useEffect } from 'react';
+import { Navbar } from '../landing-page';
 
 export function OwnerLayout({ children }: LayoutProps) {
   const authContext = useContext(AuthContext);
@@ -20,5 +21,10 @@ export function OwnerLayout({ children }: LayoutProps) {
     }
   }, [router, loggedIn, user]);
 
-  return <div>{children}</div>;
+  return (
+    <div className="font-fontLanding bg-body-color min-h-screen relative p-4">
+      <Navbar />
+      <div className="pt-[120px]">{children}</div>
+    </div>
+  );
 }
