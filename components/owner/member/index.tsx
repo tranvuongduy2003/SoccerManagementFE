@@ -284,6 +284,7 @@ const MemberTeam = (props: MemberTeamProps) => {
   const handleCreatePlayer = useMutation({
     mutationFn: createPlayer,
     onSuccess: data => {
+      console.log(data);
       queryClient.invalidateQueries();
       membersForm.setValue('members', []);
       const statisticalPlayers = data.map(player => {

@@ -64,7 +64,10 @@ const League = (props: LeagueProps) => {
         <Box position="relative" height="40%">
           <Image
             position="relative"
-            src={league.image}
+            src={
+              league.image ||
+              'https://res.cloudinary.com/dadvtny30/image/upload/v1700848793/61efb7b8b099687410e3478b317cfa51kkp0p_fijocq.png'
+            }
             alt="Green double couch with wooden legs"
             borderRadius="lg"
           />
@@ -75,7 +78,10 @@ const League = (props: LeagueProps) => {
             transform="translateX(-50%)"
           >
             <Image
-              src={league.logo}
+              src={
+                league.logo ||
+                'https://res.cloudinary.com/dadvtny30/image/upload/v1700848826/Kpe7yYs0NdySRd7jzwHaiYehQnhqz2ks26XFPwus_l3w0a4.jpg'
+              }
               alt=""
               className="h-[100px] w-[100px] rounded-lg"
             />
